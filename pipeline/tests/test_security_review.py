@@ -76,8 +76,15 @@ def test_git_host_email_is_not_a_remote(tmp_path: Path) -> None:
     assert clean_tree({"id": contact}) == {"id": privacy.EMAIL_REDACTED}
 
 
-def test_git_https_userinfo_cannot_hide_credentials(tmp_path: Path) -> None:
-    url = "git+https://synthetic-access-token@github.com/owner/repo"
+@pytest.mark.parametrize(
+    "url",
+    [
+        "git+https://synthetic-access-token@github.com/owner/repo",
+        "git+https://git@github.com:443/repo?token=synthetic-token",
+        "Clone git+https://git@github.com:443/repo?token=synthetic-token for the conference.",
+    ],
+)
+def test_git_https_userinfo_cannot_hide_credentials(tmp_path: Path, url: str) -> None:
     path = tmp_path / "raw.json"
     path.write_text(json.dumps({"id": url}))
     detected = privacy.findings(path)

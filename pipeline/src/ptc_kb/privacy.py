@@ -288,13 +288,14 @@ def scan(roots: Iterable[Path]) -> list[tuple[str, str, str]]:
     found = []
     for path, text in files.items():
         for string in _file_strings(path, text):
-            string = GIT_REMOTE.sub(" ", string)
             found += [
                 (str(path), kind, match)
                 for url in URL_IN_TEXT.finditer(string)
                 for kind, match in url_findings(url.group(0))
             ]
             string = URL_IN_TEXT.sub(" ", string)
+            # Parse URLs before exempting SSH tokens so URL userinfo cannot be masked.
+            string = GIT_REMOTE.sub(" ", string)
             found += [
                 (str(path), "address", ADDRESS_REDACTED) for _ in STREET_ADDRESS.finditer(string)
             ]
