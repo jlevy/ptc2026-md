@@ -1,0 +1,24 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:klausmikhaelson/web3conf-be
+  full_name: KlausMikhaelson/web3conf-BE
+  url: https://github.com/KlausMikhaelson/web3conf-BE
+  stars: 4
+  forks: 1
+  primary_language: JavaScript
+  fork: false
+  pushed_at: '2023-07-25T18:33:47Z'
+  owner_login: KlausMikhaelson
+  owner: gh:klausmikhaelson
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/satyam-singh.json
+  - system: github
+    url: https://api.github.com/users/KlausMikhaelson
+    retrieved_at: '2026-10-24T21:30:11Z'
+    snapshot: raw/github/klausmikhaelson.json

@@ -1,0 +1,20 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:vivekgr92/policyx
+  full_name: vivekgr92/policyx
+  url: https://github.com/vivekgr92/policyx
+  stars: 0
+  forks: 0
+  primary_language: Python
+  fork: false
+  pushed_at: '2026-10-11T01:54:23Z'
+  owner_login: vivekgr92
+  owner: gh:vivekgr92
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/vivek-gopal-ramaswamy.json

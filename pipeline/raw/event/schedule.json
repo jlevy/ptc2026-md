@@ -1,0 +1,54 @@
+{
+  "source_url": "https://www.wemakedevs.org/hackathons/ptc/schedule",
+  "retrieved_at": "2026-10-24T21:05:00Z",
+  "extraction": "Selected event facts; navigation, contact details and registration material omitted.",
+  "date": "Saturday, October 24, 2026",
+  "timezone": "Pacific Time",
+  "agenda": [
+    {
+      "start": "09:00",
+      "end": null,
+      "title": "Doors open"
+    },
+    {
+      "start": "09:00",
+      "end": "10:00",
+      "title": "Breakfast, setup and hacking"
+    },
+    {
+      "start": "10:00",
+      "end": "11:00",
+      "title": "Sponsor workshops and talks"
+    },
+    {
+      "start": "11:00",
+      "end": "14:00",
+      "title": "Building"
+    },
+    {
+      "start": "14:00",
+      "end": null,
+      "title": "Lunch"
+    },
+    {
+      "start": "14:00",
+      "end": "17:30",
+      "title": "Hacking and project submission"
+    },
+    {
+      "start": "17:30",
+      "end": "18:30",
+      "title": "Presentations and judging"
+    },
+    {
+      "start": "18:30",
+      "end": null,
+      "title": "Winners announced"
+    },
+    {
+      "start": "19:00",
+      "end": null,
+      "title": "Event wraps up"
+    }
+  ]
+}

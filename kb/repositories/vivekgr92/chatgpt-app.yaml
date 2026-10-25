@@ -1,0 +1,20 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:vivekgr92/chatgpt-app
+  full_name: vivekgr92/chatgpt-app
+  url: https://github.com/vivekgr92/chatgpt-app
+  stars: 0
+  forks: 0
+  primary_language: Python
+  fork: false
+  pushed_at: '2025-10-12T03:22:59Z'
+  owner_login: vivekgr92
+  owner: gh:vivekgr92
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/vivek-gopal-ramaswamy.json

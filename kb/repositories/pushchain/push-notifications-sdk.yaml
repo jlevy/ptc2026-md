@@ -1,0 +1,26 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:pushchain/push-notifications-sdk
+  full_name: pushchain/push-notifications-sdk
+  url: https://github.com/pushchain/push-notifications-sdk
+  description: Push SDK is a growing Monorepo of packages that provide solutions for a wide range of development
+    tasks one might come across while building on top of Push protocol. It is a Javascript-based group
+    of packages that enables easy usage of imperative communication tools for Web3
+  stars: 73
+  forks: 54
+  primary_language: TypeScript
+  archived: false
+  fork: false
+  owner_login: pushchain
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/satyam-singh.json
+  - system: github
+    url: https://api.github.com/users/KlausMikhaelson
+    retrieved_at: '2026-10-24T21:30:11Z'
+    snapshot: raw/github/klausmikhaelson.json

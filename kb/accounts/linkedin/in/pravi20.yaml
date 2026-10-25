@@ -1,0 +1,33 @@
+softschema:
+  contract: paraverse.conference:SocialAccount/v1
+  schema: ../../../_schemas/social-account.schema.yaml
+  envelope: social_account
+  status: permissive
+social_account:
+  id: acct:linkedin/in/pravi20
+  platform: linkedin
+  handle: in/pravi20
+  url: https://www.linkedin.com/in/pravi20
+  display_name: Pooja Ravi
+  bio: As a Senior Software Engineer at Oracle, I apply my expertise in AI and data to create…
+  location: San Francisco Bay Area
+  followers: 845
+  connections: 500
+  avatar_url: https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2
+  owner: person:pooja-ravi
+  link_basis:
+  - event_listing
+  details_fetched: true
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/pooja-ravi.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/pravi20
+    record_id: sd_mvmw8f86q8hg8asw6
+    retrieved_at: '2026-10-24T21:13:34Z'
+    snapshot: raw/brightdata/linkedin_profiles.json
+  identity_evidence:
+  - url: https://www.wemakedevs.org/hackathons/ptc/judges
+    observed_at: '2026-10-24T21:31:18Z'
+  identity_confidence: high

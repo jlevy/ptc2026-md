@@ -1,0 +1,398 @@
+{
+  "profile": {
+    "login": "kunal-kushwaha",
+    "avatar_url": "https://avatars.githubusercontent.com/u/42698533?v=4",
+    "html_url": "https://github.com/kunal-kushwaha",
+    "name": "Kunal Kushwaha",
+    "company": "WeMakeDevs",
+    "blog": "https://www.wemakedevs.org",
+    "location": "London, UK",
+    "bio": "Running the world's most engaging tech hackathons at scale @WeMakeDevs.",
+    "twitter_username": "kunalstwt",
+    "public_repos": 48,
+    "followers": 38362,
+    "following": 0,
+    "created_at": "2018-08-25T15:01:59Z"
+  },
+  "repositories": [
+    {
+      "full_name": "kunal-kushwaha/DSA-Bootcamp-Java",
+      "html_url": "https://github.com/kunal-kushwaha/DSA-Bootcamp-Java",
+      "description": "This repository consists of the code samples, assignments, and notes for the Java data structures & algorithms + interview preparation bootcamp of WeMakeDevs.",
+      "fork": false,
+      "pushed_at": "2024-08-18T08:21:57Z",
+      "stargazers_count": 24049,
+      "language": "Java",
+      "forks_count": 13604,
+      "topics": [
+        "algorithms",
+        "competitive-programming",
+        "data-structures",
+        "faang-interview",
+        "faang-preparation",
+        "faang-questions",
+        "google-interview",
+        "interview-preparation",
+        "java",
+        "leetcode",
+        "leetcode-java",
+        "leetcode-solutions",
+        "math"
+      ]
+    },
+    {
+      "full_name": "kunal-kushwaha/Competitive-Programming-Resources",
+      "html_url": "https://github.com/kunal-kushwaha/Competitive-Programming-Resources",
+      "description": "Competitive Programming & System Design Resources.",
+      "fork": false,
+      "pushed_at": "2024-06-28T09:27:23Z",
+      "stargazers_count": 3929,
+      "language": null,
+      "forks_count": 1035,
+      "topics": [
+        "competitive-programming",
+        "interview-preparation",
+        "programming-competition",
+        "programming-interviews",
+        "resources",
+        "skills",
+        "system-design"
+      ]
+    },
+    {
+      "full_name": "kunal-kushwaha/DevOps-Bootcamp",
+      "html_url": "https://github.com/kunal-kushwaha/DevOps-Bootcamp",
+      "description": "This repository consists of the code samples, assignments, and notes for the DevOps bootcamp of WeMakeDevs.",
+      "fork": false,
+      "pushed_at": "2024-07-18T09:11:07Z",
+      "stargazers_count": 2431,
+      "language": null,
+      "forks_count": 1367,
+      "topics": [
+        "ci-cd",
+        "cloud",
+        "cloud-computing",
+        "cloud-native",
+        "devops",
+        "docker",
+        "infrastructure",
+        "interview-preparation",
+        "k3s",
+        "kubernetes",
+        "linux",
+        "monitoring",
+        "networking",
+        "testing",
+        "tools"
+      ]
+    },
+    {
+      "full_name": "kunal-kushwaha/Intro-to-Gen-AI-and-RAG",
+      "html_url": "https://github.com/kunal-kushwaha/Intro-to-Gen-AI-and-RAG",
+      "description": null,
+      "fork": false,
+      "pushed_at": "2024-08-01T17:11:17Z",
+      "stargazers_count": 101,
+      "language": null,
+      "forks_count": 47,
+      "topics": []
+    },
+    {
+      "full_name": "kunal-kushwaha/techwithkunal",
+      "html_url": "https://github.com/kunal-kushwaha/techwithkunal",
+      "description": null,
+      "fork": false,
+      "pushed_at": "2026-10-10T16:54:10Z",
+      "stargazers_count": 26,
+      "language": "TypeScript",
+      "forks_count": 11,
+      "topics": []
+    },
+    {
+      "full_name": "kunal-kushwaha/MeditationApp",
+      "html_url": "https://github.com/kunal-kushwaha/MeditationApp",
+      "description": null,
+      "fork": false,
+      "pushed_at": "2021-02-19T14:39:06Z",
+      "stargazers_count": 20,
+      "language": "JavaScript",
+      "forks_count": 11,
+      "topics": []
+    },
+    {
+      "full_name": "kunal-kushwaha/SentimentAnalysisMLH",
+      "html_url": "https://github.com/kunal-kushwaha/SentimentAnalysisMLH",
+      "description": null,
+      "fork": false,
+      "pushed_at": "2021-03-21T07:44:46Z",
+      "stargazers_count": 16,
+      "language": "Jupyter Notebook",
+      "forks_count": 6,
+      "topics": []
+    },
+    {
+      "full_name": "kunal-kushwaha/invisible-cloak",
+      "html_url": "https://github.com/kunal-kushwaha/invisible-cloak",
+      "description": null,
+      "fork": false,
+      "pushed_at": "2021-03-02T16:18:06Z",
+      "stargazers_count": 15,
+      "language": "Python",
+      "forks_count": 4,
+      "topics": []
+    },
+    {
+      "full_name": "kunal-kushwaha/node-chat-app",
+      "html_url": "https://github.com/kunal-kushwaha/node-chat-app",
+      "description": null,
+      "fork": false,
+      "pushed_at": "2022-12-11T08:46:57Z",
+      "stargazers_count": 13,
+      "language": "JavaScript",
+      "forks_count": 11,
+      "topics": []
+    },
+    {
+      "full_name": "kunal-kushwaha/blogs",
+      "html_url": "https://github.com/kunal-kushwaha/blogs",
+      "description": null,
+      "fork": false,
+      "pushed_at": "2025-03-13T07:59:42Z",
+      "stargazers_count": 13,
+      "language": null,
+      "forks_count": 5,
+      "topics": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://api.github.com/users/kunal-kushwaha",
+      "method": "GET",
+      "retrieved_at": "2026-10-24T21:30:11Z"
+    },
+    {
+      "url": "https://api.github.com/users/kunal-kushwaha/repos?per_page=100&sort=updated",
+      "method": "GET",
+      "retrieved_at": "2026-10-24T21:30:11Z"
+    },
+    {
+      "url": "https://api.github.com/graphql",
+      "method": "POST",
+      "operation": "Public pinned repositories and contribution-calendar total for kunal-kushwaha",
+      "retrieved_at": "2026-10-24T21:33:39Z"
+    }
+  ],
+  "scope": "Public profile fields and ten most starred original repositories among the first 100 recently updated repositories. Email and other-person records omitted.",
+  "pinned": [
+    {
+      "nameWithOwner": "kunal-kushwaha/DSA-Bootcamp-Java",
+      "description": "This repository consists of the code samples, assignments, and notes for the Java data structures & algorithms + interview preparation bootcamp of WeMakeDevs.",
+      "stargazerCount": 24049,
+      "forkCount": 13604,
+      "isFork": false,
+      "isArchived": false,
+      "primaryLanguage": {
+        "name": "Java"
+      },
+      "url": "https://github.com/kunal-kushwaha/DSA-Bootcamp-Java",
+      "repositoryTopics": {
+        "nodes": [
+          {
+            "topic": {
+              "name": "java"
+            }
+          },
+          {
+            "topic": {
+              "name": "interview-preparation"
+            }
+          },
+          {
+            "topic": {
+              "name": "data-structures"
+            }
+          },
+          {
+            "topic": {
+              "name": "algorithms"
+            }
+          },
+          {
+            "topic": {
+              "name": "competitive-programming"
+            }
+          },
+          {
+            "topic": {
+              "name": "math"
+            }
+          },
+          {
+            "topic": {
+              "name": "leetcode-solutions"
+            }
+          },
+          {
+            "topic": {
+              "name": "leetcode"
+            }
+          },
+          {
+            "topic": {
+              "name": "leetcode-java"
+            }
+          },
+          {
+            "topic": {
+              "name": "google-interview"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "nameWithOwner": "kunal-kushwaha/DevOps-Bootcamp",
+      "description": "This repository consists of the code samples, assignments, and notes for the DevOps bootcamp of WeMakeDevs.",
+      "stargazerCount": 2431,
+      "forkCount": 1367,
+      "isFork": false,
+      "isArchived": false,
+      "primaryLanguage": null,
+      "url": "https://github.com/kunal-kushwaha/DevOps-Bootcamp",
+      "repositoryTopics": {
+        "nodes": [
+          {
+            "topic": {
+              "name": "devops"
+            }
+          },
+          {
+            "topic": {
+              "name": "docker"
+            }
+          },
+          {
+            "topic": {
+              "name": "kubernetes"
+            }
+          },
+          {
+            "topic": {
+              "name": "cloud"
+            }
+          },
+          {
+            "topic": {
+              "name": "cloud-computing"
+            }
+          },
+          {
+            "topic": {
+              "name": "cloud-native"
+            }
+          },
+          {
+            "topic": {
+              "name": "tools"
+            }
+          },
+          {
+            "topic": {
+              "name": "infrastructure"
+            }
+          },
+          {
+            "topic": {
+              "name": "monitoring"
+            }
+          },
+          {
+            "topic": {
+              "name": "testing"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "nameWithOwner": "kunal-kushwaha/Intro-to-Gen-AI-and-RAG",
+      "description": null,
+      "stargazerCount": 101,
+      "forkCount": 47,
+      "isFork": false,
+      "isArchived": false,
+      "primaryLanguage": null,
+      "url": "https://github.com/kunal-kushwaha/Intro-to-Gen-AI-and-RAG",
+      "repositoryTopics": {
+        "nodes": []
+      }
+    },
+    {
+      "nameWithOwner": "fabric8io/kubernetes-client",
+      "description": "Java client for Kubernetes & OpenShift ",
+      "stargazerCount": 3684,
+      "forkCount": 1519,
+      "isFork": false,
+      "isArchived": false,
+      "primaryLanguage": {
+        "name": "Java"
+      },
+      "url": "https://github.com/fabric8io/kubernetes-client",
+      "repositoryTopics": {
+        "nodes": [
+          {
+            "topic": {
+              "name": "kubernetes"
+            }
+          },
+          {
+            "topic": {
+              "name": "openshift"
+            }
+          },
+          {
+            "topic": {
+              "name": "java-client"
+            }
+          },
+          {
+            "topic": {
+              "name": "kubernetes-client"
+            }
+          },
+          {
+            "topic": {
+              "name": "mocking-kubernetes"
+            }
+          },
+          {
+            "topic": {
+              "name": "kubernetes-model"
+            }
+          },
+          {
+            "topic": {
+              "name": "openshift-client"
+            }
+          },
+          {
+            "topic": {
+              "name": "dsl"
+            }
+          },
+          {
+            "topic": {
+              "name": "mock-server"
+            }
+          },
+          {
+            "topic": {
+              "name": "java"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "contributions_last_year": 544
+}

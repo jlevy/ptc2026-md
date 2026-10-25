@@ -1,0 +1,41 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:kunal-kushwaha/dsa-bootcamp-java
+  full_name: kunal-kushwaha/DSA-Bootcamp-Java
+  url: https://github.com/kunal-kushwaha/DSA-Bootcamp-Java
+  description: This repository consists of the code samples, assignments, and notes for the Java data
+    structures & algorithms + interview preparation bootcamp of WeMakeDevs.
+  stars: 24049
+  forks: 13604
+  primary_language: Java
+  topics:
+  - algorithms
+  - competitive-programming
+  - data-structures
+  - faang-interview
+  - faang-preparation
+  - faang-questions
+  - google-interview
+  - interview-preparation
+  - java
+  - leetcode
+  - leetcode-java
+  - leetcode-solutions
+  - math
+  archived: false
+  fork: false
+  pushed_at: '2024-08-18T08:21:57Z'
+  owner_login: kunal-kushwaha
+  owner: gh:kunal-kushwaha
+  sources:
+  - system: curation
+    url: https://x.com/kunalstwt/status/2113374840870568017
+    snapshot: curation/people/kunal-kushwaha.json
+  - system: github
+    url: https://api.github.com/users/kunal-kushwaha
+    retrieved_at: '2026-10-24T21:30:11Z'
+    snapshot: raw/github/kunal-kushwaha.json

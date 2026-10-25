@@ -1,0 +1,73 @@
+{
+  "slug": "dipen-chawla",
+  "name": "Dipen Chawla",
+  "listed_as": {
+    "name": "Dipen Chawla",
+    "title": "Software Engineer 2, Microsoft",
+    "url": "https://www.wemakedevs.org/hackathons/ptc/judges"
+  },
+  "job_title": "Software Engineer 2",
+  "participations": [
+    {
+      "event": "patch-the-conference-2026",
+      "role": "judge",
+      "status": "listed",
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "observed_at": "2026-10-24T21:34:19Z"
+        }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "organization": "Microsoft",
+      "title": "Software Engineer 2",
+      "current": true,
+      "basis": "event_listing",
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "observed_at": "2026-10-24T21:34:19Z"
+        }
+      ]
+    }
+  ],
+  "accounts": [],
+  "websites": [],
+  "github": {
+    "resolution": "unresolved"
+  },
+  "github_resolution": "unresolved",
+  "profile": {
+    "headline": "Software Engineer 2, Microsoft",
+    "current_roles": [
+      "Software Engineer 2, Microsoft"
+    ],
+    "expertise": [],
+    "technologies": [],
+    "programming_languages": [],
+    "experience": [],
+    "education": [],
+    "publications": [],
+    "patents": [],
+    "talks": [],
+    "recent_writing": [],
+    "open_source": [],
+    "packages": [],
+    "event_posts": []
+  },
+  "sources_consulted": [
+    "https://www.wemakedevs.org/hackathons/ptc/judges"
+  ],
+  "gaps": [
+    "The organizer lists a Microsoft software engineer but supplies no linked account or portrait. No public account could be connected to that identity with sufficient evidence.",
+    "Same-name professional profiles were excluded because no source links them to this event listing. Their account names, employers and work histories are not attributed here.",
+    "Education, publications, patents, packages, personal website, and a broader work history remain unverified. No attendance outside the published judging role is inferred."
+  ],
+  "brief_bio": "Dipen Chawla is listed as a judge for the Patch the Conference Hackathon and as Software Engineer 2 at Microsoft by the event organizer. No linked professional account was available to verify a broader work history.",
+  "brief_bio_cites": [
+    "https://www.wemakedevs.org/hackathons/ptc/judges"
+  ]
+}

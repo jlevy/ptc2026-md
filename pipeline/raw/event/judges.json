@@ -1,0 +1,70 @@
+{
+  "source_url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+  "retrieved_at": "2026-10-24T21:05:00Z",
+  "extraction": "Selected event facts; navigation, contact details and registration material omitted.",
+  "judges": [
+    {
+      "name": "Riken Shah",
+      "title": "Human Data Team (Contractor)",
+      "organization": "xAI",
+      "linkedin": "https://www.linkedin.com/in/shah-riken",
+      "source_excerpt": "Riken ShahHuman Data Team (Contractor), xAI"
+    },
+    {
+      "name": "Nitish Mane",
+      "title": "Software Engineer",
+      "organization": "Philo",
+      "linkedin": null,
+      "source_excerpt": "Nitish ManeSoftware Engineer, Philo"
+    },
+    {
+      "name": "Manpreet Singh",
+      "title": "Software Engineer II",
+      "organization": "Northwest Bank",
+      "linkedin": "https://www.linkedin.com/in/manpoffc",
+      "source_excerpt": "Manpreet SinghSoftware Engineer II, Northwest Bank"
+    },
+    {
+      "name": "Schezeen Fazulbhoy",
+      "title": "Senior Software Engineer",
+      "organization": "Adobe",
+      "linkedin": "https://www.linkedin.com/in/schezeenfazulbhoy",
+      "source_excerpt": "Schezeen FazulbhoySenior Software Engineer, Adobe"
+    },
+    {
+      "name": "Pooja Ravi",
+      "title": "Senior Software Engineer",
+      "organization": "Netflix",
+      "linkedin": "https://www.linkedin.com/in/pravi20",
+      "source_excerpt": "Pooja RaviSenior Software Engineer, Netflix"
+    },
+    {
+      "name": "satyam singh",
+      "title": "Co-Founder, CTO",
+      "organization": "Simulithic",
+      "linkedin": "https://www.linkedin.com/in/Satyamsingh2003",
+      "source_excerpt": "satyam singhCo-Founder, CTO, Simulithic"
+    },
+    {
+      "name": "Yash Bhatia",
+      "title": "Senior Data Engineer",
+      "organization": "Meta",
+      "linkedin": "https://www.linkedin.com/in/yyash-bhatia",
+      "source_excerpt": "Yash BhatiaSenior Data Engineer, Meta"
+    },
+    {
+      "name": "Dipen Chawla",
+      "title": "Software Engineer 2",
+      "organization": "Microsoft",
+      "linkedin": null,
+      "source_excerpt": "Dipen ChawlaSoftware Engineer 2, Microsoft"
+    },
+    {
+      "name": "Vivek Gopal ramaswamy",
+      "title": "AI Product Manager",
+      "organization": "Agility Robitics",
+      "linkedin": "https://www.linkedin.com/in/vivekgr",
+      "source_excerpt": "Vivek Gopal ramaswamyAI Product Manager, Agility Robitics"
+    }
+  ]
+}

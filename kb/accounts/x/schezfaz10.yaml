@@ -1,0 +1,30 @@
+softschema:
+  contract: paraverse.conference:SocialAccount/v1
+  schema: ../../_schemas/social-account.schema.yaml
+  envelope: social_account
+  status: permissive
+social_account:
+  id: acct:x/schezfaz10
+  platform: x
+  handle: schezfaz10
+  url: https://x.com/schezfaz10
+  bio: "software engineer @adobe \ncs @georgiatech"
+  followers: 453
+  following: 123
+  owner: person:schezeen-fazulbhoy
+  link_basis:
+  - curated
+  details_fetched: true
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/schezeen-fazulbhoy.json
+  - system: brightdata
+    url: https://x.com/schezfaz10
+    record_id: sd_mvmwz2u61m5qijuntd
+    retrieved_at: '2026-10-24T21:32:04Z'
+    snapshot: raw/brightdata/x_profiles.json
+  identity_evidence:
+  - url: https://x.com/schezfaz10
+    observed_at: '2026-10-24T21:30:51Z'
+  identity_confidence: high

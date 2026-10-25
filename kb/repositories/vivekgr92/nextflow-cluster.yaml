@@ -1,0 +1,21 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:vivekgr92/nextflow-cluster
+  full_name: vivekgr92/nextflow-cluster
+  url: https://github.com/vivekgr92/nextflow-cluster
+  description: This repo is for running nextflow pipeline exclusively in the cluster
+  stars: 0
+  forks: 0
+  primary_language: Python
+  fork: false
+  pushed_at: '2025-07-25T21:29:53Z'
+  owner_login: vivekgr92
+  owner: gh:vivekgr92
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/vivek-gopal-ramaswamy.json

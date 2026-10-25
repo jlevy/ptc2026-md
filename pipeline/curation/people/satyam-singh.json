@@ -1,0 +1,544 @@
+{
+  "slug": "satyam-singh",
+  "name": "Satyam Singh",
+  "listed_as": {
+    "name": "Satyam Singh",
+    "title": "Co-Founder and CTO, Simulithic",
+    "url": "https://www.wemakedevs.org/hackathons/ptc/judges"
+  },
+  "job_title": "Co-Founder and CTO",
+  "participations": [
+    {
+      "event": "patch-the-conference-2026",
+      "role": "judge",
+      "status": "confirmed",
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "organization": "Simulithic",
+      "title": "Co-Founder and CTO",
+      "current": true,
+      "basis": "event_listing",
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    },
+    {
+      "organization": "Ramp",
+      "title": "Engineering intern",
+      "current": false,
+      "basis": "website",
+      "evidence": [
+        {
+          "url": "https://www.ycombinator.com/companies/simulithic",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    },
+    {
+      "organization": "Bree",
+      "title": "Engineering intern",
+      "current": false,
+      "basis": "website",
+      "evidence": [
+        {
+          "url": "https://www.ycombinator.com/companies/simulithic",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "linkedin",
+      "handle": "Satyamsingh2003",
+      "url": "https://www.linkedin.com/in/Satyamsingh2003",
+      "confidence": "high",
+      "link_basis": [
+        "event_listing"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    },
+    {
+      "platform": "github",
+      "handle": "KlausMikhaelson",
+      "url": "https://github.com/KlausMikhaelson",
+      "confidence": "high",
+      "link_basis": [
+        "linkedin_profile"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.linkedin.com/in/Satyamsingh2003",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ],
+      "bio": "Co-Founder @Simulithic",
+      "location": "San Francisco, California",
+      "followers": 569,
+      "following": 90,
+      "public_repos": 141,
+      "avatar_url": "https://avatars.githubusercontent.com/u/100528412?v=4"
+    },
+    {
+      "platform": "x",
+      "handle": "KlausCodes",
+      "url": "https://x.com/KlausCodes",
+      "confidence": "high",
+      "link_basis": [
+        "github_profile"
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/KlausMikhaelson",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    },
+    {
+      "platform": "youtube",
+      "handle": "SatyamCodesss",
+      "url": "https://www.youtube.com/@SatyamCodesss",
+      "confidence": "high",
+      "link_basis": [
+        "github_profile"
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/KlausMikhaelson",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    }
+  ],
+  "websites": [],
+  "github": {
+    "login": "KlausMikhaelson",
+    "avatar_url": "https://avatars.githubusercontent.com/u/100528412?v=4",
+    "html_url": "https://github.com/KlausMikhaelson",
+    "name": "Satyam",
+    "company": "Simulithic",
+    "blog": "",
+    "location": "San Francisco, California",
+    "bio": "Co-Founder @Simulithic",
+    "twitter_username": "KlausCodes",
+    "public_repos": 141,
+    "followers": 569,
+    "following": 90,
+    "created_at": "2022-02-27T16:21:07Z",
+    "resolution": "resolved",
+    "match": "linked",
+    "top_repositories": [
+      {
+        "full_name": "KlausMikhaelson/VirtualRoom",
+        "description": "Watch youtube videos with your friends on Sync ",
+        "stars": 27,
+        "forks": 1,
+        "primary_language": "EJS",
+        "topics": [
+          "chat",
+          "rooms",
+          "socket-io",
+          "sync-youtube-videos",
+          "synchronization",
+          "tcp",
+          "websockets",
+          "youtube-api"
+        ],
+        "fork": false,
+        "pushed_at": "2023-07-10T16:48:19Z"
+      },
+      {
+        "full_name": "KlausMikhaelson/Retain",
+        "description": null,
+        "stars": 10,
+        "forks": 0,
+        "primary_language": "TypeScript",
+        "topics": [],
+        "fork": false,
+        "pushed_at": "2024-05-27T03:50:11Z"
+      },
+      {
+        "full_name": "KlausMikhaelson/asteroid-destroyers-nasa-app-challenge",
+        "description": "Nasa Space App challenge Winner 2024-25",
+        "stars": 8,
+        "forks": 3,
+        "primary_language": "JavaScript",
+        "topics": [],
+        "fork": false,
+        "pushed_at": "2024-10-07T00:02:18Z"
+      },
+      {
+        "full_name": "KlausMikhaelson/emoji_mosaic_art",
+        "description": null,
+        "stars": 8,
+        "forks": 1,
+        "primary_language": "TypeScript",
+        "topics": [],
+        "fork": false,
+        "pushed_at": "2024-10-10T04:44:16Z"
+      },
+      {
+        "full_name": "KlausMikhaelson/wrestle-with-shapes",
+        "description": null,
+        "stars": 7,
+        "forks": 6,
+        "primary_language": "JavaScript",
+        "topics": [
+          "cannonjs",
+          "local-multiplayer-games",
+          "multiplayer-game",
+          "react-three",
+          "react-three-drei",
+          "react-three-fiber",
+          "threejs",
+          "web-game",
+          "webgl-game"
+        ],
+        "fork": false,
+        "pushed_at": "2023-09-13T17:18:03Z"
+      },
+      {
+        "full_name": "KlausMikhaelson/web3conf-BE",
+        "description": null,
+        "stars": 4,
+        "forks": 1,
+        "primary_language": "JavaScript",
+        "topics": [],
+        "fork": false,
+        "pushed_at": "2023-07-25T18:33:47Z"
+      },
+      {
+        "full_name": "KlausMikhaelson/todo-list-on-blockchain",
+        "description": null,
+        "stars": 4,
+        "forks": 0,
+        "primary_language": "CSS",
+        "topics": [],
+        "fork": false,
+        "pushed_at": "2023-03-27T07:58:19Z"
+      },
+      {
+        "full_name": "KlausMikhaelson/hackthevalley-webapp",
+        "description": null,
+        "stars": 3,
+        "forks": 1,
+        "primary_language": "TypeScript",
+        "topics": [],
+        "fork": false,
+        "pushed_at": "2025-10-05T13:59:52Z"
+      },
+      {
+        "full_name": "KlausMikhaelson/pet-menu-bar",
+        "description": null,
+        "stars": 3,
+        "forks": 2,
+        "primary_language": "TypeScript",
+        "topics": [],
+        "fork": false,
+        "pushed_at": "2025-07-21T17:25:00Z"
+      },
+      {
+        "full_name": "KlausMikhaelson/web3Conf-FE",
+        "description": "Web3Conf India Winner A real-time collaboration tool like a whiteboard for teams while communicating through huddle01's video call sdk, out of credits so pleaserun locally in that: https://github.com/KlausMikhaelson/web3Conf-BE",
+        "stars": 3,
+        "forks": 1,
+        "primary_language": "JavaScript",
+        "topics": [],
+        "fork": false,
+        "pushed_at": "2023-07-28T19:12:31Z"
+      }
+    ],
+    "profile_readme_summary": null,
+    "pinned": [
+      {
+        "full_name": "KlausMikhaelson/asteroid-destroyers-nasa-app-challenge",
+        "description": "Nasa Space App challenge Winner 2024-25",
+        "stars": 8,
+        "forks": 3,
+        "fork": false,
+        "archived": false,
+        "primary_language": "JavaScript",
+        "topics": []
+      },
+      {
+        "full_name": "KlausMikhaelson/VirtualRoom",
+        "description": "Watch youtube videos with your friends on Sync ",
+        "stars": 27,
+        "forks": 1,
+        "fork": false,
+        "archived": false,
+        "primary_language": "EJS",
+        "topics": [
+          "chat",
+          "rooms",
+          "socket-io",
+          "synchronization",
+          "tcp",
+          "websockets",
+          "youtube-api",
+          "sync-youtube-videos"
+        ]
+      },
+      {
+        "full_name": "pushchain/push-notifications-sdk",
+        "description": "Push SDK is a growing Monorepo of packages that provide solutions for a wide range of development tasks one might come across while building on top of Push protocol. It is a Javascript-based group of packages that enables easy usage of imperative communication tools for Web3",
+        "stars": 73,
+        "forks": 54,
+        "fork": false,
+        "archived": false,
+        "primary_language": "TypeScript",
+        "topics": []
+      },
+      {
+        "full_name": "KlausMikhaelson/Retain",
+        "description": null,
+        "stars": 10,
+        "forks": 0,
+        "fork": false,
+        "archived": false,
+        "primary_language": "TypeScript",
+        "topics": []
+      },
+      {
+        "full_name": "KlausMikhaelson/emoji_mosaic_art",
+        "description": null,
+        "stars": 8,
+        "forks": 1,
+        "fork": false,
+        "archived": false,
+        "primary_language": "TypeScript",
+        "topics": []
+      }
+    ],
+    "contributions_last_year": 1609
+  },
+  "profile": {
+    "programming_languages": [
+      {
+        "label": "CSS",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/KlausMikhaelson?tab=repositories",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "label": "EJS",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/KlausMikhaelson?tab=repositories",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "label": "JavaScript",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/KlausMikhaelson?tab=repositories",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "label": "TypeScript",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/KlausMikhaelson?tab=repositories",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      }
+    ],
+    "open_source": [
+      {
+        "repo": "KlausMikhaelson/VirtualRoom",
+        "role": "author",
+        "evidence": [
+          {
+            "url": "https://github.com/KlausMikhaelson/VirtualRoom",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "repo": "KlausMikhaelson/Retain",
+        "role": "author",
+        "evidence": [
+          {
+            "url": "https://github.com/KlausMikhaelson/Retain",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "repo": "KlausMikhaelson/asteroid-destroyers-nasa-app-challenge",
+        "role": "author",
+        "evidence": [
+          {
+            "url": "https://github.com/KlausMikhaelson/asteroid-destroyers-nasa-app-challenge",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "repo": "KlausMikhaelson/emoji_mosaic_art",
+        "role": "author",
+        "evidence": [
+          {
+            "url": "https://github.com/KlausMikhaelson/emoji_mosaic_art",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "repo": "KlausMikhaelson/wrestle-with-shapes",
+        "role": "author",
+        "evidence": [
+          {
+            "url": "https://github.com/KlausMikhaelson/wrestle-with-shapes",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      }
+    ],
+    "headline": "Co-Founder and CTO, Simulithic",
+    "location": "San Francisco Bay Area",
+    "experience": [
+      {
+        "title": "Co-Founder and CTO",
+        "organization": "Simulithic",
+        "summary": "Builds AI users for automated application testing.",
+        "evidence": [
+          {
+            "url": "https://www.ycombinator.com/companies/simulithic",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ],
+        "current": true
+      },
+      {
+        "title": "Engineering intern",
+        "organization": "Ramp",
+        "evidence": [
+          {
+            "url": "https://www.ycombinator.com/companies/simulithic",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ],
+        "current": false
+      },
+      {
+        "title": "Engineering intern",
+        "organization": "Bree",
+        "evidence": [
+          {
+            "url": "https://www.ycombinator.com/companies/simulithic",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ],
+        "current": false
+      }
+    ],
+    "expertise": [
+      {
+        "label": "AI application testing",
+        "basis": "website",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.ycombinator.com/companies/simulithic",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "label": "Web application development",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/KlausMikhaelson/VirtualRoom",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      }
+    ],
+    "recognitions": [
+      {
+        "label": "MLH Top 50 Hacker",
+        "basis": "website",
+        "evidence": [
+          {
+            "url": "https://www.ycombinator.com/companies/simulithic",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "label": "NASA Space Apps winner (Asteroid Destroyer)",
+        "basis": "website",
+        "evidence": [
+          {
+            "url": "https://www.ycombinator.com/companies/simulithic",
+            "observed_at": "2026-10-24T21:31:18Z"
+          },
+          {
+            "url": "https://github.com/KlausMikhaelson/asteroid-destroyers-nasa-app-challenge",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      }
+    ],
+    "recent_writing": [
+      {
+        "title": "MLH Top 50 Hackers announcement",
+        "url": "https://www.linkedin.com/posts/satyamsingh2003_51-hackathons-41-wins-today-i-was-named-activity-7508012445416816641-h6H1",
+        "platform": "linkedin"
+      }
+    ]
+  },
+  "sources_consulted": [
+    "https://www.wemakedevs.org/hackathons/ptc/judges",
+    "https://www.linkedin.com/in/Satyamsingh2003",
+    "https://github.com/KlausMikhaelson",
+    "https://www.ycombinator.com/companies/simulithic",
+    "https://simulithic.com",
+    "https://x.com/KlausCodes"
+  ],
+  "gaps": [
+    "Repository statistics are observed counts. Top repositories cover original repositories in the first 100 returned by recent update, not all historical contributions. Registry packages and contribution totals have not been verified.",
+    "Public LinkedIn experience and education fields were unavailable; previous roles use the company-published YC profile. No inferred attendance at GitHub Universe.",
+    "The LinkedIn profile contains other hackathon projects and awards; only selected professional items are curated. Social posts unrelated to work, other creators, and scholarship/financial details are omitted."
+  ],
+  "brief_bio": "Satyam Singh is Co-Founder and CTO of Simulithic and is listed as a judge at Patch the Conference. The company builds AI users that test applications across devices and browsers. The company’s YC profile describes earlier engineering internships at Ramp and Bree and recognition as an MLH Top 50 Hacker.",
+  "brief_bio_cites": [
+    "https://www.wemakedevs.org/hackathons/ptc/judges",
+    "https://www.ycombinator.com/companies/simulithic"
+  ]
+}

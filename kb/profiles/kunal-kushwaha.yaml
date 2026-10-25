@@ -1,0 +1,466 @@
+softschema:
+  contract: paraverse.conference:Profile/v1
+  schema: ../_schemas/profile.schema.yaml
+  envelope: profile
+  status: permissive
+profile:
+  id: profile:kunal-kushwaha
+  person: person:kunal-kushwaha
+  brief_bio:
+    text: Kunal Kushwaha founded WeMakeDevs and publicly announced hosting Patch the Conference. The professional
+      website lists a Senior Developer Advocate role at CAST AI. Kunal publishes Java and DevOps learning
+      materials on GitHub and is identified by WeMakeDevs as a CNCF Ambassador and GitHub Star.
+    cites:
+    - https://x.com/kunalstwt/status/2113374840870568017
+    - https://www.techwithkunal.com/
+    - https://www.wemakedevs.org/founder
+    - https://github.com/kunal-kushwaha
+    basis: llm_synthesis
+    written_by: OpenAI Codex (GPT-6)
+    written_at: '2026-10-24T21:38:33Z'
+    input_sha256: db04820e96decf4d361416a3ed867789e21913a8c44ed148eb55d1f741562a0d
+    stale: false
+  location: London
+  expertise:
+  - label: Developer relations
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://www.techwithkunal.com/
+      observed_at: '2026-10-24T21:31:18Z'
+  - label: Cloud-native technologies
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://www.techwithkunal.com/
+      observed_at: '2026-10-24T21:31:18Z'
+  programming_languages:
+  - label: Java
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/kunal-kushwaha?tab=repositories
+      observed_at: '2026-10-24T21:31:18Z'
+  - label: JavaScript
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/kunal-kushwaha?tab=repositories
+      observed_at: '2026-10-24T21:31:18Z'
+  - label: Jupyter Notebook
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/kunal-kushwaha?tab=repositories
+      observed_at: '2026-10-24T21:31:18Z'
+  - label: Python
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/kunal-kushwaha?tab=repositories
+      observed_at: '2026-10-24T21:31:18Z'
+  - label: TypeScript
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/kunal-kushwaha?tab=repositories
+      observed_at: '2026-10-24T21:31:18Z'
+  recognitions:
+  - label: CNCF Ambassador
+    basis: website
+    confidence: medium
+    evidence:
+    - url: https://www.wemakedevs.org/founder
+      observed_at: '2026-10-24T21:31:18Z'
+  - label: GitHub Star
+    basis: website
+    confidence: medium
+    evidence:
+    - url: https://www.wemakedevs.org/founder
+      observed_at: '2026-10-24T21:31:18Z'
+  open_source:
+  - repository: repo:kunal-kushwaha/dsa-bootcamp-java
+    relation: owner
+    stars: 24049
+    primary_language: Java
+  - repository: repo:kunal-kushwaha/competitive-programming-resources
+    relation: owner
+    stars: 3929
+  - repository: repo:kunal-kushwaha/devops-bootcamp
+    relation: owner
+    stars: 2431
+  - repository: repo:kunal-kushwaha/intro-to-gen-ai-and-rag
+    relation: owner
+    stars: 101
+  - repository: repo:kunal-kushwaha/techwithkunal
+    relation: owner
+    stars: 26
+    primary_language: TypeScript
+  - repository: repo:kunal-kushwaha/meditationapp
+    relation: owner
+    stars: 20
+    primary_language: JavaScript
+  - repository: repo:kunal-kushwaha/sentimentanalysismlh
+    relation: owner
+    stars: 16
+    primary_language: Jupyter Notebook
+  - repository: repo:kunal-kushwaha/invisible-cloak
+    relation: owner
+    stars: 15
+    primary_language: Python
+  - repository: repo:kunal-kushwaha/node-chat-app
+    relation: owner
+    stars: 13
+    primary_language: JavaScript
+  - repository: repo:kunal-kushwaha/blogs
+    relation: owner
+    stars: 13
+  education:
+  - school: Maharaja Agrasen Institute Of Technology
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  credentials:
+  - kind: honor
+    title: Top 25 Tech Influencers In India
+    issuer: Analytics India Magazine
+    date: '2024-12-01T00:00:00.000Z'
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: honor
+    title: 'Young Person: OpenUK Awards 2023'
+    issuer: OpenUK
+    date: '2023-11-01T00:00:00.000Z'
+    description: https://openuk.uk/awards/
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: honor
+    title: Humans of cloud native
+    issuer: CNCF
+    date: '2023-08-01T00:00:00.000Z'
+    description: https://www.cncf.io/humans-of-cloud-native/kunal-kushwaha-on-a-mission-to-bring-students-to-cloud-native/
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: honor
+    title: 2023 OpenUK Honours List
+    issuer: OpenUK
+    date: '2023-01-01T00:00:00.000Z'
+    description: https://openuk.uk/openuk-honours-lists/
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: honor
+    title: Hackernoon feature
+    issuer: Hackernoon
+    date: '2022-12-01T00:00:00.000Z'
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: honor
+    title: Featured in Business Insider
+    issuer: Twilio
+    date: '2022-10-01T00:00:00.000Z'
+    description: 'Link: https://www.businessinsider.com/sc/meet-the-inspirational-leaders-creating-a-better-future-for-developers'
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: honor
+    title: KubeSphere Ambassador
+    issuer: KubeSphere
+    date: '2022-08-01T00:00:00.000Z'
+    description: 'Link: https://kubesphere.io/news/kubesphere-ambassador-certificates-en/'
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: honor
+    title: Champion Innovator
+    issuer: Google
+    date: '2022-05-01T00:00:00.000Z'
+    description: 'Champion Innovators are the few who rise above and inspire us all. Champion Innovators
+      are nominated by Googlers. Profile: https://g.dev/kunalkushwaha'
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: honor
+    title: Kubernetes blog feature
+    issuer: '-'
+    date: '2022-01-01T00:00:00.000Z'
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: honor
+    title: Credly badges for conference participations
+    issuer: The Linux Foundation
+    date: '2021-10-01T00:00:00.000Z'
+    description: https://www.credly.com/users/kunalkushwaha/badges
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: honor
+    title: Top 50 Hackers of 2021
+    issuer: Major League Hacking
+    date: '2021-06-01T00:00:00.000Z'
+    description: 'Being a part of the MLH Top 50 means you’ve done something you can truly be proud of:
+      You showed up for yourself and your community in the face of uncertainty. You put yourself out there
+      and learned new skills, even though it may have intimidated you. You brought together a community
+      of strangers and made connections that will have a lasting impact on your career. You paved your
+      own path and your stories inspired us. In fact, it is hackers just like you that are the reason
+      why MLH exists and… Show more'
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: honor
+    title: AI Ambassador
+    issuer: Microsoft
+    date: '2021-04-01T00:00:00.000Z'
+    description: Received a very rare AI Ambassador badger from Microsoft for organising, hosting and
+      speaking at the Global AI Student Conference.
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: honor
+    title: Azure Community Hero
+    issuer: Microsoft
+    date: '2020-07-01T00:00:00.000Z'
+    description: Received 1 in 550 rare Community Hero badger from Microsoft for organising meetups, conferences,
+      sharing content and being an active member of the community.
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: honor
+    title: Greatest Individual Contribution - DevRel Awards
+    issuer: https://developerrelations.com
+    date: '2020-03-01T00:00:00.000Z'
+    description: The DevRel Awards 2022, presented by Orbit, is organized by Hoopy to celebrate the best
+      of DevRel in 2020 and 2021. I am honored to be awarded the "Greatest Individual Contribution" award
+      for my work in the community.
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: certification
+    title: Cloud Engineering with Google Cloud Specialization
+    issuer: Coursera
+    url: https://www.coursera.org/account/accomplishments/specialization/certificate/JMS5EM5FHEAK
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: certification
+    title: 'Elastic Google Cloud Infrastructure: Scaling and Automation'
+    issuer: Coursera
+    url: https://www.coursera.org/account/accomplishments/certificate/BGDGYNBGYWTC
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: certification
+    title: 'Essential Google Cloud Infrastructure: Core Services'
+    issuer: Coursera
+    url: https://www.coursera.org/account/accomplishments/certificate/C9XADAEND752
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: certification
+    title: 'Essential Google Cloud Infrastructure: Foundation'
+    issuer: Coursera
+    url: https://www.coursera.org/account/accomplishments/certificate/GZXT3UH6HFLQ
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: certification
+    title: 'Google Cloud Platform Fundamentals: Core Infrastructure'
+    issuer: Coursera
+    url: https://www.coursera.org/account/accomplishments/certificate/6EUB2CDDN2MQ
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: certification
+    title: Preparing for the Google Cloud Associate Cloud Engineer Exam
+    issuer: Coursera
+    url: https://www.coursera.org/account/accomplishments/certificate/QH9PAXFEHC7H
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: certification
+    title: Algorithms by Stanford University
+    issuer: Coursera
+    url: https://www.coursera.org/account/accomplishments/certificate/ZFLLHTX9K3AK
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  publications:
+  - title: Opportunity recommendation system using collaborative and content-based filtering and analyzing
+      the vectorization techniques and filtering methods
+    date: May 21, 2022
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - title: ASL real time translator
+    date: February 19, 2022
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  spoken_languages:
+  - English
+  - Hindi
+  activities:
+  - kind: project
+    title: Thanos
+    detail: • Worked on Thanos, a set of components that can be composed into a highly available metric
+      system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus
+      deployments.• Implemented features, context & actions to increase observability & control for BlockViewer.
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: project
+    title: Jest
+    detail: Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase.
+      It allows you to write tests with an approachable, familiar and feature-rich API that gives you
+      results quickly. Jest is well-documented, requires little configuration and can be extended to match
+      your requirements.
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: project
+    title: Quarkus
+    detail: 'Google Summer of Code mentor with JBoss (Red Hat Middleware) for the year 2020 for Quarkus:
+      Improving Gradle support.'
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: project
+    title: Bundly - All in one Information Management System
+    detail: 'Let Bundly do its work, so you can focus on yours. Bundly is a single heaven to find all
+      the information regarding the MLH Fellowship at once place! It lets you take your utility tools,
+      a step further. Designed specifically to enhance the Fellowship experience. Kye Features: - Generate
+      Standup Notes in markdown automatically- Internal discussions at your fingertips using Search Tool-
+      Receive personalised notifications for your repositories (GitHub) & Discord- Add notifications from
+      GitHub to your ToDo list directly - Quick access the MLH calendar events at one place'
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: project
+    title: Genetic Algorithm, Evolutionary Algorithms for COVID-19 Vaccines
+    detail: In this research, an optimized deep learning method was proposed to explore the possibility
+      and practicality of neural net-work applications in medical imaging. The method was used to achieve
+      the goal of judging common pneumonia and even COVID-19 more effectively. Where, the genetic algorithm
+      was taken advantage to optimize the Dropout module, which is essential in neural networks so as
+      to improve the performance of typical neural network models. The experiment results demonstrate
+      that the proposed method shows excellent performance and strong practicability in judging pneumonia,
+      and the application of advanced artificial intelligence technology in the field of medical imaging
+      has broad prospects.
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: project
+    title: Quarantime - Social Media Platform
+    detail: During the Orientation Hackathon of the MLH Fellowship, we built this social media platform
+      for people to:- Share their stories during Quarantine time, helping the community by making them
+      aware of the opportunities available (both during and after lockdown) that they might not be aware
+      of.- Open-source the projects that they have worked on, be it at Hackathons, School projects, etc.
+      so that other students can collaborate & learn in addition to helping the project grow. This will
+      increase community engagement among students and promote the open source culture.Tech Used:- GraphQL-
+      MongoDB Atlas (GCP)- Node.js- Express.js- React- react-router-dom- Semantic UI React- Apollo Server-
+      bcryptjs- JWT
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: project
+    title: Kubernetes Client
+    detail: '• Adding support in Kubernetes Client for several types of resources : ServiceCatalog TemplateInstance
+      VolumeAttachment CertificateSigningRequest SelfSubjectAccessReview SelfSubjectRulesReview TokenReview
+      ControllerRevision UserInfo AdmissionConfiguration• Providing test coverage for the following resources:
+      Endpoints PersistentVolumeClaim PersistentVolumes SubjectAccessReview PodPreset HorizontalPodAutoscaler
+      Namespace ResourceQuota• Upgradation of the test suits from JUnit4 to JUnit5• Adding examples for
+      configuration of various resources in the client'
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: volunteering
+    title: Conference Organizer
+    detail: KubeHuddle
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: volunteering
+    title: Section Leader, Code in Place (CS106A)
+    detail: Stanford University
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: volunteering
+    title: Gold Microsoft Learn Student Ambassador
+    detail: Microsoft
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: volunteering
+    title: Python Mentor
+    detail: AnitaB.org
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: volunteering
+    title: '#IamRemarkable Facilitator'
+    detail: g.co/IamRemarkable
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: volunteering
+    title: Workshop Instructor
+    detail: CodeChef
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  - kind: volunteering
+    title: Student Mentor
+    detail: State Resource Centre - India
+    evidence:
+      url: https://www.linkedin.com/in/kunal-kushwaha
+      observed_at: '2026-10-24T21:31:15Z'
+  gaps:
+  - Host participation comes from a saved public X embed of the host’s own October 22 announcement; direct
+    X page fetching was unavailable.
+  - Personal social accounts, testimonials from other people, contact details, and audience marketing
+    claims are excluded.
+  - Repository statistics are observed counts. Top repositories cover original repositories in the first
+    100 returned by recent update, not all historical contributions. Registry packages and contribution
+    totals have not been verified.
+  - LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history.
+  sources:
+  - system: curation
+    url: https://x.com/kunalstwt/status/2113374840870568017
+    snapshot: curation/people/kunal-kushwaha.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/kunal-kushwaha
+    record_id: sd_mvmwwpmr6uhl5gtjj
+    retrieved_at: '2026-10-24T21:31:15Z'
+    snapshot: raw/brightdata/linkedin_profiles.json
+  external_talks:
+  - title: Keynote
+    event: KubeCon + CloudNativeCon Europe 2024
+    url: https://www.wemakedevs.org/founder
+    evidence:
+    - url: https://www.wemakedevs.org/founder
+  - title: Keynote
+    event: cdCon + GitOpsCon 2023
+    url: https://www.wemakedevs.org/founder
+    evidence:
+    - url: https://www.wemakedevs.org/founder
+  open_source_evidence:
+    repo:kunal-kushwaha/dsa-bootcamp-java:
+    - url: https://github.com/kunal-kushwaha/DSA-Bootcamp-Java
+      observed_at: '2026-10-24T21:31:18Z'
+    repo:kunal-kushwaha/competitive-programming-resources:
+    - url: https://github.com/kunal-kushwaha/Competitive-Programming-Resources
+      observed_at: '2026-10-24T21:31:18Z'
+    repo:kunal-kushwaha/devops-bootcamp:
+    - url: https://github.com/kunal-kushwaha/DevOps-Bootcamp
+      observed_at: '2026-10-24T21:31:18Z'
+    repo:kunal-kushwaha/intro-to-gen-ai-and-rag:
+    - url: https://github.com/kunal-kushwaha/Intro-to-Gen-AI-and-RAG
+      observed_at: '2026-10-24T21:31:18Z'
+    repo:kunal-kushwaha/techwithkunal:
+    - url: https://github.com/kunal-kushwaha/techwithkunal
+      observed_at: '2026-10-24T21:31:18Z'

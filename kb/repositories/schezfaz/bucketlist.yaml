@@ -1,0 +1,20 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:schezfaz/bucketlist
+  full_name: schezfaz/bucketList
+  url: https://github.com/schezfaz/bucketList
+  description: Bucket-list API application with an accompanying tutorial.
+  stars: 4
+  forks: 2
+  primary_language: Python
+  fork: false
+  owner_login: schezfaz
+  owner: gh:schezfaz
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/schezeen-fazulbhoy.json

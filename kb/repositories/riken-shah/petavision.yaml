@@ -1,0 +1,20 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:riken-shah/petavision
+  full_name: Riken-Shah/PetaVision
+  url: https://github.com/Riken-Shah/PetaVision
+  description: Image indexing and semantic search application.
+  stars: 0
+  forks: 0
+  primary_language: Python
+  fork: false
+  owner_login: Riken-Shah
+  owner: gh:riken-shah
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/riken-shah.json

@@ -1,0 +1,133 @@
+$defs:
+  Source:
+    additionalProperties: false
+    description: 'Where a record came from: one raw snapshot file, or a curated list.'
+    properties:
+      record_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The record's ID in that system.
+        title: Record Id
+      retrieved_at:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Retrieved At
+      snapshot:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Raw snapshot path, relative to the conference directory.
+        title: Snapshot
+      system:
+        enum:
+        - rainfocus
+        - githubuniverse.com
+        - github
+        - npm
+        - pypi
+        - bluesky
+        - mastodon
+        - website
+        - feed
+        - brightdata
+        - curation
+        title: System
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - system
+    title: Source
+    type: object
+$schema: https://json-schema.org/draft/2020-12/schema
+additionalProperties: true
+description: A product, project, language or protocol that the program talks about.
+properties:
+  aliases:
+    items:
+      type: string
+    title: Aliases
+    type: array
+  homepage:
+    anyOf:
+    - pattern: ^https?://
+      type: string
+    - type: 'null'
+    default: null
+    title: Homepage
+  id:
+    pattern: ^(software):[a-z0-9][a-z0-9._/@+-]*$
+    title: Id
+    type: string
+  kind:
+    enum:
+    - github_product
+    - open_source
+    - commercial
+    - language
+    - platform
+    - protocol
+    title: Kind
+    type: string
+  mentioned_in:
+    items:
+      pattern: ^(session|person|org):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Mentioned In
+    type: array
+  name:
+    title: Name
+    type: string
+  packages:
+    items:
+      pattern: ^(pkg):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Packages
+    type: array
+  product_term:
+    anyOf:
+    - pattern: ^(term):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    - type: 'null'
+    default: null
+    description: The catalog's GitHub product term, when there is one.
+    title: Product Term
+  repositories:
+    items:
+      pattern: ^(repo):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Repositories
+    type: array
+  sources:
+    items:
+      $ref: '#/$defs/Source'
+    title: Sources
+    type: array
+  vendor:
+    anyOf:
+    - pattern: ^(org):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    - type: 'null'
+    default: null
+    title: Vendor
+required:
+- id
+- kind
+- name
+- sources
+title: Software
+type: object
+x-softschema:
+  contract: paraverse.conference:Software/v1
+  schema_sha256: 649e98352ca113125de92e6ecd752f3405be3b665cd6bde07950238d3466db64

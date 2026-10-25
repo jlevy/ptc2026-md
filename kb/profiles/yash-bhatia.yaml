@@ -1,0 +1,201 @@
+softschema:
+  contract: paraverse.conference:Profile/v1
+  schema: ../_schemas/profile.schema.yaml
+  envelope: profile
+  status: permissive
+profile:
+  id: profile:yash-bhatia
+  person: person:yash-bhatia
+  brief_bio:
+    text: Yash Bhatia is a Senior Data Engineer at Meta and is listed as a judge for the Patch the Conference
+      Hackathon. UCLA Anderson’s public biography describes earlier software engineering work in BNP Paribas’s
+      data warehousing team and studies in business analytics; a professional mentoring page offers data
+      engineering interview guidance.
+    cites:
+    - https://www.wemakedevs.org/hackathons/ptc/judges
+    - https://www.anderson.ucla.edu/degrees/master-of-science-in-business-analytics/for-companies/class-of-2022
+    - https://topmate.io/yash_bhatia
+    basis: llm_synthesis
+    written_by: GPT-6.1 Sol (OpenAI Codex)
+    written_at: '2026-10-24T21:38:34Z'
+    input_sha256: a4d0dc95517bd643f76e131dc5a5f1804912145497b7768ad878e973153ad461
+    stale: false
+  headline: Senior Data Engineer, Meta
+  location: San Francisco Bay Area
+  current_roles:
+  - Senior Data Engineer, Meta
+  expertise:
+  - label: Data engineering
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://www.wemakedevs.org/hackathons/ptc/judges
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: Data warehousing
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://www.anderson.ucla.edu/degrees/master-of-science-in-business-analytics/for-companies/class-of-2022
+      quote: database management concepts
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: Business analytics
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://www.anderson.ucla.edu/degrees/master-of-science-in-business-analytics/for-companies/class-of-2022
+      observed_at: '2026-10-24T21:34:19Z'
+  technologies:
+  - label: ETL
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://www.anderson.ucla.edu/degrees/master-of-science-in-business-analytics/for-companies/class-of-2022
+      quote: ETL tools
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: Tableau
+    basis: linkedin_profile
+    confidence: high
+    evidence:
+    - url: https://www.linkedin.com/in/yyash-bhatia
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: Power BI
+    basis: linkedin_profile
+    confidence: high
+    evidence:
+    - url: https://www.linkedin.com/in/yyash-bhatia
+      observed_at: '2026-10-24T21:34:19Z'
+  programming_languages:
+  - label: SQL
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://www.anderson.ucla.edu/degrees/master-of-science-in-business-analytics/for-companies/class-of-2022
+      quote: SQL
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: Python
+    basis: linkedin_profile
+    confidence: high
+    evidence:
+    - url: https://www.linkedin.com/in/yyash-bhatia
+      observed_at: '2026-10-24T21:34:19Z'
+  recognitions:
+  - label: UCLA Merit Fellowship
+    basis: linkedin_profile
+    confidence: high
+    evidence:
+    - url: https://www.linkedin.com/in/yyash-bhatia
+      observed_at: '2026-10-24T21:34:19Z'
+  experience:
+  - organization: BNP Paribas
+    title: Software Engineer
+    current: false
+    description: Worked in a data warehousing team; the UCLA biography describes database management,
+      ETL, SQL and later big data projects. Exact employment dates were not established.
+    evidence:
+      url: https://www.anderson.ucla.edu/degrees/master-of-science-in-business-analytics/for-companies/class-of-2022
+      quote: data warehousing team
+      observed_at: '2026-10-24T21:34:19Z'
+  - organization: The New York Times
+    title: Data Engineer Intern
+    current: false
+    description: Listed as the summer internship in an official UCLA Anderson career profile.
+    evidence:
+      url: https://www.anderson.ucla.edu/sites/default/files/document/2022-07/baa_from_andersoncareerprofiles-070122_2.pdf
+      quote: Data Engineer – The New York Times
+      observed_at: '2026-10-24T21:34:19Z'
+  education:
+  - school: University of Mumbai
+    field_of_study: Computer Engineering
+    evidence:
+      url: https://www.anderson.ucla.edu/degrees/master-of-science-in-business-analytics/for-companies/class-of-2022
+      quote: Computer Engineering
+      observed_at: '2026-10-24T21:34:19Z'
+  - school: UCLA Anderson School of Management
+    field_of_study: Business Analytics
+    evidence:
+      url: https://www.anderson.ucla.edu/degrees/master-of-science-in-business-analytics/for-companies/class-of-2022
+      observed_at: '2026-10-24T21:34:19Z'
+  - school: University of California, Los Angeles
+    evidence:
+      url: https://www.linkedin.com/in/yyash-bhatia
+      observed_at: '2026-10-24T21:13:34Z'
+  credentials:
+  - kind: certification
+    title: Tableau for Data Science A-Z
+    issuer: Udemy
+    evidence:
+      url: https://www.linkedin.com/in/yyash-bhatia
+      observed_at: '2026-10-24T21:34:19Z'
+  - kind: certification
+    title: Statistics for Business Analytics and Data Science A-Z
+    issuer: Udemy
+    evidence:
+      url: https://www.linkedin.com/in/yyash-bhatia
+      observed_at: '2026-10-24T21:34:19Z'
+  - kind: certification
+    title: Power BI A-Z
+    issuer: Udemy
+    evidence:
+      url: https://www.linkedin.com/in/yyash-bhatia
+      observed_at: '2026-10-24T21:34:19Z'
+  - kind: certification
+    title: Machine Learning A-Z
+    issuer: Udemy
+    evidence:
+      url: https://www.linkedin.com/in/yyash-bhatia
+      observed_at: '2026-10-24T21:34:19Z'
+  - kind: certification
+    title: Intermediate Python for Data Science
+    issuer: DataCamp
+    evidence:
+      url: https://www.linkedin.com/in/yyash-bhatia
+      observed_at: '2026-10-24T21:34:19Z'
+  - kind: certification
+    title: Introduction to Python
+    issuer: DataCamp
+    evidence:
+      url: https://www.linkedin.com/in/yyash-bhatia
+      observed_at: '2026-10-24T21:34:19Z'
+  - kind: certification
+    title: Data-driven Decision Making
+    issuer: PwC
+    evidence:
+      url: https://www.linkedin.com/in/yyash-bhatia
+      observed_at: '2026-10-24T21:34:19Z'
+  - kind: honor
+    title: UCLA Merit Fellowship
+    issuer: UCLA Anderson School of Management
+    evidence:
+      url: https://www.linkedin.com/in/yyash-bhatia
+      observed_at: '2026-10-24T21:13:34Z'
+  activities:
+  - kind: organization
+    title: Career leadership, UCLA Business Analytics Association
+    detail: The UCLA class biography lists Director of Career; a separate career profile lists Vice President
+      of Career.
+    evidence:
+      url: https://www.anderson.ucla.edu/degrees/master-of-science-in-business-analytics/for-companies/class-of-2022
+      observed_at: '2026-10-24T21:34:19Z'
+  gaps:
+  - The Topmate page matches full name, Meta, data engineering and UCLA, but no direct cross-account link
+    was visible. Its ownership is medium confidence. The Meta/Tesla/UCLA header does not establish an
+    exact Tesla job title or dates.
+  - The public LinkedIn snapshot exposes limited work history. No complete Meta start date, Tesla history,
+    or earlier role chronology was established. The reported 500 connections is a capped public display.
+  - No confident X account, personal code portfolio, authored papers, patents, packages, public talks
+    or own post announcing participation in this hackathon was found.
+  - Education years, credential identifiers, contact details, third-party recommendations and nonprofessional
+    volunteering were deliberately omitted.
+  - No GitHub account was linked to the organizer-identified person with sufficient ownership evidence;
+    same-name accounts were excluded.
+  - LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history.
+  - No GitHub account resolved with sufficient ownership evidence.
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/yash-bhatia.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/yyash-bhatia
+    record_id: sd_mvmw8f86q8hg8asw6
+    retrieved_at: '2026-10-24T21:13:34Z'
+    snapshot: raw/brightdata/linkedin_profiles.json

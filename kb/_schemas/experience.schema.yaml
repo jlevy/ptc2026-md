@@ -1,0 +1,131 @@
+$defs:
+  Source:
+    additionalProperties: false
+    description: 'Where a record came from: one raw snapshot file, or a curated list.'
+    properties:
+      record_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The record's ID in that system.
+        title: Record Id
+      retrieved_at:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Retrieved At
+      snapshot:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Raw snapshot path, relative to the conference directory.
+        title: Snapshot
+      system:
+        enum:
+        - rainfocus
+        - githubuniverse.com
+        - github
+        - npm
+        - pypi
+        - bluesky
+        - mastodon
+        - website
+        - feed
+        - brightdata
+        - curation
+        title: System
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - system
+    title: Source
+    type: object
+$schema: https://json-schema.org/draft/2020-12/schema
+additionalProperties: true
+description: An on-site activation that is not a scheduled session.
+properties:
+  action:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    description: The call to action, as shown.
+    title: Action
+  action_url:
+    anyOf:
+    - pattern: ^https?://
+      type: string
+    - type: 'null'
+    default: null
+    title: Action Url
+  category:
+    anyOf:
+    - enum:
+      - learn
+      - connect
+      - experiment
+      type: string
+    - type: 'null'
+    default: null
+    title: Category
+  description:
+    title: Description
+    type: string
+  id:
+    pattern: ^(experience):[a-z0-9][a-z0-9._/@+-]*$
+    title: Id
+    type: string
+  image_url:
+    anyOf:
+    - pattern: ^https?://
+      type: string
+    - type: 'null'
+    default: null
+    title: Image Url
+  location:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Location
+  name:
+    title: Name
+    type: string
+  schedule:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Schedule
+  sources:
+    items:
+      $ref: '#/$defs/Source'
+    title: Sources
+    type: array
+  venue:
+    anyOf:
+    - pattern: ^(venue):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    - type: 'null'
+    default: null
+    title: Venue
+required:
+- description
+- id
+- name
+- sources
+title: Experience
+type: object
+x-softschema:
+  contract: paraverse.conference:Experience/v1
+  schema_sha256: 844d361dfd2b8dccd5ab30ae46f816b5ac627e8a88c860ac4bc850e7f069a256

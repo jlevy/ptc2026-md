@@ -1,0 +1,19 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:manpoffc/gokuai
+  full_name: manpoffc/GokuAI
+  url: https://github.com/manpoffc/GokuAI
+  stars: 0
+  forks: 0
+  primary_language: TypeScript
+  fork: false
+  owner_login: manpoffc
+  owner: gh:manpoffc
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/manpreet-singh.json

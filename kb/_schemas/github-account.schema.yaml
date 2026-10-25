@@ -1,0 +1,345 @@
+$defs:
+  Contributions:
+    additionalProperties: false
+    description: Public contribution counts for the last year, as GitHub reports them.
+    properties:
+      commits:
+        minimum: 0
+        title: Commits
+        type: integer
+      issues:
+        minimum: 0
+        title: Issues
+        type: integer
+      pull_requests:
+        minimum: 0
+        title: Pull Requests
+        type: integer
+      reviews:
+        minimum: 0
+        title: Reviews
+        type: integer
+      total:
+        minimum: 0
+        title: Total
+        type: integer
+    required:
+    - commits
+    - issues
+    - pull_requests
+    - reviews
+    - total
+    title: Contributions
+    type: object
+  Evidence:
+    additionalProperties: false
+    description: Where a claim is stated, with the words that state it when they are short.
+    properties:
+      observed_at:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: When the source said it.
+        title: Observed At
+      quote:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Quote
+      ref:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: A knowledge base entity that shows it.
+        title: Ref
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    title: Evidence
+    type: object
+  Source:
+    additionalProperties: false
+    description: 'Where a record came from: one raw snapshot file, or a curated list.'
+    properties:
+      record_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The record's ID in that system.
+        title: Record Id
+      retrieved_at:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Retrieved At
+      snapshot:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Raw snapshot path, relative to the conference directory.
+        title: Snapshot
+      system:
+        enum:
+        - rainfocus
+        - githubuniverse.com
+        - github
+        - npm
+        - pypi
+        - bluesky
+        - mastodon
+        - website
+        - feed
+        - brightdata
+        - curation
+        title: System
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - system
+    title: Source
+    type: object
+$schema: https://json-schema.org/draft/2020-12/schema
+additionalProperties: true
+description: A GitHub user or organization account linked to a person or organization.
+properties:
+  bio:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Bio
+  campus_expert:
+    anyOf:
+    - type: boolean
+    - type: 'null'
+    default: null
+    title: Campus Expert
+  company:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Company
+  contributed_to:
+    description: Others' repositories with their commits or PRs.
+    items:
+      pattern: ^(repo):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Contributed To
+    type: array
+  contribution_years:
+    items:
+      type: integer
+    title: Contribution Years
+    type: array
+  contributions_last_year:
+    anyOf:
+    - $ref: '#/$defs/Contributions'
+    - type: 'null'
+    default: null
+  created_at:
+    anyOf:
+    - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+      type: string
+    - type: 'null'
+    default: null
+    title: Created At
+  entity:
+    anyOf:
+    - pattern: ^(session|person|org):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    - type: 'null'
+    default: null
+    description: The person or org it belongs to.
+    title: Entity
+  followers:
+    anyOf:
+    - minimum: 0
+      type: integer
+    - type: 'null'
+    default: null
+    title: Followers
+  gists:
+    anyOf:
+    - minimum: 0
+      type: integer
+    - type: 'null'
+    default: null
+    title: Gists
+  github_employee:
+    anyOf:
+    - type: boolean
+    - type: 'null'
+    default: null
+    title: Github Employee
+  github_star:
+    anyOf:
+    - type: boolean
+    - type: 'null'
+    default: null
+    description: In the GitHub Stars program.
+    title: Github Star
+  has_sponsors_listing:
+    anyOf:
+    - type: boolean
+    - type: 'null'
+    default: null
+    title: Has Sponsors Listing
+  id:
+    pattern: ^(gh):[a-z0-9][a-z0-9._/@+-]*$
+    title: Id
+    type: string
+  identity_confidence:
+    anyOf:
+    - enum:
+      - high
+      - medium
+      - low
+      type: string
+    - type: 'null'
+    default: null
+    title: Identity Confidence
+  identity_evidence:
+    items:
+      $ref: '#/$defs/Evidence'
+    title: Identity Evidence
+    type: array
+  identity_link_basis:
+    description: The original curated reasons for the identity association.
+    items:
+      type: string
+    title: Identity Link Basis
+    type: array
+  kind:
+    enum:
+    - user
+    - organization
+    title: Kind
+    type: string
+  link_basis:
+    items:
+      enum:
+      - event_listing
+      - github_profile
+      - website_rel_me
+      - website_link
+      - bluesky_profile
+      - mastodon_verified
+      - x_profile
+      - linkedin_profile
+      - attendance_post
+      - curated
+      type: string
+    title: Link Basis
+    type: array
+  linked_accounts:
+    description: Accounts the profile itself lists.
+    items:
+      pattern: ^(acct):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Linked Accounts
+    type: array
+  location:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Location
+  login:
+    title: Login
+    type: string
+  name:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Name
+  organization_logins:
+    description: Public organization memberships, by login.
+    items:
+      type: string
+    title: Organization Logins
+    type: array
+  pinned:
+    items:
+      pattern: ^(repo):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Pinned
+    type: array
+  profile_readme:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    description: The profile README in full, as Markdown.
+    title: Profile Readme
+  public_repositories:
+    anyOf:
+    - minimum: 0
+      type: integer
+    - type: 'null'
+    default: null
+    description: Public repositories the account owns, forks excluded.
+    title: Public Repositories
+  sources:
+    items:
+      $ref: '#/$defs/Source'
+    title: Sources
+    type: array
+  starred_repositories:
+    anyOf:
+    - minimum: 0
+      type: integer
+    - type: 'null'
+    default: null
+    title: Starred Repositories
+  top_repositories:
+    items:
+      pattern: ^(repo):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Top Repositories
+    type: array
+  url:
+    pattern: ^https?://
+    title: Url
+    type: string
+  website:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Website
+  websites:
+    items:
+      pattern: ^(site):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Websites
+    type: array
+required:
+- id
+- kind
+- login
+- sources
+- url
+title: GitHubAccount
+type: object
+x-softschema:
+  contract: paraverse.conference:GitHubAccount/v1
+  schema_sha256: 3b3b3cea2d78bbfc71d9a1aa1a911846e2216adc0928cca8432aced4d96f3513

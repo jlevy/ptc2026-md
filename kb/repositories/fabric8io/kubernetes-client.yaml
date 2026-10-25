@@ -1,0 +1,35 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:fabric8io/kubernetes-client
+  full_name: fabric8io/kubernetes-client
+  url: https://github.com/fabric8io/kubernetes-client
+  description: 'Java client for Kubernetes & OpenShift '
+  stars: 3684
+  forks: 1519
+  primary_language: Java
+  topics:
+  - kubernetes
+  - openshift
+  - java-client
+  - kubernetes-client
+  - mocking-kubernetes
+  - kubernetes-model
+  - openshift-client
+  - dsl
+  - mock-server
+  - java
+  archived: false
+  fork: false
+  owner_login: fabric8io
+  sources:
+  - system: curation
+    url: https://x.com/kunalstwt/status/2113374840870568017
+    snapshot: curation/people/kunal-kushwaha.json
+  - system: github
+    url: https://api.github.com/users/kunal-kushwaha
+    retrieved_at: '2026-10-24T21:30:11Z'
+    snapshot: raw/github/kunal-kushwaha.json

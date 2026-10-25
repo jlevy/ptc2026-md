@@ -1,0 +1,16 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:schezfaz/haci
+  full_name: schezfaz/HACI
+  url: https://github.com/schezfaz/HACI
+  primary_language: HTML
+  owner_login: schezfaz
+  owner: gh:schezfaz
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/schezeen-fazulbhoy.json

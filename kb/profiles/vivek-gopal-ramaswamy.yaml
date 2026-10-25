@@ -1,0 +1,234 @@
+softschema:
+  contract: paraverse.conference:Profile/v1
+  schema: ../_schemas/profile.schema.yaml
+  envelope: profile
+  status: permissive
+profile:
+  id: profile:vivek-gopal-ramaswamy
+  person: person:vivek-gopal-ramaswamy
+  brief_bio:
+    text: Vivek Gopal Ramaswamy is an AI Product Manager at Agility Robotics and is listed as a judge
+      for the Patch the Conference Hackathon. A 2026 workshop biography describes earlier software engineering
+      work at Gladstone Institutes in computer vision, robotics and automated microscopy, and public papers
+      document work on image-based pathology analysis and spatial transcriptomics.
+    cites:
+    - https://www.wemakedevs.org/hackathons/ptc/judges
+    - https://www.ai-infra-summit.com/2026-speakers
+    - https://cvmi-workshop.github.io/speakers.html
+    - https://pubmed.ncbi.nlm.nih.gov/39974039/
+    - https://psb.stanford.edu/psb-online/proceedings/psb24/song.pdf
+    basis: llm_synthesis
+    written_by: GPT-6.1 Sol (OpenAI Codex)
+    written_at: '2026-10-24T21:38:34Z'
+    input_sha256: 591ea96035da7bab1250ba32c95b6b064aecb31c89688dd7142be5c783a48e7e
+    stale: false
+  headline: AI Product Manager, Agility Robotics
+  location: San Francisco
+  current_roles:
+  - AI Product Manager, Agility Robotics
+  expertise:
+  - label: Computer vision
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://cvmi-workshop.github.io/speakers.html
+      quote: computer vision
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: Robotics
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://cvmi-workshop.github.io/speakers.html
+      quote: robotics
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: Microscopy image analysis
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://cvmi-workshop.github.io/speakers.html
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: Multimodal foundation models
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://cvmi-workshop.github.io/speakers.html
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: Spatial transcriptomics
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://psb.stanford.edu/psb-online/proceedings/psb24/song.pdf
+      observed_at: '2026-10-24T21:34:19Z'
+  technologies:
+  - label: Docker
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://cvmi-workshop.github.io/speakers.html
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: Kafka
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://cvmi-workshop.github.io/speakers.html
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: Kubernetes
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://cvmi-workshop.github.io/speakers.html
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: Vision Transformers
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://cvmi-workshop.github.io/speakers.html
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: QLoRA
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://cvmi-workshop.github.io/speakers.html
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: Nextflow
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/vivekgr92/nextflow-cluster
+      observed_at: '2026-10-24T21:34:19Z'
+  programming_languages:
+  - label: Python
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/vivekgr92
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: C++
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/vivekgr92
+      observed_at: '2026-10-24T21:34:19Z'
+  - label: MATLAB
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/vivekgr92
+      observed_at: '2026-10-24T21:34:19Z'
+  open_source:
+  - repository: repo:vivekgr92/policyx
+    relation: owner
+    stars: 0
+    primary_language: Python
+  - repository: repo:vivekgr92/mentorpi
+    relation: owner
+    stars: 0
+    primary_language: Python
+  - repository: repo:vivekgr92/chatgpt-app
+    relation: owner
+    stars: 0
+    primary_language: Python
+  - repository: repo:vivekgr92/nextflow-cluster
+    relation: owner
+    stars: 0
+    primary_language: Python
+  - repository: repo:vivekgr92/16681-mrsd
+    relation: owner
+    stars: 0
+    primary_language: C++
+  - repository: repo:vivekgr92/learndeeplearning
+    relation: owner
+    stars: 0
+    primary_language: Jupyter Notebook
+  - repository: repo:vivekgr92/16720a-computervision
+    relation: owner
+    stars: 0
+    primary_language: MATLAB
+  - repository: repo:vivekgr92/teame-beyondsight
+    relation: owner
+    stars: 0
+  experience:
+  - organization: Gladstone Institutes
+    title: Senior Software Engineer
+    current: false
+    description: A 2026 workshop biography describes AI imaging, robotics, biological foundation models
+      and scalable microscopy image analysis. No employment transition date was established.
+    evidence:
+      url: https://cvmi-workshop.github.io/speakers.html
+      observed_at: '2026-10-24T21:34:19Z'
+  education:
+  - school: Carnegie Mellon University
+    field_of_study: Robotic Systems Development
+    evidence:
+      url: https://www.ri.cmu.edu/people/alumni/page/6/?display-total=100
+      quote: 'Program: MRSD'
+      observed_at: '2026-10-24T21:34:19Z'
+  publications:
+  - title: Generalizable Prediction of Alzheimer Disease Pathologies with a Scalable Annotation Tool and
+      an High-Accuracy Model
+    venue: medRxiv (preprint)
+    date: '2025'
+    url: https://doi.org/10.1101/2025.02.03.25321603
+    evidence:
+      url: https://pubmed.ncbi.nlm.nih.gov/39974039/
+      observed_at: '2026-10-24T21:34:19Z'
+  - title: Enhancing Spatial Transcriptomics Analysis by Integrating Image-Aware Deep Learning Methods
+    venue: Pacific Symposium on Biocomputing
+    date: '2024'
+    url: https://doi.org/10.1142/9789811286421_0035
+    evidence:
+      url: https://psb.stanford.edu/psb-online/proceedings/psb24/song.pdf
+      observed_at: '2026-10-24T21:34:19Z'
+  activities:
+  - kind: project
+    title: RoboPulse
+    detail: A public hackathon submission describes a Slack-based agent for running and analyzing robot-policy
+      simulations using Gemini, NVIDIA Isaac Sim and cloud GPUs. The submission names Vivek as a team
+      member.
+    evidence:
+      url: https://cerebralvalley.ai/e/zero-to-agent-sf/hackathon/gallery/14
+      quote: RoboPulse
+      observed_at: '2026-10-24T21:34:19Z'
+  gaps:
+  - The event spells the employer Agility Robitics; Agility Robotics is corroborated by the independent
+    primary AI Infra Summit speaker roster. The event title says AI Product Manager and the Summit says
+    Senior AI Product Manager; both source labels are preserved.
+  - The earlier CVMI 2026 biography lists Gladstone Institutes. The event and September 2026 Summit list
+    Agility Robotics. No exact job transition date or complete LinkedIn employment history was established;
+    the older role is not asserted as current.
+  - The RoboPulse submission links to github.com/vivekgr92/robopulse-hackathon, but the GitHub repository
+    endpoint returned 404 during this research. The public submission supports the project and account
+    linkage, not present public availability of its source code.
+  - The GitHub API reports 47 public repositories, eight followers and 281 contributions over its default
+    annual window at observation time. Those are time-dependent observations. No pinned repositories or
+    public organization memberships were returned.
+  - A Kaggle contributor with the same full name and a Medium account named vivekgr92 were found, but
+    no direct link was verified; they were not added as owned accounts. A possible ORCID identifier was
+    not confirmed directly from an accessible primary profile.
+  - No own public post announcing this hackathon, confident X account, patents, or published software
+    package was established. Personal newsletter material and unrelated personal utilities were omitted.
+  - Education dates and contact details from papers or university listings were omitted; the scientific
+    papers describe professional research, not personal medical attributes.
+  - LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history.
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/vivek-gopal-ramaswamy.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/vivekgr
+    record_id: sd_mvmw8f86q8hg8asw6
+    retrieved_at: '2026-10-24T21:13:34Z'
+    snapshot: raw/brightdata/linkedin_profiles.json
+  external_talks:
+  - title: 'The Thinking Microscope: Autonomously Designing, Perturbing, and Analyzing Biological Experiments'
+    event: Computer Vision for Microscopy Image Analysis at CVPR 2026
+    url: https://cvmi-workshop.github.io/speakers.html
+    evidence:
+    - url: https://cvmi-workshop.github.io/program.html
+      observed_at: '2026-10-24T21:34:19Z'
+  - title: Who’s Cutting the Cost of AI
+    event: AI Infra Summit 2026
+    url: https://www.ai-infra-summit.com/expo-theatre-agenda
+    evidence:
+    - url: https://www.ai-infra-summit.com/expo-theatre-agenda
+      observed_at: '2026-10-24T21:34:19Z'

@@ -1,0 +1,33 @@
+softschema:
+  contract: paraverse.conference:SocialAccount/v1
+  schema: ../../../_schemas/social-account.schema.yaml
+  envelope: social_account
+  status: permissive
+social_account:
+  id: acct:linkedin/in/kunal-kushwaha
+  platform: linkedin
+  handle: in/kunal-kushwaha
+  url: https://www.linkedin.com/in/kunal-kushwaha
+  display_name: Kunal Kushwaha
+  bio: Kunal Kushwaha is the founder of WeMakeDevs, a global developer community of over 200,000…
+  location: London
+  followers: 402466
+  connections: 500
+  avatar_url: https://media.licdn.com/dms/image/v2/D5603AQEkN21kXiTfag/profile-displayphoto-scale_200_200/B56ZtiGLOyGsAY-/0/1766877345622?e=2147483647&v=beta&t=TKjd98Kn1PbVr0so0r1S-jCadhsUSjBGCxFLGGfeR2U
+  owner: person:kunal-kushwaha
+  link_basis:
+  - github_profile
+  details_fetched: true
+  sources:
+  - system: curation
+    url: https://x.com/kunalstwt/status/2113374840870568017
+    snapshot: curation/people/kunal-kushwaha.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/kunal-kushwaha
+    record_id: sd_mvmwwpmr6uhl5gtjj
+    retrieved_at: '2026-10-24T21:31:15Z'
+    snapshot: raw/brightdata/linkedin_profiles.json
+  identity_evidence:
+  - url: https://github.com/kunal-kushwaha
+    observed_at: '2026-10-24T21:31:18Z'
+  identity_confidence: high

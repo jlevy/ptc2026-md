@@ -1,0 +1,420 @@
+$defs:
+  Affiliation:
+    additionalProperties: false
+    description: A person's tie to an organization, as one source states it.
+    properties:
+      basis:
+        enum:
+        - event_listing
+        - github_profile
+        - linkedin
+        - self_reported
+        - curated
+        title: Basis
+        type: string
+      current:
+        description: True when the source describes the present.
+        title: Current
+        type: boolean
+      evidence:
+        items:
+          $ref: '#/$defs/Evidence'
+        title: Evidence
+        type: array
+      label:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The organization text as the source wrote it.
+        title: Label
+      organization:
+        pattern: ^(org):[a-z0-9][a-z0-9._/@+-]*$
+        title: Organization
+        type: string
+      title:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Title
+    required:
+    - basis
+    - current
+    - organization
+    title: Affiliation
+    type: object
+  Evidence:
+    additionalProperties: false
+    description: Where a claim is stated, with the words that state it when they are short.
+    properties:
+      observed_at:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: When the source said it.
+        title: Observed At
+      quote:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Quote
+      ref:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: A knowledge base entity that shows it.
+        title: Ref
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    title: Evidence
+    type: object
+  Link:
+    additionalProperties: false
+    properties:
+      kind:
+        enum:
+        - website
+        - github
+        - linkedin
+        - x
+        - bluesky
+        - registration
+        - video
+        - image
+        - other
+        title: Kind
+        type: string
+      label:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Label
+      url:
+        pattern: ^https?://
+        title: Url
+        type: string
+    required:
+    - kind
+    - url
+    title: Link
+    type: object
+  Mention:
+    additionalProperties: false
+    description: A name found in text and resolved to a software or organization entity.
+    properties:
+      field:
+        enum:
+        - title
+        - abstract
+        - bio
+        - description
+        title: Field
+        type: string
+      method:
+        enum:
+        - gazetteer
+        - pattern
+        title: Method
+        type: string
+      target:
+        pattern: ^(software|org):[a-z0-9][a-z0-9._/@+-]*$
+        title: Target
+        type: string
+      text:
+        description: The surface form exactly as it appears.
+        title: Text
+        type: string
+    required:
+    - field
+    - method
+    - target
+    - text
+    title: Mention
+    type: object
+  Participation:
+    additionalProperties: false
+    description: A person's part in an event, and how sure we are of it.
+    properties:
+      event:
+        pattern: ^(event):[a-z0-9][a-z0-9._/@+-]*$
+        title: Event
+        type: string
+      evidence:
+        items:
+          $ref: '#/$defs/Evidence'
+        title: Evidence
+        type: array
+      role:
+        enum:
+        - speaker
+        - attendee
+        - organizer
+        - sponsor_representative
+        - host
+        - volunteer
+        - judge
+        title: Role
+        type: string
+      status:
+        description: 'confirmed: published by the organizer; self_reported: the person said so publicly; candidate: inferred and unverified.'
+        enum:
+        - confirmed
+        - self_reported
+        - candidate
+        title: Status
+        type: string
+    required:
+    - event
+    - role
+    - status
+    title: Participation
+    type: object
+  PersonSession:
+    additionalProperties: false
+    properties:
+      role:
+        enum:
+        - speaker
+        - moderator
+        - panelist
+        - facilitator
+        title: Role
+        type: string
+      session:
+        pattern: ^(session):[a-z0-9][a-z0-9._/@+-]*$
+        title: Session
+        type: string
+    required:
+    - role
+    - session
+    title: PersonSession
+    type: object
+  Source:
+    additionalProperties: false
+    description: 'Where a record came from: one raw snapshot file, or a curated list.'
+    properties:
+      record_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The record's ID in that system.
+        title: Record Id
+      retrieved_at:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Retrieved At
+      snapshot:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Raw snapshot path, relative to the conference directory.
+        title: Snapshot
+      system:
+        enum:
+        - rainfocus
+        - githubuniverse.com
+        - github
+        - npm
+        - pypi
+        - bluesky
+        - mastodon
+        - website
+        - feed
+        - brightdata
+        - curation
+        title: System
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - system
+    title: Source
+    type: object
+$schema: https://json-schema.org/draft/2020-12/schema
+additionalProperties: true
+description: |-
+  Anyone involved in the event: speakers, attendees, organizers, sponsor staff.
+
+  `inclusion_basis` records why the person is in the knowledge base at all, and
+  `participations` records each role with its own evidence, so an attendee who only
+  posted "see you at Universe" is never presented like a published speaker.
+  Accounts and websites are separate entities; `accounts` and `websites` point at them.
+properties:
+  accounts:
+    items:
+      pattern: ^(gh|acct):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Accounts
+    type: array
+  affiliation_label:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    description: The company string exactly as the event lists it.
+    title: Affiliation Label
+  affiliations:
+    description: Organization ties from every source; current ones first, primary first.
+    items:
+      $ref: '#/$defs/Affiliation'
+    title: Affiliations
+    type: array
+  bio:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Bio
+  family_name:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Family Name
+  featured:
+    default: false
+    title: Featured
+    type: boolean
+  github:
+    anyOf:
+    - pattern: ^(gh):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    - type: 'null'
+    default: null
+    description: The primary GitHub account.
+    title: Github
+  github_match:
+    anyOf:
+    - enum:
+      - name
+      - unconfirmed
+      type: string
+    - type: 'null'
+    default: null
+    description: Whether the account's profile name agrees with the person's name.
+    title: Github Match
+  github_resolution:
+    enum:
+    - resolved
+    - not_found
+    - enterprise_managed
+    - organization_account
+    - invalid
+    - absent
+    - unverified
+    title: Github Resolution
+    type: string
+  given_name:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Given Name
+  id:
+    pattern: ^(person):[a-z0-9][a-z0-9._/@+-]*$
+    title: Id
+    type: string
+  inclusion_basis:
+    enum:
+    - published_by_event
+    - public_self_report
+    - curated
+    title: Inclusion Basis
+    type: string
+  job_title:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    description: As the primary source lists it.
+    title: Job Title
+  links:
+    description: Other links that are not modeled as accounts.
+    items:
+      $ref: '#/$defs/Link'
+    title: Links
+    type: array
+  listed_for:
+    anyOf:
+    - pattern: ^(event):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    - type: 'null'
+    default: null
+    description: The event whose listing gave job_title and affiliation_label; an earlier edition's title may no longer be current.
+    title: Listed For
+  mentions:
+    items:
+      $ref: '#/$defs/Mention'
+    title: Mentions
+    type: array
+  name:
+    title: Name
+    type: string
+  participations:
+    items:
+      $ref: '#/$defs/Participation'
+    minItems: 1
+    title: Participations
+    type: array
+  photo_url:
+    anyOf:
+    - pattern: ^https?://
+      type: string
+    - type: 'null'
+    default: null
+    title: Photo Url
+  profile:
+    anyOf:
+    - pattern: ^(profile):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    - type: 'null'
+    default: null
+    title: Profile
+  sessions:
+    items:
+      $ref: '#/$defs/PersonSession'
+    title: Sessions
+    type: array
+  sources:
+    items:
+      $ref: '#/$defs/Source'
+    title: Sources
+    type: array
+  websites:
+    items:
+      pattern: ^(site):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Websites
+    type: array
+required:
+- github_resolution
+- id
+- inclusion_basis
+- name
+- participations
+- sources
+title: Person
+type: object
+x-softschema:
+  contract: paraverse.conference:Person/v1
+  schema_sha256: 0e0b385054d2c8e0cf4de3fc7389c249930d1bad03d09841297510024969ddee

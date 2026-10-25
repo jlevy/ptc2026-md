@@ -1,0 +1,259 @@
+{"source": "event:patch-the-conference-2026", "relation": "has_day", "target": "day:2026-10-24", "date": "2026-10-24"}
+{"source": "event:patch-the-conference-2026", "relation": "located_at", "target": "venue:bright-data-san-francisco"}
+{"source": "gh:klausmikhaelson", "relation": "owns", "target": "repo:klausmikhaelson/asteroid-destroyers-nasa-app-challenge"}
+{"source": "gh:klausmikhaelson", "relation": "owns", "target": "repo:klausmikhaelson/emoji_mosaic_art"}
+{"source": "gh:klausmikhaelson", "relation": "owns", "target": "repo:klausmikhaelson/hackthevalley-webapp"}
+{"source": "gh:klausmikhaelson", "relation": "owns", "target": "repo:klausmikhaelson/pet-menu-bar"}
+{"source": "gh:klausmikhaelson", "relation": "owns", "target": "repo:klausmikhaelson/retain"}
+{"source": "gh:klausmikhaelson", "relation": "owns", "target": "repo:klausmikhaelson/todo-list-on-blockchain"}
+{"source": "gh:klausmikhaelson", "relation": "owns", "target": "repo:klausmikhaelson/virtualroom"}
+{"source": "gh:klausmikhaelson", "relation": "owns", "target": "repo:klausmikhaelson/web3conf-be"}
+{"source": "gh:klausmikhaelson", "relation": "owns", "target": "repo:klausmikhaelson/web3conf-fe"}
+{"source": "gh:klausmikhaelson", "relation": "owns", "target": "repo:klausmikhaelson/wrestle-with-shapes"}
+{"source": "gh:klausmikhaelson", "relation": "pinned", "target": "repo:klausmikhaelson/asteroid-destroyers-nasa-app-challenge"}
+{"source": "gh:klausmikhaelson", "relation": "pinned", "target": "repo:klausmikhaelson/emoji_mosaic_art"}
+{"source": "gh:klausmikhaelson", "relation": "pinned", "target": "repo:klausmikhaelson/retain"}
+{"source": "gh:klausmikhaelson", "relation": "pinned", "target": "repo:klausmikhaelson/virtualroom"}
+{"source": "gh:klausmikhaelson", "relation": "pinned", "target": "repo:pushchain/push-notifications-sdk"}
+{"source": "gh:klausmikhaelson", "relation": "top_repository", "target": "repo:klausmikhaelson/asteroid-destroyers-nasa-app-challenge"}
+{"source": "gh:klausmikhaelson", "relation": "top_repository", "target": "repo:klausmikhaelson/emoji_mosaic_art"}
+{"source": "gh:klausmikhaelson", "relation": "top_repository", "target": "repo:klausmikhaelson/hackthevalley-webapp"}
+{"source": "gh:klausmikhaelson", "relation": "top_repository", "target": "repo:klausmikhaelson/pet-menu-bar"}
+{"source": "gh:klausmikhaelson", "relation": "top_repository", "target": "repo:klausmikhaelson/retain"}
+{"source": "gh:klausmikhaelson", "relation": "top_repository", "target": "repo:klausmikhaelson/todo-list-on-blockchain"}
+{"source": "gh:klausmikhaelson", "relation": "top_repository", "target": "repo:klausmikhaelson/virtualroom"}
+{"source": "gh:klausmikhaelson", "relation": "top_repository", "target": "repo:klausmikhaelson/web3conf-be"}
+{"source": "gh:klausmikhaelson", "relation": "top_repository", "target": "repo:klausmikhaelson/web3conf-fe"}
+{"source": "gh:klausmikhaelson", "relation": "top_repository", "target": "repo:klausmikhaelson/wrestle-with-shapes"}
+{"source": "gh:kunal-kushwaha", "relation": "owns", "target": "repo:kunal-kushwaha/blogs"}
+{"source": "gh:kunal-kushwaha", "relation": "owns", "target": "repo:kunal-kushwaha/competitive-programming-resources"}
+{"source": "gh:kunal-kushwaha", "relation": "owns", "target": "repo:kunal-kushwaha/devops-bootcamp"}
+{"source": "gh:kunal-kushwaha", "relation": "owns", "target": "repo:kunal-kushwaha/dsa-bootcamp-java"}
+{"source": "gh:kunal-kushwaha", "relation": "owns", "target": "repo:kunal-kushwaha/intro-to-gen-ai-and-rag"}
+{"source": "gh:kunal-kushwaha", "relation": "owns", "target": "repo:kunal-kushwaha/invisible-cloak"}
+{"source": "gh:kunal-kushwaha", "relation": "owns", "target": "repo:kunal-kushwaha/meditationapp"}
+{"source": "gh:kunal-kushwaha", "relation": "owns", "target": "repo:kunal-kushwaha/node-chat-app"}
+{"source": "gh:kunal-kushwaha", "relation": "owns", "target": "repo:kunal-kushwaha/sentimentanalysismlh"}
+{"source": "gh:kunal-kushwaha", "relation": "owns", "target": "repo:kunal-kushwaha/techwithkunal"}
+{"source": "gh:kunal-kushwaha", "relation": "pinned", "target": "repo:fabric8io/kubernetes-client"}
+{"source": "gh:kunal-kushwaha", "relation": "pinned", "target": "repo:kunal-kushwaha/devops-bootcamp"}
+{"source": "gh:kunal-kushwaha", "relation": "pinned", "target": "repo:kunal-kushwaha/dsa-bootcamp-java"}
+{"source": "gh:kunal-kushwaha", "relation": "pinned", "target": "repo:kunal-kushwaha/intro-to-gen-ai-and-rag"}
+{"source": "gh:kunal-kushwaha", "relation": "top_repository", "target": "repo:kunal-kushwaha/blogs"}
+{"source": "gh:kunal-kushwaha", "relation": "top_repository", "target": "repo:kunal-kushwaha/competitive-programming-resources"}
+{"source": "gh:kunal-kushwaha", "relation": "top_repository", "target": "repo:kunal-kushwaha/devops-bootcamp"}
+{"source": "gh:kunal-kushwaha", "relation": "top_repository", "target": "repo:kunal-kushwaha/dsa-bootcamp-java"}
+{"source": "gh:kunal-kushwaha", "relation": "top_repository", "target": "repo:kunal-kushwaha/intro-to-gen-ai-and-rag"}
+{"source": "gh:kunal-kushwaha", "relation": "top_repository", "target": "repo:kunal-kushwaha/invisible-cloak"}
+{"source": "gh:kunal-kushwaha", "relation": "top_repository", "target": "repo:kunal-kushwaha/meditationapp"}
+{"source": "gh:kunal-kushwaha", "relation": "top_repository", "target": "repo:kunal-kushwaha/node-chat-app"}
+{"source": "gh:kunal-kushwaha", "relation": "top_repository", "target": "repo:kunal-kushwaha/sentimentanalysismlh"}
+{"source": "gh:kunal-kushwaha", "relation": "top_repository", "target": "repo:kunal-kushwaha/techwithkunal"}
+{"source": "gh:manpoffc", "relation": "owns", "target": "repo:manpoffc/gokuai"}
+{"source": "gh:manpoffc", "relation": "owns", "target": "repo:manpoffc/ml-projects"}
+{"source": "gh:manpoffc", "relation": "owns", "target": "repo:manpoffc/pack-landing"}
+{"source": "gh:manpoffc", "relation": "owns", "target": "repo:manpoffc/shoppiedoo"}
+{"source": "gh:manpoffc", "relation": "pinned", "target": "repo:calcom/cal.diy"}
+{"source": "gh:manpoffc", "relation": "pinned", "target": "repo:manpoffc/gokuai"}
+{"source": "gh:manpoffc", "relation": "top_repository", "target": "repo:manpoffc/gokuai"}
+{"source": "gh:manpoffc", "relation": "top_repository", "target": "repo:manpoffc/ml-projects"}
+{"source": "gh:manpoffc", "relation": "top_repository", "target": "repo:manpoffc/pack-landing"}
+{"source": "gh:manpoffc", "relation": "top_repository", "target": "repo:manpoffc/shoppiedoo"}
+{"source": "gh:nitishmane", "relation": "owns", "target": "repo:nitishmane/nm-gophercises"}
+{"source": "gh:nitishmane", "relation": "owns", "target": "repo:nitishmane/scraper-factory"}
+{"source": "gh:nitishmane", "relation": "owns", "target": "repo:nitishmane/serp-hack"}
+{"source": "gh:nitishmane", "relation": "owns", "target": "repo:nitishmane/sre-oncall"}
+{"source": "gh:nitishmane", "relation": "owns", "target": "repo:nitishmane/trending-funny-domains"}
+{"source": "gh:nitishmane", "relation": "pinned", "target": "repo:nitishmane/nm-gophercises"}
+{"source": "gh:nitishmane", "relation": "top_repository", "target": "repo:nitishmane/scraper-factory"}
+{"source": "gh:nitishmane", "relation": "top_repository", "target": "repo:nitishmane/serp-hack"}
+{"source": "gh:nitishmane", "relation": "top_repository", "target": "repo:nitishmane/sre-oncall"}
+{"source": "gh:nitishmane", "relation": "top_repository", "target": "repo:nitishmane/trending-funny-domains"}
+{"source": "gh:riken-shah", "relation": "contributes_to", "target": "repo:zulip/zulip"}
+{"source": "gh:riken-shah", "relation": "owns", "target": "repo:riken-shah/benchmark-db-browsers"}
+{"source": "gh:riken-shah", "relation": "owns", "target": "repo:riken-shah/chillflix"}
+{"source": "gh:riken-shah", "relation": "owns", "target": "repo:riken-shah/handle-large-dataset-on-web-slides"}
+{"source": "gh:riken-shah", "relation": "owns", "target": "repo:riken-shah/petavision"}
+{"source": "gh:riken-shah", "relation": "owns", "target": "repo:riken-shah/replyrobin"}
+{"source": "gh:riken-shah", "relation": "owns", "target": "repo:riken-shah/trust-net"}
+{"source": "gh:riken-shah", "relation": "owns", "target": "repo:riken-shah/zulip"}
+{"source": "gh:riken-shah", "relation": "pinned", "target": "repo:riken-shah/handle-large-dataset-on-web-slides"}
+{"source": "gh:riken-shah", "relation": "pinned", "target": "repo:riken-shah/petavision"}
+{"source": "gh:riken-shah", "relation": "pinned", "target": "repo:riken-shah/replyrobin"}
+{"source": "gh:riken-shah", "relation": "pinned", "target": "repo:riken-shah/trust-net"}
+{"source": "gh:riken-shah", "relation": "pinned", "target": "repo:riken-shah/zulip"}
+{"source": "gh:riken-shah", "relation": "top_repository", "target": "repo:riken-shah/benchmark-db-browsers"}
+{"source": "gh:riken-shah", "relation": "top_repository", "target": "repo:riken-shah/chillflix"}
+{"source": "gh:riken-shah", "relation": "top_repository", "target": "repo:riken-shah/petavision"}
+{"source": "gh:riken-shah", "relation": "top_repository", "target": "repo:riken-shah/replyrobin"}
+{"source": "gh:schezfaz", "relation": "contributes_to", "target": "repo:mlh-fellowship/webxr-layers"}
+{"source": "gh:schezfaz", "relation": "owns", "target": "repo:schezfaz/bucketlist"}
+{"source": "gh:schezfaz", "relation": "owns", "target": "repo:schezfaz/haci"}
+{"source": "gh:schezfaz", "relation": "owns", "target": "repo:schezfaz/intelli-intent"}
+{"source": "gh:schezfaz", "relation": "owns", "target": "repo:schezfaz/ivi"}
+{"source": "gh:schezfaz", "relation": "owns", "target": "repo:schezfaz/mice"}
+{"source": "gh:schezfaz", "relation": "owns", "target": "repo:schezfaz/momentum"}
+{"source": "gh:schezfaz", "relation": "owns", "target": "repo:schezfaz/spot"}
+{"source": "gh:schezfaz", "relation": "pinned", "target": "repo:schezfaz/bucketlist"}
+{"source": "gh:schezfaz", "relation": "pinned", "target": "repo:schezfaz/haci"}
+{"source": "gh:schezfaz", "relation": "pinned", "target": "repo:schezfaz/intelli-intent"}
+{"source": "gh:schezfaz", "relation": "pinned", "target": "repo:schezfaz/ivi"}
+{"source": "gh:schezfaz", "relation": "pinned", "target": "repo:schezfaz/mice"}
+{"source": "gh:schezfaz", "relation": "pinned", "target": "repo:schezfaz/spot"}
+{"source": "gh:schezfaz", "relation": "top_repository", "target": "repo:schezfaz/bucketlist"}
+{"source": "gh:schezfaz", "relation": "top_repository", "target": "repo:schezfaz/intelli-intent"}
+{"source": "gh:schezfaz", "relation": "top_repository", "target": "repo:schezfaz/momentum"}
+{"source": "gh:schezfaz", "relation": "top_repository", "target": "repo:schezfaz/spot"}
+{"source": "gh:vivekgr92", "relation": "owns", "target": "repo:vivekgr92/16681-mrsd"}
+{"source": "gh:vivekgr92", "relation": "owns", "target": "repo:vivekgr92/16720a-computervision"}
+{"source": "gh:vivekgr92", "relation": "owns", "target": "repo:vivekgr92/chatgpt-app"}
+{"source": "gh:vivekgr92", "relation": "owns", "target": "repo:vivekgr92/learndeeplearning"}
+{"source": "gh:vivekgr92", "relation": "owns", "target": "repo:vivekgr92/mentorpi"}
+{"source": "gh:vivekgr92", "relation": "owns", "target": "repo:vivekgr92/nextflow-cluster"}
+{"source": "gh:vivekgr92", "relation": "owns", "target": "repo:vivekgr92/policyx"}
+{"source": "gh:vivekgr92", "relation": "owns", "target": "repo:vivekgr92/teame-beyondsight"}
+{"source": "gh:vivekgr92", "relation": "top_repository", "target": "repo:vivekgr92/16681-mrsd"}
+{"source": "gh:vivekgr92", "relation": "top_repository", "target": "repo:vivekgr92/16720a-computervision"}
+{"source": "gh:vivekgr92", "relation": "top_repository", "target": "repo:vivekgr92/chatgpt-app"}
+{"source": "gh:vivekgr92", "relation": "top_repository", "target": "repo:vivekgr92/learndeeplearning"}
+{"source": "gh:vivekgr92", "relation": "top_repository", "target": "repo:vivekgr92/mentorpi"}
+{"source": "gh:vivekgr92", "relation": "top_repository", "target": "repo:vivekgr92/nextflow-cluster"}
+{"source": "gh:vivekgr92", "relation": "top_repository", "target": "repo:vivekgr92/policyx"}
+{"source": "gh:vivekgr92", "relation": "top_repository", "target": "repo:vivekgr92/teame-beyondsight"}
+{"source": "org:bright-data", "relation": "sponsors", "target": "event:patch-the-conference-2026"}
+{"source": "org:falkordb", "relation": "sponsors", "target": "event:patch-the-conference-2026"}
+{"source": "org:openai", "relation": "sponsors", "target": "event:patch-the-conference-2026"}
+{"source": "org:qodo", "relation": "sponsors", "target": "event:patch-the-conference-2026"}
+{"source": "org:truefoundry", "relation": "sponsors", "target": "event:patch-the-conference-2026"}
+{"source": "org:wemakedevs", "relation": "organizes", "target": "event:patch-the-conference-2026"}
+{"source": "person:dipen-chawla", "relation": "affiliated_with", "target": "org:microsoft", "basis": "event_listing", "current": true, "title": "Software Engineer 2"}
+{"source": "person:dipen-chawla", "relation": "affiliated_with", "target": "org:microsoft", "basis": "event_listing", "current": true, "title": "Software Engineer 2"}
+{"source": "person:dipen-chawla", "relation": "participates_in", "target": "event:patch-the-conference-2026", "role": "judge", "status": "confirmed"}
+{"source": "person:kunal-kushwaha", "relation": "affiliated_with", "target": "org:cast-ai", "basis": "self_reported", "current": true, "title": "Senior Developer Advocate, EMEA"}
+{"source": "person:kunal-kushwaha", "relation": "affiliated_with", "target": "org:wemakedevs", "basis": "self_reported", "current": true, "title": "Founder"}
+{"source": "person:kunal-kushwaha", "relation": "affiliated_with", "target": "org:wemakedevs", "basis": "linkedin", "current": true}
+{"source": "person:kunal-kushwaha", "relation": "has_account", "target": "acct:linkedin/in/kunal-kushwaha"}
+{"source": "person:kunal-kushwaha", "relation": "has_account", "target": "acct:x/kunalstwt"}
+{"source": "person:kunal-kushwaha", "relation": "has_account", "target": "acct:youtube/kunalkushwaha"}
+{"source": "person:kunal-kushwaha", "relation": "has_account", "target": "gh:kunal-kushwaha"}
+{"source": "person:kunal-kushwaha", "relation": "has_website", "target": "site:techwithkunal.com"}
+{"source": "person:kunal-kushwaha", "relation": "maintains", "target": "repo:kunal-kushwaha/blogs"}
+{"source": "person:kunal-kushwaha", "relation": "maintains", "target": "repo:kunal-kushwaha/competitive-programming-resources"}
+{"source": "person:kunal-kushwaha", "relation": "maintains", "target": "repo:kunal-kushwaha/devops-bootcamp"}
+{"source": "person:kunal-kushwaha", "relation": "maintains", "target": "repo:kunal-kushwaha/dsa-bootcamp-java"}
+{"source": "person:kunal-kushwaha", "relation": "maintains", "target": "repo:kunal-kushwaha/intro-to-gen-ai-and-rag"}
+{"source": "person:kunal-kushwaha", "relation": "maintains", "target": "repo:kunal-kushwaha/invisible-cloak"}
+{"source": "person:kunal-kushwaha", "relation": "maintains", "target": "repo:kunal-kushwaha/meditationapp"}
+{"source": "person:kunal-kushwaha", "relation": "maintains", "target": "repo:kunal-kushwaha/node-chat-app"}
+{"source": "person:kunal-kushwaha", "relation": "maintains", "target": "repo:kunal-kushwaha/sentimentanalysismlh"}
+{"source": "person:kunal-kushwaha", "relation": "maintains", "target": "repo:kunal-kushwaha/techwithkunal"}
+{"source": "person:kunal-kushwaha", "relation": "participates_in", "target": "event:patch-the-conference-2026", "role": "host", "status": "self_reported"}
+{"source": "person:manpreet-singh", "relation": "affiliated_with", "target": "org:northwest-bank", "basis": "event_listing", "current": true, "title": "Software Engineer II"}
+{"source": "person:manpreet-singh", "relation": "affiliated_with", "target": "org:northwest-bank", "basis": "event_listing", "current": true, "title": "Software Engineer II"}
+{"source": "person:manpreet-singh", "relation": "affiliated_with", "target": "org:northwest-bank", "basis": "linkedin", "current": true}
+{"source": "person:manpreet-singh", "relation": "has_account", "target": "acct:linkedin/in/manpoffc"}
+{"source": "person:manpreet-singh", "relation": "has_account", "target": "gh:manpoffc", "match": "unconfirmed"}
+{"source": "person:manpreet-singh", "relation": "maintains", "target": "repo:manpoffc/gokuai"}
+{"source": "person:manpreet-singh", "relation": "maintains", "target": "repo:manpoffc/ml-projects"}
+{"source": "person:manpreet-singh", "relation": "maintains", "target": "repo:manpoffc/pack-landing"}
+{"source": "person:manpreet-singh", "relation": "maintains", "target": "repo:manpoffc/shoppiedoo"}
+{"source": "person:manpreet-singh", "relation": "participates_in", "target": "event:patch-the-conference-2026", "role": "judge", "status": "confirmed"}
+{"source": "person:nitish-mane", "relation": "affiliated_with", "target": "org:philo", "basis": "event_listing", "current": true, "title": "Software Engineer"}
+{"source": "person:nitish-mane", "relation": "affiliated_with", "target": "org:philo", "basis": "event_listing", "current": true, "title": "Software Engineer"}
+{"source": "person:nitish-mane", "relation": "affiliated_with", "target": "org:philo", "basis": "linkedin", "current": true}
+{"source": "person:nitish-mane", "relation": "has_account", "target": "acct:linkedin/in/nitish-mane"}
+{"source": "person:nitish-mane", "relation": "has_account", "target": "gh:nitishmane"}
+{"source": "person:nitish-mane", "relation": "has_website", "target": "site:nitishmane.dev"}
+{"source": "person:nitish-mane", "relation": "maintains", "target": "repo:nitishmane/scraper-factory"}
+{"source": "person:nitish-mane", "relation": "maintains", "target": "repo:nitishmane/serp-hack"}
+{"source": "person:nitish-mane", "relation": "maintains", "target": "repo:nitishmane/sre-oncall"}
+{"source": "person:nitish-mane", "relation": "maintains", "target": "repo:nitishmane/trending-funny-domains"}
+{"source": "person:nitish-mane", "relation": "participates_in", "target": "event:patch-the-conference-2026", "role": "judge", "status": "confirmed"}
+{"source": "person:pooja-ravi", "relation": "affiliated_with", "target": "org:netflix", "basis": "event_listing", "current": true, "title": "Senior Software Engineer"}
+{"source": "person:pooja-ravi", "relation": "affiliated_with", "target": "org:netflix", "basis": "event_listing", "current": true, "title": "Senior Software Engineer"}
+{"source": "person:pooja-ravi", "relation": "affiliated_with", "target": "org:oracle", "basis": "linkedin", "current": true, "title": "Senior Software Engineer"}
+{"source": "person:pooja-ravi", "relation": "affiliated_with", "target": "org:oracle", "basis": "linkedin", "current": true}
+{"source": "person:pooja-ravi", "relation": "has_account", "target": "acct:linkedin/in/pravi20"}
+{"source": "person:pooja-ravi", "relation": "participates_in", "target": "event:patch-the-conference-2026", "role": "judge", "status": "confirmed"}
+{"source": "person:riken-shah", "relation": "affiliated_with", "target": "org:msquare-labs", "basis": "linkedin", "current": true}
+{"source": "person:riken-shah", "relation": "affiliated_with", "target": "org:xai", "basis": "event_listing", "current": true, "title": "Human Data Team (Contractor)"}
+{"source": "person:riken-shah", "relation": "affiliated_with", "target": "org:xai", "basis": "event_listing", "current": true, "title": "Human Data Team (Contractor)"}
+{"source": "person:riken-shah", "relation": "contributes_to", "target": "repo:zulip/zulip"}
+{"source": "person:riken-shah", "relation": "has_account", "target": "acct:linkedin/in/shah-riken"}
+{"source": "person:riken-shah", "relation": "has_account", "target": "acct:other/dev.to/rikenshah"}
+{"source": "person:riken-shah", "relation": "has_account", "target": "acct:x/_rikenshah"}
+{"source": "person:riken-shah", "relation": "has_account", "target": "gh:riken-shah"}
+{"source": "person:riken-shah", "relation": "has_website", "target": "site:riken.me"}
+{"source": "person:riken-shah", "relation": "maintains", "target": "repo:riken-shah/benchmark-db-browsers"}
+{"source": "person:riken-shah", "relation": "maintains", "target": "repo:riken-shah/chillflix"}
+{"source": "person:riken-shah", "relation": "maintains", "target": "repo:riken-shah/petavision"}
+{"source": "person:riken-shah", "relation": "maintains", "target": "repo:riken-shah/replyrobin"}
+{"source": "person:riken-shah", "relation": "participates_in", "target": "event:patch-the-conference-2026", "role": "judge", "status": "confirmed"}
+{"source": "person:satyam-singh", "relation": "affiliated_with", "target": "org:bree", "basis": "self_reported", "current": false, "title": "Engineering intern"}
+{"source": "person:satyam-singh", "relation": "affiliated_with", "target": "org:ramp", "basis": "self_reported", "current": false, "title": "Engineering intern"}
+{"source": "person:satyam-singh", "relation": "affiliated_with", "target": "org:simulithic", "basis": "event_listing", "current": true, "title": "Co-Founder, CTO"}
+{"source": "person:satyam-singh", "relation": "affiliated_with", "target": "org:simulithic", "basis": "event_listing", "current": true, "title": "Co-Founder and CTO"}
+{"source": "person:satyam-singh", "relation": "affiliated_with", "target": "org:simulithic", "basis": "linkedin", "current": true}
+{"source": "person:satyam-singh", "relation": "has_account", "target": "acct:linkedin/in/satyamsingh2003"}
+{"source": "person:satyam-singh", "relation": "has_account", "target": "acct:x/klauscodes"}
+{"source": "person:satyam-singh", "relation": "has_account", "target": "acct:youtube/satyamcodesss"}
+{"source": "person:satyam-singh", "relation": "has_account", "target": "gh:klausmikhaelson"}
+{"source": "person:satyam-singh", "relation": "maintains", "target": "repo:klausmikhaelson/asteroid-destroyers-nasa-app-challenge"}
+{"source": "person:satyam-singh", "relation": "maintains", "target": "repo:klausmikhaelson/emoji_mosaic_art"}
+{"source": "person:satyam-singh", "relation": "maintains", "target": "repo:klausmikhaelson/hackthevalley-webapp"}
+{"source": "person:satyam-singh", "relation": "maintains", "target": "repo:klausmikhaelson/pet-menu-bar"}
+{"source": "person:satyam-singh", "relation": "maintains", "target": "repo:klausmikhaelson/retain"}
+{"source": "person:satyam-singh", "relation": "maintains", "target": "repo:klausmikhaelson/todo-list-on-blockchain"}
+{"source": "person:satyam-singh", "relation": "maintains", "target": "repo:klausmikhaelson/virtualroom"}
+{"source": "person:satyam-singh", "relation": "maintains", "target": "repo:klausmikhaelson/web3conf-be"}
+{"source": "person:satyam-singh", "relation": "maintains", "target": "repo:klausmikhaelson/web3conf-fe"}
+{"source": "person:satyam-singh", "relation": "maintains", "target": "repo:klausmikhaelson/wrestle-with-shapes"}
+{"source": "person:satyam-singh", "relation": "participates_in", "target": "event:patch-the-conference-2026", "role": "judge", "status": "confirmed"}
+{"source": "person:schezeen-fazulbhoy", "relation": "affiliated_with", "target": "org:adobe", "basis": "event_listing", "current": true, "title": "Senior Software Engineer"}
+{"source": "person:schezeen-fazulbhoy", "relation": "affiliated_with", "target": "org:adobe", "basis": "event_listing", "current": true, "title": "Senior Software Engineer"}
+{"source": "person:schezeen-fazulbhoy", "relation": "affiliated_with", "target": "org:adobe", "basis": "linkedin", "current": true}
+{"source": "person:schezeen-fazulbhoy", "relation": "contributes_to", "target": "repo:mlh-fellowship/webxr-layers"}
+{"source": "person:schezeen-fazulbhoy", "relation": "has_account", "target": "acct:linkedin/in/schezeenfazulbhoy"}
+{"source": "person:schezeen-fazulbhoy", "relation": "has_account", "target": "acct:other/dev.to/schezfaz"}
+{"source": "person:schezeen-fazulbhoy", "relation": "has_account", "target": "acct:other/medium.com/schezfaz"}
+{"source": "person:schezeen-fazulbhoy", "relation": "has_account", "target": "acct:other/scholar.google.com/yxcz8dqaaaaj"}
+{"source": "person:schezeen-fazulbhoy", "relation": "has_account", "target": "acct:x/schezfaz10"}
+{"source": "person:schezeen-fazulbhoy", "relation": "has_account", "target": "acct:youtube/schezfaz"}
+{"source": "person:schezeen-fazulbhoy", "relation": "has_account", "target": "gh:schezfaz"}
+{"source": "person:schezeen-fazulbhoy", "relation": "has_website", "target": "site:schezfaz.dev"}
+{"source": "person:schezeen-fazulbhoy", "relation": "maintains", "target": "repo:schezfaz/bucketlist"}
+{"source": "person:schezeen-fazulbhoy", "relation": "maintains", "target": "repo:schezfaz/intelli-intent"}
+{"source": "person:schezeen-fazulbhoy", "relation": "maintains", "target": "repo:schezfaz/momentum"}
+{"source": "person:schezeen-fazulbhoy", "relation": "maintains", "target": "repo:schezfaz/spot"}
+{"source": "person:schezeen-fazulbhoy", "relation": "participates_in", "target": "event:patch-the-conference-2026", "role": "judge", "status": "confirmed"}
+{"source": "person:vivek-gopal-ramaswamy", "relation": "affiliated_with", "target": "org:agility-robotics", "basis": "event_listing", "current": true, "title": "AI Product Manager"}
+{"source": "person:vivek-gopal-ramaswamy", "relation": "affiliated_with", "target": "org:agility-robotics", "basis": "event_listing", "current": true, "title": "AI Product Manager"}
+{"source": "person:vivek-gopal-ramaswamy", "relation": "affiliated_with", "target": "org:gladstone-institutes", "basis": "self_reported", "current": false, "title": "Senior Software Engineer"}
+{"source": "person:vivek-gopal-ramaswamy", "relation": "has_account", "target": "acct:linkedin/in/vivekgr"}
+{"source": "person:vivek-gopal-ramaswamy", "relation": "has_account", "target": "gh:vivekgr92"}
+{"source": "person:vivek-gopal-ramaswamy", "relation": "maintains", "target": "repo:vivekgr92/16681-mrsd"}
+{"source": "person:vivek-gopal-ramaswamy", "relation": "maintains", "target": "repo:vivekgr92/16720a-computervision"}
+{"source": "person:vivek-gopal-ramaswamy", "relation": "maintains", "target": "repo:vivekgr92/chatgpt-app"}
+{"source": "person:vivek-gopal-ramaswamy", "relation": "maintains", "target": "repo:vivekgr92/learndeeplearning"}
+{"source": "person:vivek-gopal-ramaswamy", "relation": "maintains", "target": "repo:vivekgr92/mentorpi"}
+{"source": "person:vivek-gopal-ramaswamy", "relation": "maintains", "target": "repo:vivekgr92/nextflow-cluster"}
+{"source": "person:vivek-gopal-ramaswamy", "relation": "maintains", "target": "repo:vivekgr92/policyx"}
+{"source": "person:vivek-gopal-ramaswamy", "relation": "maintains", "target": "repo:vivekgr92/teame-beyondsight"}
+{"source": "person:vivek-gopal-ramaswamy", "relation": "participates_in", "target": "event:patch-the-conference-2026", "role": "judge", "status": "confirmed"}
+{"source": "person:yash-bhatia", "relation": "affiliated_with", "target": "org:bnp-paribas", "basis": "self_reported", "current": false, "title": "Software Engineer"}
+{"source": "person:yash-bhatia", "relation": "affiliated_with", "target": "org:meta", "basis": "event_listing", "current": true, "title": "Senior Data Engineer"}
+{"source": "person:yash-bhatia", "relation": "affiliated_with", "target": "org:meta", "basis": "event_listing", "current": true, "title": "Senior Data Engineer"}
+{"source": "person:yash-bhatia", "relation": "affiliated_with", "target": "org:meta", "basis": "linkedin", "current": true}
+{"source": "person:yash-bhatia", "relation": "has_account", "target": "acct:linkedin/in/yyash-bhatia"}
+{"source": "person:yash-bhatia", "relation": "has_website", "target": "site:topmate.io/yash_bhatia"}
+{"source": "person:yash-bhatia", "relation": "participates_in", "target": "event:patch-the-conference-2026", "role": "judge", "status": "confirmed"}
+{"source": "profile:dipen-chawla", "relation": "describes", "target": "person:dipen-chawla"}
+{"source": "profile:kunal-kushwaha", "relation": "describes", "target": "person:kunal-kushwaha"}
+{"source": "profile:manpreet-singh", "relation": "describes", "target": "person:manpreet-singh"}
+{"source": "profile:nitish-mane", "relation": "describes", "target": "person:nitish-mane"}
+{"source": "profile:pooja-ravi", "relation": "describes", "target": "person:pooja-ravi"}
+{"source": "profile:riken-shah", "relation": "describes", "target": "person:riken-shah"}
+{"source": "profile:satyam-singh", "relation": "describes", "target": "person:satyam-singh"}
+{"source": "profile:schezeen-fazulbhoy", "relation": "describes", "target": "person:schezeen-fazulbhoy"}
+{"source": "profile:vivek-gopal-ramaswamy", "relation": "describes", "target": "person:vivek-gopal-ramaswamy"}
+{"source": "profile:yash-bhatia", "relation": "describes", "target": "person:yash-bhatia"}

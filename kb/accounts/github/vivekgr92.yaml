@@ -1,0 +1,47 @@
+softschema:
+  contract: paraverse.conference:GitHubAccount/v1
+  schema: ../../_schemas/github-account.schema.yaml
+  envelope: github_account
+  status: permissive
+github_account:
+  id: gh:vivekgr92
+  login: vivekgr92
+  kind: user
+  url: https://github.com/vivekgr92
+  name: Vivek GR
+  company: '@finkbeiner-lab'
+  bio: "I am very passionate about developing robotic technologies for solving some of the existing problems\
+    \ in the world!!\r\n@Carnegie Mellon University"
+  location: San Francisco
+  followers: 8
+  created_at: '2016-09-13T07:26:26Z'
+  top_repositories:
+  - repo:vivekgr92/policyx
+  - repo:vivekgr92/mentorpi
+  - repo:vivekgr92/chatgpt-app
+  - repo:vivekgr92/nextflow-cluster
+  - repo:vivekgr92/16681-mrsd
+  - repo:vivekgr92/learndeeplearning
+  - repo:vivekgr92/16720a-computervision
+  - repo:vivekgr92/teame-beyondsight
+  entity: person:vivek-gopal-ramaswamy
+  link_basis:
+  - website_link
+  - github_profile
+  identity_link_basis:
+  - website_link
+  - github_profile
+  identity_confidence: high
+  identity_evidence:
+  - url: https://cerebralvalley.ai/e/zero-to-agent-sf/hackathon/gallery/14
+    observed_at: '2026-10-24T21:34:19Z'
+  - url: https://github.com/vivekgr92
+    observed_at: '2026-10-24T21:34:19Z'
+  - url: https://api.github.com/users/vivekgr92
+    observed_at: '2026-10-24T21:34:19Z'
+  - url: https://api.github.com/users/vivekgr92/repos?per_page=100
+    observed_at: '2026-10-24T21:34:19Z'
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/vivek-gopal-ramaswamy.json

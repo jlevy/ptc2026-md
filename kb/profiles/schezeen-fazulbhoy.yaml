@@ -1,0 +1,494 @@
+softschema:
+  contract: paraverse.conference:Profile/v1
+  schema: ../_schemas/profile.schema.yaml
+  envelope: profile
+  status: permissive
+profile:
+  id: profile:schezeen-fazulbhoy
+  person: person:schezeen-fazulbhoy
+  brief_bio:
+    text: Schezeen Fazulbhoy is a software engineer at Adobe working on backend systems for Journey Optimizer.
+      Schezeen builds open-source projects including the SPOT browser extension and Momentum MCP agent,
+      and is listed as a judge at Patch the Conference Hackathon.
+    cites:
+    - https://www.wemakedevs.org/hackathons/ptc/judges
+    - https://schezfaz.dev/
+    - https://github.com/schezfaz/spot
+    - https://dev.to/schezfaz/momentum-aiccountability-using-notion-mcp-for-vision-board-progress-2b9i
+    basis: llm_synthesis
+    written_by: GPT-6.1 Sol (OpenAI Codex)
+    written_at: '2026-10-24T21:38:33Z'
+    input_sha256: 48cf7ab7abee27f370c8f3bfafea730cefccae9cf4112413ef4e9d117faf22db
+    stale: false
+  headline: Backend and distributed-systems engineer at Adobe.
+  location: San Francisco Bay Area
+  current_roles:
+  - Senior Software Engineer, Adobe
+  expertise:
+  - label: Backend engineering
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Distributed systems
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Browser extensions
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://github.com/schezfaz/spot
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: AI agents and MCP
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://dev.to/schezfaz/momentum-aiccountability-using-notion-mcp-for-vision-board-progress-2b9i
+      observed_at: '2026-10-24T21:30:51Z'
+  technologies:
+  - label: Kotlin
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Kubernetes
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Spring WebFlux
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Redis
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Kafka
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: ArgoCD
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Notion MCP
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://dev.to/schezfaz/momentum-aiccountability-using-notion-mcp-for-vision-board-progress-2b9i
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Claude API
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://dev.to/schezfaz/momentum-aiccountability-using-notion-mcp-for-vision-board-progress-2b9i
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Telegram
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://dev.to/schezfaz/momentum-aiccountability-using-notion-mcp-for-vision-board-progress-2b9i
+      observed_at: '2026-10-24T21:30:51Z'
+  programming_languages:
+  - label: JavaScript
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://github.com/schezfaz/spot
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Python
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://github.com/schezfaz/momentum
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Kotlin
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  recognitions:
+  - label: Hackpions EY GDS Hackathon 2.0 winner for IVI, June 2021
+    basis: curated
+    confidence: medium
+    evidence:
+    - url: https://www.linkedin.com/in/schezeenfazulbhoy
+      quote: Winner
+      observed_at: '2026-10-24T21:13:34Z'
+  - label: Hackpions EY GDS Hackathon 1.0 winner for Intelli-intent, January 2021
+    basis: curated
+    confidence: medium
+    evidence:
+    - url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - label: Notion MCP Challenge — third place for Momentum, March 2026
+    basis: curated
+    confidence: medium
+    evidence:
+    - url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  open_source:
+  - repository: repo:schezfaz/spot
+    relation: owner
+    stars: 14
+    primary_language: JavaScript
+  - repository: repo:schezfaz/bucketlist
+    relation: owner
+    stars: 4
+    primary_language: Python
+  - repository: repo:schezfaz/intelli-intent
+    relation: owner
+    stars: 3
+    primary_language: Jupyter Notebook
+  - repository: repo:schezfaz/momentum
+    relation: owner
+    stars: 2
+    primary_language: Python
+  - repository: repo:mlh-fellowship/webxr-layers
+    relation: contributor
+    stars: 2
+    primary_language: JavaScript
+  experience:
+  - organization: Adobe
+    title: Software Engineer 3
+    start: 2024-02
+    current: true
+    description: Inbound delivery systems for Adobe Journey Optimizer.
+    evidence:
+      url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - organization: Adobe
+    title: Software Engineer Intern
+    start: 2023-05
+    end: 2023-08
+    current: false
+    description: Acrobat Web product workflows.
+    evidence:
+      url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - organization: Nomura
+    title: Software Engineer
+    start: 2019-07
+    end: 2022-08
+    current: false
+    description: Microservices and deployment automation.
+    evidence:
+      url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - organization: Major League Hacking / Meta
+    title: Open-Source Fellow
+    start: 2021-06
+    end: 2021-08
+    current: false
+    description: WebXR interaction examples and accessibility.
+    evidence:
+      url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  education:
+  - school: Georgia Institute of Technology
+    degree: M.S.
+    field_of_study: Computer Science
+    evidence:
+      url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - school: MPSTME, NMIMS University
+    degree: B.Tech
+    field_of_study: Computer Engineering
+    evidence:
+      url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  credentials:
+  - kind: honor
+    title: 'Winner: Hackpions - EY GDS Hackathon 2.0'
+    issuer: EY
+    date: '2021-06-01T00:00:00.000Z'
+    description: 'My team (Team BaScheD) and I stood first in Hackpions 2.0, a hackathon hosted by EY
+      GDS. We developed a solution named ''IVI'' under the ''Intelligent Visual Identification'' theme.
+      Our proposed solution was an automated sytem the highlights violations against the brand guidelines
+      in a presentation deck. It also included features like icon predictor, image analysis and real-time
+      voice based notes capturing Tech Stack: React.js, ELK Stack (Elastic Search, LogStash, Kibana),
+      Python… Show more'
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: 'Winner: Hackpions - EY GDS Hackathon 1.0'
+    issuer: EY
+    date: '2021-01-01T00:00:00.000Z'
+    description: 'My team and I (Team BaScheD) stood first in the hackathon hosted by EY, for ideating
+      and developing the solution ''Intelli-intent'', under the theme ''Intent based search and classification''.
+      Our proposed solution is focused on determining the intent of the search query using the LSTM model,
+      along with fetching relevant files, and a smart scheduler for crawling and training data from the
+      Sharepoint repository. Tech Stack: React.js, ELK Stack (Elastic Search, LogStash, Kibana)… Show
+      more'
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: Nomura - Quarterly STAR Team Award (Q3/4)
+    issuer: Nomura
+    date: '2020-10-01T00:00:00.000Z'
+    description: '"For going the extra mile in truly demonstrating how ideation to implementation can
+      happen in an agile, short span of time" I was fecilitated this award for the project "Culinary Artists"
+      developed as part of the Life and Families Network, Nomura. My team and I developed this application
+      following agile development protocols to design, develop and deploy this application for the Nomura-wide
+      event. The application was developed for a firm-wide cooking competition during the… Show more'
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: Nomura - Quarterly STAR Team Award (Q1/2)
+    issuer: Nomura
+    date: '2020-01-01T00:00:00.000Z'
+    description: '"For successful rollout of the generic Ansible implementation framework, JADEN, allowing
+      applications within Operations IT to move away from Automic" I was fecilitated this award for the
+      project "JADEN" (Jenkins Ansible Deployment for Nomura) developed with the aim to automate the CI/CD
+      pipelines, ensuring smooth deployment of applications within Operations IT - to production. JADEN,
+      developed using free open-source technologies has completely replaced Automic, an enterprised deployment…
+      Show more'
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: Kakushin - Nomura Hackathon Finalist
+    issuer: Nomura, KakushIN
+    date: '2018-08-01T00:00:00.000Z'
+    description: • Stood among the top 10 finalist teams for a coding hackathon hosted by Nomura • 1 of
+      the only 3 who received a PPO (Pre-placement offer) among the finalists.
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: certification
+    title: Claude Code in Action
+    issuer: Anthropic
+    url: https://verify.skilljar.com/c/skw8tb2rotrk
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: certification
+    title: AI Agents Fundamentals
+    issuer: Hugging Face
+    url: https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/schezfaz/2026-02-23.png
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: certification
+    title: 'Microsoft Certified: Azure Fundamentals'
+    issuer: Microsoft
+    url: https://www.credly.com/badges/a71364db-1f1b-4517-b2be-2c322abee081/linked_in_profile
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: certification
+    title: S.P.I.T. Hackathon 2022
+    issuer: Sardar Patel University
+    url: https://certificate.givemycertificate.com/c/b98d37f3-fe76-4810-9eb6-aaa84e666c42
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: certification
+    title: 'Winner - EY Hackathon: GDS Hackpions 2.0'
+    issuer: EY
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: certification
+    title: 'Winner - EY Hackathon: GDS Hackpions 1.0'
+    issuer: EY
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: certification
+    title: Finalist - Kakushin 2.0 (Hackathon)
+    issuer: Nomura
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: certification
+    title: '6.00.1x: Introduction to Computer Science and Programming Using Python'
+    issuer: edX
+    url: https://courses.edx.org/certificates/99f59b75263448468a63ad9b49769937
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  publications:
+  - title: Improving Visual and Cognitive Accessibility Using Augmented Reality Techniques
+    venue: IEEE
+    date: '2019'
+    url: https://ieeexplore.ieee.org/document/8822152
+    evidence:
+      url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - title: Improving Accessibility for Dyslexic Impairments using Augmented Reality
+    date: December 23, 2018
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  spoken_languages:
+  - English
+  - Hindi
+  activities:
+  - kind: project
+    title: Front Office Supervision Portal (FOSPortal)
+    detail: 'FOSPortal is a web application used by the senior management of Nomura in the ''Front Office'',
+      to supervise the regulation of processes, KSCs (Key Supervisory Controls), and monthly attestations.
+      Rogue Trading, a feature within the portal allows supervisors to monitor any rogue trades that violate
+      predefined KRIs (Key Risk Indicators) on a daily basis. Tech Stack: Java Spring, Maven, Oracle MySQL,
+      TOMEE, NPC (Nomura Private Cloud), Jenkins, Ansible, Selenium'
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: SPOT - Chrome Browser Extension
+    detail: 'SPOT is a browser extension that allows you to add music ''spotted'' on the web, to your
+      Spotify playlists on the ''SPOT'', eliminating the overhead of switching tabs or manually querying
+      for the song.Features:• Directly fetch the Spotify equivalent of the song playing on an active Youtube
+      tab within the extension• Preview the queried song within the extension panel on the same tab• Add
+      selected song to multiple Spotify playlists simultaneously, in real time• Query plain-text song
+      titles using the right-click triggered context menuDeveloped With: JavaScript, Chrome Browser API,
+      Spotify API, RegexAnalytics: Chrome Developer Dashboard, Spotify Developer DashboardStatus: Open-sourced,
+      maintain on Github'
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: IVI - Intelligent Visual Identification using NLP
+    detail: 'IVI or ''Intelligent Visual Identifier'' is an automated sytem the highlights violations
+      against the brand guidelines in a presentation deck. IVI also serves as an like icon predictor,
+      image analysis and real-time voice based notes caturing assistant.IVI won the first place at the
+      EY Hackathon: GDS Hackpions 2.0.Tech Stack: React.js, ELK Stack (Elastic Search, LogStash, Kibana),
+      Python Flask, TableauTools: Keras, Python Tensorflow, Pandas, LXML, PDFReader'
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: 'Intelli-intent: Intent-based search using Machine Learning'
+    detail: 'An intelligent search engine for classifying the intent of a query. It uses the LSTM model
+      trained on the BBC news dataset http://mlg.ucd.ie/datasets/bbc.html. It fetches the data directory
+      from Sharepoint. For example, if the user were to search the sharepoint directory with the query
+      "research on India", Intelli-intent would display all those documents whose content is in the relative
+      sphere of the query - regardless of the name of the document, parent folder or sub folder.Intelli-Intent
+      won the first place at the EY Hackathon: GDS Hackpions 1.0.Tech Stack: React, Flask, and ElasticSearch'
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: JADEN (Jenkins Ansible DEployment for Nomura)
+    detail: '''JADEN'' is a generic continuous deployment framework developed in order to replace the
+      enterprise licensed software - Atomic, which was earlier used in the CI/CD pipelines. JADEN is compatible
+      with various deployment artifacts (wars/jars/ears/Informatica/database), allowing seamless migration
+      of the project across integration, stage, pre-production, and production environments. A multi-stage
+      pipeline managed by Jenkins, customized using Ansible and Python. This project earned the team the
+      quarterly ''STAR'' award at Nomura.Tech Stack: Python, Ansible, Ansible-Galaxy, Ansible-Playbooks,
+      YAML, Jenkins, Groovy Script, Nexus Repository Manager, Unix Shell Scripts'
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Android Studio Development (Implementation of Technology)
+    detail: '-'
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Design Thinking
+    detail: '-'
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Digital Logic Design
+    detail: '-'
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Research Methodology
+    detail: '-'
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Unix Programming
+    detail: '-'
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: volunteering
+    title: Mentor - SPIT Hackathon 2022
+    detail: CSI-SPIT
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: volunteering
+    title: Kakushin 3.0, 4.0 & 5.0 Hackathon - Volunteer
+    detail: Nomura
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: organization
+    title: Major League Hacking
+    detail: '- Open Source developer @WebXR Layers (Meta | Facebook)- Technical Program Associate (G-Research)'
+    evidence:
+      url: https://www.linkedin.com/in/schezeenfazulbhoy
+      observed_at: '2026-10-24T21:13:34Z'
+  recent_writing:
+  - title: MOMENTUM - AIccountability, Vision Board Tracker using Notion MCP
+    url: https://dev.to/schezfaz/momentum-aiccountability-using-notion-mcp-for-vision-board-progress-2b9i
+    published: '2026-03-30'
+    channel: blog
+  - title: Getting Started with WebXR Development for the Oculus Browser
+    url: https://medium.com/@schezfaz/getting-started-with-webxr-development-for-the-oculus-browser-159339b2a7f3
+    published: 2021-11
+    channel: blog
+  - title: Building an API using Flask and MongoDB — Bucket List Application
+    url: https://medium.com/@schezfaz/building-an-api-using-flask-and-mongodb-bucket-list-application-ac347d32f290
+    published: 2019-02
+    channel: blog
+  gaps:
+  - The personal site was recovered from an existing public HTML snapshot and the public LinkedIn portfolio
+    link; a live refresh was unavailable in this audit.
+  - The GitHub README appears stale relative to the Adobe role and is not used to infer ongoing student
+    status.
+  - The portfolio lists publication-title variants; the IEEE document could not be read beyond its JavaScript
+    challenge, so exact bibliographic metadata needs verification before treating this as publisher-confirmed.
+  - No personal health, religion or other sensitive attributes are inferred from accessibility projects
+    or community organizations.
+  - No GitHub Universe attendance statement was found.
+  - No independently published software package was confirmed.
+  - LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history.
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/schezeen-fazulbhoy.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/schezeenfazulbhoy
+    record_id: sd_mvmw8f86q8hg8asw6
+    retrieved_at: '2026-10-24T21:13:34Z'
+    snapshot: raw/brightdata/linkedin_profiles.json
+  open_source_evidence:
+    repo:schezfaz/spot:
+    - url: https://github.com/schezfaz/spot
+      observed_at: '2026-10-24T21:30:51Z'
+    repo:schezfaz/momentum:
+    - url: https://dev.to/schezfaz/momentum-aiccountability-using-notion-mcp-for-vision-board-progress-2b9i
+      observed_at: '2026-10-24T21:30:51Z'
+    repo:mlh-fellowship/webxr-layers:
+    - url: https://schezfaz.dev/
+      observed_at: '2026-10-24T21:30:51Z'

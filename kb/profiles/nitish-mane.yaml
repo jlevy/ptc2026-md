@@ -1,0 +1,359 @@
+softschema:
+  contract: paraverse.conference:Profile/v1
+  schema: ../_schemas/profile.schema.yaml
+  envelope: profile
+  status: permissive
+profile:
+  id: profile:nitish-mane
+  person: person:nitish-mane
+  brief_bio:
+    text: Nitish Mane is a software engineer at Philo working on infrastructure and AI-assisted production
+      operations. Nitish has spoken about platform engineering with MCP and is listed as a judge at Patch
+      the Conference Hackathon.
+    cites:
+    - https://www.wemakedevs.org/hackathons/ptc/judges
+    - https://github.com/Nitishmane
+    - https://sreday.com/2026-san-francisco-q2/Nitish_Mane_Philo_AIDriven_Platform_Engineering_with_MCP
+    - https://securityboulevard.com/author/nitish-mane/
+    basis: llm_synthesis
+    written_by: GPT-6.1 Sol (OpenAI Codex)
+    written_at: '2026-10-24T21:38:33Z'
+    input_sha256: c9fb785886dc4d412ae37362d039230a2c8b69a9a6f837bc5a6cda6ade0ec1fc
+    stale: false
+  headline: Infrastructure and platform engineer working on cloud-native operations and AI SRE systems.
+  location: San Francisco Bay Area
+  current_roles:
+  - Software Engineer, Philo
+  expertise:
+  - label: Platform engineering
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://sreday.com/2026-san-francisco-q2/Nitish_Mane_Philo_AIDriven_Platform_Engineering_with_MCP
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Cloud infrastructure
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://sreday.com/2026-san-francisco-q2/Nitish_Mane_Philo_AIDriven_Platform_Engineering_with_MCP
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Reliability engineering
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://sreday.com/2026-san-francisco-q2/Nitish_Mane_Philo_AIDriven_Platform_Engineering_with_MCP
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Incident response
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://sreday.com/2026-san-francisco-q2/Nitish_Mane_Philo_AIDriven_Platform_Engineering_with_MCP
+      observed_at: '2026-10-24T21:30:51Z'
+  technologies:
+  - label: Kubernetes
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Terraform
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: ArgoCD
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Grafana
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: AWS
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: OCI
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Neo4j
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  programming_languages:
+  - label: Python
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Go
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Java
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Bash
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: SQL
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: HCL
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  recognitions:
+  - label: 'Zero Downtime Hackathon: Grand Prize and Best Full-Stack Integration for Scraper Factory'
+    basis: curated
+    confidence: medium
+    evidence:
+    - url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  open_source:
+  - repository: repo:nitishmane/sre-oncall
+    relation: owner
+    stars: 2
+    primary_language: TypeScript
+  - repository: repo:nitishmane/scraper-factory
+    relation: owner
+    stars: 1
+    primary_language: Python
+  - repository: repo:nitishmane/serp-hack
+    relation: owner
+    stars: 0
+    primary_language: Python
+  - repository: repo:nitishmane/trending-funny-domains
+    relation: owner
+    stars: 0
+    primary_language: TypeScript
+  experience:
+  - organization: Philo
+    title: Software Engineer
+    start: 2025-03
+    current: true
+    description: Cloud infrastructure and an AI SRE assistant.
+    evidence:
+      url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - organization: Lucid Motors
+    title: Staff Infrastructure Engineer, Cloud Platform
+    start: 2022-02
+    end: 2025-03
+    current: false
+    description: Cloud platform provisioning and telemetry infrastructure.
+    evidence:
+      url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - organization: Trifacta
+    title: Principal Site Reliability Engineer
+    start: 2019-07
+    end: 2022-02
+    current: false
+    description: Customer cloud environments and infrastructure automation.
+    evidence:
+      url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - organization: Waterline Data
+    title: Senior DevOps Engineer
+    start: 2017-08
+    end: 2019-07
+    current: false
+    description: Deployment and support engineering.
+    evidence:
+      url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - organization: American Express
+    title: Hadoop Administrator, DevOps
+    start: 2015-10
+    end: 2017-09
+    current: false
+    description: Hadoop operations and release automation.
+    evidence:
+      url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  education:
+  - school: California State University, East Bay
+    degree: M.S.
+    field_of_study: Computer Science
+    evidence:
+      url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - school: University of Pune
+    degree: B.E.
+    field_of_study: Information Technology
+    evidence:
+      url: https://nitishmane.dev/
+      observed_at: '2026-10-24T21:30:51Z'
+  - school: California State University - East Bay
+    evidence:
+      url: https://www.linkedin.com/in/nitish-mane/
+      observed_at: '2026-10-24T21:34:57Z'
+  credentials:
+  - kind: honor
+    title: 1st prize in Hackathon
+    issuer: Waterline data
+    date: '2017-11-01T00:00:00.000Z'
+    description: Awarded 1st prize in an company wide Hackathon contest at Waterline Data for my hack
+      on Automated log aggregation script. Became GA feature at following release.
+    evidence:
+      url: https://www.linkedin.com/in/nitish-mane/
+      observed_at: '2026-10-24T21:34:57Z'
+  - kind: certification
+    title: Go In One Evening
+    issuer: Three Dots Labs
+    url: https://threedots.tech/cert/Te2eNwoX
+    evidence:
+      url: https://www.linkedin.com/in/nitish-mane/
+      observed_at: '2026-10-24T21:34:57Z'
+  - kind: certification
+    title: Developer Certification for Apache Spark
+    issuer: O'Reilly Media
+    evidence:
+      url: https://www.linkedin.com/in/nitish-mane/
+      observed_at: '2026-10-24T21:34:57Z'
+  - kind: certification
+    title: Cloudera Certified Administrator for Apache Hadoop (CCAH)
+    issuer: Cloudera
+    url: http://ccertification.cloudera.com/verify
+    evidence:
+      url: https://www.linkedin.com/in/nitish-mane/
+      observed_at: '2026-10-24T21:34:57Z'
+  - kind: certification
+    title: Cloudera Certified Developer for Apache Hadoop (CCDH)
+    issuer: Cloudera
+    url: http://ccertification.cloudera.com/verify
+    evidence:
+      url: https://www.linkedin.com/in/nitish-mane/
+      observed_at: '2026-10-24T21:34:57Z'
+  - kind: certification
+    title: Amazon Web Services Big Data Specialty
+    issuer: Amazon Web Services (AWS)
+    url: https://www.youracclaim.com/badges/4f05313f-1ce3-4810-8fd2-79eb11669300/linked_in_profile
+    evidence:
+      url: https://www.linkedin.com/in/nitish-mane/
+      observed_at: '2026-10-24T21:34:57Z'
+  - kind: certification
+    title: Associate Cloud Engineer
+    issuer: Google
+    url: https://www.credential.net/cf72fb9a-a54a-4b61-a429-82d8920cb234
+    evidence:
+      url: https://www.linkedin.com/in/nitish-mane/
+      observed_at: '2026-10-24T21:34:57Z'
+  - kind: certification
+    title: Amazon Web Services Solutions Architect Associate
+    issuer: Amazon Web Services (AWS)
+    url: https://www.youracclaim.com/badges/57debb28-171f-4cc5-819d-bf4f18c200e0/linked_in_profile
+    evidence:
+      url: https://www.linkedin.com/in/nitish-mane/
+      observed_at: '2026-10-24T21:34:57Z'
+  - kind: certification
+    title: HDP Certified Developer (HDPCD
+    issuer: Hortonworks
+    url: https://badgecert.com/bc/html/show-badge.html?b=pvbciwy
+    evidence:
+      url: https://www.linkedin.com/in/nitish-mane/
+      observed_at: '2026-10-24T21:34:57Z'
+  activities:
+  - kind: course
+    title: Cryptography
+    detail: CS6520
+    evidence:
+      url: https://www.linkedin.com/in/nitish-mane/
+      observed_at: '2026-10-24T21:34:57Z'
+  - kind: course
+    title: Database System
+    detail: CS 6660
+    evidence:
+      url: https://www.linkedin.com/in/nitish-mane/
+      observed_at: '2026-10-24T21:34:57Z'
+  - kind: course
+    title: Distributed System
+    detail: CS6580
+    evidence:
+      url: https://www.linkedin.com/in/nitish-mane/
+      observed_at: '2026-10-24T21:34:57Z'
+  - kind: course
+    title: Network Security
+    detail: CS 6525
+    evidence:
+      url: https://www.linkedin.com/in/nitish-mane/
+      observed_at: '2026-10-24T21:34:57Z'
+  - kind: course
+    title: Operating System Design
+    detail: CS 6560
+    evidence:
+      url: https://www.linkedin.com/in/nitish-mane/
+      observed_at: '2026-10-24T21:34:57Z'
+  recent_writing:
+  - title: Give Every AI Agent Its Own Identity
+    url: https://securityboulevard.com/author/nitish-mane/
+    published: '2026-10-21'
+    channel: blog
+  - title: 'Put the Agent in a Box: Running Claude Code in a Container'
+    url: https://cloudnativenow.com/contributed-content/put-the-agent-in-a-box-running-claude-code-in-a-container/
+    published: '2026-10-15'
+    channel: blog
+  - title: 10 Real Use Cases for MCP in Platform Engineering (and the Guardrails That Make Them Safe)
+    url: https://platformengineering.com/features/10-real-use-cases-for-mcp-in-platform-engineering-and-the-guardrails-that-make-them-safe/
+    published: '2026-10-02'
+    channel: blog
+  gaps:
+  - No X account was confirmed through the linked professional profiles.
+  - Personal-site claims were recovered from an existing public HTML snapshot; the site was unavailable
+    to this audit when refreshed.
+  - Different professional author bios use software, infrastructure and staff titles; the event title
+    is preserved without treating the variations as a promotion chronology.
+  - No statement of attendance at GitHub Universe was found.
+  - No independent package-maintainer identity was established.
+  - LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history.
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/nitish-mane.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/nitish-mane/
+    record_id: sd_mvmx2sl4s8uuigoaf
+    retrieved_at: '2026-10-24T21:34:57Z'
+    snapshot: raw/brightdata/linkedin_profiles.json
+  external_talks:
+  - title: AI-Driven Platform Engineering with MCP
+    event: SREday San Francisco
+    date: '2026-04-17'
+    url: https://sreday.com/2026-san-francisco-q2/Nitish_Mane_Philo_AIDriven_Platform_Engineering_with_MCP
+    evidence:
+    - url: https://sreday.com/2026-san-francisco-q2/Nitish_Mane_Philo_AIDriven_Platform_Engineering_with_MCP
+      observed_at: '2026-10-24T21:30:51Z'
+  open_source_evidence:
+    repo:nitishmane/sre-oncall:
+    - url: https://github.com/Nitishmane/sre-oncall
+      observed_at: '2026-10-24T21:30:51Z'
+    repo:nitishmane/scraper-factory:
+    - url: https://github.com/Nitishmane/scraper-factory
+      observed_at: '2026-10-24T21:30:51Z'

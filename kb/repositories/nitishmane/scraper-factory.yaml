@@ -1,0 +1,21 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:nitishmane/scraper-factory
+  full_name: Nitishmane/scraper-factory
+  url: https://github.com/Nitishmane/scraper-factory
+  description: Scraping project.
+  stars: 1
+  forks: 1
+  primary_language: Python
+  fork: false
+  pushed_at: '2026-10-12T17:48:30Z'
+  owner_login: Nitishmane
+  owner: gh:nitishmane
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/nitish-mane.json

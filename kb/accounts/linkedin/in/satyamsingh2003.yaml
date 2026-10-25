@@ -1,0 +1,33 @@
+softschema:
+  contract: paraverse.conference:SocialAccount/v1
+  schema: ../../../_schemas/social-account.schema.yaml
+  envelope: social_account
+  status: permissive
+social_account:
+  id: acct:linkedin/in/satyamsingh2003
+  platform: linkedin
+  handle: in/Satyamsingh2003
+  url: https://www.linkedin.com/in/Satyamsingh2003
+  display_name: Satyam Singh
+  bio: Hello, I'm Satyam, Co-Founder &amp; CTO @ Simulithic, building Simulation to help…
+  location: San Francisco Bay Area
+  followers: 14125
+  connections: 500
+  avatar_url: https://media.licdn.com/dms/image/v2/D4D03AQFq9AvGqDDzPA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696207940930?e=2147483647&v=beta&t=5K3Ey1rZSnNoVQKiyhO75ws1gUv5sfGJRCdLxVzGg-0
+  owner: person:satyam-singh
+  link_basis:
+  - event_listing
+  details_fetched: true
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/satyam-singh.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/Satyamsingh2003
+    record_id: sd_mvmw8f86q8hg8asw6
+    retrieved_at: '2026-10-24T21:13:34Z'
+    snapshot: raw/brightdata/linkedin_profiles.json
+  identity_evidence:
+  - url: https://www.wemakedevs.org/hackathons/ptc/judges
+    observed_at: '2026-10-24T21:31:18Z'
+  identity_confidence: high

@@ -1,0 +1,52 @@
+softschema:
+  contract: paraverse.conference:GitHubAccount/v1
+  schema: ../../_schemas/github-account.schema.yaml
+  envelope: github_account
+  status: permissive
+github_account:
+  id: gh:riken-shah
+  login: Riken-Shah
+  kind: user
+  url: https://github.com/Riken-Shah
+  name: Riken Shah
+  company: MsquareLabs
+  website: https://riken.me/
+  followers: 49
+  created_at: '2020-04-16T21:34:43Z'
+  contributed_to:
+  - repo:zulip/zulip
+  organization_logins:
+  - zulip
+  pinned:
+  - repo:riken-shah/replyrobin
+  - repo:riken-shah/petavision
+  - repo:riken-shah/trust-net
+  - repo:riken-shah/zulip
+  - repo:riken-shah/handle-large-dataset-on-web-slides
+  top_repositories:
+  - repo:riken-shah/replyrobin
+  - repo:riken-shah/petavision
+  - repo:riken-shah/benchmark-db-browsers
+  - repo:riken-shah/chillflix
+  entity: person:riken-shah
+  link_basis:
+  - curated
+  identity_link_basis:
+  - github_profile_link_to_event_linkedin
+  - reciprocal_personal_website_link
+  identity_confidence: high
+  identity_evidence:
+  - url: https://github.com/Riken-Shah
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/users/Riken-Shah
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/users/Riken-Shah/repos
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/graphql
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/users/Riken-Shah/orgs
+    observed_at: '2026-10-24T21:30:51Z'
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/riken-shah.json

@@ -1,0 +1,135 @@
+$defs:
+  Source:
+    additionalProperties: false
+    description: 'Where a record came from: one raw snapshot file, or a curated list.'
+    properties:
+      record_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The record's ID in that system.
+        title: Record Id
+      retrieved_at:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Retrieved At
+      snapshot:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Raw snapshot path, relative to the conference directory.
+        title: Snapshot
+      system:
+        enum:
+        - rainfocus
+        - githubuniverse.com
+        - github
+        - npm
+        - pypi
+        - bluesky
+        - mastodon
+        - website
+        - feed
+        - brightdata
+        - curation
+        title: System
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - system
+    title: Source
+    type: object
+  Term:
+    additionalProperties: false
+    properties:
+      description:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The catalog's glossary text.
+        title: Description
+      duration_minutes:
+        anyOf:
+        - minimum: 0
+          type: integer
+        - type: 'null'
+        default: null
+        title: Duration Minutes
+      id:
+        pattern: ^(term):[a-z0-9][a-z0-9._/@+-]*$
+        title: Id
+        type: string
+      label:
+        title: Label
+        type: string
+      session_count:
+        minimum: 0
+        title: Session Count
+        type: integer
+      source_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Source Id
+    required:
+    - id
+    - label
+    - session_count
+    title: Term
+    type: object
+$schema: https://json-schema.org/draft/2020-12/schema
+additionalProperties: true
+description: One classification axis of the session catalog and its terms.
+properties:
+  event:
+    anyOf:
+    - pattern: ^(event):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    - type: 'null'
+    default: null
+    description: The edition whose catalog defines these terms.
+    title: Event
+  id:
+    pattern: ^[a-z][a-z0-9-]*$
+    title: Id
+    type: string
+  label:
+    title: Label
+    type: string
+  multi_valued:
+    title: Multi Valued
+    type: boolean
+  sources:
+    items:
+      $ref: '#/$defs/Source'
+    title: Sources
+    type: array
+  terms:
+    items:
+      $ref: '#/$defs/Term'
+    title: Terms
+    type: array
+required:
+- id
+- label
+- multi_valued
+- sources
+- terms
+title: Facet
+type: object
+x-softschema:
+  contract: paraverse.conference:Facet/v1
+  schema_sha256: c7151e741da94c725c834110f1af8479c9eca93eaa8f69d02642935f77eec1b1

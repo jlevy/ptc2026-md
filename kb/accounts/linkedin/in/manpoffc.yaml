@@ -1,0 +1,33 @@
+softschema:
+  contract: paraverse.conference:SocialAccount/v1
+  schema: ../../../_schemas/social-account.schema.yaml
+  envelope: social_account
+  status: permissive
+social_account:
+  id: acct:linkedin/in/manpoffc
+  platform: linkedin
+  handle: in/manpoffc
+  url: https://www.linkedin.com/in/manpoffc
+  display_name: Manpreet Singh
+  bio: By day I build applications and drive digital transformation at a bank, which mostly…
+  location: Chicago
+  followers: 3383
+  connections: 500
+  avatar_url: https://media.licdn.com/dms/image/v2/D5603AQH7Yxq2H03Krw/profile-displayphoto-scale_200_200/B56aFvS98.K4Ac-/0/1792868606721?e=2147483647&v=beta&t=YAcUjYCetEpK0g1VH0mzz5KThqaHZg2E1LGfi2rAN2U
+  owner: person:manpreet-singh
+  link_basis:
+  - event_listing
+  details_fetched: true
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/manpreet-singh.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/manpoffc
+    record_id: sd_mvmw8f86q8hg8asw6
+    retrieved_at: '2026-10-24T21:13:34Z'
+    snapshot: raw/brightdata/linkedin_profiles.json
+  identity_evidence:
+  - url: https://www.linkedin.com/in/manpoffc
+    observed_at: '2026-10-24T21:30:51Z'
+  identity_confidence: high

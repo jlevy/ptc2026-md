@@ -1,0 +1,50 @@
+softschema:
+  contract: paraverse.conference:GitHubAccount/v1
+  schema: ../../_schemas/github-account.schema.yaml
+  envelope: github_account
+  status: permissive
+github_account:
+  id: gh:klausmikhaelson
+  login: KlausMikhaelson
+  kind: user
+  url: https://github.com/KlausMikhaelson
+  name: Satyam
+  company: Simulithic
+  bio: Co-Founder @Simulithic
+  location: San Francisco, California
+  followers: 569
+  created_at: '2022-02-27T16:21:07Z'
+  pinned:
+  - repo:klausmikhaelson/virtualroom
+  - repo:klausmikhaelson/retain
+  - repo:klausmikhaelson/asteroid-destroyers-nasa-app-challenge
+  - repo:klausmikhaelson/emoji_mosaic_art
+  - repo:pushchain/push-notifications-sdk
+  top_repositories:
+  - repo:klausmikhaelson/virtualroom
+  - repo:klausmikhaelson/retain
+  - repo:klausmikhaelson/asteroid-destroyers-nasa-app-challenge
+  - repo:klausmikhaelson/emoji_mosaic_art
+  - repo:klausmikhaelson/wrestle-with-shapes
+  - repo:klausmikhaelson/web3conf-be
+  - repo:klausmikhaelson/todo-list-on-blockchain
+  - repo:klausmikhaelson/hackthevalley-webapp
+  - repo:klausmikhaelson/pet-menu-bar
+  - repo:klausmikhaelson/web3conf-fe
+  entity: person:satyam-singh
+  link_basis:
+  - linkedin_profile
+  identity_link_basis:
+  - linkedin_profile
+  identity_confidence: high
+  identity_evidence:
+  - url: https://www.linkedin.com/in/Satyamsingh2003
+    observed_at: '2026-10-24T21:31:18Z'
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/satyam-singh.json
+  - system: github
+    url: https://api.github.com/users/KlausMikhaelson
+    retrieved_at: '2026-10-24T21:30:11Z'
+    snapshot: raw/github/klausmikhaelson.json

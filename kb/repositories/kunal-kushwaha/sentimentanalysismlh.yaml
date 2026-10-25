@@ -1,0 +1,24 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:kunal-kushwaha/sentimentanalysismlh
+  full_name: kunal-kushwaha/SentimentAnalysisMLH
+  url: https://github.com/kunal-kushwaha/SentimentAnalysisMLH
+  stars: 16
+  forks: 6
+  primary_language: Jupyter Notebook
+  fork: false
+  pushed_at: '2021-03-21T07:44:46Z'
+  owner_login: kunal-kushwaha
+  owner: gh:kunal-kushwaha
+  sources:
+  - system: curation
+    url: https://x.com/kunalstwt/status/2113374840870568017
+    snapshot: curation/people/kunal-kushwaha.json
+  - system: github
+    url: https://api.github.com/users/kunal-kushwaha
+    retrieved_at: '2026-10-24T21:30:11Z'
+    snapshot: raw/github/kunal-kushwaha.json

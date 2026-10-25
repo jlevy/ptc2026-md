@@ -1,0 +1,682 @@
+$defs:
+  Activity:
+    additionalProperties: false
+    description: Volunteering, projects, courses and organizations listed on a profile.
+    properties:
+      detail:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Detail
+      evidence:
+        $ref: '#/$defs/Evidence'
+      kind:
+        enum:
+        - volunteering
+        - project
+        - course
+        - organization
+        title: Kind
+        type: string
+      title:
+        title: Title
+        type: string
+    required:
+    - evidence
+    - kind
+    - title
+    title: Activity
+    type: object
+  BriefBio:
+    additionalProperties: false
+    description: |-
+      One or two neutral sentences written by a model from the person's evidence
+      bundle. `cites` names the bundle facts the text relies on; `stale` is true when that
+      evidence has changed since the bio was written.
+    properties:
+      basis:
+        const: llm_synthesis
+        default: llm_synthesis
+        title: Basis
+        type: string
+      cites:
+        items:
+          type: string
+        minItems: 1
+        title: Cites
+        type: array
+      input_sha256:
+        title: Input Sha256
+        type: string
+      stale:
+        title: Stale
+        type: boolean
+      text:
+        title: Text
+        type: string
+      written_at:
+        pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+        title: Written At
+        type: string
+      written_by:
+        title: Written By
+        type: string
+    required:
+    - cites
+    - input_sha256
+    - stale
+    - text
+    - written_at
+    - written_by
+    title: BriefBio
+    type: object
+  Claim:
+    additionalProperties: false
+    description: One thing a profile asserts about a person, with the evidence for it.
+    properties:
+      basis:
+        enum:
+        - session_facets
+        - session_text
+        - bio
+        - github_profile
+        - github_repositories
+        - bluesky_profile
+        - mastodon_profile
+        - linkedin_profile
+        - x_profile
+        - website
+        - llm_synthesis
+        - curated
+        title: Basis
+        type: string
+      confidence:
+        enum:
+        - high
+        - medium
+        - low
+        title: Confidence
+        type: string
+      evidence:
+        items:
+          $ref: '#/$defs/Evidence'
+        minItems: 1
+        title: Evidence
+        type: array
+      label:
+        title: Label
+        type: string
+      sources:
+        description: Every basis that supports an inferred interest.
+        items:
+          enum:
+          - session_facets
+          - session_text
+          - bio
+          - github_profile
+          - github_repositories
+          - bluesky_profile
+          - mastodon_profile
+          - linkedin_profile
+          - x_profile
+          - website
+          - llm_synthesis
+          - curated
+          type: string
+        title: Sources
+        type: array
+      target:
+        anyOf:
+        - pattern: ^(term|software|org|repo):[a-z0-9][a-z0-9._/@+-]*$
+          type: string
+        - type: 'null'
+        default: null
+        description: The term, software, organization or repository it names.
+        title: Target
+      weight:
+        anyOf:
+        - maximum: 1
+          minimum: 0
+          type: number
+        - type: 'null'
+        default: null
+        description: "For inferred interests: strength relative to the person's strongest one."
+        title: Weight
+    required:
+    - basis
+    - confidence
+    - evidence
+    - label
+    title: Claim
+    type: object
+  Credential:
+    additionalProperties: false
+    description: An honor, award or certification as the person lists it.
+    properties:
+      credential_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Credential Id
+      date:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: When issued, as listed ("Nov 2023").
+        title: Date
+      description:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Description
+      evidence:
+        $ref: '#/$defs/Evidence'
+      expires:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Expires
+      issuer:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Issuer
+      kind:
+        enum:
+        - honor
+        - certification
+        title: Kind
+        type: string
+      title:
+        title: Title
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        description: Where the credential can be verified.
+        title: Url
+    required:
+    - evidence
+    - kind
+    - title
+    title: Credential
+    type: object
+  EducationEntry:
+    additionalProperties: false
+    properties:
+      degree:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Degree
+      end_year:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: End Year
+      evidence:
+        $ref: '#/$defs/Evidence'
+      field_of_study:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Field Of Study
+      school:
+        title: School
+        type: string
+      school_ref:
+        anyOf:
+        - pattern: ^(org):[a-z0-9][a-z0-9._/@+-]*$
+          type: string
+        - type: 'null'
+        default: null
+        title: School Ref
+      start_year:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Start Year
+    required:
+    - evidence
+    - school
+    title: EducationEntry
+    type: object
+  Evidence:
+    additionalProperties: false
+    description: Where a claim is stated, with the words that state it when they are short.
+    properties:
+      observed_at:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: When the source said it.
+        title: Observed At
+      quote:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Quote
+      ref:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: A knowledge base entity that shows it.
+        title: Ref
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    title: Evidence
+    type: object
+  OpenSourceWork:
+    additionalProperties: false
+    properties:
+      primary_language:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Primary Language
+      relation:
+        enum:
+        - owner
+        - pinned
+        - contributor
+        title: Relation
+        type: string
+      repository:
+        pattern: ^(repo):[a-z0-9][a-z0-9._/@+-]*$
+        title: Repository
+        type: string
+      stars:
+        anyOf:
+        - minimum: 0
+          type: integer
+        - type: 'null'
+        default: null
+        title: Stars
+    required:
+    - relation
+    - repository
+    title: OpenSourceWork
+    type: object
+  Patent:
+    additionalProperties: false
+    properties:
+      date:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Date issued, as listed.
+        title: Date
+      description:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Description
+      evidence:
+        $ref: '#/$defs/Evidence'
+      number:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: As listed ("US 9286046").
+        title: Number
+      title:
+        title: Title
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        description: Google Patents, derived from the number.
+        title: Url
+    required:
+    - evidence
+    - title
+    title: Patent
+    type: object
+  Position:
+    additionalProperties: false
+    description: A role at an organization, current or past, from a profile's experience section.
+    properties:
+      current:
+        title: Current
+        type: boolean
+      description:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Description
+      end:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: End
+      evidence:
+        $ref: '#/$defs/Evidence'
+      organization:
+        title: Organization
+        type: string
+      organization_ref:
+        anyOf:
+        - pattern: ^(org):[a-z0-9][a-z0-9._/@+-]*$
+          type: string
+        - type: 'null'
+        default: null
+        title: Organization Ref
+      start:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Start
+      title:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Title
+    required:
+    - current
+    - evidence
+    - organization
+    title: Position
+    type: object
+  Publication:
+    additionalProperties: false
+    description: A paper, article or book the person lists.
+    properties:
+      date:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: As listed ("May 24, 2025").
+        title: Date
+      description:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Description
+      evidence:
+        $ref: '#/$defs/Evidence'
+      title:
+        title: Title
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+      venue:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Venue
+    required:
+    - evidence
+    - title
+    title: Publication
+    type: object
+  Source:
+    additionalProperties: false
+    description: 'Where a record came from: one raw snapshot file, or a curated list.'
+    properties:
+      record_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The record's ID in that system.
+        title: Record Id
+      retrieved_at:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Retrieved At
+      snapshot:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Raw snapshot path, relative to the conference directory.
+        title: Snapshot
+      system:
+        enum:
+        - rainfocus
+        - githubuniverse.com
+        - github
+        - npm
+        - pypi
+        - bluesky
+        - mastodon
+        - website
+        - feed
+        - brightdata
+        - curation
+        title: System
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - system
+    title: Source
+    type: object
+  WritingItem:
+    additionalProperties: false
+    description: A post, article or video the person published, newest first.
+    properties:
+      channel:
+        enum:
+        - blog
+        - linkedin
+        - x
+        - mastodon
+        - bluesky
+        - youtube
+        title: Channel
+        type: string
+      published:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Published
+      summary:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Summary
+      title:
+        title: Title
+        type: string
+      url:
+        pattern: ^https?://
+        title: Url
+        type: string
+    required:
+    - channel
+    - title
+    - url
+    title: WritingItem
+    type: object
+$schema: https://json-schema.org/draft/2020-12/schema
+additionalProperties: true
+description: |-
+  The developed profile of one person: what they work on and know, built from the
+  event listing, their sessions, GitHub, Bluesky, their website and imported research.
+  Every claim cites evidence. `gaps` lists what is still unknown, which is the to-do
+  list for the next round of profile development.
+properties:
+  activities:
+    items:
+      $ref: '#/$defs/Activity'
+    title: Activities
+    type: array
+  brief_bio:
+    anyOf:
+    - $ref: '#/$defs/BriefBio'
+    - type: 'null'
+    default: null
+  credentials:
+    items:
+      $ref: '#/$defs/Credential'
+    title: Credentials
+    type: array
+  current_roles:
+    description: Readable 'title at organization' lines.
+    items:
+      type: string
+    title: Current Roles
+    type: array
+  education:
+    items:
+      $ref: '#/$defs/EducationEntry'
+    title: Education
+    type: array
+  experience:
+    items:
+      $ref: '#/$defs/Position'
+    title: Experience
+    type: array
+  expertise:
+    items:
+      $ref: '#/$defs/Claim'
+    title: Expertise
+    type: array
+  gaps:
+    items:
+      type: string
+    title: Gaps
+    type: array
+  headline:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Headline
+  id:
+    pattern: ^(profile):[a-z0-9][a-z0-9._/@+-]*$
+    title: Id
+    type: string
+  interests:
+    items:
+      $ref: '#/$defs/Claim'
+    title: Interests
+    type: array
+  location:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Location
+  open_source:
+    items:
+      $ref: '#/$defs/OpenSourceWork'
+    title: Open Source
+    type: array
+  packages:
+    description: Packages published from the person's repositories.
+    items:
+      pattern: ^(pkg):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Packages
+    type: array
+  patents:
+    items:
+      $ref: '#/$defs/Patent'
+    title: Patents
+    type: array
+  person:
+    pattern: ^(person):[a-z0-9][a-z0-9._/@+-]*$
+    title: Person
+    type: string
+  programming_languages:
+    items:
+      $ref: '#/$defs/Claim'
+    title: Programming Languages
+    type: array
+  publications:
+    items:
+      $ref: '#/$defs/Publication'
+    title: Publications
+    type: array
+  recent_writing:
+    items:
+      $ref: '#/$defs/WritingItem'
+    title: Recent Writing
+    type: array
+  recognitions:
+    items:
+      $ref: '#/$defs/Claim'
+    title: Recognitions
+    type: array
+  sources:
+    items:
+      $ref: '#/$defs/Source'
+    title: Sources
+    type: array
+  spoken_languages:
+    items:
+      type: string
+    title: Spoken Languages
+    type: array
+  talks:
+    items:
+      pattern: ^(session):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Talks
+    type: array
+  technologies:
+    items:
+      $ref: '#/$defs/Claim'
+    title: Technologies
+    type: array
+required:
+- id
+- person
+- sources
+title: Profile
+type: object
+x-softschema:
+  contract: paraverse.conference:Profile/v1
+  schema_sha256: 1f14eb84ce0d0a7b33b88e172ba7edca006edf804c9a62534cb90227c9f66c1d

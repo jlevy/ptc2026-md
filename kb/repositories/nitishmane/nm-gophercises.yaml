@@ -1,0 +1,16 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:nitishmane/nm-gophercises
+  full_name: Nitishmane/nm-gophercises
+  url: https://github.com/Nitishmane/nm-gophercises
+  primary_language: Go
+  owner_login: Nitishmane
+  owner: gh:nitishmane
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/nitish-mane.json

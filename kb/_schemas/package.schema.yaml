@@ -1,0 +1,138 @@
+$defs:
+  Source:
+    additionalProperties: false
+    description: 'Where a record came from: one raw snapshot file, or a curated list.'
+    properties:
+      record_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The record's ID in that system.
+        title: Record Id
+      retrieved_at:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Retrieved At
+      snapshot:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Raw snapshot path, relative to the conference directory.
+        title: Snapshot
+      system:
+        enum:
+        - rainfocus
+        - githubuniverse.com
+        - github
+        - npm
+        - pypi
+        - bluesky
+        - mastodon
+        - website
+        - feed
+        - brightdata
+        - curation
+        title: System
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - system
+    title: Source
+    type: object
+$schema: https://json-schema.org/draft/2020-12/schema
+additionalProperties: true
+description: A published package, linked to its source repository when the registry agrees.
+properties:
+  description:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Description
+  ecosystem:
+    enum:
+    - npm
+    - pypi
+    - crates
+    - go
+    title: Ecosystem
+    type: string
+  id:
+    pattern: ^(pkg):[a-z0-9][a-z0-9._/@+-]*$
+    title: Id
+    type: string
+  latest_version:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Latest Version
+  license:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: License
+  name:
+    title: Name
+    type: string
+  publishers:
+    description: People or organizations owning that repository.
+    items:
+      pattern: ^(person|org):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Publishers
+    type: array
+  repository:
+    anyOf:
+    - pattern: ^(repo):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    - type: 'null'
+    default: null
+    description: The source repository, verified against the registry.
+    title: Repository
+  repository_url:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    description: As the registry declares it.
+    title: Repository Url
+  software:
+    anyOf:
+    - pattern: ^(software):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    - type: 'null'
+    default: null
+    title: Software
+  sources:
+    items:
+      $ref: '#/$defs/Source'
+    title: Sources
+    type: array
+  url:
+    pattern: ^https?://
+    title: Url
+    type: string
+required:
+- ecosystem
+- id
+- name
+- sources
+- url
+title: Package
+type: object
+x-softschema:
+  contract: paraverse.conference:Package/v1
+  schema_sha256: db05440c9dc3c1cd57fed440a6a466ed8c1f789d591176eaa778918773746d37

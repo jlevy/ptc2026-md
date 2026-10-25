@@ -1,0 +1,194 @@
+softschema:
+  contract: paraverse.conference:Profile/v1
+  schema: ../_schemas/profile.schema.yaml
+  envelope: profile
+  status: permissive
+profile:
+  id: profile:manpreet-singh
+  person: person:manpreet-singh
+  brief_bio:
+    text: Manpreet Singh is listed as a software engineer at Northwest Bank and a judge at Patch the Conference
+      Hackathon. Public professional profiles report computer science study at the University of Texas
+      at Arlington and prior software engineering work.
+    cites:
+    - https://www.wemakedevs.org/hackathons/ptc/judges
+    - https://www.linkedin.com/in/manpoffc
+    - https://www.wayup.com/profile/Manpreet-Singh-7e846a0bd7/
+    basis: llm_synthesis
+    written_by: GPT-6.1 Sol (OpenAI Codex)
+    written_at: '2026-10-24T21:38:33Z'
+    input_sha256: 6ca226a5ad82f25c8c5acb3126b66a3e876ef916fd7cde765c10f8e1eb574fcf
+    stale: false
+  headline: Software engineer at Northwest Bank.
+  location: Chicago
+  current_roles:
+  - Software Engineer II, Northwest Bank
+  programming_languages:
+  - label: TypeScript
+    basis: github_repositories
+    confidence: medium
+    evidence:
+    - url: https://github.com/manpoffc
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Java
+    basis: github_repositories
+    confidence: medium
+    evidence:
+    - url: https://github.com/manpoffc
+      observed_at: '2026-10-24T21:30:51Z'
+  recognitions:
+  - label: Silver Medalist — ICPC TxState Texas-Mexico Invitational Programming Contest, March 2023
+    basis: curated
+    confidence: medium
+    evidence:
+    - url: https://www.linkedin.com/in/manpoffc
+      quote: Silver Medalist
+      observed_at: '2026-10-24T21:13:34Z'
+  open_source:
+  - repository: repo:manpoffc/ml-projects
+    relation: owner
+    stars: 2
+    primary_language: Jupyter Notebook
+  - repository: repo:manpoffc/gokuai
+    relation: owner
+    stars: 0
+    primary_language: TypeScript
+  - repository: repo:manpoffc/pack-landing
+    relation: owner
+    stars: 0
+    primary_language: TypeScript
+  - repository: repo:manpoffc/shoppiedoo
+    relation: owner
+    stars: 0
+  experience:
+  - organization: The University of Texas at Arlington
+    title: Graduate Assistant
+    start: 2022-11
+    end: 2023-05
+    current: false
+    description: Academic support training and student programs.
+    evidence:
+      url: https://www.wayup.com/profile/Manpreet-Singh-7e846a0bd7/
+      observed_at: '2026-10-24T21:30:51Z'
+  - organization: Smart 24x7 Response Services
+    title: Software Engineer
+    start: 2020-01
+    end: 2021-01
+    current: false
+    description: Software engineering.
+    evidence:
+      url: https://www.wayup.com/profile/Manpreet-Singh-7e846a0bd7/
+      observed_at: '2026-10-24T21:30:51Z'
+  - organization: Smart 24x7 Response Services
+    title: Software Engineer Intern
+    start: 2019-06
+    end: 2020-01
+    current: false
+    description: Software engineering internship.
+    evidence:
+      url: https://www.wayup.com/profile/Manpreet-Singh-7e846a0bd7/
+      observed_at: '2026-10-24T21:30:51Z'
+  education:
+  - school: The University of Texas at Arlington
+    degree: Master’s
+    field_of_study: Computer Science
+    evidence:
+      url: https://www.wayup.com/profile/Manpreet-Singh-7e846a0bd7/
+      observed_at: '2026-10-24T21:30:51Z'
+  credentials:
+  - kind: honor
+    title: Silver Medalist
+    issuer: ICPC TxState TEXAS-MEXICO
+    date: '2023-03-01T00:00:00.000Z'
+    description: Silver Medalist - ICPC TxState TEXAS-MEXICO Invitational Programming Contest
+    evidence:
+      url: https://www.linkedin.com/in/manpoffc
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: Student Member
+    issuer: Tau Beta Pi The Engineering Honor Society
+    date: '2022-08-01T00:00:00.000Z'
+    evidence:
+      url: https://www.linkedin.com/in/manpoffc
+      observed_at: '2026-10-24T21:13:34Z'
+  spoken_languages:
+  - English
+  - Punjabi
+  - Hindi
+  activities:
+  - kind: course
+    title: 'Advance topics in Software Engineering: Computer Aided Verification Systems'
+    detail: CSE 6392
+    evidence:
+      url: https://www.linkedin.com/in/manpoffc
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Computer Networks
+    detail: CSE 5344
+    evidence:
+      url: https://www.linkedin.com/in/manpoffc
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Data Mining
+    detail: CSE 5334
+    evidence:
+      url: https://www.linkedin.com/in/manpoffc
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Data Science with Python
+    detail: '-'
+    evidence:
+      url: https://www.linkedin.com/in/manpoffc
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Database Systems
+    detail: CSE 5330
+    evidence:
+      url: https://www.linkedin.com/in/manpoffc
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Design and Analysis of Algorithms
+    detail: CSE 5311
+    evidence:
+      url: https://www.linkedin.com/in/manpoffc
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Distributed Systems
+    detail: CSE 5306
+    evidence:
+      url: https://www.linkedin.com/in/manpoffc
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: 'Full Stack Web Development: HTML, CSS, React & Node'
+    detail: '-'
+    evidence:
+      url: https://www.linkedin.com/in/manpoffc
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Machine Learning Nanodegree-Udacity
+    detail: '-'
+    evidence:
+      url: https://www.linkedin.com/in/manpoffc
+      observed_at: '2026-10-24T21:13:34Z'
+  gaps:
+  - 'GitHub identity is medium confidence: the exact uncommon handle and full name match, and the WayUp
+    profile links GitHub while matching LinkedIn education. Neither GitHub nor the observed LinkedIn payload
+    provides a direct reciprocal link. Review this join before promoting it to a canonical high-confidence
+    person merge.'
+  - Pack and ShoppieDoo are public repositories on the candidate GitHub account; this does not establish
+    a founder role, business ownership or personal website ownership.
+  - No X, independently owned personal site, published technical talks or package-maintainer identity
+    was confirmed.
+  - The LinkedIn experience payload is sparse; the event employer/title are preserved as event-published
+    observations.
+  - No physical attendance or GitHub Universe attendance is inferred.
+  - LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history.
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/manpreet-singh.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/manpoffc
+    record_id: sd_mvmw8f86q8hg8asw6
+    retrieved_at: '2026-10-24T21:13:34Z'
+    snapshot: raw/brightdata/linkedin_profiles.json

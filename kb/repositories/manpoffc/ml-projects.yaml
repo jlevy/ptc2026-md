@@ -1,0 +1,20 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:manpoffc/ml-projects
+  full_name: manpoffc/ML-projects
+  url: https://github.com/manpoffc/ML-projects
+  description: Machine-learning project collection.
+  stars: 2
+  forks: 0
+  primary_language: Jupyter Notebook
+  fork: false
+  owner_login: manpoffc
+  owner: gh:manpoffc
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/manpreet-singh.json

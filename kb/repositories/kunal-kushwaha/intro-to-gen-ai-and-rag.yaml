@@ -1,0 +1,24 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:kunal-kushwaha/intro-to-gen-ai-and-rag
+  full_name: kunal-kushwaha/Intro-to-Gen-AI-and-RAG
+  url: https://github.com/kunal-kushwaha/Intro-to-Gen-AI-and-RAG
+  stars: 101
+  forks: 47
+  archived: false
+  fork: false
+  pushed_at: '2024-08-01T17:11:17Z'
+  owner_login: kunal-kushwaha
+  owner: gh:kunal-kushwaha
+  sources:
+  - system: curation
+    url: https://x.com/kunalstwt/status/2113374840870568017
+    snapshot: curation/people/kunal-kushwaha.json
+  - system: github
+    url: https://api.github.com/users/kunal-kushwaha
+    retrieved_at: '2026-10-24T21:30:11Z'
+    snapshot: raw/github/kunal-kushwaha.json

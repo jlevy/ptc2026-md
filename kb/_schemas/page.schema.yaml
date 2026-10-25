@@ -1,0 +1,186 @@
+$defs:
+  Image:
+    additionalProperties: false
+    properties:
+      alt:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Alt
+      url:
+        pattern: ^https?://
+        title: Url
+        type: string
+    required:
+    - url
+    title: Image
+    type: object
+  Link:
+    additionalProperties: false
+    properties:
+      kind:
+        enum:
+        - website
+        - github
+        - linkedin
+        - x
+        - bluesky
+        - registration
+        - video
+        - image
+        - other
+        title: Kind
+        type: string
+      label:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Label
+      url:
+        pattern: ^https?://
+        title: Url
+        type: string
+    required:
+    - kind
+    - url
+    title: Link
+    type: object
+  PageSection:
+    additionalProperties: false
+    description: 'One block of a page in reading order: a heading and its text, links and images.'
+    properties:
+      calls_to_action:
+        description: Buttons, with their label and target.
+        items:
+          $ref: '#/$defs/Link'
+        title: Calls To Action
+        type: array
+      heading:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Heading
+      images:
+        items:
+          $ref: '#/$defs/Image'
+        title: Images
+        type: array
+      links:
+        items:
+          $ref: '#/$defs/Link'
+        title: Links
+        type: array
+      text:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The section's text as Markdown.
+        title: Text
+    title: PageSection
+    type: object
+  Source:
+    additionalProperties: false
+    description: 'Where a record came from: one raw snapshot file, or a curated list.'
+    properties:
+      record_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The record's ID in that system.
+        title: Record Id
+      retrieved_at:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Retrieved At
+      snapshot:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Raw snapshot path, relative to the conference directory.
+        title: Snapshot
+      system:
+        enum:
+        - rainfocus
+        - githubuniverse.com
+        - github
+        - npm
+        - pypi
+        - bluesky
+        - mastodon
+        - website
+        - feed
+        - brightdata
+        - curation
+        title: System
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - system
+    title: Source
+    type: object
+$schema: https://json-schema.org/draft/2020-12/schema
+additionalProperties: true
+description: |-
+  The free text of one official web page, in reading order, so a new site can reuse the
+  organizer's own copy (hero text, section intros, templates) without scraping again.
+properties:
+  description:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Description
+  id:
+    pattern: ^(page):[a-z0-9][a-z0-9._/@+-]*$
+    title: Id
+    type: string
+  sections:
+    description: Empty for pages that are only a catalog widget.
+    items:
+      $ref: '#/$defs/PageSection'
+    title: Sections
+    type: array
+  site:
+    enum:
+    - githubuniverse.com
+    - attendee-portal
+    title: Site
+    type: string
+  sources:
+    items:
+      $ref: '#/$defs/Source'
+    title: Sources
+    type: array
+  title:
+    title: Title
+    type: string
+  url:
+    pattern: ^https?://
+    title: Url
+    type: string
+required:
+- id
+- site
+- sources
+- title
+- url
+title: Page
+type: object
+x-softschema:
+  contract: paraverse.conference:Page/v1
+  schema_sha256: 7ebad50a10e48ab394afd8e6a33435b2cfb8246cc4e4d3fa578e6030453b376b

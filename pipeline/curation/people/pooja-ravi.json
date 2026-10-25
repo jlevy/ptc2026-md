@@ -1,0 +1,106 @@
+{
+  "slug": "pooja-ravi",
+  "name": "Pooja Ravi",
+  "listed_as": {
+    "name": "Pooja Ravi",
+    "title": "Senior Software Engineer, Netflix",
+    "url": "https://www.wemakedevs.org/hackathons/ptc/judges"
+  },
+  "job_title": "Senior Software Engineer",
+  "participations": [
+    {
+      "event": "patch-the-conference-2026",
+      "role": "judge",
+      "status": "confirmed",
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "organization": "Netflix",
+      "title": "Senior Software Engineer",
+      "current": true,
+      "basis": "event_listing",
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    },
+    {
+      "organization": "Oracle",
+      "title": "Senior Software Engineer",
+      "current": true,
+      "basis": "linkedin_profile",
+      "evidence": [
+        {
+          "url": "https://www.linkedin.com/in/pravi20",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "linkedin",
+      "handle": "pravi20",
+      "url": "https://www.linkedin.com/in/pravi20",
+      "confidence": "high",
+      "link_basis": [
+        "event_listing"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    }
+  ],
+  "websites": [],
+  "github": {
+    "resolution": "unresolved"
+  },
+  "profile": {
+    "headline": "Senior Software Engineer",
+    "location": "San Francisco Bay Area",
+    "expertise": [
+      {
+        "label": "AI and data engineering",
+        "basis": "linkedin_profile",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://www.linkedin.com/in/pravi20",
+            "observed_at": "2026-10-24T21:31:18Z",
+            "quote": "expertise in AI and data"
+          }
+        ]
+      }
+    ],
+    "current_roles": [
+      "Senior Software Engineer, Netflix (event listing)",
+      "Senior Software Engineer, Oracle (public LinkedIn profile)"
+    ]
+  },
+  "sources_consulted": [
+    "https://www.wemakedevs.org/hackathons/ptc/judges",
+    "https://www.linkedin.com/in/pravi20"
+  ],
+  "gaps": [
+    "The event lists Netflix while the event-linked LinkedIn profile lists Oracle; no verified employment dates reconcile the discrepancy.",
+    "No GitHub, X, personal website, publications, patents, packages, or talks were resolved to this person with sufficient identity evidence. Education and employment dates were not available in the collected public profile.",
+    "Other Pooja Ravi profiles and a guessed GitHub Pages site were excluded because there is no direct identity link."
+  ],
+  "brief_bio": "Pooja Ravi is listed as a judge and Senior Software Engineer at Netflix by the Patch the Conference organizer. The linked public LinkedIn profile describes a Senior Software Engineer role at Oracle and work in AI and data; the employer claims remain unresolved.",
+  "brief_bio_cites": [
+    "https://www.wemakedevs.org/hackathons/ptc/judges",
+    "https://www.linkedin.com/in/pravi20"
+  ]
+}

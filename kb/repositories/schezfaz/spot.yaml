@@ -1,0 +1,20 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:schezfaz/spot
+  full_name: schezfaz/spot
+  url: https://github.com/schezfaz/spot
+  description: Browser extension for saving music to Spotify playlists.
+  stars: 14
+  forks: 3
+  primary_language: JavaScript
+  fork: false
+  owner_login: schezfaz
+  owner: gh:schezfaz
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/schezeen-fazulbhoy.json

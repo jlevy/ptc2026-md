@@ -1,0 +1,515 @@
+{
+  "slug": "vivek-gopal-ramaswamy",
+  "name": "Vivek Gopal Ramaswamy",
+  "listed_as": {
+    "name": "Vivek Gopal ramaswamy",
+    "title": "AI Product Manager, Agility Robitics",
+    "url": "https://www.wemakedevs.org/hackathons/ptc/judges"
+  },
+  "job_title": "AI Product Manager",
+  "participations": [
+    {
+      "event": "patch-the-conference-2026",
+      "role": "judge",
+      "status": "listed",
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "observed_at": "2026-10-24T21:34:19Z"
+        }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "organization": "Agility Robotics",
+      "title": "AI Product Manager",
+      "current": true,
+      "basis": "event_listing",
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "observed_at": "2026-10-24T21:34:19Z"
+        },
+        {
+          "url": "https://www.ai-infra-summit.com/2026-speakers",
+          "observed_at": "2026-10-24T21:34:19Z",
+          "quote": "Senior AI Product Manager, Agility Robotics"
+        }
+      ]
+    },
+    {
+      "organization": "Gladstone Institutes",
+      "title": "Senior Software Engineer",
+      "current": false,
+      "basis": "website",
+      "evidence": [
+        {
+          "url": "https://cvmi-workshop.github.io/speakers.html",
+          "observed_at": "2026-10-24T21:34:19Z",
+          "quote": "Senior Software Engineer"
+        }
+      ],
+      "note": "An earlier 2026 workshop biography lists this role. The current event and AI Infra Summit list Agility Robotics; no transition date was established."
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "linkedin",
+      "handle": "in/vivekgr",
+      "url": "https://www.linkedin.com/in/vivekgr",
+      "display_name": "Vivek G.",
+      "location": "San Francisco",
+      "followers": 1705,
+      "connections": 500,
+      "confidence": "high",
+      "link_basis": [
+        "event_listing"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "observed_at": "2026-10-24T21:34:19Z"
+        },
+        {
+          "url": "https://www.linkedin.com/in/vivekgr",
+          "observed_at": "2026-10-24T21:13:34Z",
+          "access": "public_profile_snapshot"
+        }
+      ]
+    },
+    {
+      "platform": "github",
+      "handle": "vivekgr92",
+      "url": "https://github.com/vivekgr92",
+      "display_name": "Vivek GR",
+      "confidence": "high",
+      "link_basis": [
+        "website_link",
+        "github_profile"
+      ],
+      "evidence": [
+        {
+          "url": "https://cerebralvalley.ai/e/zero-to-agent-sf/hackathon/gallery/14",
+          "observed_at": "2026-10-24T21:34:19Z"
+        },
+        {
+          "url": "https://github.com/vivekgr92",
+          "observed_at": "2026-10-24T21:34:19Z"
+        }
+      ],
+      "identity_note": "The public RoboPulse submission names Vivek Gopal Ramaswamy as its team member and links directly to github.com/vivekgr92/robopulse-hackathon. The account bio mentions Carnegie Mellon University and its company field identifies the Finkbeiner lab, corroborating the CMU alumni entry and Gladstone research record."
+    }
+  ],
+  "websites": [],
+  "github": {
+    "login": "vivekgr92",
+    "resolution": "resolved",
+    "match": "linked",
+    "name": "Vivek GR",
+    "bio": "I am very passionate about developing robotic technologies for solving some of the existing problems in the world!!\r\n@Carnegie Mellon University",
+    "company": "@finkbeiner-lab",
+    "location": "San Francisco",
+    "followers": 8,
+    "following": 0,
+    "public_repos": 47,
+    "created_at": "2016-09-13T07:26:26Z",
+    "contributions_last_year": 281,
+    "pinned": [],
+    "organizations": [],
+    "top_repositories": [
+      {
+        "full_name": "vivekgr92/policyx",
+        "stars": 0,
+        "forks": 0,
+        "primary_language": "Python",
+        "fork": false,
+        "pushed_at": "2026-10-11T01:54:23Z"
+      },
+      {
+        "full_name": "vivekgr92/MentorPi",
+        "stars": 0,
+        "forks": 0,
+        "primary_language": "Python",
+        "fork": false,
+        "pushed_at": "2026-03-12T00:04:48Z"
+      },
+      {
+        "full_name": "vivekgr92/chatgpt-app",
+        "stars": 0,
+        "forks": 0,
+        "primary_language": "Python",
+        "fork": false,
+        "pushed_at": "2025-10-12T03:22:59Z"
+      },
+      {
+        "full_name": "vivekgr92/nextflow-cluster",
+        "description": "This repo is for running nextflow pipeline exclusively in the cluster",
+        "stars": 0,
+        "forks": 0,
+        "primary_language": "Python",
+        "fork": false,
+        "pushed_at": "2025-07-25T21:29:53Z"
+      },
+      {
+        "full_name": "vivekgr92/16681-MRSD",
+        "description": "All assignmentsrelated to MRSD project course",
+        "stars": 0,
+        "forks": 0,
+        "primary_language": "C++",
+        "fork": false,
+        "pushed_at": "2020-06-10T22:43:14Z"
+      },
+      {
+        "full_name": "vivekgr92/LearnDeepLearning",
+        "description": "Set of example toy codes to learn and implement neural architectures",
+        "stars": 0,
+        "forks": 0,
+        "primary_language": "Jupyter Notebook",
+        "fork": false,
+        "pushed_at": "2019-08-18T07:13:32Z"
+      },
+      {
+        "full_name": "vivekgr92/16720A-ComputerVision",
+        "description": "A collection of all the CV algorithms implemented on MATALAB",
+        "stars": 0,
+        "forks": 0,
+        "primary_language": "MATLAB",
+        "fork": false,
+        "pushed_at": "2017-12-02T02:27:57Z"
+      },
+      {
+        "full_name": "vivekgr92/TeamE-BeyondSight",
+        "description": "All the resources related to development of the project",
+        "stars": 0,
+        "forks": 0,
+        "fork": false,
+        "pushed_at": "2017-11-12T23:03:36Z"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://api.github.com/users/vivekgr92",
+        "observed_at": "2026-10-24T21:34:19Z"
+      },
+      {
+        "url": "https://api.github.com/users/vivekgr92/repos?per_page=100",
+        "observed_at": "2026-10-24T21:34:19Z"
+      },
+      {
+        "url": "https://cerebralvalley.ai/e/zero-to-agent-sf/hackathon/gallery/14",
+        "observed_at": "2026-10-24T21:34:19Z"
+      }
+    ],
+    "selection_note": "Selected professional non-fork repositories; all selected repositories have zero stars, so this is a portfolio selection rather than a ranking by popularity. Unrelated personal utilities were omitted."
+  },
+  "github_resolution": "resolved",
+  "profile": {
+    "headline": "AI Product Manager, Agility Robotics",
+    "current_roles": [
+      "AI Product Manager, Agility Robotics"
+    ],
+    "location": "San Francisco",
+    "experience": [
+      {
+        "title": "Senior Software Engineer",
+        "organization": "Gladstone Institutes",
+        "current": false,
+        "summary": "A 2026 workshop biography describes AI imaging, robotics, biological foundation models and scalable microscopy image analysis. No employment transition date was established.",
+        "evidence": [
+          {
+            "url": "https://cvmi-workshop.github.io/speakers.html",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "school": "Carnegie Mellon University",
+        "field": "Robotic Systems Development",
+        "evidence": [
+          {
+            "url": "https://www.ri.cmu.edu/people/alumni/page/6/?display-total=100&grad-year=&person-category=&wpv_post_advisor=&wpv_post_search=",
+            "observed_at": "2026-10-24T21:34:19Z",
+            "quote": "Program: MRSD"
+          }
+        ]
+      }
+    ],
+    "expertise": [
+      {
+        "label": "Computer vision",
+        "basis": "website",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://cvmi-workshop.github.io/speakers.html",
+            "observed_at": "2026-10-24T21:34:19Z",
+            "quote": "computer vision"
+          }
+        ]
+      },
+      {
+        "label": "Robotics",
+        "basis": "website",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://cvmi-workshop.github.io/speakers.html",
+            "observed_at": "2026-10-24T21:34:19Z",
+            "quote": "robotics"
+          }
+        ]
+      },
+      {
+        "label": "Microscopy image analysis",
+        "basis": "website",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://cvmi-workshop.github.io/speakers.html",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      },
+      {
+        "label": "Multimodal foundation models",
+        "basis": "website",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://cvmi-workshop.github.io/speakers.html",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      },
+      {
+        "label": "Spatial transcriptomics",
+        "basis": "website",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://psb.stanford.edu/psb-online/proceedings/psb24/song.pdf",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "label": "Docker",
+        "basis": "website",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://cvmi-workshop.github.io/speakers.html",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      },
+      {
+        "label": "Kafka",
+        "basis": "website",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://cvmi-workshop.github.io/speakers.html",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      },
+      {
+        "label": "Kubernetes",
+        "basis": "website",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://cvmi-workshop.github.io/speakers.html",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      },
+      {
+        "label": "Vision Transformers",
+        "basis": "website",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://cvmi-workshop.github.io/speakers.html",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      },
+      {
+        "label": "QLoRA",
+        "basis": "website",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://cvmi-workshop.github.io/speakers.html",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      },
+      {
+        "label": "Nextflow",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/vivekgr92/nextflow-cluster",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      }
+    ],
+    "programming_languages": [
+      {
+        "label": "Python",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/vivekgr92",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      },
+      {
+        "label": "C++",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/vivekgr92",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      },
+      {
+        "label": "MATLAB",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/vivekgr92",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      }
+    ],
+    "publications": [
+      {
+        "title": "Generalizable Prediction of Alzheimer Disease Pathologies with a Scalable Annotation Tool and an High-Accuracy Model",
+        "venue": "medRxiv (preprint)",
+        "year": 2025,
+        "url": "https://doi.org/10.1101/2025.02.03.25321603",
+        "evidence": [
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39974039/",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      },
+      {
+        "title": "Enhancing Spatial Transcriptomics Analysis by Integrating Image-Aware Deep Learning Methods",
+        "venue": "Pacific Symposium on Biocomputing",
+        "year": 2024,
+        "url": "https://doi.org/10.1142/9789811286421_0035",
+        "evidence": [
+          {
+            "url": "https://psb.stanford.edu/psb-online/proceedings/psb24/song.pdf",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      }
+    ],
+    "talks": [
+      {
+        "title": "The Thinking Microscope: Autonomously Designing, Perturbing, and Analyzing Biological Experiments",
+        "event": "Computer Vision for Microscopy Image Analysis at CVPR 2026",
+        "url": "https://cvmi-workshop.github.io/speakers.html",
+        "evidence": [
+          {
+            "url": "https://cvmi-workshop.github.io/program.html",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      },
+      {
+        "title": "Who’s Cutting the Cost of AI",
+        "event": "AI Infra Summit 2026",
+        "url": "https://www.ai-infra-summit.com/expo-theatre-agenda",
+        "evidence": [
+          {
+            "url": "https://www.ai-infra-summit.com/expo-theatre-agenda",
+            "observed_at": "2026-10-24T21:34:19Z"
+          }
+        ]
+      }
+    ],
+    "activities": [
+      {
+        "kind": "project",
+        "title": "RoboPulse",
+        "detail": "A public hackathon submission describes a Slack-based agent for running and analyzing robot-policy simulations using Gemini, NVIDIA Isaac Sim and cloud GPUs. The submission names Vivek as a team member.",
+        "url": "https://cerebralvalley.ai/e/zero-to-agent-sf/hackathon/gallery/14",
+        "evidence": [
+          {
+            "url": "https://cerebralvalley.ai/e/zero-to-agent-sf/hackathon/gallery/14",
+            "observed_at": "2026-10-24T21:34:19Z",
+            "quote": "RoboPulse"
+          }
+        ]
+      }
+    ],
+    "patents": [],
+    "credentials": [],
+    "spoken_languages": [],
+    "recent_writing": [],
+    "packages": [],
+    "event_posts": []
+  },
+  "sources_consulted": [
+    "https://www.wemakedevs.org/hackathons/ptc/judges",
+    "https://www.linkedin.com/in/vivekgr",
+    "https://github.com/vivekgr92",
+    "https://api.github.com/users/vivekgr92",
+    "https://api.github.com/users/vivekgr92/repos?per_page=100",
+    "https://cerebralvalley.ai/e/zero-to-agent-sf/hackathon/gallery/14",
+    "https://github.com/vivekgr92/robopulse-hackathon",
+    "https://cvmi-workshop.github.io/speakers.html",
+    "https://cvmi-workshop.github.io/program.html",
+    "https://www.ai-infra-summit.com/2026-speakers",
+    "https://www.ai-infra-summit.com/expo-theatre-agenda",
+    "https://www.ri.cmu.edu/people/alumni/page/6/?display-total=100&grad-year=&person-category=&wpv_post_advisor=&wpv_post_search=",
+    "https://www.cmu.edu/commencement/assets/finalprogram2019web.pdf",
+    "https://pubmed.ncbi.nlm.nih.gov/39974039/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11838692/",
+    "https://psb.stanford.edu/psb-online/proceedings/psb24/song.pdf",
+    "https://www.medrxiv.org/content/10.1101/2025.02.03.25321603v1",
+    "https://gladstone.org/people/steve-finkbeiner/",
+    "https://orcid.org/0000-0002-8245-6583",
+    "https://www.kaggle.com/general/193047",
+    "https://medium.com/@vivekgr92/htop-in-linux-82f13ae49e32",
+    "https://www.emmavendetta.com/spill"
+  ],
+  "gaps": [
+    "The event spells the employer Agility Robitics; Agility Robotics is corroborated by the independent primary AI Infra Summit speaker roster. The event title says AI Product Manager and the Summit says Senior AI Product Manager; both source labels are preserved.",
+    "The earlier CVMI 2026 biography lists Gladstone Institutes. The event and September 2026 Summit list Agility Robotics. No exact job transition date or complete LinkedIn employment history was established; the older role is not asserted as current.",
+    "The RoboPulse submission links to github.com/vivekgr92/robopulse-hackathon, but the GitHub repository endpoint returned 404 during this research. The public submission supports the project and account linkage, not present public availability of its source code.",
+    "The GitHub API reports 47 public repositories, eight followers and 281 contributions over its default annual window at observation time. Those are time-dependent observations. No pinned repositories or public organization memberships were returned.",
+    "A Kaggle contributor with the same full name and a Medium account named vivekgr92 were found, but no direct link was verified; they were not added as owned accounts. A possible ORCID identifier was not confirmed directly from an accessible primary profile.",
+    "No own public post announcing this hackathon, confident X account, patents, or published software package was established. Personal newsletter material and unrelated personal utilities were omitted.",
+    "Education dates and contact details from papers or university listings were omitted; the scientific papers describe professional research, not personal medical attributes."
+  ],
+  "brief_bio": "Vivek Gopal Ramaswamy is an AI Product Manager at Agility Robotics and is listed as a judge for the Patch the Conference Hackathon. A 2026 workshop biography describes earlier software engineering work at Gladstone Institutes in computer vision, robotics and automated microscopy, and public papers document work on image-based pathology analysis and spatial transcriptomics.",
+  "brief_bio_cites": [
+    "https://www.wemakedevs.org/hackathons/ptc/judges",
+    "https://www.ai-infra-summit.com/2026-speakers",
+    "https://cvmi-workshop.github.io/speakers.html",
+    "https://pubmed.ncbi.nlm.nih.gov/39974039/",
+    "https://psb.stanford.edu/psb-online/proceedings/psb24/song.pdf"
+  ]
+}

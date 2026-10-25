@@ -1,0 +1,27 @@
+softschema:
+  contract: paraverse.conference:Website/v1
+  schema: ../_schemas/website.schema.yaml
+  envelope: website
+  status: permissive
+website:
+  id: site:nitishmane.dev
+  url: https://nitishmane.dev/
+  kind: personal
+  title: Nitish Mane · Software Engineer
+  description: Portfolio of platform infrastructure, AI operations, talks and technical writing.
+  owner: person:nitish-mane
+  link_basis:
+  - curated
+  fetch_status: not_fetched
+  identity_links:
+  - https://github.com/Nitishmane
+  - https://www.linkedin.com/in/nitish-mane/
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/nitish-mane.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/nitish-mane/
+    record_id: sd_mvmx2sl4s8uuigoaf
+    retrieved_at: '2026-10-24T21:34:57Z'
+    snapshot: raw/brightdata/linkedin_profiles.json

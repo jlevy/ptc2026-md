@@ -1,0 +1,133 @@
+{"id": "acct:linkedin/in/kunal-kushwaha", "kind": "social_account", "name": "in/kunal-kushwaha", "path": "accounts/linkedin/in/kunal-kushwaha.yaml"}
+{"id": "acct:linkedin/in/manpoffc", "kind": "social_account", "name": "in/manpoffc", "path": "accounts/linkedin/in/manpoffc.yaml"}
+{"id": "acct:linkedin/in/nitish-mane", "kind": "social_account", "name": "in/nitish-mane", "path": "accounts/linkedin/in/nitish-mane.yaml"}
+{"id": "acct:linkedin/in/pravi20", "kind": "social_account", "name": "in/pravi20", "path": "accounts/linkedin/in/pravi20.yaml"}
+{"id": "acct:linkedin/in/satyamsingh2003", "kind": "social_account", "name": "in/Satyamsingh2003", "path": "accounts/linkedin/in/satyamsingh2003.yaml"}
+{"id": "acct:linkedin/in/schezeenfazulbhoy", "kind": "social_account", "name": "in/schezeenfazulbhoy", "path": "accounts/linkedin/in/schezeenfazulbhoy.yaml"}
+{"id": "acct:linkedin/in/shah-riken", "kind": "social_account", "name": "in/shah-riken", "path": "accounts/linkedin/in/shah-riken.yaml"}
+{"id": "acct:linkedin/in/vivekgr", "kind": "social_account", "name": "in/vivekgr", "path": "accounts/linkedin/in/vivekgr.yaml"}
+{"id": "acct:linkedin/in/yyash-bhatia", "kind": "social_account", "name": "in/yyash-bhatia", "path": "accounts/linkedin/in/yyash-bhatia.yaml"}
+{"id": "acct:other/dev.to/rikenshah", "kind": "social_account", "name": "rikenshah", "path": "accounts/other/dev.to/rikenshah.yaml"}
+{"id": "acct:other/dev.to/schezfaz", "kind": "social_account", "name": "schezfaz", "path": "accounts/other/dev.to/schezfaz.yaml"}
+{"id": "acct:other/medium.com/schezfaz", "kind": "social_account", "name": "schezfaz", "path": "accounts/other/medium.com/schezfaz.yaml"}
+{"id": "acct:other/scholar.google.com/yxcz8dqaaaaj", "kind": "social_account", "name": "YXcZ8DQAAAAJ", "path": "accounts/other/scholar.google.com/yxcz8dqaaaaj.yaml"}
+{"id": "acct:x/_rikenshah", "kind": "social_account", "name": "_RikenShah", "path": "accounts/x/_rikenshah.yaml"}
+{"id": "acct:x/klauscodes", "kind": "social_account", "name": "KlausCodes", "path": "accounts/x/klauscodes.yaml"}
+{"id": "acct:x/kunalstwt", "kind": "social_account", "name": "kunalstwt", "path": "accounts/x/kunalstwt.yaml"}
+{"id": "acct:x/schezfaz10", "kind": "social_account", "name": "schezfaz10", "path": "accounts/x/schezfaz10.yaml"}
+{"id": "acct:youtube/kunalkushwaha", "kind": "social_account", "name": "KunalKushwaha", "path": "accounts/youtube/kunalkushwaha.yaml"}
+{"id": "acct:youtube/satyamcodesss", "kind": "social_account", "name": "SatyamCodesss", "path": "accounts/youtube/satyamcodesss.yaml"}
+{"id": "acct:youtube/schezfaz", "kind": "social_account", "name": "@schezfaz", "path": "accounts/youtube/schezfaz.yaml"}
+{"id": "day:2026-10-24", "kind": "day", "name": "Saturday (2026-10-24)", "path": "events/patch-the-conference-2026.md"}
+{"id": "event:patch-the-conference-2026", "kind": "event", "name": "Patch the Conference Hackathon", "path": "events/patch-the-conference-2026.md"}
+{"id": "gh:klausmikhaelson", "kind": "github_account", "name": "Satyam", "path": "accounts/github/klausmikhaelson.yaml"}
+{"id": "gh:kunal-kushwaha", "kind": "github_account", "name": "Kunal Kushwaha", "path": "accounts/github/kunal-kushwaha.yaml"}
+{"id": "gh:manpoffc", "kind": "github_account", "name": "Manpreet Singh", "path": "accounts/github/manpoffc.yaml"}
+{"id": "gh:nitishmane", "kind": "github_account", "name": "Nitish Mane", "path": "accounts/github/nitishmane.yaml"}
+{"id": "gh:riken-shah", "kind": "github_account", "name": "Riken Shah", "path": "accounts/github/riken-shah.yaml"}
+{"id": "gh:schezfaz", "kind": "github_account", "name": "Schezeen Fazulbhoy", "path": "accounts/github/schezfaz.yaml"}
+{"id": "gh:vivekgr92", "kind": "github_account", "name": "Vivek GR", "path": "accounts/github/vivekgr92.yaml"}
+{"id": "org:adobe", "kind": "organization", "name": "Adobe", "path": "organizations/adobe.md"}
+{"id": "org:agility-robotics", "kind": "organization", "name": "Agility Robotics", "path": "organizations/agility-robotics.md"}
+{"id": "org:bnp-paribas", "kind": "organization", "name": "BNP Paribas", "path": "organizations/bnp-paribas.md"}
+{"id": "org:bree", "kind": "organization", "name": "Bree", "path": "organizations/bree.md"}
+{"id": "org:bright-data", "kind": "organization", "name": "Bright Data", "path": "organizations/bright-data.md"}
+{"id": "org:cast-ai", "kind": "organization", "name": "CAST AI", "path": "organizations/cast-ai.md"}
+{"id": "org:falkordb", "kind": "organization", "name": "FalkorDB", "path": "organizations/falkordb.md"}
+{"id": "org:gladstone-institutes", "kind": "organization", "name": "Gladstone Institutes", "path": "organizations/gladstone-institutes.md"}
+{"id": "org:meta", "kind": "organization", "name": "Meta", "path": "organizations/meta.md"}
+{"id": "org:microsoft", "kind": "organization", "name": "Microsoft", "path": "organizations/microsoft.md"}
+{"id": "org:msquare-labs", "kind": "organization", "name": "Msquare Labs", "path": "organizations/msquare-labs.md"}
+{"id": "org:netflix", "kind": "organization", "name": "Netflix", "path": "organizations/netflix.md"}
+{"id": "org:northwest-bank", "kind": "organization", "name": "Northwest Bank", "path": "organizations/northwest-bank.md"}
+{"id": "org:openai", "kind": "organization", "name": "OpenAI", "path": "organizations/openai.md"}
+{"id": "org:oracle", "kind": "organization", "name": "Oracle", "path": "organizations/oracle.md"}
+{"id": "org:philo", "kind": "organization", "name": "Philo", "path": "organizations/philo.md"}
+{"id": "org:qodo", "kind": "organization", "name": "Qodo", "path": "organizations/qodo.md"}
+{"id": "org:ramp", "kind": "organization", "name": "Ramp", "path": "organizations/ramp.md"}
+{"id": "org:simulithic", "kind": "organization", "name": "Simulithic", "path": "organizations/simulithic.md"}
+{"id": "org:truefoundry", "kind": "organization", "name": "TrueFoundry", "path": "organizations/truefoundry.md"}
+{"id": "org:wemakedevs", "kind": "organization", "name": "WeMakeDevs", "path": "organizations/wemakedevs.md"}
+{"id": "org:xai", "kind": "organization", "name": "xAI", "path": "organizations/xai.md"}
+{"id": "person:dipen-chawla", "kind": "person", "name": "Dipen Chawla", "path": "people/dipen-chawla.md"}
+{"id": "person:kunal-kushwaha", "kind": "person", "name": "Kunal Kushwaha", "path": "people/kunal-kushwaha.md"}
+{"id": "person:manpreet-singh", "kind": "person", "name": "Manpreet Singh", "path": "people/manpreet-singh.md"}
+{"id": "person:nitish-mane", "kind": "person", "name": "Nitish Mane", "path": "people/nitish-mane.md"}
+{"id": "person:pooja-ravi", "kind": "person", "name": "Pooja Ravi", "path": "people/pooja-ravi.md"}
+{"id": "person:riken-shah", "kind": "person", "name": "Riken Shah", "path": "people/riken-shah.md"}
+{"id": "person:satyam-singh", "kind": "person", "name": "Satyam Singh", "path": "people/satyam-singh.md"}
+{"id": "person:schezeen-fazulbhoy", "kind": "person", "name": "Schezeen Fazulbhoy", "path": "people/schezeen-fazulbhoy.md"}
+{"id": "person:vivek-gopal-ramaswamy", "kind": "person", "name": "Vivek Gopal Ramaswamy", "path": "people/vivek-gopal-ramaswamy.md"}
+{"id": "person:yash-bhatia", "kind": "person", "name": "Yash Bhatia", "path": "people/yash-bhatia.md"}
+{"id": "profile:dipen-chawla", "kind": "profile", "name": null, "path": "profiles/dipen-chawla.yaml"}
+{"id": "profile:kunal-kushwaha", "kind": "profile", "name": null, "path": "profiles/kunal-kushwaha.yaml"}
+{"id": "profile:manpreet-singh", "kind": "profile", "name": null, "path": "profiles/manpreet-singh.yaml"}
+{"id": "profile:nitish-mane", "kind": "profile", "name": null, "path": "profiles/nitish-mane.yaml"}
+{"id": "profile:pooja-ravi", "kind": "profile", "name": null, "path": "profiles/pooja-ravi.yaml"}
+{"id": "profile:riken-shah", "kind": "profile", "name": null, "path": "profiles/riken-shah.yaml"}
+{"id": "profile:satyam-singh", "kind": "profile", "name": null, "path": "profiles/satyam-singh.yaml"}
+{"id": "profile:schezeen-fazulbhoy", "kind": "profile", "name": null, "path": "profiles/schezeen-fazulbhoy.yaml"}
+{"id": "profile:vivek-gopal-ramaswamy", "kind": "profile", "name": null, "path": "profiles/vivek-gopal-ramaswamy.yaml"}
+{"id": "profile:yash-bhatia", "kind": "profile", "name": null, "path": "profiles/yash-bhatia.yaml"}
+{"id": "repo:calcom/cal.diy", "kind": "repository", "name": "calcom/cal.diy", "path": "repositories/calcom/cal.diy.yaml"}
+{"id": "repo:fabric8io/kubernetes-client", "kind": "repository", "name": "fabric8io/kubernetes-client", "path": "repositories/fabric8io/kubernetes-client.yaml"}
+{"id": "repo:klausmikhaelson/asteroid-destroyers-nasa-app-challenge", "kind": "repository", "name": "KlausMikhaelson/asteroid-destroyers-nasa-app-challenge", "path": "repositories/klausmikhaelson/asteroid-destroyers-nasa-app-challenge.yaml"}
+{"id": "repo:klausmikhaelson/emoji_mosaic_art", "kind": "repository", "name": "KlausMikhaelson/emoji_mosaic_art", "path": "repositories/klausmikhaelson/emoji_mosaic_art.yaml"}
+{"id": "repo:klausmikhaelson/hackthevalley-webapp", "kind": "repository", "name": "KlausMikhaelson/hackthevalley-webapp", "path": "repositories/klausmikhaelson/hackthevalley-webapp.yaml"}
+{"id": "repo:klausmikhaelson/pet-menu-bar", "kind": "repository", "name": "KlausMikhaelson/pet-menu-bar", "path": "repositories/klausmikhaelson/pet-menu-bar.yaml"}
+{"id": "repo:klausmikhaelson/retain", "kind": "repository", "name": "KlausMikhaelson/Retain", "path": "repositories/klausmikhaelson/retain.yaml"}
+{"id": "repo:klausmikhaelson/todo-list-on-blockchain", "kind": "repository", "name": "KlausMikhaelson/todo-list-on-blockchain", "path": "repositories/klausmikhaelson/todo-list-on-blockchain.yaml"}
+{"id": "repo:klausmikhaelson/virtualroom", "kind": "repository", "name": "KlausMikhaelson/VirtualRoom", "path": "repositories/klausmikhaelson/virtualroom.yaml"}
+{"id": "repo:klausmikhaelson/web3conf-be", "kind": "repository", "name": "KlausMikhaelson/web3conf-BE", "path": "repositories/klausmikhaelson/web3conf-be.yaml"}
+{"id": "repo:klausmikhaelson/web3conf-fe", "kind": "repository", "name": "KlausMikhaelson/web3Conf-FE", "path": "repositories/klausmikhaelson/web3conf-fe.yaml"}
+{"id": "repo:klausmikhaelson/wrestle-with-shapes", "kind": "repository", "name": "KlausMikhaelson/wrestle-with-shapes", "path": "repositories/klausmikhaelson/wrestle-with-shapes.yaml"}
+{"id": "repo:kunal-kushwaha/blogs", "kind": "repository", "name": "kunal-kushwaha/blogs", "path": "repositories/kunal-kushwaha/blogs.yaml"}
+{"id": "repo:kunal-kushwaha/competitive-programming-resources", "kind": "repository", "name": "kunal-kushwaha/Competitive-Programming-Resources", "path": "repositories/kunal-kushwaha/competitive-programming-resources.yaml"}
+{"id": "repo:kunal-kushwaha/devops-bootcamp", "kind": "repository", "name": "kunal-kushwaha/DevOps-Bootcamp", "path": "repositories/kunal-kushwaha/devops-bootcamp.yaml"}
+{"id": "repo:kunal-kushwaha/dsa-bootcamp-java", "kind": "repository", "name": "kunal-kushwaha/DSA-Bootcamp-Java", "path": "repositories/kunal-kushwaha/dsa-bootcamp-java.yaml"}
+{"id": "repo:kunal-kushwaha/intro-to-gen-ai-and-rag", "kind": "repository", "name": "kunal-kushwaha/Intro-to-Gen-AI-and-RAG", "path": "repositories/kunal-kushwaha/intro-to-gen-ai-and-rag.yaml"}
+{"id": "repo:kunal-kushwaha/invisible-cloak", "kind": "repository", "name": "kunal-kushwaha/invisible-cloak", "path": "repositories/kunal-kushwaha/invisible-cloak.yaml"}
+{"id": "repo:kunal-kushwaha/meditationapp", "kind": "repository", "name": "kunal-kushwaha/MeditationApp", "path": "repositories/kunal-kushwaha/meditationapp.yaml"}
+{"id": "repo:kunal-kushwaha/node-chat-app", "kind": "repository", "name": "kunal-kushwaha/node-chat-app", "path": "repositories/kunal-kushwaha/node-chat-app.yaml"}
+{"id": "repo:kunal-kushwaha/sentimentanalysismlh", "kind": "repository", "name": "kunal-kushwaha/SentimentAnalysisMLH", "path": "repositories/kunal-kushwaha/sentimentanalysismlh.yaml"}
+{"id": "repo:kunal-kushwaha/techwithkunal", "kind": "repository", "name": "kunal-kushwaha/techwithkunal", "path": "repositories/kunal-kushwaha/techwithkunal.yaml"}
+{"id": "repo:manpoffc/gokuai", "kind": "repository", "name": "manpoffc/GokuAI", "path": "repositories/manpoffc/gokuai.yaml"}
+{"id": "repo:manpoffc/ml-projects", "kind": "repository", "name": "manpoffc/ML-projects", "path": "repositories/manpoffc/ml-projects.yaml"}
+{"id": "repo:manpoffc/pack-landing", "kind": "repository", "name": "manpoffc/Pack-landing", "path": "repositories/manpoffc/pack-landing.yaml"}
+{"id": "repo:manpoffc/shoppiedoo", "kind": "repository", "name": "manpoffc/ShoppieDoo", "path": "repositories/manpoffc/shoppiedoo.yaml"}
+{"id": "repo:mlh-fellowship/webxr-layers", "kind": "repository", "name": "MLH-Fellowship/webxr-layers", "path": "repositories/mlh-fellowship/webxr-layers.yaml"}
+{"id": "repo:nitishmane/nm-gophercises", "kind": "repository", "name": "Nitishmane/nm-gophercises", "path": "repositories/nitishmane/nm-gophercises.yaml"}
+{"id": "repo:nitishmane/scraper-factory", "kind": "repository", "name": "Nitishmane/scraper-factory", "path": "repositories/nitishmane/scraper-factory.yaml"}
+{"id": "repo:nitishmane/serp-hack", "kind": "repository", "name": "Nitishmane/serp-hack", "path": "repositories/nitishmane/serp-hack.yaml"}
+{"id": "repo:nitishmane/sre-oncall", "kind": "repository", "name": "Nitishmane/sre-oncall", "path": "repositories/nitishmane/sre-oncall.yaml"}
+{"id": "repo:nitishmane/trending-funny-domains", "kind": "repository", "name": "Nitishmane/trending-funny-domains", "path": "repositories/nitishmane/trending-funny-domains.yaml"}
+{"id": "repo:pushchain/push-notifications-sdk", "kind": "repository", "name": "pushchain/push-notifications-sdk", "path": "repositories/pushchain/push-notifications-sdk.yaml"}
+{"id": "repo:riken-shah/benchmark-db-browsers", "kind": "repository", "name": "Riken-Shah/benchmark-db-browsers", "path": "repositories/riken-shah/benchmark-db-browsers.yaml"}
+{"id": "repo:riken-shah/chillflix", "kind": "repository", "name": "Riken-Shah/Chillflix", "path": "repositories/riken-shah/chillflix.yaml"}
+{"id": "repo:riken-shah/handle-large-dataset-on-web-slides", "kind": "repository", "name": "Riken-Shah/handle-large-dataset-on-web-slides", "path": "repositories/riken-shah/handle-large-dataset-on-web-slides.yaml"}
+{"id": "repo:riken-shah/petavision", "kind": "repository", "name": "Riken-Shah/PetaVision", "path": "repositories/riken-shah/petavision.yaml"}
+{"id": "repo:riken-shah/replyrobin", "kind": "repository", "name": "Riken-Shah/ReplyRobin", "path": "repositories/riken-shah/replyrobin.yaml"}
+{"id": "repo:riken-shah/trust-net", "kind": "repository", "name": "Riken-Shah/trust-net", "path": "repositories/riken-shah/trust-net.yaml"}
+{"id": "repo:riken-shah/zulip", "kind": "repository", "name": "Riken-Shah/zulip", "path": "repositories/riken-shah/zulip.yaml"}
+{"id": "repo:schezfaz/bucketlist", "kind": "repository", "name": "schezfaz/bucketList", "path": "repositories/schezfaz/bucketlist.yaml"}
+{"id": "repo:schezfaz/haci", "kind": "repository", "name": "schezfaz/HACI", "path": "repositories/schezfaz/haci.yaml"}
+{"id": "repo:schezfaz/intelli-intent", "kind": "repository", "name": "schezfaz/Intelli-intent", "path": "repositories/schezfaz/intelli-intent.yaml"}
+{"id": "repo:schezfaz/ivi", "kind": "repository", "name": "schezfaz/IVI", "path": "repositories/schezfaz/ivi.yaml"}
+{"id": "repo:schezfaz/mice", "kind": "repository", "name": "schezfaz/mice", "path": "repositories/schezfaz/mice.yaml"}
+{"id": "repo:schezfaz/momentum", "kind": "repository", "name": "schezfaz/momentum", "path": "repositories/schezfaz/momentum.yaml"}
+{"id": "repo:schezfaz/spot", "kind": "repository", "name": "schezfaz/spot", "path": "repositories/schezfaz/spot.yaml"}
+{"id": "repo:vivekgr92/16681-mrsd", "kind": "repository", "name": "vivekgr92/16681-MRSD", "path": "repositories/vivekgr92/16681-mrsd.yaml"}
+{"id": "repo:vivekgr92/16720a-computervision", "kind": "repository", "name": "vivekgr92/16720A-ComputerVision", "path": "repositories/vivekgr92/16720a-computervision.yaml"}
+{"id": "repo:vivekgr92/chatgpt-app", "kind": "repository", "name": "vivekgr92/chatgpt-app", "path": "repositories/vivekgr92/chatgpt-app.yaml"}
+{"id": "repo:vivekgr92/learndeeplearning", "kind": "repository", "name": "vivekgr92/LearnDeepLearning", "path": "repositories/vivekgr92/learndeeplearning.yaml"}
+{"id": "repo:vivekgr92/mentorpi", "kind": "repository", "name": "vivekgr92/MentorPi", "path": "repositories/vivekgr92/mentorpi.yaml"}
+{"id": "repo:vivekgr92/nextflow-cluster", "kind": "repository", "name": "vivekgr92/nextflow-cluster", "path": "repositories/vivekgr92/nextflow-cluster.yaml"}
+{"id": "repo:vivekgr92/policyx", "kind": "repository", "name": "vivekgr92/policyx", "path": "repositories/vivekgr92/policyx.yaml"}
+{"id": "repo:vivekgr92/teame-beyondsight", "kind": "repository", "name": "vivekgr92/TeamE-BeyondSight", "path": "repositories/vivekgr92/teame-beyondsight.yaml"}
+{"id": "repo:zulip/zulip", "kind": "repository", "name": "zulip/zulip", "path": "repositories/zulip/zulip.yaml"}
+{"id": "site:nitishmane.dev", "kind": "website", "name": "Nitish Mane · Software Engineer", "path": "websites/nitishmane.dev.yaml"}
+{"id": "site:riken.me", "kind": "website", "name": "Riken Shah — Performance Engineer", "path": "websites/riken.me.yaml"}
+{"id": "site:schezfaz.dev", "kind": "website", "name": "Schezeen Fazulbhoy", "path": "websites/schezfaz.dev.yaml"}
+{"id": "site:techwithkunal.com", "kind": "website", "name": "Kunal Kushwaha", "path": "websites/techwithkunal.com.yaml"}
+{"id": "site:topmate.io/yash_bhatia", "kind": "website", "name": "Yash Bhatia on Topmate", "path": "websites/topmate.io/yash_bhatia.yaml"}
+{"id": "venue:bright-data-san-francisco", "kind": "venue", "name": "Bright Data, San Francisco", "path": "venues/bright-data-san-francisco.yaml"}

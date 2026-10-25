@@ -1,0 +1,350 @@
+{
+  "slug": "manpreet-singh",
+  "name": "Manpreet Singh",
+  "listed_as": {
+    "name": "Manpreet Singh",
+    "title": "Software Engineer II, Northwest Bank",
+    "url": "https://www.wemakedevs.org/hackathons/ptc/judges"
+  },
+  "job_title": "Software Engineer II",
+  "participations": [
+    {
+      "event": "patch-the-conference-2026",
+      "role": "judge",
+      "status": "listed",
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "quote": "Judges",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "organization": "Northwest Bank",
+      "title": "Software Engineer II",
+      "basis": "event_listing",
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "quote": "",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "linkedin",
+      "handle": "in/manpoffc",
+      "url": "https://www.linkedin.com/in/manpoffc",
+      "link_basis": [
+        "event_listing"
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.linkedin.com/in/manpoffc",
+          "quote": "",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ]
+    },
+    {
+      "platform": "github",
+      "handle": "manpoffc",
+      "url": "https://github.com/manpoffc",
+      "link_basis": [
+        "same_distinctive_handle_and_name",
+        "self_authored_wayup_profile_links_github",
+        "matching_university_and_dates"
+      ],
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://github.com/manpoffc",
+          "quote": "",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ]
+    }
+  ],
+  "websites": [],
+  "profile": {
+    "current_roles": [
+      "Software Engineer II, Northwest Bank"
+    ],
+    "expertise": [],
+    "technologies": [],
+    "programming_languages": [
+      {
+        "label": "TypeScript",
+        "basis": "github_repositories",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://github.com/manpoffc",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Java",
+        "basis": "github_repositories",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://github.com/manpoffc",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "recognitions": [
+      {
+        "label": "Silver Medalist — ICPC TxState Texas-Mexico Invitational Programming Contest, March 2023",
+        "basis": "public_linkedin_profile",
+        "evidence": [
+          {
+            "url": "https://www.linkedin.com/in/manpoffc",
+            "quote": "Silver Medalist",
+            "observed_at": "2026-10-24T21:13:34Z"
+          }
+        ]
+      }
+    ],
+    "interests": [],
+    "open_source": [],
+    "packages": [],
+    "publications": [],
+    "patents": [],
+    "talks": [],
+    "recent_writing": [],
+    "credentials": [],
+    "spoken_languages": [],
+    "event_posts": [],
+    "location": "Chicago",
+    "headline": "Software engineer at Northwest Bank.",
+    "education": [
+      {
+        "school": "The University of Texas at Arlington",
+        "degree": "Master’s",
+        "field": "Computer Science",
+        "evidence": [
+          {
+            "url": "https://www.wayup.com/profile/Manpreet-Singh-7e846a0bd7/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          },
+          {
+            "url": "https://www.linkedin.com/in/manpoffc",
+            "quote": "The University of Texas at Arlington",
+            "observed_at": "2026-10-24T21:13:34Z"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "Graduate Assistant",
+        "organization": "The University of Texas at Arlington",
+        "start": "2022-11",
+        "end": "2023-05",
+        "summary": "Academic support training and student programs.",
+        "evidence": [
+          {
+            "url": "https://www.wayup.com/profile/Manpreet-Singh-7e846a0bd7/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "organization": "Smart 24x7 Response Services",
+        "start": "2020-01",
+        "end": "2021-01",
+        "summary": "Software engineering.",
+        "evidence": [
+          {
+            "url": "https://www.wayup.com/profile/Manpreet-Singh-7e846a0bd7/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "title": "Software Engineer Intern",
+        "organization": "Smart 24x7 Response Services",
+        "start": "2019-06",
+        "end": "2020-01",
+        "summary": "Software engineering internship.",
+        "evidence": [
+          {
+            "url": "https://www.wayup.com/profile/Manpreet-Singh-7e846a0bd7/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ]
+  },
+  "gaps": [
+    "GitHub identity is medium confidence: the exact uncommon handle and full name match, and the WayUp profile links GitHub while matching LinkedIn education. Neither GitHub nor the observed LinkedIn payload provides a direct reciprocal link. Review this join before promoting it to a canonical high-confidence person merge.",
+    "Pack and ShoppieDoo are public repositories on the candidate GitHub account; this does not establish a founder role, business ownership or personal website ownership.",
+    "No X, independently owned personal site, published technical talks or package-maintainer identity was confirmed.",
+    "The LinkedIn experience payload is sparse; the event employer/title are preserved as event-published observations.",
+    "No physical attendance or GitHub Universe attendance is inferred."
+  ],
+  "sources_consulted": [
+    "https://www.wemakedevs.org/hackathons/ptc/judges",
+    "https://www.linkedin.com/in/manpoffc",
+    "https://github.com/manpoffc",
+    "https://www.wayup.com/profile/Manpreet-Singh-7e846a0bd7/",
+    "https://api.github.com/users/manpoffc",
+    "https://api.github.com/users/manpoffc/repos",
+    "https://api.github.com/graphql",
+    "https://www.linkedin.com/company/gdscillinoistech",
+    "https://api.github.com/users/manpoffc/orgs"
+  ],
+  "research_metadata": {
+    "researched_at": "2026-10-24T21:30:51Z",
+    "source_policy": "Public professional sources only; no attendance inferred from a listing. Empty evidence quotes indicate paraphrased factual observations. GitHub metrics were read through the public API. Cached profile observations retain their original observation time."
+  },
+  "github": {
+    "login": "manpoffc",
+    "resolution": "resolved",
+    "identity_confidence": "medium",
+    "name": "Manpreet Singh",
+    "followers": 2,
+    "public_repos": 12,
+    "created_at": "2016-04-26T05:31:24Z",
+    "contributions_last_year": 2,
+    "evidence": [
+      {
+        "url": "https://api.github.com/users/manpoffc",
+        "quote": "",
+        "observed_at": "2026-10-24T21:30:51Z"
+      },
+      {
+        "url": "https://api.github.com/users/manpoffc/repos",
+        "quote": "",
+        "observed_at": "2026-10-24T21:30:51Z"
+      },
+      {
+        "url": "https://api.github.com/graphql",
+        "quote": "",
+        "observed_at": "2026-10-24T21:30:51Z"
+      },
+      {
+        "url": "https://api.github.com/users/manpoffc/orgs",
+        "quote": "",
+        "observed_at": "2026-10-24T21:30:51Z"
+      }
+    ],
+    "pinned": [
+      {
+        "full_name": "manpoffc/GokuAI",
+        "primary_language": "TypeScript",
+        "evidence": [
+          {
+            "url": "https://api.github.com/graphql",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "full_name": "calcom/cal.diy",
+        "primary_language": "TypeScript",
+        "note": "Pinned upstream repository; no authorship or contribution inferred.",
+        "evidence": [
+          {
+            "url": "https://api.github.com/graphql",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "top_repositories": [
+      {
+        "full_name": "manpoffc/ML-projects",
+        "description": "Machine-learning project collection.",
+        "stars": 2,
+        "forks": 0,
+        "primary_language": "Jupyter Notebook",
+        "fork": false,
+        "evidence": [
+          {
+            "url": "https://github.com/manpoffc/ML-projects",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "full_name": "manpoffc/GokuAI",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "primary_language": "TypeScript",
+        "fork": false,
+        "evidence": [
+          {
+            "url": "https://github.com/manpoffc/GokuAI",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "full_name": "manpoffc/Pack-landing",
+        "description": "Pack App landing page.",
+        "stars": 0,
+        "forks": 0,
+        "primary_language": "TypeScript",
+        "fork": false,
+        "evidence": [
+          {
+            "url": "https://github.com/manpoffc/Pack-landing",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "full_name": "manpoffc/ShoppieDoo",
+        "description": "Telegram agent for product launch and promotion.",
+        "stars": 0,
+        "forks": 0,
+        "primary_language": null,
+        "fork": false,
+        "evidence": [
+          {
+            "url": "https://github.com/manpoffc/ShoppieDoo",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "organizations": [],
+    "profile_summary": "Public profile uses the same distinctive handle as the event-listed LinkedIn account. A professional WayUp profile links this GitHub account and matches the LinkedIn education; direct cross-linkage to the event LinkedIn was not located.",
+    "identity_link_basis": [
+      "same_distinctive_handle_and_name",
+      "self_authored_wayup_profile_links_github",
+      "matching_university_and_dates"
+    ]
+  },
+  "brief_bio": "Manpreet Singh is listed as a software engineer at Northwest Bank and a judge at Patch the Conference Hackathon. Public professional profiles report computer science study at the University of Texas at Arlington and prior software engineering work.",
+  "brief_bio_cites": [
+    "https://www.wemakedevs.org/hackathons/ptc/judges",
+    "https://www.linkedin.com/in/manpoffc",
+    "https://www.wayup.com/profile/Manpreet-Singh-7e846a0bd7/"
+  ]
+}

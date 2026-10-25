@@ -1,0 +1,44 @@
+softschema:
+  contract: paraverse.conference:GitHubAccount/v1
+  schema: ../../_schemas/github-account.schema.yaml
+  envelope: github_account
+  status: permissive
+github_account:
+  id: gh:manpoffc
+  login: manpoffc
+  kind: user
+  url: https://github.com/manpoffc
+  name: Manpreet Singh
+  followers: 2
+  created_at: '2016-04-26T05:31:24Z'
+  pinned:
+  - repo:manpoffc/gokuai
+  - repo:calcom/cal.diy
+  top_repositories:
+  - repo:manpoffc/ml-projects
+  - repo:manpoffc/gokuai
+  - repo:manpoffc/pack-landing
+  - repo:manpoffc/shoppiedoo
+  entity: person:manpreet-singh
+  link_basis:
+  - curated
+  identity_link_basis:
+  - same_distinctive_handle_and_name
+  - self_authored_wayup_profile_links_github
+  - matching_university_and_dates
+  identity_confidence: medium
+  identity_evidence:
+  - url: https://github.com/manpoffc
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/users/manpoffc
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/users/manpoffc/repos
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/graphql
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/users/manpoffc/orgs
+    observed_at: '2026-10-24T21:30:51Z'
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/manpreet-singh.json

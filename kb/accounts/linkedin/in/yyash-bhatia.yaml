@@ -1,0 +1,36 @@
+softschema:
+  contract: paraverse.conference:SocialAccount/v1
+  schema: ../../../_schemas/social-account.schema.yaml
+  envelope: social_account
+  status: permissive
+social_account:
+  id: acct:linkedin/in/yyash-bhatia
+  platform: linkedin
+  handle: in/yyash-bhatia
+  url: https://www.linkedin.com/in/yyash-bhatia
+  display_name: Yash Bhatia
+  bio: After working for 3 years as a Software Engineer with a Data Warehousing team, I have…
+  location: San Francisco Bay Area
+  followers: 2263
+  connections: 500
+  avatar_url: https://media.licdn.com/dms/image/v2/C4D03AQHMMDUtBGeWLA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1633118907214?e=2147483647&v=beta&t=XmpTmhAZ5TTSZMRJXrq3kEYRhx5HiwatqpBpAo6bx7g
+  owner: person:yash-bhatia
+  link_basis:
+  - event_listing
+  details_fetched: true
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/yash-bhatia.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/yyash-bhatia
+    record_id: sd_mvmw8f86q8hg8asw6
+    retrieved_at: '2026-10-24T21:13:34Z'
+    snapshot: raw/brightdata/linkedin_profiles.json
+  identity_evidence:
+  - url: https://www.wemakedevs.org/hackathons/ptc/judges
+    quote: Yash Bhatia
+    observed_at: '2026-10-24T21:34:19Z'
+  - url: https://www.linkedin.com/in/yyash-bhatia
+    observed_at: '2026-10-24T21:13:34Z'
+  identity_confidence: high

@@ -1,0 +1,115 @@
+$defs:
+  Source:
+    additionalProperties: false
+    description: 'Where a record came from: one raw snapshot file, or a curated list.'
+    properties:
+      record_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The record's ID in that system.
+        title: Record Id
+      retrieved_at:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Retrieved At
+      snapshot:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Raw snapshot path, relative to the conference directory.
+        title: Snapshot
+      system:
+        enum:
+        - rainfocus
+        - githubuniverse.com
+        - github
+        - npm
+        - pypi
+        - bluesky
+        - mastodon
+        - website
+        - feed
+        - brightdata
+        - curation
+        title: System
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - system
+    title: Source
+    type: object
+$schema: https://json-schema.org/draft/2020-12/schema
+additionalProperties: true
+description: A schedulable space as the catalog names it.
+properties:
+  capacity:
+    anyOf:
+    - minimum: 0
+      type: integer
+    - type: 'null'
+    default: null
+    title: Capacity
+  id:
+    pattern: ^(room):[a-z0-9][a-z0-9._/@+-]*$
+    title: Id
+    type: string
+  label:
+    description: The catalog's full room string.
+    title: Label
+    type: string
+  location_note:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    description: Floor or area detail.
+    title: Location Note
+  name:
+    title: Name
+    type: string
+  sessions:
+    items:
+      pattern: ^(session):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Sessions
+    type: array
+  source_ids:
+    items:
+      type: string
+    title: Source Ids
+    type: array
+  sources:
+    items:
+      $ref: '#/$defs/Source'
+    title: Sources
+    type: array
+  venue:
+    anyOf:
+    - pattern: ^(venue):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    - type: 'null'
+    default: null
+    title: Venue
+required:
+- id
+- label
+- name
+- source_ids
+- sources
+title: Room
+type: object
+x-softschema:
+  contract: paraverse.conference:Room/v1
+  schema_sha256: 16fcd8c845259c782a11547aff5dca7cbbc4d025715562f6438d934310d8a85b

@@ -1,0 +1,50 @@
+softschema:
+  contract: paraverse.conference:GitHubAccount/v1
+  schema: ../../_schemas/github-account.schema.yaml
+  envelope: github_account
+  status: permissive
+github_account:
+  id: gh:kunal-kushwaha
+  login: kunal-kushwaha
+  kind: user
+  url: https://github.com/kunal-kushwaha
+  name: Kunal Kushwaha
+  company: WeMakeDevs
+  bio: Running the world's most engaging tech hackathons at scale @WeMakeDevs.
+  location: London, UK
+  website: https://www.wemakedevs.org
+  followers: 38362
+  created_at: '2018-08-25T15:01:59Z'
+  pinned:
+  - repo:kunal-kushwaha/dsa-bootcamp-java
+  - repo:kunal-kushwaha/devops-bootcamp
+  - repo:kunal-kushwaha/intro-to-gen-ai-and-rag
+  - repo:fabric8io/kubernetes-client
+  top_repositories:
+  - repo:kunal-kushwaha/dsa-bootcamp-java
+  - repo:kunal-kushwaha/competitive-programming-resources
+  - repo:kunal-kushwaha/devops-bootcamp
+  - repo:kunal-kushwaha/intro-to-gen-ai-and-rag
+  - repo:kunal-kushwaha/techwithkunal
+  - repo:kunal-kushwaha/meditationapp
+  - repo:kunal-kushwaha/sentimentanalysismlh
+  - repo:kunal-kushwaha/invisible-cloak
+  - repo:kunal-kushwaha/node-chat-app
+  - repo:kunal-kushwaha/blogs
+  entity: person:kunal-kushwaha
+  link_basis:
+  - website_link
+  identity_link_basis:
+  - website_link
+  identity_confidence: high
+  identity_evidence:
+  - url: https://www.techwithkunal.com/
+    observed_at: '2026-10-24T21:31:18Z'
+  sources:
+  - system: curation
+    url: https://x.com/kunalstwt/status/2113374840870568017
+    snapshot: curation/people/kunal-kushwaha.json
+  - system: github
+    url: https://api.github.com/users/kunal-kushwaha
+    retrieved_at: '2026-10-24T21:30:11Z'
+    snapshot: raw/github/kunal-kushwaha.json
