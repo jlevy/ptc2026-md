@@ -68,6 +68,19 @@ def test_git_named_email_is_not_a_remote(tmp_path: Path) -> None:
     assert clean_tree(prose) == prose.replace(contact, privacy.EMAIL_REDACTED)
 
 
+@pytest.mark.parametrize("in_prose", [False, True])
+def test_git_remote_prefix_cannot_hide_adjacent_email(tmp_path: Path, in_prose: bool) -> None:
+    contact = "@".join(("repo", "synthetic-contact.net"))
+    remote = f"git@github.com:owner/{contact}"
+    value = f"Clone {remote} for the conference." if in_prose else remote
+    path = tmp_path / "raw.json"
+    path.write_text(json.dumps({"description": value}))
+    detected = privacy.findings(path)
+    assert detected
+    assert all(contact not in match for _, _, match in detected)
+    assert contact not in str(clean_tree({"description": value}))
+
+
 def test_git_host_email_is_not_a_remote(tmp_path: Path) -> None:
     contact = "@".join(("fictional-user", "github.com"))
     path = tmp_path / "raw.json"

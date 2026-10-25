@@ -54,9 +54,9 @@ REF = re.compile(
     r"^(?:event|day|session|person|org|room|venue|term|experience|gh|acct|site|profile|page"
     r"|repo|pkg|software):[a-z0-9][a-z0-9._/@+-]*$"
 )
-# The captured token also preserves precise Git remotes embedded in prose.
+# Preserve complete Git remote tokens in prose; never exempt a prefix of an email.
 GIT_REMOTE = re.compile(
-    r"(?<![\w.+-])(git@[a-z0-9.-]+:[\w.-]+/[\w./-]+)",
+    r"(?<![\w.+-])(git@[a-z0-9.-]+:[\w.-]+/[\w./-]+)(?![\w./@+-])",
     re.IGNORECASE,
 )
 MASTODON_ACCOUNT = re.compile(r"^acct:mastodon/[\w.+-]+@[a-z0-9.-]+$", re.IGNORECASE)
