@@ -1,0 +1,22 @@
+softschema:
+  contract: paraverse.conference:SocialAccount/v1
+  schema: ../../_schemas/social-account.schema.yaml
+  envelope: social_account
+  status: permissive
+social_account:
+  id: acct:youtube/kunalkushwaha
+  platform: youtube
+  handle: KunalKushwaha
+  url: https://www.youtube.com/@KunalKushwaha
+  owner: person:kunal-kushwaha
+  link_basis:
+  - github_profile
+  details_fetched: false
+  sources:
+  - system: curation
+    url: https://x.com/kunalstwt/status/2113374840870568017
+    snapshot: curation/people/kunal-kushwaha.json
+  identity_evidence:
+  - url: https://github.com/kunal-kushwaha
+    observed_at: '2026-10-24T21:31:18Z'
+  identity_confidence: high

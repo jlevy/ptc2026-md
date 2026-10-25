@@ -1,0 +1,20 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:nitishmane/trending-funny-domains
+  full_name: Nitishmane/trending-funny-domains
+  url: https://github.com/Nitishmane/trending-funny-domains
+  description: Domain idea and availability tool using the name.com API.
+  stars: 0
+  forks: 0
+  primary_language: TypeScript
+  fork: false
+  owner_login: Nitishmane
+  owner: gh:nitishmane
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/nitish-mane.json

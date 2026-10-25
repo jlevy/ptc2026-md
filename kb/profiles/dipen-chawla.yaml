@@ -1,0 +1,34 @@
+softschema:
+  contract: paraverse.conference:Profile/v1
+  schema: ../_schemas/profile.schema.yaml
+  envelope: profile
+  status: permissive
+profile:
+  id: profile:dipen-chawla
+  person: person:dipen-chawla
+  brief_bio:
+    text: Dipen Chawla is listed as a judge for the Patch the Conference Hackathon and as Software Engineer
+      2 at Microsoft by the event organizer. No linked professional account was available to verify a
+      broader work history.
+    cites:
+    - https://www.wemakedevs.org/hackathons/ptc/judges
+    basis: llm_synthesis
+    written_by: GPT-6.1 Sol (OpenAI Codex)
+    written_at: '2026-10-24T21:38:33Z'
+    input_sha256: aa6eddb4ea18ce2bb7b053e73ffff348d38994c6ee461a9a8be8775be0a76785
+    stale: false
+  headline: Software Engineer 2, Microsoft
+  current_roles:
+  - Software Engineer 2, Microsoft
+  gaps:
+  - The organizer lists a Microsoft software engineer but supplies no linked account or portrait. No public
+    account could be connected to that identity with sufficient evidence.
+  - Same-name professional profiles were excluded because no source links them to this event listing.
+    Their account names, employers and work histories are not attributed here.
+  - Education, publications, patents, packages, personal website, and a broader work history remain unverified.
+    No attendance outside the published judging role is inferred.
+  - No GitHub account resolved with sufficient ownership evidence.
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/dipen-chawla.json

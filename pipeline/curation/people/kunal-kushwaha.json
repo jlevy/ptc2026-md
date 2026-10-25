@@ -1,0 +1,562 @@
+{
+  "slug": "kunal-kushwaha",
+  "name": "Kunal Kushwaha",
+  "job_title": "Founder, WeMakeDevs",
+  "participations": [
+    {
+      "event": "patch-the-conference-2026",
+      "role": "host",
+      "status": "self_reported",
+      "evidence": [
+        {
+          "url": "https://x.com/kunalstwt/status/2113374840870568017",
+          "observed_at": "2026-10-24T21:31:18Z",
+          "quote": "I'm hosting the Patch the Conference Hackathon"
+        }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "organization": "WeMakeDevs",
+      "title": "Founder",
+      "current": true,
+      "basis": "website",
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/founder",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    },
+    {
+      "organization": "CAST AI",
+      "title": "Senior Developer Advocate, EMEA",
+      "current": true,
+      "basis": "website",
+      "evidence": [
+        {
+          "url": "https://www.techwithkunal.com/",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "linkedin",
+      "handle": "kunal-kushwaha",
+      "url": "https://www.linkedin.com/in/kunal-kushwaha",
+      "confidence": "high",
+      "link_basis": [
+        "github_profile"
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/kunal-kushwaha",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    },
+    {
+      "platform": "x",
+      "handle": "kunalstwt",
+      "url": "https://x.com/kunalstwt",
+      "confidence": "high",
+      "link_basis": [
+        "github_profile"
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/kunal-kushwaha",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    },
+    {
+      "platform": "youtube",
+      "handle": "KunalKushwaha",
+      "url": "https://www.youtube.com/@KunalKushwaha",
+      "confidence": "high",
+      "link_basis": [
+        "github_profile"
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/kunal-kushwaha",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    },
+    {
+      "platform": "github",
+      "handle": "kunal-kushwaha",
+      "url": "https://github.com/kunal-kushwaha",
+      "confidence": "high",
+      "link_basis": [
+        "website_link"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.techwithkunal.com/",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ],
+      "bio": "Running the world's most engaging tech hackathons at scale @WeMakeDevs.",
+      "location": "London, UK",
+      "followers": 38362,
+      "following": 0,
+      "public_repos": 48,
+      "avatar_url": "https://avatars.githubusercontent.com/u/42698533?v=4"
+    }
+  ],
+  "websites": [
+    {
+      "url": "https://www.techwithkunal.com/",
+      "kind": "personal",
+      "title": "Kunal Kushwaha",
+      "identity_links": [
+        "https://github.com/kunal-kushwaha",
+        "https://www.linkedin.com/in/kunal-kushwaha"
+      ],
+      "link_basis": [
+        "website_link"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/founder",
+          "observed_at": "2026-10-24T21:31:18Z"
+        }
+      ]
+    }
+  ],
+  "profile": {
+    "expertise": [
+      {
+        "label": "Developer relations",
+        "basis": "website",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.techwithkunal.com/",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "label": "Cloud-native technologies",
+        "basis": "website",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.techwithkunal.com/",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      }
+    ],
+    "recognitions": [
+      {
+        "label": "CNCF Ambassador",
+        "basis": "website",
+        "evidence": [
+          {
+            "url": "https://www.wemakedevs.org/founder",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "label": "GitHub Star",
+        "basis": "website",
+        "evidence": [
+          {
+            "url": "https://www.wemakedevs.org/founder",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      }
+    ],
+    "talks": [
+      {
+        "title": "Keynote",
+        "event": "KubeCon + CloudNativeCon Europe 2024",
+        "url": "https://www.wemakedevs.org/founder"
+      },
+      {
+        "title": "Keynote",
+        "event": "cdCon + GitOpsCon 2023",
+        "url": "https://www.wemakedevs.org/founder"
+      }
+    ],
+    "event_posts": [
+      {
+        "url": "https://x.com/kunalstwt/status/2113374840870568017",
+        "quote": "I'm hosting the Patch the Conference Hackathon",
+        "observed_at": "2026-10-22"
+      }
+    ],
+    "programming_languages": [
+      {
+        "label": "Java",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/kunal-kushwaha?tab=repositories",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "label": "JavaScript",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/kunal-kushwaha?tab=repositories",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "label": "Jupyter Notebook",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/kunal-kushwaha?tab=repositories",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "label": "Python",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/kunal-kushwaha?tab=repositories",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "label": "TypeScript",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/kunal-kushwaha?tab=repositories",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      }
+    ],
+    "open_source": [
+      {
+        "repo": "kunal-kushwaha/DSA-Bootcamp-Java",
+        "role": "author",
+        "evidence": [
+          {
+            "url": "https://github.com/kunal-kushwaha/DSA-Bootcamp-Java",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "repo": "kunal-kushwaha/Competitive-Programming-Resources",
+        "role": "author",
+        "evidence": [
+          {
+            "url": "https://github.com/kunal-kushwaha/Competitive-Programming-Resources",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "repo": "kunal-kushwaha/DevOps-Bootcamp",
+        "role": "author",
+        "evidence": [
+          {
+            "url": "https://github.com/kunal-kushwaha/DevOps-Bootcamp",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "repo": "kunal-kushwaha/Intro-to-Gen-AI-and-RAG",
+        "role": "author",
+        "evidence": [
+          {
+            "url": "https://github.com/kunal-kushwaha/Intro-to-Gen-AI-and-RAG",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      },
+      {
+        "repo": "kunal-kushwaha/techwithkunal",
+        "role": "author",
+        "evidence": [
+          {
+            "url": "https://github.com/kunal-kushwaha/techwithkunal",
+            "observed_at": "2026-10-24T21:31:18Z"
+          }
+        ]
+      }
+    ]
+  },
+  "gaps": [
+    "Host participation comes from a saved public X embed of the host’s own October 22 announcement; direct X page fetching was unavailable.",
+    "Personal social accounts, testimonials from other people, contact details, and audience marketing claims are excluded.",
+    "Repository statistics are observed counts. Top repositories cover original repositories in the first 100 returned by recent update, not all historical contributions. Registry packages and contribution totals have not been verified."
+  ],
+  "sources_consulted": [
+    "https://www.wemakedevs.org/founder",
+    "https://www.techwithkunal.com/",
+    "https://x.com/kunalstwt/status/2113374840870568017",
+    "https://www.qodo.ai/community/super-qodoer/",
+    "https://github.com/kunal-kushwaha"
+  ],
+  "github": {
+    "login": "kunal-kushwaha",
+    "avatar_url": "https://avatars.githubusercontent.com/u/42698533?v=4",
+    "html_url": "https://github.com/kunal-kushwaha",
+    "name": "Kunal Kushwaha",
+    "company": "WeMakeDevs",
+    "blog": "https://www.wemakedevs.org",
+    "location": "London, UK",
+    "bio": "Running the world's most engaging tech hackathons at scale @WeMakeDevs.",
+    "twitter_username": "kunalstwt",
+    "public_repos": 48,
+    "followers": 38362,
+    "following": 0,
+    "created_at": "2018-08-25T15:01:59Z",
+    "resolution": "resolved",
+    "match": "linked",
+    "top_repositories": [
+      {
+        "full_name": "kunal-kushwaha/DSA-Bootcamp-Java",
+        "description": "This repository consists of the code samples, assignments, and notes for the Java data structures & algorithms + interview preparation bootcamp of WeMakeDevs.",
+        "stars": 24049,
+        "forks": 13604,
+        "primary_language": "Java",
+        "topics": [
+          "algorithms",
+          "competitive-programming",
+          "data-structures",
+          "faang-interview",
+          "faang-preparation",
+          "faang-questions",
+          "google-interview",
+          "interview-preparation",
+          "java",
+          "leetcode",
+          "leetcode-java",
+          "leetcode-solutions",
+          "math"
+        ],
+        "fork": false,
+        "pushed_at": "2024-08-18T08:21:57Z"
+      },
+      {
+        "full_name": "kunal-kushwaha/Competitive-Programming-Resources",
+        "description": "Competitive Programming & System Design Resources.",
+        "stars": 3929,
+        "forks": 1035,
+        "primary_language": null,
+        "topics": [
+          "competitive-programming",
+          "interview-preparation",
+          "programming-competition",
+          "programming-interviews",
+          "resources",
+          "skills",
+          "system-design"
+        ],
+        "fork": false,
+        "pushed_at": "2024-06-28T09:27:23Z"
+      },
+      {
+        "full_name": "kunal-kushwaha/DevOps-Bootcamp",
+        "description": "This repository consists of the code samples, assignments, and notes for the DevOps bootcamp of WeMakeDevs.",
+        "stars": 2431,
+        "forks": 1367,
+        "primary_language": null,
+        "topics": [
+          "ci-cd",
+          "cloud",
+          "cloud-computing",
+          "cloud-native",
+          "devops",
+          "docker",
+          "infrastructure",
+          "interview-preparation",
+          "k3s",
+          "kubernetes",
+          "linux",
+          "monitoring",
+          "networking",
+          "testing",
+          "tools"
+        ],
+        "fork": false,
+        "pushed_at": "2024-07-18T09:11:07Z"
+      },
+      {
+        "full_name": "kunal-kushwaha/Intro-to-Gen-AI-and-RAG",
+        "description": null,
+        "stars": 101,
+        "forks": 47,
+        "primary_language": null,
+        "topics": [],
+        "fork": false,
+        "pushed_at": "2024-08-01T17:11:17Z"
+      },
+      {
+        "full_name": "kunal-kushwaha/techwithkunal",
+        "description": null,
+        "stars": 26,
+        "forks": 11,
+        "primary_language": "TypeScript",
+        "topics": [],
+        "fork": false,
+        "pushed_at": "2026-10-10T16:54:10Z"
+      },
+      {
+        "full_name": "kunal-kushwaha/MeditationApp",
+        "description": null,
+        "stars": 20,
+        "forks": 11,
+        "primary_language": "JavaScript",
+        "topics": [],
+        "fork": false,
+        "pushed_at": "2021-02-19T14:39:06Z"
+      },
+      {
+        "full_name": "kunal-kushwaha/SentimentAnalysisMLH",
+        "description": null,
+        "stars": 16,
+        "forks": 6,
+        "primary_language": "Jupyter Notebook",
+        "topics": [],
+        "fork": false,
+        "pushed_at": "2021-03-21T07:44:46Z"
+      },
+      {
+        "full_name": "kunal-kushwaha/invisible-cloak",
+        "description": null,
+        "stars": 15,
+        "forks": 4,
+        "primary_language": "Python",
+        "topics": [],
+        "fork": false,
+        "pushed_at": "2021-03-02T16:18:06Z"
+      },
+      {
+        "full_name": "kunal-kushwaha/node-chat-app",
+        "description": null,
+        "stars": 13,
+        "forks": 11,
+        "primary_language": "JavaScript",
+        "topics": [],
+        "fork": false,
+        "pushed_at": "2022-12-11T08:46:57Z"
+      },
+      {
+        "full_name": "kunal-kushwaha/blogs",
+        "description": null,
+        "stars": 13,
+        "forks": 5,
+        "primary_language": null,
+        "topics": [],
+        "fork": false,
+        "pushed_at": "2025-03-13T07:59:42Z"
+      }
+    ],
+    "profile_readme_summary": null,
+    "pinned": [
+      {
+        "full_name": "kunal-kushwaha/DSA-Bootcamp-Java",
+        "description": "This repository consists of the code samples, assignments, and notes for the Java data structures & algorithms + interview preparation bootcamp of WeMakeDevs.",
+        "stars": 24049,
+        "forks": 13604,
+        "fork": false,
+        "archived": false,
+        "primary_language": "Java",
+        "topics": [
+          "java",
+          "interview-preparation",
+          "data-structures",
+          "algorithms",
+          "competitive-programming",
+          "math",
+          "leetcode-solutions",
+          "leetcode",
+          "leetcode-java",
+          "google-interview"
+        ]
+      },
+      {
+        "full_name": "kunal-kushwaha/DevOps-Bootcamp",
+        "description": "This repository consists of the code samples, assignments, and notes for the DevOps bootcamp of WeMakeDevs.",
+        "stars": 2431,
+        "forks": 1367,
+        "fork": false,
+        "archived": false,
+        "primary_language": null,
+        "topics": [
+          "devops",
+          "docker",
+          "kubernetes",
+          "cloud",
+          "cloud-computing",
+          "cloud-native",
+          "tools",
+          "infrastructure",
+          "monitoring",
+          "testing"
+        ]
+      },
+      {
+        "full_name": "kunal-kushwaha/Intro-to-Gen-AI-and-RAG",
+        "description": null,
+        "stars": 101,
+        "forks": 47,
+        "fork": false,
+        "archived": false,
+        "primary_language": null,
+        "topics": []
+      },
+      {
+        "full_name": "fabric8io/kubernetes-client",
+        "description": "Java client for Kubernetes & OpenShift ",
+        "stars": 3684,
+        "forks": 1519,
+        "fork": false,
+        "archived": false,
+        "primary_language": "Java",
+        "topics": [
+          "kubernetes",
+          "openshift",
+          "java-client",
+          "kubernetes-client",
+          "mocking-kubernetes",
+          "kubernetes-model",
+          "openshift-client",
+          "dsl",
+          "mock-server",
+          "java"
+        ]
+      }
+    ],
+    "contributions_last_year": 544
+  },
+  "brief_bio": "Kunal Kushwaha founded WeMakeDevs and publicly announced hosting Patch the Conference. The professional website lists a Senior Developer Advocate role at CAST AI. Kunal publishes Java and DevOps learning materials on GitHub and is identified by WeMakeDevs as a CNCF Ambassador and GitHub Star.",
+  "brief_bio_cites": [
+    "https://x.com/kunalstwt/status/2113374840870568017",
+    "https://www.techwithkunal.com/",
+    "https://www.wemakedevs.org/founder",
+    "https://github.com/kunal-kushwaha"
+  ]
+}

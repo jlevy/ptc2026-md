@@ -1,0 +1,20 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:riken-shah/benchmark-db-browsers
+  full_name: Riken-Shah/benchmark-db-browsers
+  url: https://github.com/Riken-Shah/benchmark-db-browsers
+  description: Browser database benchmark comparing IndexedDB, SQLite WASM and PGlite.
+  stars: 0
+  forks: 0
+  primary_language: JavaScript
+  fork: false
+  owner_login: Riken-Shah
+  owner: gh:riken-shah
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/riken-shah.json

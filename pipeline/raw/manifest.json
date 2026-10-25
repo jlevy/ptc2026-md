@@ -1,0 +1,136 @@
+{
+  "files": {
+    "brightdata/linkedin_profiles.json": {
+      "url": "https://api.brightdata.com/datasets/v3/snapshot/sd_mvmw8f86q8hg8asw6",
+      "method": "GET",
+      "retrieved_at": "2026-10-24T21:34:57Z",
+      "bytes": 72816,
+      "sha256": "05c65e832ceda4ebd2d1ceb32bd91b53befa569d6523f50e3744ea93547e1886",
+      "scope": "Sanitized public owner profiles. Non-biographical personal and third-party project detail omitted; original retrieval provenance retained."
+    },
+    "brightdata/x_profiles.json": {
+      "url": "https://api.brightdata.com/datasets/v3/snapshot/sd_mvmwwqvn77sppnyib",
+      "method": "GET",
+      "retrieved_at": "2026-10-24T21:32:04Z",
+      "bytes": 3676,
+      "sha256": "342a8feff3a22b52df90ec77cab9e08d57584ba7fb529cdda5404e64cda75ce7",
+      "scope": "Sanitized public owner profiles; each input preserves its original snapshot ID and retrieval time."
+    },
+    "event/overview.json": {
+      "url": "https://www.wemakedevs.org/hackathons/ptc",
+      "method": "GET",
+      "retrieved_at": "2026-10-24T21:05:00Z",
+      "bytes": 579,
+      "sha256": "29718e8cb41bba5c8c6606ef411ec769e15c479c48a67101896ac47946849cd6",
+      "source_sha256": "fe9ec9296894d45a2f13077e4ad7c2d8b59303af7b235ebc7ebbc9034c3b82d3"
+    },
+    "event/judges.json": {
+      "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+      "method": "GET",
+      "retrieved_at": "2026-10-24T21:05:00Z",
+      "bytes": 2408,
+      "sha256": "f13c800fec5042f992d4c39d8c07cd32fce7c8b9b2a69e99c721d1ce7417f651",
+      "source_sha256": "64a16c3b71fccc1ed3d3e9059aec2d8bc52a1100781122cc3ff1cfac5edbc62d"
+    },
+    "event/schedule.json": {
+      "url": "https://www.wemakedevs.org/hackathons/ptc/schedule",
+      "method": "GET",
+      "retrieved_at": "2026-10-24T21:05:00Z",
+      "bytes": 1152,
+      "sha256": "3375603800543b586ba71dd2bc1289fe65769e3d7052b6f4064b91ce9d65ba98",
+      "source_sha256": "135c6b4e84904453023892afcac9bdc31247624470405aefd7a59edf0ba69d16"
+    },
+    "event/resources.json": {
+      "url": "https://www.wemakedevs.org/hackathons/ptc/resources",
+      "method": "GET",
+      "retrieved_at": "2026-10-24T21:05:00Z",
+      "bytes": 527,
+      "sha256": "cb5d0722564ac53fd4da2b4f501adecb4dcc841fbe4b8670bd5360c279ce4cd2",
+      "source_sha256": "bc9625b34fbd029a13b7088032ead2b1560322ca386ab95575f3374936cde500"
+    },
+    "event/host-announcement.json": {
+      "url": "https://publish.twitter.com/oembed?url=https://x.com/kunalstwt/status/2113374840870568017",
+      "method": "GET",
+      "retrieved_at": "2026-10-24T21:05:00Z",
+      "bytes": 291,
+      "sha256": "15af7f9286a2dab6d5829898d341953b225e86199fbda79ef92ee0cea87a1cc6",
+      "source_sha256": "f433d75269b5a1a562a74129ef3c4a652c1d55360394635cd7db748eed6af3e9"
+    },
+    "github/klausmikhaelson.json": {
+      "url": "https://api.github.com/users/KlausMikhaelson",
+      "method": "GET",
+      "retrieved_at": "2026-10-24T21:30:11Z",
+      "bytes": 8450,
+      "sha256": "735eabc39e2a661df6ce919e8619219f27ecdff4194fdf5a9ca48e2cb9ad281b",
+      "scope": "Public profile fields and ten most starred original repositories among the first 100 recently updated repositories. Email and other-person records omitted.",
+      "sources": [
+        {
+          "url": "https://api.github.com/users/KlausMikhaelson",
+          "method": "GET",
+          "retrieved_at": "2026-10-24T21:30:11Z"
+        },
+        {
+          "url": "https://api.github.com/users/KlausMikhaelson/repos?per_page=100&sort=updated",
+          "method": "GET",
+          "retrieved_at": "2026-10-24T21:30:11Z"
+        },
+        {
+          "url": "https://api.github.com/graphql",
+          "method": "POST",
+          "operation": "Public pinned repositories and contribution-calendar total for KlausMikhaelson",
+          "retrieved_at": "2026-10-24T21:33:38Z"
+        }
+      ]
+    },
+    "github/kunal-kushwaha.json": {
+      "url": "https://api.github.com/users/kunal-kushwaha",
+      "method": "GET",
+      "retrieved_at": "2026-10-24T21:30:11Z",
+      "bytes": 10637,
+      "sha256": "a71a14957ca8ff5221885b79d17f66f3cd4d74002ea68955ba8f847a10b4154f",
+      "scope": "Public profile fields and ten most starred original repositories among the first 100 recently updated repositories. Email and other-person records omitted.",
+      "sources": [
+        {
+          "url": "https://api.github.com/users/kunal-kushwaha",
+          "method": "GET",
+          "retrieved_at": "2026-10-24T21:30:11Z"
+        },
+        {
+          "url": "https://api.github.com/users/kunal-kushwaha/repos?per_page=100&sort=updated",
+          "method": "GET",
+          "retrieved_at": "2026-10-24T21:30:11Z"
+        },
+        {
+          "url": "https://api.github.com/graphql",
+          "method": "POST",
+          "operation": "Public pinned repositories and contribution-calendar total for kunal-kushwaha",
+          "retrieved_at": "2026-10-24T21:33:39Z"
+        }
+      ]
+    },
+    "github/repositories.json": {
+      "url": "https://api.github.com/repos/zulip/zulip",
+      "method": "GET",
+      "retrieved_at": "2026-10-24T21:37:34Z",
+      "bytes": 2012,
+      "sha256": "1c104dce7a704439eed4b1dfab46ea94bf951faa00791aa5e5494c2c6f3c069d",
+      "sources": [
+        {
+          "url": "https://api.github.com/repos/zulip/zulip",
+          "method": "GET",
+          "retrieved_at": "2026-10-24T21:37:34Z"
+        },
+        {
+          "url": "https://api.github.com/repos/MLH-Fellowship/webxr-layers",
+          "method": "GET",
+          "retrieved_at": "2026-10-24T21:37:34Z"
+        },
+        {
+          "url": "https://api.github.com/repos/schezfaz/momentum",
+          "method": "GET",
+          "retrieved_at": "2026-10-24T21:37:35Z"
+        }
+      ]
+    }
+  }
+}

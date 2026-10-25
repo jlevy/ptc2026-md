@@ -1,0 +1,246 @@
+[
+  {
+    "slug": "wemakedevs",
+    "name": "WeMakeDevs",
+    "website": "https://www.wemakedevs.org",
+    "roles": [
+      "organizer"
+    ],
+    "aliases": [],
+    "evidence": [
+      {
+        "url": "https://www.wemakedevs.org/hackathons/ptc",
+        "quote": "WeMakeDevs",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    ]
+  },
+  {
+    "slug": "bright-data",
+    "name": "Bright Data",
+    "website": "https://brightdata.com",
+    "roles": [
+      "sponsor"
+    ],
+    "aliases": [],
+    "evidence": [
+      {
+        "url": "https://www.wemakedevs.org/hackathons/ptc",
+        "quote": "Bright Data",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    ]
+  },
+  {
+    "slug": "falkordb",
+    "name": "FalkorDB",
+    "website": "https://www.falkordb.com",
+    "roles": [
+      "sponsor"
+    ],
+    "aliases": [],
+    "evidence": [
+      {
+        "url": "https://www.wemakedevs.org/hackathons/ptc",
+        "quote": "FalkorDB",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    ]
+  },
+  {
+    "slug": "truefoundry",
+    "name": "TrueFoundry",
+    "website": "https://www.truefoundry.com",
+    "roles": [
+      "sponsor"
+    ],
+    "aliases": [],
+    "evidence": [
+      {
+        "url": "https://www.wemakedevs.org/hackathons/ptc",
+        "quote": "TrueFoundry",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    ]
+  },
+  {
+    "slug": "openai",
+    "name": "OpenAI",
+    "website": "https://openai.com",
+    "roles": [
+      "sponsor"
+    ],
+    "aliases": [],
+    "evidence": [
+      {
+        "url": "https://www.wemakedevs.org/hackathons/ptc",
+        "quote": "OpenAI",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    ]
+  },
+  {
+    "slug": "qodo",
+    "name": "Qodo",
+    "website": "https://www.qodo.ai",
+    "roles": [
+      "sponsor"
+    ],
+    "aliases": [],
+    "evidence": [
+      {
+        "url": "https://www.wemakedevs.org/hackathons/ptc",
+        "quote": "Qodo",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    ]
+  },
+  {
+    "slug": "xai",
+    "name": "xAI",
+    "website": "https://x.ai",
+    "roles": [
+      "affiliation"
+    ],
+    "aliases": [],
+    "evidence": [
+      {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "xAI",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    ]
+  },
+  {
+    "slug": "philo",
+    "name": "Philo",
+    "website": "https://www.philo.com",
+    "roles": [
+      "affiliation"
+    ],
+    "aliases": [],
+    "evidence": [
+      {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Philo",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    ]
+  },
+  {
+    "slug": "northwest-bank",
+    "name": "Northwest Bank",
+    "website": "https://www.northwest.bank",
+    "roles": [
+      "affiliation"
+    ],
+    "aliases": [],
+    "evidence": [
+      {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Northwest Bank",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    ]
+  },
+  {
+    "slug": "adobe",
+    "name": "Adobe",
+    "website": "https://www.adobe.com",
+    "roles": [
+      "affiliation"
+    ],
+    "aliases": [],
+    "evidence": [
+      {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Adobe",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    ]
+  },
+  {
+    "slug": "netflix",
+    "name": "Netflix",
+    "website": "https://www.netflix.com",
+    "roles": [
+      "affiliation"
+    ],
+    "aliases": [],
+    "evidence": [
+      {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Netflix",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    ]
+  },
+  {
+    "slug": "simulithic",
+    "name": "Simulithic",
+    "website": "https://www.simulithic.com",
+    "roles": [
+      "affiliation"
+    ],
+    "aliases": [
+      "Simulithic (YC F26)"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Simulithic",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    ]
+  },
+  {
+    "slug": "meta",
+    "name": "Meta",
+    "website": "https://www.meta.com",
+    "roles": [
+      "affiliation"
+    ],
+    "aliases": [],
+    "evidence": [
+      {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Meta",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    ]
+  },
+  {
+    "slug": "microsoft",
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com",
+    "roles": [
+      "affiliation"
+    ],
+    "aliases": [],
+    "evidence": [
+      {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Microsoft",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    ]
+  },
+  {
+    "slug": "agility-robotics",
+    "name": "Agility Robotics",
+    "website": "https://www.agilityrobotics.com",
+    "roles": [
+      "affiliation"
+    ],
+    "aliases": [
+      "Agility Robitics"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Agility Robotics",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    ]
+  }
+]

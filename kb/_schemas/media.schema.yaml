@@ -1,0 +1,116 @@
+$defs:
+  MediaItem:
+    additionalProperties: false
+    properties:
+      alt:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Alt
+      kind:
+        enum:
+        - photo
+        - logo
+        - tile
+        - banner
+        - thumbnail
+        - illustration
+        - avatar
+        - other
+        title: Kind
+        type: string
+      url:
+        pattern: ^https?://
+        title: Url
+        type: string
+      used_by:
+        description: IDs of the entities that show this image.
+        items:
+          type: string
+        title: Used By
+        type: array
+    required:
+    - kind
+    - url
+    - used_by
+    title: MediaItem
+    type: object
+  Source:
+    additionalProperties: false
+    description: 'Where a record came from: one raw snapshot file, or a curated list.'
+    properties:
+      record_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The record's ID in that system.
+        title: Record Id
+      retrieved_at:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Retrieved At
+      snapshot:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Raw snapshot path, relative to the conference directory.
+        title: Snapshot
+      system:
+        enum:
+        - rainfocus
+        - githubuniverse.com
+        - github
+        - npm
+        - pypi
+        - bluesky
+        - mastodon
+        - website
+        - feed
+        - brightdata
+        - curation
+        title: System
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - system
+    title: Source
+    type: object
+$schema: https://json-schema.org/draft/2020-12/schema
+additionalProperties: true
+description: Every image URL in the knowledge base, what it depicts and who uses it.
+properties:
+  event:
+    pattern: ^(event):[a-z0-9][a-z0-9._/@+-]*$
+    title: Event
+    type: string
+  items:
+    items:
+      $ref: '#/$defs/MediaItem'
+    title: Items
+    type: array
+  sources:
+    items:
+      $ref: '#/$defs/Source'
+    title: Sources
+    type: array
+required:
+- event
+- items
+- sources
+title: MediaIndex
+type: object
+x-softschema:
+  contract: paraverse.conference:MediaIndex/v1
+  schema_sha256: 39ae715690cc8855269c61aec59c9235a7be5110c65582ab3287336d9c34148f

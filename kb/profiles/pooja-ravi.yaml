@@ -1,0 +1,131 @@
+softschema:
+  contract: paraverse.conference:Profile/v1
+  schema: ../_schemas/profile.schema.yaml
+  envelope: profile
+  status: permissive
+profile:
+  id: profile:pooja-ravi
+  person: person:pooja-ravi
+  brief_bio:
+    text: Pooja Ravi is listed as a judge and Senior Software Engineer at Netflix by the Patch the Conference
+      organizer. The linked public LinkedIn profile describes a Senior Software Engineer role at Oracle
+      and work in AI and data; the employer claims remain unresolved.
+    cites:
+    - https://www.wemakedevs.org/hackathons/ptc/judges
+    - https://www.linkedin.com/in/pravi20
+    basis: llm_synthesis
+    written_by: OpenAI Codex (GPT-6)
+    written_at: '2026-10-24T21:38:33Z'
+    input_sha256: fd58c3ba728ec51c4a2797316d07c79e2f5df6742ce192c597e3e49fa32b9e49
+    stale: false
+  headline: Senior Software Engineer
+  location: San Francisco Bay Area
+  current_roles:
+  - Senior Software Engineer, Netflix (event listing)
+  - Senior Software Engineer, Oracle (public LinkedIn profile)
+  expertise:
+  - label: AI and data engineering
+    basis: linkedin_profile
+    confidence: medium
+    evidence:
+    - url: https://www.linkedin.com/in/pravi20
+      quote: expertise in AI and data
+      observed_at: '2026-10-24T21:31:18Z'
+  activities:
+  - kind: course
+    title: Algorithm Analysis
+    detail: CSCI 570
+    evidence:
+      url: https://www.linkedin.com/in/pravi20
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Artificial Intelligence
+    detail: '-'
+    evidence:
+      url: https://www.linkedin.com/in/pravi20
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Data Structures, Algorithms, and Discrete Mathematics I
+    detail: '-'
+    evidence:
+      url: https://www.linkedin.com/in/pravi20
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Database Systems
+    detail: CSCI 585
+    evidence:
+      url: https://www.linkedin.com/in/pravi20
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Information Retrieval and Web Search Engines
+    detail: CSCI 572
+    evidence:
+      url: https://www.linkedin.com/in/pravi20
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Introduction to Computer Networks
+    detail: EE 450
+    evidence:
+      url: https://www.linkedin.com/in/pravi20
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Introduction to Embedded Systems
+    detail: '-'
+    evidence:
+      url: https://www.linkedin.com/in/pravi20
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Introduction to programming system design
+    detail: CSCI 455x
+    evidence:
+      url: https://www.linkedin.com/in/pravi20
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Machine Learning
+    detail: '-'
+    evidence:
+      url: https://www.linkedin.com/in/pravi20
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Microprocessor System Design
+    detail: '-'
+    evidence:
+      url: https://www.linkedin.com/in/pravi20
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Software Engineering
+    detail: '-'
+    evidence:
+      url: https://www.linkedin.com/in/pravi20
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Technical Writing for Computing Professionals
+    detail: '-'
+    evidence:
+      url: https://www.linkedin.com/in/pravi20
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: course
+    title: Web Technologies
+    detail: CSCI 571
+    evidence:
+      url: https://www.linkedin.com/in/pravi20
+      observed_at: '2026-10-24T21:13:34Z'
+  gaps:
+  - The event lists Netflix while the event-linked LinkedIn profile lists Oracle; no verified employment
+    dates reconcile the discrepancy.
+  - No GitHub, X, personal website, publications, patents, packages, or talks were resolved to this person
+    with sufficient identity evidence. Education and employment dates were not available in the collected
+    public profile.
+  - Other Pooja Ravi profiles and a guessed GitHub Pages site were excluded because there is no direct
+    identity link.
+  - LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history.
+  - No GitHub account resolved with sufficient ownership evidence.
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/pooja-ravi.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/pravi20
+    record_id: sd_mvmw8f86q8hg8asw6
+    retrieved_at: '2026-10-24T21:13:34Z'
+    snapshot: raw/brightdata/linkedin_profiles.json

@@ -1,0 +1,25 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:mlh-fellowship/webxr-layers
+  full_name: MLH-Fellowship/webxr-layers
+  url: https://github.com/MLH-Fellowship/webxr-layers
+  homepage: https://webxr-layers.netlify.app
+  stars: 2
+  forks: 2
+  primary_language: JavaScript
+  archived: false
+  fork: true
+  pushed_at: '2021-08-26T18:32:52Z'
+  owner_login: MLH-Fellowship
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/schezeen-fazulbhoy.json
+  - system: github
+    url: https://api.github.com/repos/MLH-Fellowship/webxr-layers
+    retrieved_at: '2026-10-24T21:37:34Z'
+    snapshot: raw/github/repositories.json

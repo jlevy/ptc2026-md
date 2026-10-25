@@ -1,0 +1,44 @@
+softschema:
+  contract: paraverse.conference:GitHubAccount/v1
+  schema: ../../_schemas/github-account.schema.yaml
+  envelope: github_account
+  status: permissive
+github_account:
+  id: gh:nitishmane
+  login: Nitishmane
+  kind: user
+  url: https://github.com/Nitishmane
+  name: Nitish Mane
+  company: Philo
+  website: https://www.linkedin.com/in/nitish-mane/
+  followers: 6
+  created_at: '2014-06-17T03:31:40Z'
+  pinned:
+  - repo:nitishmane/nm-gophercises
+  top_repositories:
+  - repo:nitishmane/sre-oncall
+  - repo:nitishmane/scraper-factory
+  - repo:nitishmane/serp-hack
+  - repo:nitishmane/trending-funny-domains
+  entity: person:nitish-mane
+  link_basis:
+  - curated
+  identity_link_basis:
+  - github_profile_links_linkedin
+  - personal_website_sameAs
+  identity_confidence: high
+  identity_evidence:
+  - url: https://github.com/Nitishmane
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/users/Nitishmane
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/users/Nitishmane/repos
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/graphql
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/users/Nitishmane/orgs
+    observed_at: '2026-10-24T21:30:51Z'
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/nitish-mane.json

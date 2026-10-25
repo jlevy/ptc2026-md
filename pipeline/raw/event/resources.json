@@ -1,0 +1,19 @@
+{
+  "source_url": "https://www.wemakedevs.org/hackathons/ptc/resources",
+  "retrieved_at": "2026-10-24T21:05:00Z",
+  "extraction": "Selected event facts; navigation, contact details and registration material omitted.",
+  "track_names": [
+    "FalkorDB",
+    "Bright Data",
+    "TrueForge",
+    "OpenAI",
+    "Qodo"
+  ],
+  "links": [
+    "https://docs.falkordb.com",
+    "https://docs.brightdata.com",
+    "https://trueforge.dev/quickstart",
+    "https://developers.openai.com/api/docs/models",
+    "https://docs.qodo.ai"
+  ]
+}

@@ -1,0 +1,54 @@
+softschema:
+  contract: paraverse.conference:GitHubAccount/v1
+  schema: ../../_schemas/github-account.schema.yaml
+  envelope: github_account
+  status: permissive
+github_account:
+  id: gh:schezfaz
+  login: schezfaz
+  kind: user
+  url: https://github.com/schezfaz
+  name: Schezeen Fazulbhoy
+  location: San Francisco Bay Area
+  website: https://www.linkedin.com/in/schezeenfazulbhoy
+  followers: 67
+  created_at: '2017-05-22T16:56:11Z'
+  contributed_to:
+  - repo:mlh-fellowship/webxr-layers
+  organization_logins:
+  - MLH-Fellowship
+  pinned:
+  - repo:schezfaz/spot
+  - repo:schezfaz/bucketlist
+  - repo:schezfaz/intelli-intent
+  - repo:schezfaz/haci
+  - repo:schezfaz/mice
+  - repo:schezfaz/ivi
+  top_repositories:
+  - repo:schezfaz/spot
+  - repo:schezfaz/bucketlist
+  - repo:schezfaz/intelli-intent
+  - repo:schezfaz/momentum
+  entity: person:schezeen-fazulbhoy
+  link_basis:
+  - curated
+  identity_link_basis:
+  - github_profile_links_event_linkedin
+  - linkedin_portfolio_link
+  - personal_website_link
+  identity_confidence: high
+  identity_evidence:
+  - url: https://github.com/schezfaz
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/users/schezfaz
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/users/schezfaz/repos
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/graphql
+    observed_at: '2026-10-24T21:30:51Z'
+  - url: https://api.github.com/users/schezfaz/orgs
+    observed_at: '2026-10-24T21:30:51Z'
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/schezeen-fazulbhoy.json

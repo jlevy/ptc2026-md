@@ -1,0 +1,22 @@
+softschema:
+  contract: paraverse.conference:SocialAccount/v1
+  schema: ../../../_schemas/social-account.schema.yaml
+  envelope: social_account
+  status: permissive
+social_account:
+  id: acct:other/dev.to/rikenshah
+  platform: other
+  handle: rikenshah
+  url: https://dev.to/rikenshah
+  owner: person:riken-shah
+  link_basis:
+  - curated
+  details_fetched: false
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/riken-shah.json
+  identity_evidence:
+  - url: https://dev.to/rikenshah
+    observed_at: '2026-10-24T21:30:51Z'
+  identity_confidence: high

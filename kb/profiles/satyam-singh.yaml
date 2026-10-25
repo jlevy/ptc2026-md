@@ -1,0 +1,507 @@
+softschema:
+  contract: paraverse.conference:Profile/v1
+  schema: ../_schemas/profile.schema.yaml
+  envelope: profile
+  status: permissive
+profile:
+  id: profile:satyam-singh
+  person: person:satyam-singh
+  brief_bio:
+    text: Satyam Singh is Co-Founder and CTO of Simulithic and is listed as a judge at Patch the Conference.
+      The company builds AI users that test applications across devices and browsers. The company’s YC
+      profile describes earlier engineering internships at Ramp and Bree and recognition as an MLH Top
+      50 Hacker.
+    cites:
+    - https://www.wemakedevs.org/hackathons/ptc/judges
+    - https://www.ycombinator.com/companies/simulithic
+    basis: llm_synthesis
+    written_by: OpenAI Codex (GPT-6)
+    written_at: '2026-10-24T21:38:33Z'
+    input_sha256: b5f12cffb8a093bd5aeb810c3850bef52524bd6a20987e3f3e42652f33d82812
+    stale: false
+  headline: Co-Founder and CTO, Simulithic
+  location: San Francisco Bay Area
+  expertise:
+  - label: AI application testing
+    basis: website
+    confidence: high
+    evidence:
+    - url: https://www.ycombinator.com/companies/simulithic
+      observed_at: '2026-10-24T21:31:18Z'
+  - label: Web application development
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/KlausMikhaelson/VirtualRoom
+      observed_at: '2026-10-24T21:31:18Z'
+  programming_languages:
+  - label: CSS
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/KlausMikhaelson?tab=repositories
+      observed_at: '2026-10-24T21:31:18Z'
+  - label: EJS
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/KlausMikhaelson?tab=repositories
+      observed_at: '2026-10-24T21:31:18Z'
+  - label: JavaScript
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/KlausMikhaelson?tab=repositories
+      observed_at: '2026-10-24T21:31:18Z'
+  - label: TypeScript
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/KlausMikhaelson?tab=repositories
+      observed_at: '2026-10-24T21:31:18Z'
+  recognitions:
+  - label: MLH Top 50 Hacker
+    basis: website
+    confidence: medium
+    evidence:
+    - url: https://www.ycombinator.com/companies/simulithic
+      observed_at: '2026-10-24T21:31:18Z'
+  - label: NASA Space Apps winner (Asteroid Destroyer)
+    basis: website
+    confidence: medium
+    evidence:
+    - url: https://www.ycombinator.com/companies/simulithic
+      observed_at: '2026-10-24T21:31:18Z'
+    - url: https://github.com/KlausMikhaelson/asteroid-destroyers-nasa-app-challenge
+      observed_at: '2026-10-24T21:31:18Z'
+  open_source:
+  - repository: repo:klausmikhaelson/virtualroom
+    relation: owner
+    stars: 27
+    primary_language: EJS
+  - repository: repo:klausmikhaelson/retain
+    relation: owner
+    stars: 10
+    primary_language: TypeScript
+  - repository: repo:klausmikhaelson/asteroid-destroyers-nasa-app-challenge
+    relation: owner
+    stars: 8
+    primary_language: JavaScript
+  - repository: repo:klausmikhaelson/emoji_mosaic_art
+    relation: owner
+    stars: 8
+    primary_language: TypeScript
+  - repository: repo:klausmikhaelson/wrestle-with-shapes
+    relation: owner
+    stars: 7
+    primary_language: JavaScript
+  - repository: repo:klausmikhaelson/web3conf-be
+    relation: owner
+    stars: 4
+    primary_language: JavaScript
+  - repository: repo:klausmikhaelson/todo-list-on-blockchain
+    relation: owner
+    stars: 4
+    primary_language: CSS
+  - repository: repo:klausmikhaelson/hackthevalley-webapp
+    relation: owner
+    stars: 3
+    primary_language: TypeScript
+  - repository: repo:klausmikhaelson/pet-menu-bar
+    relation: owner
+    stars: 3
+    primary_language: TypeScript
+  - repository: repo:klausmikhaelson/web3conf-fe
+    relation: owner
+    stars: 3
+    primary_language: JavaScript
+  experience:
+  - organization: Simulithic
+    title: Co-Founder and CTO
+    current: true
+    description: Builds AI users for automated application testing.
+    evidence:
+      url: https://www.ycombinator.com/companies/simulithic
+      observed_at: '2026-10-24T21:31:18Z'
+  - organization: Ramp
+    title: Engineering intern
+    current: false
+    evidence:
+      url: https://www.ycombinator.com/companies/simulithic
+      observed_at: '2026-10-24T21:31:18Z'
+  - organization: Bree
+    title: Engineering intern
+    current: false
+    evidence:
+      url: https://www.ycombinator.com/companies/simulithic
+      observed_at: '2026-10-24T21:31:18Z'
+  credentials:
+  - kind: honor
+    title: NASA Space App Challenge (World's Largest Hackathon)
+    issuer: NASA
+    date: '2025-01-01T00:00:00.000Z'
+    description: We built Asteroid Destroyer at the NASA Space App Challenge, competed against almost
+      10,000 projects, and won the hackathon, this was the first win for Canada since the NASA Space App
+      Challenge started.
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: ETHGlobal Framework
+    issuer: EthGlobal
+    date: '2024-03-01T00:00:00.000Z'
+    description: Won XMTP bounty at Ethglobal Framework hackathon
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: MLH Hacks
+    issuer: Major League Hacking
+    date: '2024-03-01T00:00:00.000Z'
+    description: Won best use of mongoDB track at web3apps hackathon which was organized by MLH
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: '#1st prize winner'
+    issuer: Cultivator
+    date: '2024-02-01T00:00:00.000Z'
+    description: Won 1st prize at 24hr startup hackathon - worked with my team as the CTO and sole developer.
+      - built a react native app and a backend, successfully created the mvp within 14hrs.
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: CrackedDevs Hackathon Education Track winner
+    issuer: CrackedDevs
+    date: '2024-01-01T00:00:00.000Z'
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: Hackathon Winner @CAP sask hackathon
+    issuer: CAPSAC
+    date: '2024-01-01T00:00:00.000Z'
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: BattleSnake tournament
+    issuer: HackRegina
+    date: '2023-12-01T00:00:00.000Z'
+    description: Won in the people's favorite category in battlesnake tournament organized by HackRegina
+      Reached finals for the overall category
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: '#3 at Engineering Case Competition by EWB Regina'
+    issuer: Enginners without borders | university of regina
+    date: '2023-10-01T00:00:00.000Z'
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: Most Engaging Hack
+    issuer: Major League Hacking
+    date: '2023-10-01T00:00:00.000Z'
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: Innovation Challenge
+    issuer: Hill | Levene school of business
+    date: '2023-09-01T00:00:00.000Z'
+    description: Won 3rd prize at innovation challenge at university of regina
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: '#2 Community Track'
+    issuer: Web3ConfIndia
+    date: '2023-08-01T00:00:00.000Z'
+    description: Won 2nd prize in community track of Web3ConfIndia
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: 'Overall #1'
+    issuer: The Keys
+    date: '2023-03-01T00:00:00.000Z'
+    description: 'We won the overall #1 prize at the Keys Hackathon where we built a full stack web application
+      known as Global Nest'
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: Top 5
+    issuer: Royal Hackaway
+    date: '2023-01-01T00:00:00.000Z'
+    description: our team was in the top 5 for Royal Hackaway(university of london's hackathon)
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: '#3 Overall'
+    issuer: Major league Hacking
+    date: '2022-12-01T00:00:00.000Z'
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: 'Overall #1 and best dressed hack'
+    issuer: Major league Hacking
+    date: '2022-11-01T00:00:00.000Z'
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: Most Creative use of GitHub
+    issuer: MLH
+    date: '2022-10-01T00:00:00.000Z'
+    description: We won the most creative use of GitHub in Hack and Snack Hackathon
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: Most creative use of Twilio and Undercover Hack category
+    issuer: Major League Hacking
+    date: '2022-10-01T00:00:00.000Z'
+    description: Won most creative use of twilio and Undercover Hack at SpyHacks organized by MLH
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: Top 7 teams
+    issuer: HackVSIT
+    date: '2022-10-01T00:00:00.000Z'
+    description: my team(I was the only member) was one of the top 7 team at HackVSIT North India's biggest
+      Hackathon
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: Hack To School
+    issuer: MLH
+    date: '2022-09-01T00:00:00.000Z'
+    description: Won the best use of Google Cloud prize
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: Impractical Hackers 2
+    issuer: MLH
+    date: '2022-09-01T00:00:00.000Z'
+    description: 'We won 3 prizes i.e. #1 Overall, best use of Deso Blockchain, best use of Wix by Velo'
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: Garuda Hacks 3.0
+    issuer: Garuda Hacks
+    date: '2022-08-01T00:00:00.000Z'
+    description: Got the Honorable mention and most creative use of twilio prize
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: OneHacksII
+    issuer: One Hacks
+    date: '2022-06-01T00:00:00.000Z'
+    description: Won 3 prizes i.e. overall 2nd, best monitized project and best use of twilio API
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: YALE HACKATHON (YHACK)
+    issuer: '-'
+    date: '2022-05-01T00:00:00.000Z'
+    description: Our project was selected among the top few projects to pitch in front of the YCombinator
+      team
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: Diamond Hacks
+    issuer: North Carolina State University
+    date: '2022-04-01T00:00:00.000Z'
+    description: Won the prize of most impactful project
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: HACKCWRU
+    issuer: Case Western Research University
+    date: '2022-03-01T00:00:00.000Z'
+    description: Won 2 sponsored prizes i.e. most impactful project and best in AB in Bev
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: certification
+    title: Docker
+    issuer: LinkedIn
+    url: https://www.linkedin.com/learning/certificates/c9b3faceab3326df31402b9ce1652e8afda35c58180f039739339bf24dfd6229
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: certification
+    title: Ignition Hacks 2022 Certificate
+    issuer: Certopus
+    url: https://certopus.com/c/88c553b9305141e09fe454457fc9e1ee
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: certification
+    title: 'React: Creating and Hosting a Full-Stack Site (2019)'
+    issuer: LinkedIn
+    url: https://www.linkedin.com/learning/certificates/1a32facf190e320879db4d73d6dc515cd2a68d4ae9058e8fe3c6c86c0ef40404
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: certification
+    title: AWS attendee certificate
+    issuer: Amazon Web Services (AWS)
+    url: https://pages.awscloud.com/index.php/email/emailWebview?md_id=747637
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: certification
+    title: Hackerrank basic Java certification
+    issuer: HackerRank
+    url: https://www.hackerrank.com/certificates/a85d8427cb9f
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  activities:
+  - kind: project
+    title: Asteroid Destroyer
+    detail: My team and I built Asteroid Destroyer during the NASA Space Apps Challenge 2024–2025 — the
+      world’s largest hackathon. We proudly represented Canada and emerged as one of the first-ever winners
+      from the country.
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: Global Nest
+    detail: we built Global Nest at the Keys Hackathon at university of regina
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: Kickin' Cuisine
+    detail: A local multiplayer game like soccer that you can play using food items to decide what to
+      eat
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: Memify
+    detail: It fetches memes from some famous subreddits and than mints it with the help of deso blockchain
+      api
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: SyncTube
+    detail: This webApp helps you to watch youtube videos on sync with your friends
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: VirtualStudyRoom
+    detail: We created this in the OneHacksII hackathonIf it's not working than we are out of firebase
+      credits
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: ParkinGrid
+    detail: ParkingGrid will help you to find the empty parking slot nearby
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: Winter Find
+    detail: 'Winter Find is a 3d game that we made with typescript, threejs, blender and won #1 Overall
+      prize and best dressed category at HackComing2 Hackathon'
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: SpyPooch
+    detail: Made this project for the SpyHacks hackathon organized by MLH
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: Energy Prediction
+    detail: Machine learning model that predicts the amount of electricity needed
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: StudyBud
+    detail: StudyBud is a discord bot that we created at Hack To School hackathon and won the best use
+      of Google Cloud sponsored prize for it
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: Diamond Hacks 2022
+    detail: An app that will help the world to fight with hunger crisisWe won 1 prize in this hackathon
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: HACKCWRU- 2022
+    detail: A health care website that will help to analyze the mental health of the users with the help
+      of some questions which are taken from World Health OrganisationWe won 2 prizes in this hackathon
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: SharkTanks - forge the battle with your friends
+    detail: Shark Tanks is a 3D online multiplayer game in a website built using threejs, nodejs, expressjs,
+      socketio
+    evidence:
+      url: https://www.linkedin.com/in/Satyamsingh2003
+      observed_at: '2026-10-24T21:13:34Z'
+  recent_writing:
+  - title: MLH Top 50 Hackers announcement
+    url: https://www.linkedin.com/posts/satyamsingh2003_51-hackathons-41-wins-today-i-was-named-activity-7508012445416816641-h6H1
+    channel: linkedin
+  gaps:
+  - Repository statistics are observed counts. Top repositories cover original repositories in the first
+    100 returned by recent update, not all historical contributions. Registry packages and contribution
+    totals have not been verified.
+  - Public LinkedIn experience and education fields were unavailable; previous roles use the company-published
+    YC profile. No inferred attendance at GitHub Universe.
+  - The LinkedIn profile contains other hackathon projects and awards; only selected professional items
+    are curated. Social posts unrelated to work, other creators, and scholarship/financial details are
+    omitted.
+  - LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history.
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/satyam-singh.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/Satyamsingh2003
+    record_id: sd_mvmw8f86q8hg8asw6
+    retrieved_at: '2026-10-24T21:13:34Z'
+    snapshot: raw/brightdata/linkedin_profiles.json
+  open_source_evidence:
+    repo:klausmikhaelson/virtualroom:
+    - url: https://github.com/KlausMikhaelson/VirtualRoom
+      observed_at: '2026-10-24T21:31:18Z'
+    repo:klausmikhaelson/retain:
+    - url: https://github.com/KlausMikhaelson/Retain
+      observed_at: '2026-10-24T21:31:18Z'
+    repo:klausmikhaelson/asteroid-destroyers-nasa-app-challenge:
+    - url: https://github.com/KlausMikhaelson/asteroid-destroyers-nasa-app-challenge
+      observed_at: '2026-10-24T21:31:18Z'
+    repo:klausmikhaelson/emoji_mosaic_art:
+    - url: https://github.com/KlausMikhaelson/emoji_mosaic_art
+      observed_at: '2026-10-24T21:31:18Z'
+    repo:klausmikhaelson/wrestle-with-shapes:
+    - url: https://github.com/KlausMikhaelson/wrestle-with-shapes
+      observed_at: '2026-10-24T21:31:18Z'

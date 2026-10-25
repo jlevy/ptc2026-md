@@ -1,0 +1,13 @@
+softschema:
+  contract: paraverse.conference:Venue/v1
+  schema: ../_schemas/venue.schema.yaml
+  envelope: venue
+  status: permissive
+venue:
+  id: venue:bright-data-san-francisco
+  name: Bright Data, San Francisco
+  kind: external
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc
+    snapshot: curation/event.json

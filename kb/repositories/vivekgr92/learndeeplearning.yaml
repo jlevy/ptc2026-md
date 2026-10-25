@@ -1,0 +1,21 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:vivekgr92/learndeeplearning
+  full_name: vivekgr92/LearnDeepLearning
+  url: https://github.com/vivekgr92/LearnDeepLearning
+  description: Set of example toy codes to learn and implement neural architectures
+  stars: 0
+  forks: 0
+  primary_language: Jupyter Notebook
+  fork: false
+  pushed_at: '2019-08-18T07:13:32Z'
+  owner_login: vivekgr92
+  owner: gh:vivekgr92
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/vivek-gopal-ramaswamy.json

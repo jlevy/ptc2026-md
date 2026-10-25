@@ -1,0 +1,30 @@
+softschema:
+  contract: paraverse.conference:SocialAccount/v1
+  schema: ../../_schemas/social-account.schema.yaml
+  envelope: social_account
+  status: permissive
+social_account:
+  id: acct:x/kunalstwt
+  platform: x
+  handle: kunalstwt
+  url: https://x.com/kunalstwt
+  bio: Running the world's most engaging hackathons and GTM events at scale @WeMakeDevs
+  followers: 286214
+  following: 2259
+  owner: person:kunal-kushwaha
+  link_basis:
+  - github_profile
+  details_fetched: true
+  sources:
+  - system: curation
+    url: https://x.com/kunalstwt/status/2113374840870568017
+    snapshot: curation/people/kunal-kushwaha.json
+  - system: brightdata
+    url: https://x.com/kunalstwt
+    record_id: sd_mvmwwqvn77sppnyib
+    retrieved_at: '2026-10-24T21:30:25Z'
+    snapshot: raw/brightdata/x_profiles.json
+  identity_evidence:
+  - url: https://github.com/kunal-kushwaha
+    observed_at: '2026-10-24T21:31:18Z'
+  identity_confidence: high

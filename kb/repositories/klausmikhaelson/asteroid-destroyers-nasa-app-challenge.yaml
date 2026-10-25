@@ -1,0 +1,26 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:klausmikhaelson/asteroid-destroyers-nasa-app-challenge
+  full_name: KlausMikhaelson/asteroid-destroyers-nasa-app-challenge
+  url: https://github.com/KlausMikhaelson/asteroid-destroyers-nasa-app-challenge
+  description: Nasa Space App challenge Winner 2024-25
+  stars: 8
+  forks: 3
+  primary_language: JavaScript
+  archived: false
+  fork: false
+  pushed_at: '2024-10-07T00:02:18Z'
+  owner_login: KlausMikhaelson
+  owner: gh:klausmikhaelson
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/satyam-singh.json
+  - system: github
+    url: https://api.github.com/users/KlausMikhaelson
+    retrieved_at: '2026-10-24T21:30:11Z'
+    snapshot: raw/github/klausmikhaelson.json

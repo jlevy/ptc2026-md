@@ -1,0 +1,18 @@
+{
+  "source_url": "https://www.wemakedevs.org/hackathons/ptc",
+  "retrieved_at": "2026-10-24T21:05:00Z",
+  "extraction": "Selected event facts; navigation, contact details and registration material omitted.",
+  "name": "Patch the Conference Hackathon",
+  "date": "2026-10-24",
+  "start": "2026-10-24T09:00:00-07:00",
+  "end": "2026-10-24T19:00:00-07:00",
+  "timezone": "America/Los_Angeles",
+  "organizer": "WeMakeDevs",
+  "venue": "Bright Data, San Francisco",
+  "sponsor_tracks": [
+    "FalkorDB",
+    "Bright Data",
+    "TrueForge (TrueFoundry) with OpenAI",
+    "Qodo"
+  ]
+}

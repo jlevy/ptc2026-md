@@ -1,0 +1,40 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:zulip/zulip
+  full_name: zulip/zulip
+  url: https://github.com/zulip/zulip
+  description: Zulip server and web application. Open-source team chat that helps teams stay productive
+    and focused.
+  homepage: https://zulip.com
+  stars: 26107
+  forks: 10471
+  primary_language: Python
+  topics:
+  - apache
+  - chat
+  - collaboration
+  - electron
+  - foss
+  - free
+  - javascript
+  - python
+  - python3
+  - react-native
+  - slack
+  - zulip
+  archived: false
+  fork: false
+  pushed_at: '2026-10-24T15:12:22Z'
+  owner_login: zulip
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/riken-shah.json
+  - system: github
+    url: https://api.github.com/repos/zulip/zulip
+    retrieved_at: '2026-10-24T21:37:34Z'
+    snapshot: raw/github/repositories.json

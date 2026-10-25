@@ -1,0 +1,26 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:schezfaz/momentum
+  full_name: schezfaz/momentum
+  url: https://github.com/schezfaz/momentum
+  description: Notion MCP Challenge - AIccountability, Vision Board Tracker
+  stars: 2
+  forks: 0
+  primary_language: Python
+  archived: false
+  fork: false
+  pushed_at: '2026-03-30T05:29:08Z'
+  owner_login: schezfaz
+  owner: gh:schezfaz
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/schezeen-fazulbhoy.json
+  - system: github
+    url: https://api.github.com/repos/schezfaz/momentum
+    retrieved_at: '2026-10-24T21:37:35Z'
+    snapshot: raw/github/repositories.json

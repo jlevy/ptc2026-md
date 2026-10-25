@@ -1,0 +1,42 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:kunal-kushwaha/devops-bootcamp
+  full_name: kunal-kushwaha/DevOps-Bootcamp
+  url: https://github.com/kunal-kushwaha/DevOps-Bootcamp
+  description: This repository consists of the code samples, assignments, and notes for the DevOps bootcamp
+    of WeMakeDevs.
+  stars: 2431
+  forks: 1367
+  topics:
+  - ci-cd
+  - cloud
+  - cloud-computing
+  - cloud-native
+  - devops
+  - docker
+  - infrastructure
+  - interview-preparation
+  - k3s
+  - kubernetes
+  - linux
+  - monitoring
+  - networking
+  - testing
+  - tools
+  archived: false
+  fork: false
+  pushed_at: '2024-07-18T09:11:07Z'
+  owner_login: kunal-kushwaha
+  owner: gh:kunal-kushwaha
+  sources:
+  - system: curation
+    url: https://x.com/kunalstwt/status/2113374840870568017
+    snapshot: curation/people/kunal-kushwaha.json
+  - system: github
+    url: https://api.github.com/users/kunal-kushwaha
+    retrieved_at: '2026-10-24T21:30:11Z'
+    snapshot: raw/github/kunal-kushwaha.json

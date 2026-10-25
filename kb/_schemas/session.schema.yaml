@@ -1,0 +1,319 @@
+$defs:
+  Mention:
+    additionalProperties: false
+    description: A name found in text and resolved to a software or organization entity.
+    properties:
+      field:
+        enum:
+        - title
+        - abstract
+        - bio
+        - description
+        title: Field
+        type: string
+      method:
+        enum:
+        - gazetteer
+        - pattern
+        title: Method
+        type: string
+      target:
+        pattern: ^(software|org):[a-z0-9][a-z0-9._/@+-]*$
+        title: Target
+        type: string
+      text:
+        description: The surface form exactly as it appears.
+        title: Text
+        type: string
+    required:
+    - field
+    - method
+    - target
+    - text
+    title: Mention
+    type: object
+  SessionFacets:
+    additionalProperties: false
+    description: Catalog classifications, each a reference to a term in a taxonomy facet.
+    properties:
+      audiences:
+        items:
+          pattern: ^(term):[a-z0-9][a-z0-9._/@+-]*$
+          type: string
+        title: Audiences
+        type: array
+      curated_agendas:
+        items:
+          pattern: ^(term):[a-z0-9][a-z0-9._/@+-]*$
+          type: string
+        title: Curated Agendas
+        type: array
+      delivery_formats:
+        items:
+          pattern: ^(term):[a-z0-9][a-z0-9._/@+-]*$
+          type: string
+        title: Delivery Formats
+        type: array
+      industries:
+        items:
+          pattern: ^(term):[a-z0-9][a-z0-9._/@+-]*$
+          type: string
+        title: Industries
+        type: array
+      level:
+        anyOf:
+        - pattern: ^(term):[a-z0-9][a-z0-9._/@+-]*$
+          type: string
+        - type: 'null'
+        default: null
+        title: Level
+      products:
+        items:
+          pattern: ^(term):[a-z0-9][a-z0-9._/@+-]*$
+          type: string
+        title: Products
+        type: array
+      session_type:
+        pattern: ^(term):[a-z0-9][a-z0-9._/@+-]*$
+        title: Session Type
+        type: string
+      topics:
+        items:
+          pattern: ^(term):[a-z0-9][a-z0-9._/@+-]*$
+          type: string
+        title: Topics
+        type: array
+      tracks:
+        items:
+          pattern: ^(term):[a-z0-9][a-z0-9._/@+-]*$
+          type: string
+        title: Tracks
+        type: array
+    required:
+    - session_type
+    title: SessionFacets
+    type: object
+  SessionSpeaker:
+    additionalProperties: false
+    properties:
+      order:
+        minimum: 0
+        title: Order
+        type: integer
+      person:
+        pattern: ^(person):[a-z0-9][a-z0-9._/@+-]*$
+        title: Person
+        type: string
+      role:
+        enum:
+        - speaker
+        - moderator
+        - panelist
+        - facilitator
+        title: Role
+        type: string
+    required:
+    - order
+    - person
+    - role
+    title: SessionSpeaker
+    type: object
+  Source:
+    additionalProperties: false
+    description: 'Where a record came from: one raw snapshot file, or a curated list.'
+    properties:
+      record_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The record's ID in that system.
+        title: Record Id
+      retrieved_at:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Retrieved At
+      snapshot:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Raw snapshot path, relative to the conference directory.
+        title: Snapshot
+      system:
+        enum:
+        - rainfocus
+        - githubuniverse.com
+        - github
+        - npm
+        - pypi
+        - bluesky
+        - mastodon
+        - website
+        - feed
+        - brightdata
+        - curation
+        title: System
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - system
+    title: Source
+    type: object
+  TimeSlot:
+    additionalProperties: false
+    properties:
+      capacity:
+        anyOf:
+        - minimum: 0
+          type: integer
+        - type: 'null'
+        default: null
+        title: Capacity
+      day:
+        pattern: ^(day):[a-z0-9][a-z0-9._/@+-]*$
+        title: Day
+        type: string
+      end:
+        pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+        title: End
+        type: string
+      in_person:
+        title: In Person
+        type: boolean
+      room:
+        anyOf:
+        - pattern: ^(room):[a-z0-9][a-z0-9._/@+-]*$
+          type: string
+        - type: 'null'
+        default: null
+        title: Room
+      source_id:
+        description: RainFocus session time ID.
+        title: Source Id
+        type: string
+      start:
+        pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+        title: Start
+        type: string
+      virtual:
+        title: Virtual
+        type: boolean
+    required:
+    - day
+    - end
+    - in_person
+    - source_id
+    - start
+    - virtual
+    title: TimeSlot
+    type: object
+$schema: https://json-schema.org/draft/2020-12/schema
+additionalProperties: true
+description: 'One catalog entry: a talk, demo, workshop, keynote, social or special event.'
+properties:
+  abstract:
+    title: Abstract
+    type: string
+  code:
+    title: Code
+    type: string
+  event:
+    pattern: ^(event):[a-z0-9][a-z0-9._/@+-]*$
+    title: Event
+    type: string
+  facets:
+    $ref: '#/$defs/SessionFacets'
+  hosts:
+    description: Organizations that host or sponsor the session.
+    items:
+      pattern: ^(org):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Hosts
+    type: array
+  id:
+    pattern: ^(session):[a-z0-9][a-z0-9._/@+-]*$
+    title: Id
+    type: string
+  image_url:
+    anyOf:
+    - pattern: ^https?://
+      type: string
+    - type: 'null'
+    default: null
+    title: Image Url
+  mentions:
+    items:
+      $ref: '#/$defs/Mention'
+    title: Mentions
+    type: array
+  popular:
+    description: The catalog warns that seating is not guaranteed.
+    title: Popular
+    type: boolean
+  registration_url:
+    anyOf:
+    - pattern: ^https?://
+      type: string
+    - type: 'null'
+    default: null
+    description: External sign-up page, for socials run by partners.
+    title: Registration Url
+  related:
+    items:
+      pattern: ^(session):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Related
+    type: array
+  slots:
+    items:
+      $ref: '#/$defs/TimeSlot'
+    minItems: 1
+    title: Slots
+    type: array
+  sources:
+    items:
+      $ref: '#/$defs/Source'
+    title: Sources
+    type: array
+  speakers:
+    items:
+      $ref: '#/$defs/SessionSpeaker'
+    title: Speakers
+    type: array
+  sponsored:
+    title: Sponsored
+    type: boolean
+  title:
+    title: Title
+    type: string
+  url:
+    pattern: ^https?://
+    title: Url
+    type: string
+required:
+- abstract
+- code
+- event
+- facets
+- id
+- popular
+- slots
+- sources
+- sponsored
+- title
+- url
+title: Session
+type: object
+x-softschema:
+  contract: paraverse.conference:Session/v1
+  schema_sha256: c30181cc21a2bf099c4dadf315b2b77e8ea7a6fbd75d94b63be3495f4ae5b5ae

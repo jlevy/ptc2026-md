@@ -1,0 +1,175 @@
+{
+  "id": "event:patch-the-conference-2026",
+  "name": "Patch the Conference Hackathon",
+  "date": "2026-10-24",
+  "start": "2026-10-24T09:00:00-07:00",
+  "end": "2026-10-24T19:00:00-07:00",
+  "timezone": "America/Los_Angeles",
+  "organizer": "WeMakeDevs",
+  "venue": "Bright Data, San Francisco",
+  "url": "https://www.wemakedevs.org/hackathons/ptc",
+  "observed_at": "2026-10-24T21:05:00Z",
+  "sources": [
+    "https://www.wemakedevs.org/hackathons/ptc",
+    "https://www.wemakedevs.org/hackathons/ptc/judges",
+    "https://www.wemakedevs.org/hackathons/ptc/schedule",
+    "https://www.wemakedevs.org/hackathons/ptc/resources"
+  ],
+  "judges": [
+    {
+      "slug": "riken-shah",
+      "name": "Riken Shah",
+      "title": "Human Data Team (Contractor)",
+      "organization": "xAI",
+      "linkedin": "https://www.linkedin.com/in/shah-riken",
+      "evidence": {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Riken ShahHuman Data Team (Contractor), xAI",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    },
+    {
+      "slug": "nitish-mane",
+      "name": "Nitish Mane",
+      "title": "Software Engineer",
+      "organization": "Philo",
+      "linkedin": null,
+      "evidence": {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Nitish ManeSoftware Engineer, Philo",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    },
+    {
+      "slug": "manpreet-singh",
+      "name": "Manpreet Singh",
+      "title": "Software Engineer II",
+      "organization": "Northwest Bank",
+      "linkedin": "https://www.linkedin.com/in/manpoffc",
+      "evidence": {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Manpreet SinghSoftware Engineer II, Northwest Bank",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    },
+    {
+      "slug": "schezeen-fazulbhoy",
+      "name": "Schezeen Fazulbhoy",
+      "title": "Senior Software Engineer",
+      "organization": "Adobe",
+      "linkedin": "https://www.linkedin.com/in/schezeenfazulbhoy",
+      "evidence": {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Schezeen FazulbhoySenior Software Engineer, Adobe",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    },
+    {
+      "slug": "pooja-ravi",
+      "name": "Pooja Ravi",
+      "title": "Senior Software Engineer",
+      "organization": "Netflix",
+      "linkedin": "https://www.linkedin.com/in/pravi20",
+      "evidence": {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Pooja RaviSenior Software Engineer, Netflix",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    },
+    {
+      "slug": "satyam-singh",
+      "name": "Satyam Singh",
+      "title": "Co-Founder, CTO",
+      "organization": "Simulithic",
+      "linkedin": "https://www.linkedin.com/in/Satyamsingh2003",
+      "evidence": {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "satyam singhCo-Founder, CTO, Simulithic",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    },
+    {
+      "slug": "yash-bhatia",
+      "name": "Yash Bhatia",
+      "title": "Senior Data Engineer",
+      "organization": "Meta",
+      "linkedin": "https://www.linkedin.com/in/yyash-bhatia",
+      "evidence": {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Yash BhatiaSenior Data Engineer, Meta",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    },
+    {
+      "slug": "dipen-chawla",
+      "name": "Dipen Chawla",
+      "title": "Software Engineer 2",
+      "organization": "Microsoft",
+      "linkedin": null,
+      "evidence": {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Dipen ChawlaSoftware Engineer 2, Microsoft",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    },
+    {
+      "slug": "vivek-gopal-ramaswamy",
+      "name": "Vivek Gopal Ramaswamy",
+      "title": "AI Product Manager",
+      "organization": "Agility Robotics",
+      "linkedin": "https://www.linkedin.com/in/vivekgr",
+      "evidence": {
+        "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+        "quote": "Vivek Gopal ramaswamyAI Product Manager, Agility Robitics",
+        "observed_at": "2026-10-24T21:05:00Z"
+      }
+    }
+  ],
+  "agenda": [
+    {
+      "start": "09:00",
+      "end": null,
+      "title": "Doors open"
+    },
+    {
+      "start": "09:00",
+      "end": "10:00",
+      "title": "Breakfast, setup and hacking"
+    },
+    {
+      "start": "10:00",
+      "end": "11:00",
+      "title": "Sponsor workshops and talks"
+    },
+    {
+      "start": "11:00",
+      "end": "14:00",
+      "title": "Building"
+    },
+    {
+      "start": "14:00",
+      "end": null,
+      "title": "Lunch"
+    },
+    {
+      "start": "14:00",
+      "end": "17:30",
+      "title": "Hacking and project submission"
+    },
+    {
+      "start": "17:30",
+      "end": "18:30",
+      "title": "Presentations and judging"
+    },
+    {
+      "start": "18:30",
+      "end": null,
+      "title": "Winners announced"
+    },
+    {
+      "start": "19:00",
+      "end": null,
+      "title": "Event wraps up"
+    }
+  ]
+}

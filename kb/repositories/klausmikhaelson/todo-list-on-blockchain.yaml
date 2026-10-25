@@ -1,0 +1,24 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:klausmikhaelson/todo-list-on-blockchain
+  full_name: KlausMikhaelson/todo-list-on-blockchain
+  url: https://github.com/KlausMikhaelson/todo-list-on-blockchain
+  stars: 4
+  forks: 0
+  primary_language: CSS
+  fork: false
+  pushed_at: '2023-03-27T07:58:19Z'
+  owner_login: KlausMikhaelson
+  owner: gh:klausmikhaelson
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/satyam-singh.json
+  - system: github
+    url: https://api.github.com/users/KlausMikhaelson
+    retrieved_at: '2026-10-24T21:30:11Z'
+    snapshot: raw/github/klausmikhaelson.json

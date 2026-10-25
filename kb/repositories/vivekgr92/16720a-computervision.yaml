@@ -1,0 +1,21 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:vivekgr92/16720a-computervision
+  full_name: vivekgr92/16720A-ComputerVision
+  url: https://github.com/vivekgr92/16720A-ComputerVision
+  description: A collection of all the CV algorithms implemented on MATALAB
+  stars: 0
+  forks: 0
+  primary_language: MATLAB
+  fork: false
+  pushed_at: '2017-12-02T02:27:57Z'
+  owner_login: vivekgr92
+  owner: gh:vivekgr92
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/vivek-gopal-ramaswamy.json

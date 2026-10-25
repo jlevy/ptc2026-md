@@ -1,0 +1,32 @@
+{
+  "nodes": {
+    "day": 1,
+    "event": 1,
+    "github_account": 7,
+    "organization": 22,
+    "person": 10,
+    "profile": 10,
+    "repository": 56,
+    "social_account": 20,
+    "venue": 1,
+    "website": 5
+  },
+  "edges": {
+    "affiliated_with": 33,
+    "contributes_to": 4,
+    "describes": 10,
+    "has_account": 27,
+    "has_day": 1,
+    "has_website": 5,
+    "located_at": 1,
+    "maintains": 44,
+    "organizes": 1,
+    "owns": 51,
+    "participates_in": 10,
+    "pinned": 23,
+    "sponsors": 5,
+    "top_repository": 44
+  },
+  "node_total": 133,
+  "edge_total": 259
+}

@@ -1,0 +1,158 @@
+$defs:
+  Source:
+    additionalProperties: false
+    description: 'Where a record came from: one raw snapshot file, or a curated list.'
+    properties:
+      record_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The record's ID in that system.
+        title: Record Id
+      retrieved_at:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Retrieved At
+      snapshot:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Raw snapshot path, relative to the conference directory.
+        title: Snapshot
+      system:
+        enum:
+        - rainfocus
+        - githubuniverse.com
+        - github
+        - npm
+        - pypi
+        - bluesky
+        - mastodon
+        - website
+        - feed
+        - brightdata
+        - curation
+        title: System
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - system
+    title: Source
+    type: object
+$schema: https://json-schema.org/draft/2020-12/schema
+additionalProperties: true
+description: 'A website someone runs: a personal site, blog or project page.'
+properties:
+  description:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Description
+  feeds:
+    items:
+      pattern: ^https?://
+      type: string
+    title: Feeds
+    type: array
+  fetch_status:
+    enum:
+    - ok
+    - error
+    - not_fetched
+    title: Fetch Status
+    type: string
+  http_status:
+    anyOf:
+    - type: integer
+    - type: 'null'
+    default: null
+    title: Http Status
+  id:
+    pattern: ^(site):[a-z0-9][a-z0-9._/@+-]*$
+    title: Id
+    type: string
+  identity_links:
+    description: Links the page marks rel=me.
+    items:
+      pattern: ^https?://
+      type: string
+    title: Identity Links
+    type: array
+  kind:
+    enum:
+    - personal
+    - blog
+    - company
+    - project
+    - other
+    title: Kind
+    type: string
+  link_basis:
+    items:
+      enum:
+      - event_listing
+      - github_profile
+      - website_rel_me
+      - website_link
+      - bluesky_profile
+      - mastodon_verified
+      - x_profile
+      - linkedin_profile
+      - attendance_post
+      - curated
+      type: string
+    minItems: 1
+    title: Link Basis
+    type: array
+  linked_accounts:
+    items:
+      pattern: ^(gh|acct):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Linked Accounts
+    type: array
+  owner:
+    anyOf:
+    - pattern: ^(person|org):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    - type: 'null'
+    default: null
+    title: Owner
+  sources:
+    items:
+      $ref: '#/$defs/Source'
+    title: Sources
+    type: array
+  title:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Title
+  url:
+    pattern: ^https?://
+    title: Url
+    type: string
+required:
+- fetch_status
+- id
+- kind
+- link_basis
+- sources
+- url
+title: Website
+type: object
+x-softschema:
+  contract: paraverse.conference:Website/v1
+  schema_sha256: 4d59e6c86e5a615e7272d9f13469644dd7191fdafd6a18aef64e1118c6d79231

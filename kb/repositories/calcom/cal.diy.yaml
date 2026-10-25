@@ -1,0 +1,15 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:calcom/cal.diy
+  full_name: calcom/cal.diy
+  url: https://github.com/calcom/cal.diy
+  primary_language: TypeScript
+  owner_login: calcom
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/manpreet-singh.json

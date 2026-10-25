@@ -1,0 +1,322 @@
+softschema:
+  contract: paraverse.conference:Profile/v1
+  schema: ../_schemas/profile.schema.yaml
+  envelope: profile
+  status: permissive
+profile:
+  id: profile:riken-shah
+  person: person:riken-shah
+  brief_bio:
+    text: Riken Shah is a performance engineer who has worked on the Tasks application and contributed
+      to Zulip. Riken writes about backend scaling and is listed as a judge at Patch the Conference Hackathon.
+    cites:
+    - https://riken.me/
+    - https://github.com/Riken-Shah
+    - https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c
+    - https://www.wemakedevs.org/hackathons/ptc/judges
+    basis: llm_synthesis
+    written_by: GPT-6.1 Sol (OpenAI Codex)
+    written_at: '2026-10-24T21:38:33Z'
+    input_sha256: 61e202a20fa1819403a4d43770bf67e3c04d85a6ac5d7f1c683736ce05c6f559
+    stale: false
+  headline: Performance engineer working on backend systems, local-first architecture and AI infrastructure.
+  location: San Francisco
+  current_roles:
+  - Human Data Team (Contractor), xAI
+  expertise:
+  - label: Backend performance engineering
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Local-first architecture
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://riken.me/
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Distributed systems
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://riken.me/
+      observed_at: '2026-10-24T21:30:51Z'
+  technologies:
+  - label: PostgreSQL
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: AWS
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Docker
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Grafana
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: GORM
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c
+      observed_at: '2026-10-24T21:30:51Z'
+  programming_languages:
+  - label: Go
+    basis: curated
+    confidence: high
+    evidence:
+    - url: https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Python
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/Riken-Shah
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: TypeScript
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/Riken-Shah
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: JavaScript
+    basis: github_repositories
+    confidence: high
+    evidence:
+    - url: https://github.com/Riken-Shah
+      observed_at: '2026-10-24T21:30:51Z'
+  recognitions:
+  - label: 'Karo: Social Task Manager — first place, Most Likely to Make Money Award, RevenueCat Ship-a-ton
+      2024'
+    basis: curated
+    confidence: medium
+    evidence:
+    - url: https://www.revenuecat.com/blog/company/2024-ship-a-ton-winners
+      quote: 'Karo: Social Task Manager'
+      observed_at: '2026-10-24T21:30:51Z'
+  - label: Google Summer of Code participant with Zulip in 2021 and 2022; later mentor
+    basis: curated
+    confidence: medium
+    evidence:
+    - url: https://github.com/Riken-Shah
+      observed_at: '2026-10-24T21:30:51Z'
+    - url: https://riken.me/
+      observed_at: '2026-10-24T21:30:51Z'
+  open_source:
+  - repository: repo:riken-shah/replyrobin
+    relation: owner
+    stars: 0
+    primary_language: Python
+  - repository: repo:riken-shah/petavision
+    relation: owner
+    stars: 0
+    primary_language: Python
+  - repository: repo:riken-shah/benchmark-db-browsers
+    relation: owner
+    stars: 0
+    primary_language: JavaScript
+  - repository: repo:riken-shah/chillflix
+    relation: owner
+    stars: 3
+    primary_language: JavaScript
+  - repository: repo:zulip/zulip
+    relation: contributor
+    stars: 26107
+    primary_language: Python
+  experience:
+  - organization: Tasks / Msquare Labs
+    title: Founding Engineer
+    start: 2022-10
+    end: 2026-05
+    current: false
+    description: Backend, synchronization and web application engineering.
+    evidence:
+      url: https://riken.me/
+      observed_at: '2026-10-24T21:30:51Z'
+  - organization: Mela
+    title: Software Engineer
+    start: 2021-08
+    end: 2022-11
+    current: false
+    description: Distributed web scraping and backend infrastructure.
+    evidence:
+      url: https://riken.me/
+      observed_at: '2026-10-24T21:30:51Z'
+  education:
+  - school: Bhagwan Mahavir University
+    evidence:
+      url: https://www.linkedin.com/in/shah-riken
+      quote: Bhagwan Mahavir University
+      observed_at: '2026-10-24T21:13:34Z'
+  credentials:
+  - kind: honor
+    title: 'Scored highest in my Institute (CPI: 9.74 / 10.0)'
+    issuer: Gujarat Technological University
+    date: '2020-03-01T00:00:00.000Z'
+    evidence:
+      url: https://www.linkedin.com/in/shah-riken
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: honor
+    title: 1st Place in Code Strom
+    issuer: Gujarat Technological University
+    date: '2020-02-01T00:00:00.000Z'
+    evidence:
+      url: https://www.linkedin.com/in/shah-riken
+      observed_at: '2026-10-24T21:13:34Z'
+  activities:
+  - kind: project
+    title: Textile Studio
+    detail: 'TextileStudio - Production-Scale Semantic Search EngineBuilt a comprehensive semantic search
+      engine specifically designed for the textile industry, enabling efficient product discovery and
+      similarity matching across massive image datasets.Key Highlights:- Architected distributed vector
+      database using Milvus to handle 100TB+ textile image datasets with horizontal scaling across multiple
+      nodes- Developed custom C extensions for image preprocessing and feature extraction, achieving millisecond-level
+      similarity matching performance- Implemented advanced semantic search capabilities enabling textile
+      manufacturers to find similar patterns, colors, and designs instantly- Designed hybrid edge-cloud
+      infrastructure with intelligent caching strategies and query optimization for cost-effective operations-
+      Built robust data ingestion pipeline handling diverse textile image formats and metadata with automated
+      quality control- Created sophisticated indexing system supporting multi-modal search (visual similarity,
+      text descriptions, material properties)- Implemented real-time search API with sub-100ms response
+      times despite massive dataset scale- Developed custom embedding models fine-tuned specifically for
+      textile pattern recognition and similarity detectionTech Stack: Go, Python, Milvus, Firebase, C
+      Extensions, Custom Vector Embeddings, Distributed Systems, Edge Computing, Image Processing APIs'
+    evidence:
+      url: https://www.linkedin.com/in/shah-riken
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: Aashvi (Autonomous AI Influencer)
+    detail: 'Built a fully autonomous AI influencer capable of generating consistent visual content and
+      engaging social media presence without human intervention.Key Highlights:- Developed fine-tuned
+      Stable Diffusion models using LoRA (Low-Rank Adaptation) techniques to maintain consistent visual
+      style and character appearance across all generated content- Built sophisticated prompt engineering
+      pipeline for automated caption generation, ensuring brand voice consistency and engagement optimization-
+      Implemented automated Instagram posting system with intelligent scheduling and content strategy
+      algorithms- Created custom model training workflows for character consistency, enabling photorealistic
+      image generation with stable facial features and styling- Designed end-to-end automation pipeline
+      from content ideation to social media publishing, eliminating manual intervention- Achieved organic
+      growth of 400+ followers before pivoting focus to textile design applications- Developed content
+      variation algorithms to prevent repetitive posting while maintaining character identityTech Stack:
+      GPT-3.5, Stable Diffusion, LoRA Fine-tuning, Custom Training Pipelines, Instagram API, Python, Prompt
+      Engineering, Computer Vision'
+    evidence:
+      url: https://www.linkedin.com/in/shah-riken
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: PicsAI
+    evidence:
+      url: https://www.linkedin.com/in/shah-riken
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: INSTAGRAM BOT
+    detail: 'It''s a bot that manages the Instagram page. From generating the image from the raw text,
+      getting the details about the author, and finally posting it on Instagram everything handles by
+      the bot. Top Features:-> Post on Instagram-> Like the comments by the user-> The new user will get
+      the greeting message-> Customized Timing-> It can run 24*7 on Cloud.-> Automatically handles Internal
+      Errors.I have deployed the bot on AWS. You can check the bot in action https://www.instagram.com/__.i.n.s.p.i.r.e.d.__/This
+      is just version 1.0. I am thinking about adding some more cool features to it in the future.Source
+      Code: https://github.com/Riken-Shah/InstaQuoteBot'
+    evidence:
+      url: https://www.linkedin.com/in/shah-riken
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: CHILLFLIX
+    detail: It is a Movie and Show app where you can do everything butwatch movie/tv show. Initially,
+      It had a feature that you canwatch movie/tv show but after I learned that it was against the law
+      I removed that feature. I have made it using Django with PostgresSQL.
+    evidence:
+      url: https://www.linkedin.com/in/shah-riken
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: HAND DETECTION MODEL (DEEP LEARNING MODEL)
+    detail: 'It was a very ambitious project for me as I didn''t know anything about machine learning,
+      but I was very interested in it so I accepted the challenge. I studied a lot of different algorithms,
+      learned a bit about maths, and implemented hundreds of lines of code (thanks to python). I finally
+      created 3 decent enough models.You can check out its result in this youtube videos:A short description
+      of how I made this Hand Detection Model (https://youtu.be/uYRTts2bD5A).Testing Hand Detection Model
+      In Outdoors (https://youtu.be/R7KwX4B6fTU).Testing Hand Detection In Indoor Condition (https://youtu.be/EhKuRJYqSFo).From
+      this project, I learned a lot about ML model structure, different types of algorithms, researching
+      a subject, finding a good dataset, cleaning of the dataset, patience, and trial and error.Link to
+      Frozen Graph of Faster R-CNN Model: https://github.com/Riken-Shah/Hand-Detection'
+    evidence:
+      url: https://www.linkedin.com/in/shah-riken
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: project
+    title: ENCODE DECODE APP
+    detail: 'This was my very first web app with Django. I have converted a script to a web app. It was
+      a text-encoding and decoding app. I have written my algorithm which converts text to encrypted text
+      and the encrypted text to readable text.How does my algorithm work?My algorithm assigns 4 random
+      integers which randomly add even and odd characters to the string. The first two number decides
+      how many numbers to add and last two number decided the range of the string.Top Features of my App:-->
+      My algorithm can convert one string to many encrypted strings.-> It does not need to store any data
+      on the DB.It''s source code: https://github.com/Riken-Shah/Encode-Decode-App'
+    evidence:
+      url: https://www.linkedin.com/in/shah-riken
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: volunteering
+    title: GSoC Mentor
+    detail: The Zulip Open Source Project
+    evidence:
+      url: https://www.linkedin.com/in/shah-riken
+      observed_at: '2026-10-24T21:13:34Z'
+  - kind: volunteering
+    title: Student Open Source Developer
+    detail: Winter of Code
+    evidence:
+      url: https://www.linkedin.com/in/shah-riken
+      observed_at: '2026-10-24T21:13:34Z'
+  recent_writing:
+  - title: Avoiding Beginner Mistakes Hampering You to Scale Backend
+    url: https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c
+    published: '2024-06-14'
+    channel: blog
+  gaps:
+  - The event lists an xAI Human Data Team contractor role. The cached LinkedIn snapshot and GitHub profile
+    name Msquare Labs, while the personal site dates the Tasks role through May 2026. These observations
+    are kept separately; current employment and transition dates are unresolved.
+  - The event role is organizer-published and does not establish physical attendance or attendance at
+    GitHub Universe.
+  - No package-maintainer identity was independently confirmed.
+  - Private production-system performance figures are self-reported; this record summarizes areas of work
+    without certifying benchmarks.
+  - LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history.
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/riken-shah.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/shah-riken
+    record_id: sd_mvmw8f86q8hg8asw6
+    retrieved_at: '2026-10-24T21:13:34Z'
+    snapshot: raw/brightdata/linkedin_profiles.json
+  external_talks:
+  - title: How to Handle Large Datasets on the Web, Without a Sweat
+    event: LoFi/35 Conference
+    url: https://www.youtube.com/live/UWQffNJVxeY?t=1360
+    evidence:
+    - url: https://riken.me/
+      observed_at: '2026-10-24T21:30:51Z'
+  - title: FOSS and Careers in Open Source
+    event: IIT Bhilai FOSS Community
+    url: https://www.linkedin.com/posts/shah-riken_exciting-news-the-recent-online-inauguration-activity-7287183054614261761-0Bik
+    evidence:
+    - url: https://riken.me/
+      observed_at: '2026-10-24T21:30:51Z'
+  open_source_evidence:
+    repo:zulip/zulip:
+    - url: https://github.com/zulip/zulip/pulls?q=is%3Apr+author%3ARiken-Shah
+      observed_at: '2026-10-24T21:30:51Z'
+    - url: https://github.com/Riken-Shah
+      observed_at: '2026-10-24T21:30:51Z'

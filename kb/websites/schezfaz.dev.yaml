@@ -1,0 +1,30 @@
+softschema:
+  contract: paraverse.conference:Website/v1
+  schema: ../_schemas/website.schema.yaml
+  envelope: website
+  status: permissive
+website:
+  id: site:schezfaz.dev
+  url: https://schezfaz.dev/
+  kind: personal
+  title: Schezeen Fazulbhoy
+  description: Portfolio of backend engineering, projects, technical writing, hackathons and publications.
+  owner: person:schezeen-fazulbhoy
+  link_basis:
+  - curated
+  fetch_status: not_fetched
+  identity_links:
+  - https://github.com/schezfaz
+  - https://www.linkedin.com/in/schezeenfazulbhoy
+  - https://x.com/schezfaz10
+  - https://medium.com/@schezfaz
+  - https://www.youtube.com/@schezfaz
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/schezeen-fazulbhoy.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/schezeenfazulbhoy
+    record_id: sd_mvmw8f86q8hg8asw6
+    retrieved_at: '2026-10-24T21:13:34Z'
+    snapshot: raw/brightdata/linkedin_profiles.json

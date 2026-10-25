@@ -1,0 +1,24 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:klausmikhaelson/pet-menu-bar
+  full_name: KlausMikhaelson/pet-menu-bar
+  url: https://github.com/KlausMikhaelson/pet-menu-bar
+  stars: 3
+  forks: 2
+  primary_language: TypeScript
+  fork: false
+  pushed_at: '2025-07-21T17:25:00Z'
+  owner_login: KlausMikhaelson
+  owner: gh:klausmikhaelson
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/satyam-singh.json
+  - system: github
+    url: https://api.github.com/users/KlausMikhaelson
+    retrieved_at: '2026-10-24T21:30:11Z'
+    snapshot: raw/github/klausmikhaelson.json

@@ -1,0 +1,302 @@
+{
+  "graph": {
+    "nodes": {
+      "day": 1,
+      "event": 1,
+      "github_account": 7,
+      "organization": 22,
+      "person": 10,
+      "profile": 10,
+      "repository": 56,
+      "social_account": 20,
+      "venue": 1,
+      "website": 5
+    },
+    "edges": {
+      "affiliated_with": 33,
+      "contributes_to": 4,
+      "describes": 10,
+      "has_account": 27,
+      "has_day": 1,
+      "has_website": 5,
+      "located_at": 1,
+      "maintains": 44,
+      "organizes": 1,
+      "owns": 51,
+      "participates_in": 10,
+      "pinned": 23,
+      "sponsors": 5,
+      "top_repository": 44
+    },
+    "node_total": 133,
+    "edge_total": 259
+  },
+  "people": [
+    {
+      "name": "Riken Shah",
+      "id": "person:riken-shah",
+      "accounts": [
+        "acct:linkedin/in/shah-riken",
+        "acct:x/_rikenshah",
+        "acct:other/dev.to/rikenshah",
+        "gh:riken-shah"
+      ],
+      "websites": [
+        "site:riken.me"
+      ],
+      "github_resolution": "resolved",
+      "research_imported": true,
+      "gaps": [
+        "The event lists an xAI Human Data Team contractor role. The cached LinkedIn snapshot and GitHub profile name Msquare Labs, while the personal site dates the Tasks role through May 2026. These observations are kept separately; current employment and transition dates are unresolved.",
+        "The event role is organizer-published and does not establish physical attendance or attendance at GitHub Universe.",
+        "No package-maintainer identity was independently confirmed.",
+        "Private production-system performance figures are self-reported; this record summarizes areas of work without certifying benchmarks.",
+        "LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history."
+      ],
+      "enrichment": {
+        "education": 1,
+        "credentials": 2,
+        "activities": 9,
+        "publications": 0
+      }
+    },
+    {
+      "name": "Nitish Mane",
+      "id": "person:nitish-mane",
+      "accounts": [
+        "acct:linkedin/in/nitish-mane",
+        "gh:nitishmane"
+      ],
+      "websites": [
+        "site:nitishmane.dev"
+      ],
+      "github_resolution": "resolved",
+      "research_imported": true,
+      "gaps": [
+        "No X account was confirmed through the linked professional profiles.",
+        "Personal-site claims were recovered from an existing public HTML snapshot; the site was unavailable to this audit when refreshed.",
+        "Different professional author bios use software, infrastructure and staff titles; the event title is preserved without treating the variations as a promotion chronology.",
+        "No statement of attendance at GitHub Universe was found.",
+        "No independent package-maintainer identity was established.",
+        "LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history."
+      ],
+      "enrichment": {
+        "education": 3,
+        "credentials": 9,
+        "activities": 5,
+        "publications": 0
+      }
+    },
+    {
+      "name": "Manpreet Singh",
+      "id": "person:manpreet-singh",
+      "accounts": [
+        "acct:linkedin/in/manpoffc",
+        "gh:manpoffc"
+      ],
+      "websites": [],
+      "github_resolution": "unverified",
+      "research_imported": true,
+      "gaps": [
+        "GitHub identity is medium confidence: the exact uncommon handle and full name match, and the WayUp profile links GitHub while matching LinkedIn education. Neither GitHub nor the observed LinkedIn payload provides a direct reciprocal link. Review this join before promoting it to a canonical high-confidence person merge.",
+        "Pack and ShoppieDoo are public repositories on the candidate GitHub account; this does not establish a founder role, business ownership or personal website ownership.",
+        "No X, independently owned personal site, published technical talks or package-maintainer identity was confirmed.",
+        "The LinkedIn experience payload is sparse; the event employer/title are preserved as event-published observations.",
+        "No physical attendance or GitHub Universe attendance is inferred.",
+        "LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history."
+      ],
+      "enrichment": {
+        "education": 1,
+        "credentials": 2,
+        "activities": 9,
+        "publications": 0
+      }
+    },
+    {
+      "name": "Schezeen Fazulbhoy",
+      "id": "person:schezeen-fazulbhoy",
+      "accounts": [
+        "acct:linkedin/in/schezeenfazulbhoy",
+        "acct:x/schezfaz10",
+        "acct:other/medium.com/schezfaz",
+        "acct:youtube/schezfaz",
+        "acct:other/scholar.google.com/yxcz8dqaaaaj",
+        "acct:other/dev.to/schezfaz",
+        "gh:schezfaz"
+      ],
+      "websites": [
+        "site:schezfaz.dev"
+      ],
+      "github_resolution": "resolved",
+      "research_imported": true,
+      "gaps": [
+        "The personal site was recovered from an existing public HTML snapshot and the public LinkedIn portfolio link; a live refresh was unavailable in this audit.",
+        "The GitHub README appears stale relative to the Adobe role and is not used to infer ongoing student status.",
+        "The portfolio lists publication-title variants; the IEEE document could not be read beyond its JavaScript challenge, so exact bibliographic metadata needs verification before treating this as publisher-confirmed.",
+        "No personal health, religion or other sensitive attributes are inferred from accessibility projects or community organizations.",
+        "No GitHub Universe attendance statement was found.",
+        "No independently published software package was confirmed.",
+        "LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history."
+      ],
+      "enrichment": {
+        "education": 2,
+        "credentials": 13,
+        "activities": 13,
+        "publications": 2
+      }
+    },
+    {
+      "name": "Pooja Ravi",
+      "id": "person:pooja-ravi",
+      "accounts": [
+        "acct:linkedin/in/pravi20"
+      ],
+      "websites": [],
+      "github_resolution": "unverified",
+      "research_imported": true,
+      "gaps": [
+        "The event lists Netflix while the event-linked LinkedIn profile lists Oracle; no verified employment dates reconcile the discrepancy.",
+        "No GitHub, X, personal website, publications, patents, packages, or talks were resolved to this person with sufficient identity evidence. Education and employment dates were not available in the collected public profile.",
+        "Other Pooja Ravi profiles and a guessed GitHub Pages site were excluded because there is no direct identity link.",
+        "LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history.",
+        "No GitHub account resolved with sufficient ownership evidence."
+      ],
+      "enrichment": {
+        "education": 0,
+        "credentials": 0,
+        "activities": 13,
+        "publications": 0
+      }
+    },
+    {
+      "name": "Satyam Singh",
+      "id": "person:satyam-singh",
+      "accounts": [
+        "acct:linkedin/in/satyamsingh2003",
+        "acct:x/klauscodes",
+        "acct:youtube/satyamcodesss",
+        "gh:klausmikhaelson"
+      ],
+      "websites": [],
+      "github_resolution": "resolved",
+      "research_imported": true,
+      "gaps": [
+        "Repository statistics are observed counts. Top repositories cover original repositories in the first 100 returned by recent update, not all historical contributions. Registry packages and contribution totals have not been verified.",
+        "Public LinkedIn experience and education fields were unavailable; previous roles use the company-published YC profile. No inferred attendance at GitHub Universe.",
+        "The LinkedIn profile contains other hackathon projects and awards; only selected professional items are curated. Social posts unrelated to work, other creators, and scholarship/financial details are omitted.",
+        "LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history."
+      ],
+      "enrichment": {
+        "education": 0,
+        "credentials": 30,
+        "activities": 14,
+        "publications": 0
+      }
+    },
+    {
+      "name": "Yash Bhatia",
+      "id": "person:yash-bhatia",
+      "accounts": [
+        "acct:linkedin/in/yyash-bhatia"
+      ],
+      "websites": [
+        "site:topmate.io/yash_bhatia"
+      ],
+      "github_resolution": "unverified",
+      "research_imported": true,
+      "gaps": [
+        "The Topmate page matches full name, Meta, data engineering and UCLA, but no direct cross-account link was visible. Its ownership is medium confidence. The Meta/Tesla/UCLA header does not establish an exact Tesla job title or dates.",
+        "The public LinkedIn snapshot exposes limited work history. No complete Meta start date, Tesla history, or earlier role chronology was established. The reported 500 connections is a capped public display.",
+        "No confident X account, personal code portfolio, authored papers, patents, packages, public talks or own post announcing participation in this hackathon was found.",
+        "Education years, credential identifiers, contact details, third-party recommendations and nonprofessional volunteering were deliberately omitted.",
+        "No GitHub account was linked to the organizer-identified person with sufficient ownership evidence; same-name accounts were excluded.",
+        "LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history.",
+        "No GitHub account resolved with sufficient ownership evidence."
+      ],
+      "enrichment": {
+        "education": 3,
+        "credentials": 8,
+        "activities": 1,
+        "publications": 0
+      }
+    },
+    {
+      "name": "Dipen Chawla",
+      "id": "person:dipen-chawla",
+      "accounts": [],
+      "websites": [],
+      "github_resolution": "unverified",
+      "research_imported": true,
+      "gaps": [
+        "The organizer lists a Microsoft software engineer but supplies no linked account or portrait. No public account could be connected to that identity with sufficient evidence.",
+        "Same-name professional profiles were excluded because no source links them to this event listing. Their account names, employers and work histories are not attributed here.",
+        "Education, publications, patents, packages, personal website, and a broader work history remain unverified. No attendance outside the published judging role is inferred.",
+        "No GitHub account resolved with sufficient ownership evidence."
+      ],
+      "enrichment": {
+        "education": 0,
+        "credentials": 0,
+        "activities": 0,
+        "publications": 0
+      }
+    },
+    {
+      "name": "Vivek Gopal Ramaswamy",
+      "id": "person:vivek-gopal-ramaswamy",
+      "accounts": [
+        "acct:linkedin/in/vivekgr",
+        "gh:vivekgr92"
+      ],
+      "websites": [],
+      "github_resolution": "resolved",
+      "research_imported": true,
+      "gaps": [
+        "The event spells the employer Agility Robitics; Agility Robotics is corroborated by the independent primary AI Infra Summit speaker roster. The event title says AI Product Manager and the Summit says Senior AI Product Manager; both source labels are preserved.",
+        "The earlier CVMI 2026 biography lists Gladstone Institutes. The event and September 2026 Summit list Agility Robotics. No exact job transition date or complete LinkedIn employment history was established; the older role is not asserted as current.",
+        "The RoboPulse submission links to github.com/vivekgr92/robopulse-hackathon, but the GitHub repository endpoint returned 404 during this research. The public submission supports the project and account linkage, not present public availability of its source code.",
+        "The GitHub API reports 47 public repositories, eight followers and 281 contributions over its default annual window at observation time. Those are time-dependent observations. No pinned repositories or public organization memberships were returned.",
+        "A Kaggle contributor with the same full name and a Medium account named vivekgr92 were found, but no direct link was verified; they were not added as owned accounts. A possible ORCID identifier was not confirmed directly from an accessible primary profile.",
+        "No own public post announcing this hackathon, confident X account, patents, or published software package was established. Personal newsletter material and unrelated personal utilities were omitted.",
+        "Education dates and contact details from papers or university listings were omitted; the scientific papers describe professional research, not personal medical attributes.",
+        "LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history."
+      ],
+      "enrichment": {
+        "education": 1,
+        "credentials": 0,
+        "activities": 1,
+        "publications": 2
+      }
+    },
+    {
+      "name": "Kunal Kushwaha",
+      "id": "person:kunal-kushwaha",
+      "accounts": [
+        "acct:linkedin/in/kunal-kushwaha",
+        "acct:x/kunalstwt",
+        "acct:youtube/kunalkushwaha",
+        "gh:kunal-kushwaha"
+      ],
+      "websites": [
+        "site:techwithkunal.com"
+      ],
+      "github_resolution": "resolved",
+      "research_imported": true,
+      "gaps": [
+        "Host participation comes from a saved public X embed of the host’s own October 22 announcement; direct X page fetching was unavailable.",
+        "Personal social accounts, testimonials from other people, contact details, and audience marketing claims are excluded.",
+        "Repository statistics are observed counts. Top repositories cover original repositories in the first 100 returned by recent update, not all historical contributions. Registry packages and contribution totals have not been verified.",
+        "LinkedIn provides public snippets; the stored snapshot does not establish a complete employment history."
+      ],
+      "enrichment": {
+        "education": 1,
+        "credentials": 21,
+        "activities": 14,
+        "publications": 2
+      }
+    }
+  ],
+  "contract_extensions": [
+    "Participation.role: judge",
+    "Organization.sponsored_events"
+  ]
+}

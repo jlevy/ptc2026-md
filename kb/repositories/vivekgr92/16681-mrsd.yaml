@@ -1,0 +1,21 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:vivekgr92/16681-mrsd
+  full_name: vivekgr92/16681-MRSD
+  url: https://github.com/vivekgr92/16681-MRSD
+  description: All assignmentsrelated to MRSD project course
+  stars: 0
+  forks: 0
+  primary_language: C++
+  fork: false
+  pushed_at: '2020-06-10T22:43:14Z'
+  owner_login: vivekgr92
+  owner: gh:vivekgr92
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/vivek-gopal-ramaswamy.json

@@ -1,0 +1,214 @@
+$defs:
+  Source:
+    additionalProperties: false
+    description: 'Where a record came from: one raw snapshot file, or a curated list.'
+    properties:
+      record_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The record's ID in that system.
+        title: Record Id
+      retrieved_at:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Retrieved At
+      snapshot:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Raw snapshot path, relative to the conference directory.
+        title: Snapshot
+      system:
+        enum:
+        - rainfocus
+        - githubuniverse.com
+        - github
+        - npm
+        - pypi
+        - bluesky
+        - mastodon
+        - website
+        - feed
+        - brightdata
+        - curation
+        title: System
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - system
+    title: Source
+    type: object
+$schema: https://json-schema.org/draft/2020-12/schema
+additionalProperties: true
+description: |-
+  An account on a social or professional platform (X, LinkedIn, Bluesky, Mastodon,
+  YouTube, …). Profile details are filled only where a free public API exposes them;
+  `details_fetched` says whether they were.
+properties:
+  avatar_url:
+    anyOf:
+    - pattern: ^https?://
+      type: string
+    - type: 'null'
+    default: null
+    title: Avatar Url
+  banner_url:
+    anyOf:
+    - pattern: ^https?://
+      type: string
+    - type: 'null'
+    default: null
+    title: Banner Url
+  bio:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Bio
+  connections:
+    anyOf:
+    - minimum: 0
+      type: integer
+    - type: 'null'
+    default: null
+    title: Connections
+  created_at:
+    anyOf:
+    - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+      type: string
+    - type: 'null'
+    default: null
+    title: Created At
+  details_fetched:
+    default: false
+    title: Details Fetched
+    type: boolean
+  display_name:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Display Name
+  followers:
+    anyOf:
+    - minimum: 0
+      type: integer
+    - type: 'null'
+    default: null
+    title: Followers
+  following:
+    anyOf:
+    - minimum: 0
+      type: integer
+    - type: 'null'
+    default: null
+    title: Following
+  handle:
+    description: As the platform displays it, e.g. `in/jdoe` on LinkedIn.
+    title: Handle
+    type: string
+  headline:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Headline
+  id:
+    pattern: ^(acct):[a-z0-9][a-z0-9._/@+-]*$
+    title: Id
+    type: string
+  link_basis:
+    items:
+      enum:
+      - event_listing
+      - github_profile
+      - website_rel_me
+      - website_link
+      - bluesky_profile
+      - mastodon_verified
+      - x_profile
+      - linkedin_profile
+      - attendance_post
+      - curated
+      type: string
+    minItems: 1
+    title: Link Basis
+    type: array
+  location:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Location
+  owner:
+    anyOf:
+    - pattern: ^(person|org):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    - type: 'null'
+    default: null
+    title: Owner
+  platform:
+    enum:
+    - x
+    - linkedin
+    - bluesky
+    - mastodon
+    - youtube
+    - instagram
+    - threads
+    - other
+    title: Platform
+    type: string
+  posts_count:
+    anyOf:
+    - minimum: 0
+      type: integer
+    - type: 'null'
+    default: null
+    title: Posts Count
+  sources:
+    items:
+      $ref: '#/$defs/Source'
+    title: Sources
+    type: array
+  url:
+    pattern: ^https?://
+    title: Url
+    type: string
+  verified:
+    anyOf:
+    - type: boolean
+    - type: 'null'
+    default: null
+    title: Verified
+  website:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    description: The link the profile lists.
+    title: Website
+required:
+- handle
+- id
+- link_basis
+- platform
+- sources
+- url
+title: SocialAccount
+type: object
+x-softschema:
+  contract: paraverse.conference:SocialAccount/v1
+  schema_sha256: ecc7c4b73d2510f81e4c475c8e3ff84fdb68eae9a36a573ad4a1624b42500b76

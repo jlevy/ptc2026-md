@@ -1,0 +1,173 @@
+{
+  "event": {
+    "count": 1,
+    "fields": {
+      "id": 100,
+      "name": 100,
+      "series": 100,
+      "edition": 100,
+      "organizer": 100,
+      "start": 100,
+      "end": 100,
+      "timezone": 100,
+      "attendance_modes": 100,
+      "venue": 100,
+      "url": 100,
+      "days": 100,
+      "sources": 100
+    }
+  },
+  "github_account": {
+    "count": 7,
+    "fields": {
+      "id": 100,
+      "login": 100,
+      "kind": 100,
+      "url": 100,
+      "name": 100,
+      "followers": 100,
+      "created_at": 100,
+      "top_repositories": 100,
+      "entity": 100,
+      "link_basis": 100,
+      "identity_link_basis": 100,
+      "identity_confidence": 100,
+      "identity_evidence": 100,
+      "sources": 100,
+      "pinned": 86,
+      "company": 71,
+      "website": 57,
+      "location": 57,
+      "bio": 43,
+      "contributed_to": 29,
+      "organization_logins": 29
+    }
+  },
+  "organization": {
+    "count": 22,
+    "fields": {
+      "id": 100,
+      "name": 100,
+      "roles": 100,
+      "sources": 100,
+      "website": 68,
+      "people": 59,
+      "sponsored_events": 23,
+      "aliases": 9
+    }
+  },
+  "person": {
+    "count": 10,
+    "fields": {
+      "id": 100,
+      "name": 100,
+      "job_title": 100,
+      "affiliations": 100,
+      "inclusion_basis": 100,
+      "participations": 100,
+      "github_resolution": 100,
+      "profile": 100,
+      "featured": 100,
+      "sources": 100,
+      "listed_for": 90,
+      "affiliation_label": 90,
+      "accounts": 90,
+      "github": 70,
+      "websites": 50,
+      "github_match": 10
+    }
+  },
+  "profile": {
+    "count": 10,
+    "fields": {
+      "id": 100,
+      "person": 100,
+      "brief_bio": 100,
+      "gaps": 100,
+      "sources": 100,
+      "headline": 90,
+      "location": 90,
+      "activities": 90,
+      "current_roles": 80,
+      "expertise": 80,
+      "programming_languages": 80,
+      "recognitions": 70,
+      "open_source": 70,
+      "experience": 70,
+      "education": 70,
+      "credentials": 70,
+      "technologies": 50,
+      "open_source_evidence": 50,
+      "recent_writing": 40,
+      "external_talks": 40,
+      "spoken_languages": 30,
+      "publications": 30
+    }
+  },
+  "repository": {
+    "count": 56,
+    "fields": {
+      "id": 100,
+      "full_name": 100,
+      "url": 100,
+      "owner_login": 100,
+      "sources": 100,
+      "owner": 91,
+      "primary_language": 89,
+      "stars": 86,
+      "forks": 86,
+      "fork": 86,
+      "pushed_at": 59,
+      "description": 52,
+      "archived": 21,
+      "topics": 12,
+      "homepage": 4
+    }
+  },
+  "social_account": {
+    "count": 20,
+    "fields": {
+      "id": 100,
+      "platform": 100,
+      "handle": 100,
+      "url": 100,
+      "owner": 100,
+      "link_basis": 100,
+      "details_fetched": 100,
+      "sources": 100,
+      "identity_evidence": 100,
+      "identity_confidence": 100,
+      "followers": 65,
+      "bio": 60,
+      "display_name": 45,
+      "location": 45,
+      "connections": 45,
+      "avatar_url": 45,
+      "following": 20
+    }
+  },
+  "venue": {
+    "count": 1,
+    "fields": {
+      "id": 100,
+      "name": 100,
+      "kind": 100,
+      "sources": 100
+    }
+  },
+  "website": {
+    "count": 5,
+    "fields": {
+      "id": 100,
+      "url": 100,
+      "kind": 100,
+      "title": 100,
+      "owner": 100,
+      "link_basis": 100,
+      "fetch_status": 100,
+      "sources": 100,
+      "description": 80,
+      "identity_links": 80
+    }
+  }
+}

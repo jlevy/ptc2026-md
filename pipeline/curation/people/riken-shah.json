@@ -1,0 +1,615 @@
+{
+  "slug": "riken-shah",
+  "name": "Riken Shah",
+  "listed_as": {
+    "name": "Riken Shah",
+    "title": "Human Data Team (Contractor), xAI",
+    "url": "https://www.wemakedevs.org/hackathons/ptc/judges"
+  },
+  "job_title": "Human Data Team (Contractor)",
+  "participations": [
+    {
+      "event": "patch-the-conference-2026",
+      "role": "judge",
+      "status": "listed",
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "quote": "Judges",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "organization": "xAI",
+      "title": "Human Data Team (Contractor)",
+      "basis": "event_listing",
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "quote": "",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "linkedin",
+      "handle": "in/shah-riken",
+      "url": "https://www.linkedin.com/in/shah-riken",
+      "link_basis": [
+        "event_listing"
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.linkedin.com/in/shah-riken",
+          "quote": "",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ]
+    },
+    {
+      "platform": "github",
+      "handle": "Riken-Shah",
+      "url": "https://github.com/Riken-Shah",
+      "link_basis": [
+        "github_profile_link_to_event_linkedin",
+        "reciprocal_personal_website_link"
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://github.com/Riken-Shah",
+          "quote": "",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ]
+    },
+    {
+      "platform": "x",
+      "handle": "_RikenShah",
+      "url": "https://x.com/_RikenShah",
+      "link_basis": [
+        "github_social_account",
+        "personal_website_link"
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://x.com/_RikenShah",
+          "quote": "",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ]
+    },
+    {
+      "platform": "other",
+      "handle": "rikenshah",
+      "url": "https://dev.to/rikenshah",
+      "link_basis": [
+        "personal_website_link"
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://dev.to/rikenshah",
+          "quote": "",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ],
+      "service": "dev.to"
+    }
+  ],
+  "websites": [
+    {
+      "url": "https://riken.me/",
+      "kind": "personal",
+      "title": "Riken Shah — Performance Engineer",
+      "description": "Professional portfolio covering backend performance, local-first applications and open source.",
+      "identity_links": [
+        "https://github.com/Riken-Shah",
+        "https://www.linkedin.com/in/shah-riken/",
+        "https://x.com/_RikenShah",
+        "https://dev.to/rikenshah"
+      ],
+      "link_basis": [
+        "github_profile_link",
+        "reciprocal_event_linkedin_link"
+      ],
+      "evidence": [
+        {
+          "url": "https://riken.me/",
+          "quote": "Performance Engineer",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ]
+    }
+  ],
+  "profile": {
+    "current_roles": [
+      "Human Data Team (Contractor), xAI"
+    ],
+    "expertise": [
+      {
+        "label": "Backend performance engineering",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Local-first architecture",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://riken.me/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Distributed systems",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://riken.me/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "label": "PostgreSQL",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "AWS",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Docker",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Grafana",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "GORM",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "programming_languages": [
+      {
+        "label": "Go",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Python",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/Riken-Shah",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "TypeScript",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/Riken-Shah",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "JavaScript",
+        "basis": "github_repositories",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://github.com/Riken-Shah",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "recognitions": [
+      {
+        "label": "Karo: Social Task Manager — first place, Most Likely to Make Money Award, RevenueCat Ship-a-ton 2024",
+        "basis": "organizer_announcement",
+        "evidence": [
+          {
+            "url": "https://www.revenuecat.com/blog/company/2024-ship-a-ton-winners",
+            "quote": "Karo: Social Task Manager",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Google Summer of Code participant with Zulip in 2021 and 2022; later mentor",
+        "basis": "github_profile_and_personal_website",
+        "evidence": [
+          {
+            "url": "https://github.com/Riken-Shah",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          },
+          {
+            "url": "https://riken.me/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "interests": [],
+    "open_source": [
+      {
+        "repo": "zulip/zulip",
+        "role": "contributor",
+        "evidence": [
+          {
+            "url": "https://github.com/zulip/zulip/pulls?q=is%3Apr+author%3ARiken-Shah",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          },
+          {
+            "url": "https://github.com/Riken-Shah",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "packages": [],
+    "publications": [],
+    "patents": [],
+    "talks": [
+      {
+        "title": "How to Handle Large Datasets on the Web, Without a Sweat",
+        "event": "LoFi/35 Conference",
+        "url": "https://www.youtube.com/live/UWQffNJVxeY?t=1360",
+        "evidence": [
+          {
+            "url": "https://riken.me/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "title": "FOSS and Careers in Open Source",
+        "event": "IIT Bhilai FOSS Community",
+        "url": "https://www.linkedin.com/posts/shah-riken_exciting-news-the-recent-online-inauguration-activity-7287183054614261761-0Bik",
+        "evidence": [
+          {
+            "url": "https://riken.me/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "recent_writing": [
+      {
+        "title": "Avoiding Beginner Mistakes Hampering You to Scale Backend",
+        "url": "https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c",
+        "date": "2024-06-14",
+        "platform": "dev.to",
+        "evidence": [
+          {
+            "url": "https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "credentials": [],
+    "spoken_languages": [],
+    "event_posts": [],
+    "headline": "Performance engineer working on backend systems, local-first architecture and AI infrastructure.",
+    "location": "San Francisco",
+    "experience": [
+      {
+        "title": "Founding Engineer",
+        "organization": "Tasks / Msquare Labs",
+        "start": "2022-10",
+        "end": "2026-05",
+        "summary": "Backend, synchronization and web application engineering.",
+        "evidence": [
+          {
+            "url": "https://riken.me/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "organization": "Mela",
+        "start": "2021-08",
+        "end": "2022-11",
+        "summary": "Distributed web scraping and backend infrastructure.",
+        "evidence": [
+          {
+            "url": "https://riken.me/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "school": "Bhagwan Mahavir University",
+        "evidence": [
+          {
+            "url": "https://www.linkedin.com/in/shah-riken",
+            "quote": "Bhagwan Mahavir University",
+            "observed_at": "2026-10-24T21:13:34Z"
+          }
+        ]
+      }
+    ]
+  },
+  "gaps": [
+    "The event lists an xAI Human Data Team contractor role. The cached LinkedIn snapshot and GitHub profile name Msquare Labs, while the personal site dates the Tasks role through May 2026. These observations are kept separately; current employment and transition dates are unresolved.",
+    "The event role is organizer-published and does not establish physical attendance or attendance at GitHub Universe.",
+    "No package-maintainer identity was independently confirmed.",
+    "Private production-system performance figures are self-reported; this record summarizes areas of work without certifying benchmarks."
+  ],
+  "sources_consulted": [
+    "https://www.wemakedevs.org/hackathons/ptc/judges",
+    "https://riken.me/",
+    "https://github.com/Riken-Shah",
+    "https://api.github.com/users/Riken-Shah",
+    "https://api.github.com/users/Riken-Shah/repos",
+    "https://api.github.com/graphql",
+    "https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c",
+    "https://www.linkedin.com/in/shah-riken",
+    "https://blog.zulip.com/2022/03/29/zulip-5-0-released/",
+    "https://www.revenuecat.com/blog/company/2024-ship-a-ton-winners",
+    "https://scienceclawhack.ai/",
+    "https://api.github.com/users/Riken-Shah/orgs"
+  ],
+  "research_metadata": {
+    "researched_at": "2026-10-24T21:30:51Z",
+    "source_policy": "Public professional sources only; no attendance inferred from a listing. Empty evidence quotes indicate paraphrased factual observations. GitHub metrics were read through the public API. Cached profile observations retain their original observation time."
+  },
+  "github": {
+    "login": "Riken-Shah",
+    "resolution": "resolved",
+    "match": "linked",
+    "name": "Riken Shah",
+    "company": "MsquareLabs",
+    "blog": "https://riken.me/",
+    "twitter_username": "_RikenShah",
+    "followers": 49,
+    "public_repos": 36,
+    "created_at": "2020-04-16T21:34:43Z",
+    "contributions_last_year": 1904,
+    "evidence": [
+      {
+        "url": "https://api.github.com/users/Riken-Shah",
+        "quote": "",
+        "observed_at": "2026-10-24T21:30:51Z"
+      },
+      {
+        "url": "https://api.github.com/users/Riken-Shah/repos",
+        "quote": "",
+        "observed_at": "2026-10-24T21:30:51Z"
+      },
+      {
+        "url": "https://api.github.com/graphql",
+        "quote": "",
+        "observed_at": "2026-10-24T21:30:51Z"
+      },
+      {
+        "url": "https://api.github.com/users/Riken-Shah/orgs",
+        "quote": "",
+        "observed_at": "2026-10-24T21:30:51Z"
+      }
+    ],
+    "pinned": [
+      {
+        "full_name": "Riken-Shah/trust-net",
+        "primary_language": "TypeScript",
+        "evidence": [
+          {
+            "url": "https://api.github.com/graphql",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "full_name": "Riken-Shah/ReplyRobin",
+        "primary_language": "Python",
+        "evidence": [
+          {
+            "url": "https://api.github.com/graphql",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "full_name": "Riken-Shah/PetaVision",
+        "primary_language": "Python",
+        "evidence": [
+          {
+            "url": "https://api.github.com/graphql",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "full_name": "Riken-Shah/zulip",
+        "primary_language": "Python",
+        "evidence": [
+          {
+            "url": "https://api.github.com/graphql",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "full_name": "Riken-Shah/handle-large-dataset-on-web-slides",
+        "primary_language": "TypeScript",
+        "evidence": [
+          {
+            "url": "https://api.github.com/graphql",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "top_repositories": [
+      {
+        "full_name": "Riken-Shah/ReplyRobin",
+        "description": "AI assistant for drafting replies.",
+        "stars": 0,
+        "forks": 0,
+        "primary_language": "Python",
+        "fork": false,
+        "evidence": [
+          {
+            "url": "https://github.com/Riken-Shah/ReplyRobin",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "full_name": "Riken-Shah/PetaVision",
+        "description": "Image indexing and semantic search application.",
+        "stars": 0,
+        "forks": 0,
+        "primary_language": "Python",
+        "fork": false,
+        "evidence": [
+          {
+            "url": "https://github.com/Riken-Shah/PetaVision",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "full_name": "Riken-Shah/benchmark-db-browsers",
+        "description": "Browser database benchmark comparing IndexedDB, SQLite WASM and PGlite.",
+        "stars": 0,
+        "forks": 0,
+        "primary_language": "JavaScript",
+        "fork": false,
+        "evidence": [
+          {
+            "url": "https://github.com/Riken-Shah/benchmark-db-browsers",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "full_name": "Riken-Shah/Chillflix",
+        "description": "Movie and television application using TMDb.",
+        "stars": 3,
+        "forks": 1,
+        "primary_language": "JavaScript",
+        "fork": false,
+        "evidence": [
+          {
+            "url": "https://github.com/Riken-Shah/Chillflix",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "organizations": [
+      "zulip"
+    ],
+    "profile_summary": "Public profile links the event-listed LinkedIn identity and personal site. The profile describes work at Msquare Labs and Google Summer of Code participation and mentoring at Zulip."
+  },
+  "brief_bio": "Riken Shah is a performance engineer who has worked on the Tasks application and contributed to Zulip. Riken writes about backend scaling and is listed as a judge at Patch the Conference Hackathon.",
+  "brief_bio_cites": [
+    "https://riken.me/",
+    "https://github.com/Riken-Shah",
+    "https://dev.to/rikenshah/scaling-backend-to-1m-requests-with-just-2gb-ram-4m0c",
+    "https://www.wemakedevs.org/hackathons/ptc/judges"
+  ]
+}

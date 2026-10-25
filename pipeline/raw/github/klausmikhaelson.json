@@ -1,0 +1,286 @@
+{
+  "profile": {
+    "login": "KlausMikhaelson",
+    "avatar_url": "https://avatars.githubusercontent.com/u/100528412?v=4",
+    "html_url": "https://github.com/KlausMikhaelson",
+    "name": "Satyam",
+    "company": "Simulithic",
+    "blog": "",
+    "location": "San Francisco, California",
+    "bio": "Co-Founder @Simulithic",
+    "twitter_username": "KlausCodes",
+    "public_repos": 141,
+    "followers": 569,
+    "following": 90,
+    "created_at": "2022-02-27T16:21:07Z"
+  },
+  "repositories": [
+    {
+      "full_name": "KlausMikhaelson/VirtualRoom",
+      "html_url": "https://github.com/KlausMikhaelson/VirtualRoom",
+      "description": "Watch youtube videos with your friends on Sync ",
+      "fork": false,
+      "pushed_at": "2023-07-10T16:48:19Z",
+      "stargazers_count": 27,
+      "language": "EJS",
+      "forks_count": 1,
+      "topics": [
+        "chat",
+        "rooms",
+        "socket-io",
+        "sync-youtube-videos",
+        "synchronization",
+        "tcp",
+        "websockets",
+        "youtube-api"
+      ]
+    },
+    {
+      "full_name": "KlausMikhaelson/Retain",
+      "html_url": "https://github.com/KlausMikhaelson/Retain",
+      "description": null,
+      "fork": false,
+      "pushed_at": "2024-05-27T03:50:11Z",
+      "stargazers_count": 10,
+      "language": "TypeScript",
+      "forks_count": 0,
+      "topics": []
+    },
+    {
+      "full_name": "KlausMikhaelson/asteroid-destroyers-nasa-app-challenge",
+      "html_url": "https://github.com/KlausMikhaelson/asteroid-destroyers-nasa-app-challenge",
+      "description": "Nasa Space App challenge Winner 2024-25",
+      "fork": false,
+      "pushed_at": "2024-10-07T00:02:18Z",
+      "stargazers_count": 8,
+      "language": "JavaScript",
+      "forks_count": 3,
+      "topics": []
+    },
+    {
+      "full_name": "KlausMikhaelson/emoji_mosaic_art",
+      "html_url": "https://github.com/KlausMikhaelson/emoji_mosaic_art",
+      "description": null,
+      "fork": false,
+      "pushed_at": "2024-10-10T04:44:16Z",
+      "stargazers_count": 8,
+      "language": "TypeScript",
+      "forks_count": 1,
+      "topics": []
+    },
+    {
+      "full_name": "KlausMikhaelson/wrestle-with-shapes",
+      "html_url": "https://github.com/KlausMikhaelson/wrestle-with-shapes",
+      "description": null,
+      "fork": false,
+      "pushed_at": "2023-09-13T17:18:03Z",
+      "stargazers_count": 7,
+      "language": "JavaScript",
+      "forks_count": 6,
+      "topics": [
+        "cannonjs",
+        "local-multiplayer-games",
+        "multiplayer-game",
+        "react-three",
+        "react-three-drei",
+        "react-three-fiber",
+        "threejs",
+        "web-game",
+        "webgl-game"
+      ]
+    },
+    {
+      "full_name": "KlausMikhaelson/web3conf-BE",
+      "html_url": "https://github.com/KlausMikhaelson/web3conf-BE",
+      "description": null,
+      "fork": false,
+      "pushed_at": "2023-07-25T18:33:47Z",
+      "stargazers_count": 4,
+      "language": "JavaScript",
+      "forks_count": 1,
+      "topics": []
+    },
+    {
+      "full_name": "KlausMikhaelson/todo-list-on-blockchain",
+      "html_url": "https://github.com/KlausMikhaelson/todo-list-on-blockchain",
+      "description": null,
+      "fork": false,
+      "pushed_at": "2023-03-27T07:58:19Z",
+      "stargazers_count": 4,
+      "language": "CSS",
+      "forks_count": 0,
+      "topics": []
+    },
+    {
+      "full_name": "KlausMikhaelson/hackthevalley-webapp",
+      "html_url": "https://github.com/KlausMikhaelson/hackthevalley-webapp",
+      "description": null,
+      "fork": false,
+      "pushed_at": "2025-10-05T13:59:52Z",
+      "stargazers_count": 3,
+      "language": "TypeScript",
+      "forks_count": 1,
+      "topics": []
+    },
+    {
+      "full_name": "KlausMikhaelson/pet-menu-bar",
+      "html_url": "https://github.com/KlausMikhaelson/pet-menu-bar",
+      "description": null,
+      "fork": false,
+      "pushed_at": "2025-07-21T17:25:00Z",
+      "stargazers_count": 3,
+      "language": "TypeScript",
+      "forks_count": 2,
+      "topics": []
+    },
+    {
+      "full_name": "KlausMikhaelson/web3Conf-FE",
+      "html_url": "https://github.com/KlausMikhaelson/web3Conf-FE",
+      "description": "Web3Conf India Winner A real-time collaboration tool like a whiteboard for teams while communicating through huddle01's video call sdk, out of credits so pleaserun locally in that: https://github.com/KlausMikhaelson/web3Conf-BE",
+      "fork": false,
+      "pushed_at": "2023-07-28T19:12:31Z",
+      "stargazers_count": 3,
+      "language": "JavaScript",
+      "forks_count": 1,
+      "topics": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://api.github.com/users/KlausMikhaelson",
+      "method": "GET",
+      "retrieved_at": "2026-10-24T21:30:11Z"
+    },
+    {
+      "url": "https://api.github.com/users/KlausMikhaelson/repos?per_page=100&sort=updated",
+      "method": "GET",
+      "retrieved_at": "2026-10-24T21:30:11Z"
+    },
+    {
+      "url": "https://api.github.com/graphql",
+      "method": "POST",
+      "operation": "Public pinned repositories and contribution-calendar total for KlausMikhaelson",
+      "retrieved_at": "2026-10-24T21:33:38Z"
+    }
+  ],
+  "scope": "Public profile fields and ten most starred original repositories among the first 100 recently updated repositories. Email and other-person records omitted.",
+  "pinned": [
+    {
+      "nameWithOwner": "KlausMikhaelson/asteroid-destroyers-nasa-app-challenge",
+      "description": "Nasa Space App challenge Winner 2024-25",
+      "stargazerCount": 8,
+      "forkCount": 3,
+      "isFork": false,
+      "isArchived": false,
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "url": "https://github.com/KlausMikhaelson/asteroid-destroyers-nasa-app-challenge",
+      "repositoryTopics": {
+        "nodes": []
+      }
+    },
+    {
+      "nameWithOwner": "KlausMikhaelson/VirtualRoom",
+      "description": "Watch youtube videos with your friends on Sync ",
+      "stargazerCount": 27,
+      "forkCount": 1,
+      "isFork": false,
+      "isArchived": false,
+      "primaryLanguage": {
+        "name": "EJS"
+      },
+      "url": "https://github.com/KlausMikhaelson/VirtualRoom",
+      "repositoryTopics": {
+        "nodes": [
+          {
+            "topic": {
+              "name": "chat"
+            }
+          },
+          {
+            "topic": {
+              "name": "rooms"
+            }
+          },
+          {
+            "topic": {
+              "name": "socket-io"
+            }
+          },
+          {
+            "topic": {
+              "name": "synchronization"
+            }
+          },
+          {
+            "topic": {
+              "name": "tcp"
+            }
+          },
+          {
+            "topic": {
+              "name": "websockets"
+            }
+          },
+          {
+            "topic": {
+              "name": "youtube-api"
+            }
+          },
+          {
+            "topic": {
+              "name": "sync-youtube-videos"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "nameWithOwner": "pushchain/push-notifications-sdk",
+      "description": "Push SDK is a growing Monorepo of packages that provide solutions for a wide range of development tasks one might come across while building on top of Push protocol. It is a Javascript-based group of packages that enables easy usage of imperative communication tools for Web3",
+      "stargazerCount": 73,
+      "forkCount": 54,
+      "isFork": false,
+      "isArchived": false,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "url": "https://github.com/pushchain/push-notifications-sdk",
+      "repositoryTopics": {
+        "nodes": []
+      }
+    },
+    {
+      "nameWithOwner": "KlausMikhaelson/Retain",
+      "description": null,
+      "stargazerCount": 10,
+      "forkCount": 0,
+      "isFork": false,
+      "isArchived": false,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "url": "https://github.com/KlausMikhaelson/Retain",
+      "repositoryTopics": {
+        "nodes": []
+      }
+    },
+    {
+      "nameWithOwner": "KlausMikhaelson/emoji_mosaic_art",
+      "description": null,
+      "stargazerCount": 8,
+      "forkCount": 1,
+      "isFork": false,
+      "isArchived": false,
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "url": "https://github.com/KlausMikhaelson/emoji_mosaic_art",
+      "repositoryTopics": {
+        "nodes": []
+      }
+    }
+  ],
+  "contributions_last_year": 1609
+}

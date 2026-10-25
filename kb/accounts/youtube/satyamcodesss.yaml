@@ -1,0 +1,22 @@
+softschema:
+  contract: paraverse.conference:SocialAccount/v1
+  schema: ../../_schemas/social-account.schema.yaml
+  envelope: social_account
+  status: permissive
+social_account:
+  id: acct:youtube/satyamcodesss
+  platform: youtube
+  handle: SatyamCodesss
+  url: https://www.youtube.com/@SatyamCodesss
+  owner: person:satyam-singh
+  link_basis:
+  - github_profile
+  details_fetched: false
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/satyam-singh.json
+  identity_evidence:
+  - url: https://github.com/KlausMikhaelson
+    observed_at: '2026-10-24T21:31:18Z'
+  identity_confidence: high

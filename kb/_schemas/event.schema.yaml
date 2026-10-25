@@ -1,0 +1,364 @@
+$defs:
+  AgendaItem:
+    additionalProperties: false
+    properties:
+      description:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Description
+      end:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: End
+      start:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Local start time, HH:MM.
+        title: Start
+      title:
+        title: Title
+        type: string
+    required:
+    - title
+    title: AgendaItem
+    type: object
+  EventDay:
+    additionalProperties: false
+    properties:
+      access:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Who may attend, when restricted.
+        title: Access
+      agenda:
+        items:
+          $ref: '#/$defs/AgendaItem'
+        title: Agenda
+        type: array
+      date:
+        pattern: ^\d{4}-\d{2}-\d{2}$
+        title: Date
+        type: string
+      id:
+        pattern: ^(day):[a-z0-9][a-z0-9._/@+-]*$
+        title: Id
+        type: string
+      label:
+        title: Label
+        type: string
+      location:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Location
+    required:
+    - date
+    - id
+    - label
+    title: EventDay
+    type: object
+  Media:
+    additionalProperties: false
+    properties:
+      kind:
+        enum:
+        - video
+        - image
+        title: Kind
+        type: string
+      thumbnail_url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Thumbnail Url
+      title:
+        title: Title
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        description: Absent when only a player embeds it.
+        title: Url
+    required:
+    - kind
+    - title
+    title: Media
+    type: object
+  Offer:
+    additionalProperties: false
+    description: 'A way to attend: a ticket tier or an application.'
+    properties:
+      availability:
+        enum:
+        - available
+        - sold_out
+        - application_required
+        - closed
+        title: Availability
+        type: string
+      currency:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Currency
+      id:
+        title: Id
+        type: string
+      includes:
+        items:
+          type: string
+        title: Includes
+        type: array
+      name:
+        title: Name
+        type: string
+      price:
+        anyOf:
+        - type: number
+        - type: 'null'
+        default: null
+        title: Price
+      summary:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Summary
+    required:
+    - availability
+    - id
+    - name
+    title: Offer
+    type: object
+  Source:
+    additionalProperties: false
+    description: 'Where a record came from: one raw snapshot file, or a curated list.'
+    properties:
+      record_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The record's ID in that system.
+        title: Record Id
+      retrieved_at:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Retrieved At
+      snapshot:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Raw snapshot path, relative to the conference directory.
+        title: Snapshot
+      system:
+        enum:
+        - rainfocus
+        - githubuniverse.com
+        - github
+        - npm
+        - pypi
+        - bluesky
+        - mastodon
+        - website
+        - feed
+        - brightdata
+        - curation
+        title: System
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - system
+    title: Source
+    type: object
+  TourStop:
+    additionalProperties: false
+    description: One city on the Universe on the road tour.
+    properties:
+      city:
+        title: City
+        type: string
+      country:
+        title: Country
+        type: string
+      date:
+        pattern: ^\d{4}-\d{2}-\d{2}$
+        title: Date
+        type: string
+      id:
+        title: Id
+        type: string
+      region:
+        anyOf:
+        - enum:
+          - americas
+          - asia-pacific
+          - emea
+          type: string
+        - type: 'null'
+        default: null
+        description: Derived from the country; the page filters by region.
+        title: Region
+      registration:
+        enum:
+        - open
+        - closed
+        title: Registration
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        description: The stop's registration page.
+        title: Url
+      venue_name:
+        title: Venue Name
+        type: string
+    required:
+    - city
+    - country
+    - date
+    - id
+    - registration
+    - venue_name
+    title: TourStop
+    type: object
+$schema: https://json-schema.org/draft/2020-12/schema
+additionalProperties: true
+description: One edition of a conference, with its days, ways to attend and tour stops.
+properties:
+  attendance_modes:
+    items:
+      enum:
+      - in_person
+      - virtual
+      type: string
+    title: Attendance Modes
+    type: array
+  days:
+    items:
+      $ref: '#/$defs/EventDay'
+    title: Days
+    type: array
+  description:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Description
+  edition:
+    title: Edition
+    type: string
+  end:
+    pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+    title: End
+    type: string
+  featured_speakers:
+    items:
+      pattern: ^(person):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Featured Speakers
+    type: array
+  highlights:
+    items:
+      $ref: '#/$defs/Media'
+    title: Highlights
+    type: array
+  id:
+    pattern: ^(event):[a-z0-9][a-z0-9._/@+-]*$
+    title: Id
+    type: string
+  name:
+    title: Name
+    type: string
+  offers:
+    items:
+      $ref: '#/$defs/Offer'
+    title: Offers
+    type: array
+  organizer:
+    pattern: ^(org):[a-z0-9][a-z0-9._/@+-]*$
+    title: Organizer
+    type: string
+  series:
+    title: Series
+    type: string
+  sources:
+    items:
+      $ref: '#/$defs/Source'
+    title: Sources
+    type: array
+  start:
+    pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+    title: Start
+    type: string
+  testimonials:
+    items:
+      type: string
+    title: Testimonials
+    type: array
+  timezone:
+    description: IANA time zone name.
+    title: Timezone
+    type: string
+  tour_stops:
+    items:
+      $ref: '#/$defs/TourStop'
+    title: Tour Stops
+    type: array
+  url:
+    pattern: ^https?://
+    title: Url
+    type: string
+  venue:
+    anyOf:
+    - pattern: ^(venue):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    - type: 'null'
+    default: null
+    title: Venue
+required:
+- attendance_modes
+- days
+- edition
+- end
+- id
+- name
+- organizer
+- series
+- sources
+- start
+- timezone
+- url
+title: Event
+type: object
+x-softschema:
+  contract: paraverse.conference:Event/v1
+  schema_sha256: 3a61d7c8017a682bfdc88cbbcfdbc4aaf7534b9695d0d7447053a9a9ecf340a9

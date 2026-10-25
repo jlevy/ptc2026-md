@@ -1,0 +1,20 @@
+softschema:
+  contract: paraverse.conference:Website/v1
+  schema: ../../_schemas/website.schema.yaml
+  envelope: website
+  status: permissive
+website:
+  id: site:topmate.io/yash_bhatia
+  url: https://topmate.io/yash_bhatia
+  kind: personal
+  title: Yash Bhatia on Topmate
+  description: Professional mentoring page offering data engineering interview preparation and resume
+    review. Its header names Meta, Tesla and UCLA.
+  owner: person:yash-bhatia
+  link_basis:
+  - curated
+  fetch_status: not_fetched
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/yash-bhatia.json

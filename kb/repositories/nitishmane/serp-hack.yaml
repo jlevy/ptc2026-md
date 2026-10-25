@@ -1,0 +1,20 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:nitishmane/serp-hack
+  full_name: Nitishmane/serp-hack
+  url: https://github.com/Nitishmane/serp-hack
+  description: Amazon listing generator using SerpAPI and an LLM.
+  stars: 0
+  forks: 0
+  primary_language: Python
+  fork: false
+  owner_login: Nitishmane
+  owner: gh:nitishmane
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/nitish-mane.json

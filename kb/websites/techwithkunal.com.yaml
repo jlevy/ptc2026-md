@@ -1,0 +1,26 @@
+softschema:
+  contract: paraverse.conference:Website/v1
+  schema: ../_schemas/website.schema.yaml
+  envelope: website
+  status: permissive
+website:
+  id: site:techwithkunal.com
+  url: https://www.techwithkunal.com/
+  kind: personal
+  title: Kunal Kushwaha
+  owner: person:kunal-kushwaha
+  link_basis:
+  - website_link
+  fetch_status: not_fetched
+  identity_links:
+  - https://github.com/kunal-kushwaha
+  - https://www.linkedin.com/in/kunal-kushwaha
+  sources:
+  - system: curation
+    url: https://x.com/kunalstwt/status/2113374840870568017
+    snapshot: curation/people/kunal-kushwaha.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/kunal-kushwaha
+    record_id: sd_mvmwwpmr6uhl5gtjj
+    retrieved_at: '2026-10-24T21:31:15Z'
+    snapshot: raw/brightdata/linkedin_profiles.json

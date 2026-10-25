@@ -1,0 +1,21 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:nitishmane/sre-oncall
+  full_name: Nitishmane/sre-oncall
+  url: https://github.com/Nitishmane/sre-oncall
+  description: TrueForge on-call agent with MCP integrations and approval-gated remediation.
+  stars: 2
+  forks: 0
+  primary_language: TypeScript
+  fork: false
+  pushed_at: '2026-09-18T17:55:29Z'
+  owner_login: Nitishmane
+  owner: gh:nitishmane
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/nitish-mane.json

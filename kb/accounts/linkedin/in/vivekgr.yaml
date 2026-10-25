@@ -1,0 +1,34 @@
+softschema:
+  contract: paraverse.conference:SocialAccount/v1
+  schema: ../../../_schemas/social-account.schema.yaml
+  envelope: social_account
+  status: permissive
+social_account:
+  id: acct:linkedin/in/vivekgr
+  platform: linkedin
+  handle: in/vivekgr
+  url: https://www.linkedin.com/in/vivekgr
+  display_name: Vivek G.
+  location: San Francisco
+  followers: 1705
+  connections: 500
+  avatar_url: https://media.licdn.com/dms/image/v2/D5603AQHx7CROsD_5vw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1697937768549?e=2147483647&v=beta&t=Fo3aiXvOz2RBBKPEl9H0TUdsMQMRzzigXhniFTeoOeI
+  owner: person:vivek-gopal-ramaswamy
+  link_basis:
+  - event_listing
+  details_fetched: true
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/vivek-gopal-ramaswamy.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/vivekgr
+    record_id: sd_mvmw8f86q8hg8asw6
+    retrieved_at: '2026-10-24T21:13:34Z'
+    snapshot: raw/brightdata/linkedin_profiles.json
+  identity_evidence:
+  - url: https://www.wemakedevs.org/hackathons/ptc/judges
+    observed_at: '2026-10-24T21:34:19Z'
+  - url: https://www.linkedin.com/in/vivekgr
+    observed_at: '2026-10-24T21:13:34Z'
+  identity_confidence: high

@@ -1,0 +1,31 @@
+softschema:
+  contract: paraverse.conference:Website/v1
+  schema: ../_schemas/website.schema.yaml
+  envelope: website
+  status: permissive
+website:
+  id: site:riken.me
+  url: https://riken.me/
+  kind: personal
+  title: Riken Shah — Performance Engineer
+  description: Professional portfolio covering backend performance, local-first applications and open
+    source.
+  owner: person:riken-shah
+  link_basis:
+  - github_profile
+  - curated
+  fetch_status: not_fetched
+  identity_links:
+  - https://github.com/Riken-Shah
+  - https://www.linkedin.com/in/shah-riken/
+  - https://x.com/_RikenShah
+  - https://dev.to/rikenshah
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/riken-shah.json
+  - system: brightdata
+    url: https://www.linkedin.com/in/shah-riken
+    record_id: sd_mvmw8f86q8hg8asw6
+    retrieved_at: '2026-10-24T21:13:34Z'
+    snapshot: raw/brightdata/linkedin_profiles.json

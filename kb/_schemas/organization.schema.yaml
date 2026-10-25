@@ -1,0 +1,358 @@
+$defs:
+  AffiliatedPage:
+    additionalProperties: false
+    description: 'A page LinkedIn lists as affiliated: a subsidiary, brand or showcase page.'
+    properties:
+      industry:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Industry
+      name:
+        title: Name
+        type: string
+      organization:
+        anyOf:
+        - pattern: ^(org):[a-z0-9][a-z0-9._/@+-]*$
+          type: string
+        - type: 'null'
+        default: null
+        description: The kb organization, when the page is one we hold.
+        title: Organization
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - name
+    title: AffiliatedPage
+    type: object
+  OrgDescription:
+    additionalProperties: false
+    properties:
+      basis:
+        enum:
+        - linkedin
+        - sponsor_listing
+        - github
+        - website
+        title: Basis
+        type: string
+      text:
+        title: Text
+        type: string
+    required:
+    - basis
+    - text
+    title: OrgDescription
+    type: object
+  OrgUpdate:
+    additionalProperties: false
+    description: A recent post on the organization's LinkedIn page.
+    properties:
+      date:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Date
+      likes:
+        anyOf:
+        - minimum: 0
+          type: integer
+        - type: 'null'
+        default: null
+        title: Likes
+      text:
+        title: Text
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - text
+    title: OrgUpdate
+    type: object
+  Source:
+    additionalProperties: false
+    description: 'Where a record came from: one raw snapshot file, or a curated list.'
+    properties:
+      record_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: The record's ID in that system.
+        title: Record Id
+      retrieved_at:
+        anyOf:
+        - pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$
+          type: string
+        - type: 'null'
+        default: null
+        title: Retrieved At
+      snapshot:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Raw snapshot path, relative to the conference directory.
+        title: Snapshot
+      system:
+        enum:
+        - rainfocus
+        - githubuniverse.com
+        - github
+        - npm
+        - pypi
+        - bluesky
+        - mastodon
+        - website
+        - feed
+        - brightdata
+        - curation
+        title: System
+        type: string
+      url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Url
+    required:
+    - system
+    title: Source
+    type: object
+  Sponsorship:
+    additionalProperties: false
+    properties:
+      booth:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Booth
+      exhibitor_id:
+        title: Exhibitor Id
+        type: string
+      industries:
+        items:
+          type: string
+        title: Industries
+        type: array
+      link:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Link
+      logo_url:
+        anyOf:
+        - pattern: ^https?://
+          type: string
+        - type: 'null'
+        default: null
+        title: Logo Url
+      summary:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Summary
+      tier:
+        enum:
+        - platinum
+        - gold
+        - silver
+        - bronze
+        - signal
+        title: Tier
+        type: string
+    required:
+    - exhibitor_id
+    - tier
+    title: Sponsorship
+    type: object
+$schema: https://json-schema.org/draft/2020-12/schema
+additionalProperties: true
+description: A company, foundation, university or community group connected to the event.
+properties:
+  accounts:
+    items:
+      pattern: ^(gh|acct):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Accounts
+    type: array
+  affiliated:
+    items:
+      $ref: '#/$defs/AffiliatedPage'
+    title: Affiliated
+    type: array
+  aliases:
+    items:
+      type: string
+    title: Aliases
+    type: array
+  description:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    description: The best available description; all are in descriptions.
+    title: Description
+  descriptions:
+    items:
+      $ref: '#/$defs/OrgDescription'
+    title: Descriptions
+    type: array
+  founded:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Founded
+  github:
+    anyOf:
+    - pattern: ^(gh):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    - type: 'null'
+    default: null
+    title: Github
+  headquarters:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Headquarters
+  hosted_sessions:
+    items:
+      pattern: ^(session):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Hosted Sessions
+    type: array
+  id:
+    pattern: ^(org):[a-z0-9][a-z0-9._/@+-]*$
+    title: Id
+    type: string
+  industry:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Industry
+  locations:
+    description: Office locations, at city level.
+    items:
+      type: string
+    title: Locations
+    type: array
+  logo_url:
+    anyOf:
+    - pattern: ^https?://
+      type: string
+    - type: 'null'
+    default: null
+    title: Logo Url
+  mentioned_in:
+    items:
+      pattern: ^(session|person|org):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Mentioned In
+    type: array
+  name:
+    title: Name
+    type: string
+  people:
+    description: People with a current affiliation to it.
+    items:
+      pattern: ^(person):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: People
+    type: array
+  related_organizations:
+    description: Parent, subsidiary or partner, from curation or LinkedIn affiliations.
+    items:
+      pattern: ^(org):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Related Organizations
+    type: array
+  roles:
+    items:
+      enum:
+      - organizer
+      - sponsor
+      - affiliation
+      - session_host
+      - mentioned
+      type: string
+    minItems: 1
+    title: Roles
+    type: array
+  size:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    description: Employee range, as LinkedIn states it.
+    title: Size
+  sources:
+    items:
+      $ref: '#/$defs/Source'
+    title: Sources
+    type: array
+  specialties:
+    items:
+      type: string
+    title: Specialties
+    type: array
+  sponsored_events:
+    items:
+      pattern: ^(event):[a-z0-9][a-z0-9._/@+-]*$
+      type: string
+    title: Sponsored Events
+    type: array
+  sponsorship:
+    anyOf:
+    - $ref: '#/$defs/Sponsorship'
+    - type: 'null'
+    default: null
+  tagline:
+    anyOf:
+    - type: string
+    - type: 'null'
+    default: null
+    title: Tagline
+  updates:
+    description: Recent LinkedIn posts, newest first.
+    items:
+      $ref: '#/$defs/OrgUpdate'
+    title: Updates
+    type: array
+  website:
+    anyOf:
+    - pattern: ^https?://
+      type: string
+    - type: 'null'
+    default: null
+    title: Website
+required:
+- id
+- name
+- roles
+- sources
+title: Organization
+type: object
+x-softschema:
+  contract: paraverse.conference:Organization/v1
+  schema_sha256: 5140a17c7480adbf9aab34e4a23a55418610b74560fad16c1add193a9cd93840

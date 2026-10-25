@@ -1,0 +1,94 @@
+{
+  "https://x.com/kunalstwt": {
+    "snapshot_id": "sd_mvmwwqvn77sppnyib",
+    "retrieved_at": "2026-10-24T21:30:25Z",
+    "records": [
+      {
+        "x_id": "1065242657239240704",
+        "url": "https://x.com/kunalstwt",
+        "id": "kunalstwt",
+        "profile_name": "Kunal Kushwaha",
+        "biography": "Running the world's most engaging hackathons and GTM events at scale @WeMakeDevs",
+        "is_verified": true,
+        "profile_image_link": "https://pbs.twimg.com/profile_images/2005054950443749376/L4ZdvNG5_normal.jpg",
+        "external_link": "https://www.techwithkunal.com/",
+        "date_joined": "2018-11-21T13:56:55.000Z",
+        "following": 2259,
+        "followers": 286214,
+        "location": "London, UK",
+        "posts_count": 2613,
+        "banner_image": "https://pbs.twimg.com/profile_banners/1065242657239240704/1729465498",
+        "timestamp": "2026-10-24T21:30:16.981Z"
+      }
+    ]
+  },
+  "https://x.com/KlausCodes": {
+    "snapshot_id": "sd_mvmwwqvn77sppnyib",
+    "retrieved_at": "2026-10-24T21:30:25Z",
+    "records": [
+      {
+        "x_id": "1519607410608205825",
+        "url": "https://x.com/KlausCodes",
+        "id": "KlausCodes",
+        "profile_name": "Satyam",
+        "biography": "Co-Founder @Simulithic (YC F26) | NASA Space App Challenge winner 2024-25 | prev - Ramp, Bree (YC S21)",
+        "is_verified": true,
+        "profile_image_link": "https://pbs.twimg.com/profile_images/2077048690481541120/TI93G7Uz_normal.jpg",
+        "external_link": "https://github.com/klausmikhaelson",
+        "date_joined": "2022-04-28T09:20:50.000Z",
+        "following": 2001,
+        "followers": 15434,
+        "location": "San Francisco, CA",
+        "posts_count": 10954,
+        "banner_image": "https://pbs.twimg.com/profile_banners/1519607410608205825/1788158096",
+        "timestamp": "2026-10-24T21:29:59.372Z"
+      }
+    ]
+  },
+  "https://x.com/_RikenShah": {
+    "snapshot_id": "sd_mvmwz2u61m5qijuntd",
+    "retrieved_at": "2026-10-24T21:32:04Z",
+    "records": [
+      {
+        "x_id": "1290753531360624640",
+        "url": "https://x.com/_RikenShah",
+        "id": "_RikenShah",
+        "profile_name": "Riken Shah",
+        "biography": "Founding Engineer @thetaskapp & @karo_app | GSoC'21,22 @Zulip",
+        "is_verified": true,
+        "profile_image_link": "https://pbs.twimg.com/profile_images/1946257559305793538/jhn-wHWq_normal.jpg",
+        "external_link": "https://riken.me/",
+        "date_joined": "2020-08-04T20:56:54.000Z",
+        "following": 1748,
+        "followers": 1390,
+        "location": "Remote",
+        "posts_count": 2454,
+        "banner_image": "https://pbs.twimg.com/profile_banners/1290753531360624640/1709442405",
+        "timestamp": "2026-10-24T21:31:55.494Z"
+      }
+    ]
+  },
+  "https://x.com/schezfaz10": {
+    "snapshot_id": "sd_mvmwz2u61m5qijuntd",
+    "retrieved_at": "2026-10-24T21:32:04Z",
+    "records": [
+      {
+        "x_id": "1084019208604639232",
+        "url": "https://x.com/schezfaz10",
+        "id": "schezfaz10",
+        "profile_name": "Schezeen Fazulbhoy",
+        "biography": "software engineer @adobe \ncs @georgiatech",
+        "is_verified": false,
+        "profile_image_link": "https://pbs.twimg.com/profile_images/1084052807391404033/TA1Ax9lO_normal.jpg",
+        "external_link": "http://www.schezfaz.dev/",
+        "date_joined": "2019-01-12T09:28:14.000Z",
+        "following": 123,
+        "followers": 453,
+        "location": "San Francisco, CA",
+        "posts_count": 162,
+        "banner_image": "https://pbs.twimg.com/profile_banners/1084019208604639232/1547286878",
+        "timestamp": "2026-10-24T21:31:46.151Z"
+      }
+    ]
+  }
+}

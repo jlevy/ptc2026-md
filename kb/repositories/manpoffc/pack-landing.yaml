@@ -1,0 +1,20 @@
+softschema:
+  contract: paraverse.conference:Repository/v1
+  schema: ../../_schemas/repository.schema.yaml
+  envelope: repository
+  status: permissive
+repository:
+  id: repo:manpoffc/pack-landing
+  full_name: manpoffc/Pack-landing
+  url: https://github.com/manpoffc/Pack-landing
+  description: Pack App landing page.
+  stars: 0
+  forks: 0
+  primary_language: TypeScript
+  fork: false
+  owner_login: manpoffc
+  owner: gh:manpoffc
+  sources:
+  - system: curation
+    url: https://www.wemakedevs.org/hackathons/ptc/judges
+    snapshot: curation/people/manpreet-singh.json

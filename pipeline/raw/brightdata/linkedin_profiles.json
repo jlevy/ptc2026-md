@@ -1,0 +1,1354 @@
+{
+  "https://www.linkedin.com/in/shah-riken": {
+    "snapshot_id": "sd_mvmw8f86q8hg8asw6",
+    "retrieved_at": "2026-10-24T21:13:34Z",
+    "records": [
+      {
+        "id": "shah-riken",
+        "name": "Riken Shah",
+        "city": "San Francisco, California, United States",
+        "position": null,
+        "about": "Some highlights: - Figured out a hack, to run zulip (OSS slack alternative) on a 4GB…",
+        "current_company": {
+          "link": "https://in.linkedin.com/company/msquarelabs",
+          "name": "Msquare Labs",
+          "company_id": "msquarelabs"
+        },
+        "experience": null,
+        "url": "https://eg.linkedin.com/in/shah-riken",
+        "education": [
+          {
+            "title": "Bhagwan Mahavir University",
+            "url": "https://in.linkedin.com/school/bmusurat/"
+          },
+          {}
+        ],
+        "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQFZ598-2rR6mw/profile-displayphoto-scale_200_200/B4DZkwHvirJYAY-/0/1757448963283?e=2147483647&v=beta&t=xecdMtAGakSKnCjoLTETcYobeTTL66EBNOIbzUPLEQ4",
+        "volunteer_experience": [
+          {
+            "cause": "Education",
+            "duration": "Apr 2024 · - \nJul 2024 · \n4 months",
+            "info": "Mentored Kislay through his GSoC proposal by conducting weekly reviews and providing guidance to ensure he stayed aligned with his goals and successfully completed his project.",
+            "subtitle": "The Zulip Open Source Project",
+            "title": "GSoC Mentor"
+          },
+          {
+            "cause": "Education",
+            "duration": "Dec 2021 · - \nJan 2022 · \n2 months",
+            "info": "Developed a real-time notification feature for the DSC IEM blog platform using Django and jQuery, collaborating closely with mentors. Recognized as the top contributor to the project. GitHub: github.com/dsc-iem/blog",
+            "subtitle": "Winter of Code",
+            "title": "Student Open Source Developer"
+          }
+        ],
+        "followers": 2464,
+        "connections": 500,
+        "current_company_name": "Msquare Labs",
+        "projects": [
+          {
+            "title": "Textile Studio",
+            "start_date": "Dec 2024",
+            "description": "TextileStudio - Production-Scale Semantic Search EngineBuilt a comprehensive semantic search engine specifically designed for the textile industry, enabling efficient product discovery and similarity matching across massive image datasets.Key Highlights:- Architected distributed vector database using Milvus to handle 100TB+ textile image datasets with horizontal scaling across multiple nodes- Developed custom C extensions for image preprocessing and feature extraction, achieving millisecond-level similarity matching performance- Implemented advanced semantic search capabilities enabling textile manufacturers to find similar patterns, colors, and designs instantly- Designed hybrid edge-cloud infrastructure with intelligent caching strategies and query optimization for cost-effective operations- Built robust data ingestion pipeline handling diverse textile image formats and metadata with automated quality control- Created sophisticated indexing system supporting multi-modal search (visual similarity, text descriptions, material properties)- Implemented real-time search API with sub-100ms response times despite massive dataset scale- Developed custom embedding models fine-tuned specifically for textile pattern recognition and similarity detectionTech Stack: Go, Python, Milvus, Firebase, C Extensions, Custom Vector Embeddings, Distributed Systems, Edge Computing, Image Processing APIs"
+          },
+          {
+            "title": "Aashvi (Autonomous AI Influencer)",
+            "start_date": "Sep 2024",
+            "description": "Built a fully autonomous AI influencer capable of generating consistent visual content and engaging social media presence without human intervention.Key Highlights:- Developed fine-tuned Stable Diffusion models using LoRA (Low-Rank Adaptation) techniques to maintain consistent visual style and character appearance across all generated content- Built sophisticated prompt engineering pipeline for automated caption generation, ensuring brand voice consistency and engagement optimization- Implemented automated Instagram posting system with intelligent scheduling and content strategy algorithms- Created custom model training workflows for character consistency, enabling photorealistic image generation with stable facial features and styling- Designed end-to-end automation pipeline from content ideation to social media publishing, eliminating manual intervention- Achieved organic growth of 400+ followers before pivoting focus to textile design applications- Developed content variation algorithms to prevent repetitive posting while maintaining character identityTech Stack: GPT-3.5, Stable Diffusion, LoRA Fine-tuning, Custom Training Pipelines, Instagram API, Python, Prompt Engineering, Computer Vision"
+          },
+          {
+            "title": "PicsAI",
+            "start_date": "Oct 2022"
+          },
+          {
+            "title": "INSTAGRAM BOT",
+            "start_date": "Aug 2020",
+            "description": "It's a bot that manages the Instagram page. From generating the image from the raw text, getting the details about the author, and finally posting it on Instagram everything handles by the bot. Top Features:-> Post on Instagram-> Like the comments by the user-> The new user will get the greeting message-> Customized Timing-> It can run 24*7 on Cloud.-> Automatically handles Internal Errors.I have deployed the bot on AWS. You can check the bot in action https://www.instagram.com/__.i.n.s.p.i.r.e.d.__/This is just version 1.0. I am thinking about adding some more cool features to it in the future.Source Code: https://github.com/Riken-Shah/InstaQuoteBot"
+          },
+          {
+            "title": "CHILLFLIX",
+            "start_date": "Jan 2020",
+            "description": "It is a Movie and Show app where you can do everything butwatch movie/tv show. Initially, It had a feature that you canwatch movie/tv show but after I learned that it was against the law I removed that feature. I have made it using Django with PostgresSQL."
+          },
+          {
+            "title": "HAND DETECTION MODEL (DEEP LEARNING MODEL)",
+            "start_date": "Jul 2019",
+            "description": "It was a very ambitious project for me as I didn't know anything about machine learning, but I was very interested in it so I accepted the challenge. I studied a lot of different algorithms, learned a bit about maths, and implemented hundreds of lines of code (thanks to python). I finally created 3 decent enough models.You can check out its result in this youtube videos:A short description of how I made this Hand Detection Model (https://youtu.be/uYRTts2bD5A).Testing Hand Detection Model In Outdoors (https://youtu.be/R7KwX4B6fTU).Testing Hand Detection In Indoor Condition (https://youtu.be/EhKuRJYqSFo).From this project, I learned a lot about ML model structure, different types of algorithms, researching a subject, finding a good dataset, cleaning of the dataset, patience, and trial and error.Link to Frozen Graph of Faster R-CNN Model: https://github.com/Riken-Shah/Hand-Detection"
+          },
+          {
+            "title": "ENCODE DECODE APP",
+            "start_date": "Apr 2019",
+            "description": "This was my very first web app with Django. I have converted a script to a web app. It was a text-encoding and decoding app. I have written my algorithm which converts text to encrypted text and the encrypted text to readable text.How does my algorithm work?My algorithm assigns 4 random integers which randomly add even and odd characters to the string. The first two number decides how many numbers to add and last two number decided the range of the string.Top Features of my App:--> My algorithm can convert one string to many encrypted strings.-> It does not need to store any data on the DB.It's source code: https://github.com/Riken-Shah/Encode-Decode-App"
+          }
+        ],
+        "location": "San Francisco",
+        "banner_image": "https://media.licdn.com/dms/image/v2/C4D16AQEosIhPVz10Mw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1656004510885?e=2147483647&v=beta&t=ijSDWkl6GpTJ-8pISqn78K1U9xCYZRk7vAtRxmck8fI",
+        "honors_and_awards": [
+          {
+            "title": "Scored highest in my Institute (CPI: 9.74 / 10.0)",
+            "publication": "Gujarat Technological University",
+            "date": "2020-03-01T00:00:00.000Z",
+            "description": null
+          },
+          {
+            "title": "1st Place in Code Strom",
+            "publication": "Gujarat Technological University",
+            "date": "2020-02-01T00:00:00.000Z",
+            "description": null
+          }
+        ],
+        "bio_links": [
+          {
+            "title": "Personal Website",
+            "link": "https://riken.me/"
+          }
+        ],
+        "first_name": "Riken",
+        "last_name": "Shah",
+        "timestamp": "2026-10-24T21:11:21.140Z",
+        "courses": [],
+        "organizations": [],
+        "certifications": []
+      }
+    ]
+  },
+  "https://www.linkedin.com/in/manpoffc": {
+    "snapshot_id": "sd_mvmw8f86q8hg8asw6",
+    "retrieved_at": "2026-10-24T21:13:34Z",
+    "records": [
+      {
+        "id": "manpoffc",
+        "name": "Manpreet Singh",
+        "city": "Chicago, Illinois, United States",
+        "position": null,
+        "about": "By day I build applications and drive digital transformation at a bank, which mostly…",
+        "current_company": {
+          "link": "https://www.linkedin.com/company/northwest-savings-bank",
+          "name": "Northwest Bank",
+          "company_id": "northwest-savings-bank"
+        },
+        "experience": null,
+        "url": "https://co.linkedin.com/in/manpoffc",
+        "education": [
+          {
+            "title": "The University of Texas at Arlington",
+            "url": "https://www.linkedin.com/school/university-of-texas-at-arlington/"
+          },
+          {}
+        ],
+        "avatar": "https://media.licdn.com/dms/image/v2/D5603AQH7Yxq2H03Krw/profile-displayphoto-scale_200_200/B56aFvS98.K4Ac-/0/1792868606721?e=2147483647&v=beta&t=YAcUjYCetEpK0g1VH0mzz5KThqaHZg2E1LGfi2rAN2U",
+        "courses": [
+          {
+            "subtitle": "CSE 6392",
+            "title": "Advance topics in Software Engineering: Computer Aided Verification Systems"
+          },
+          {
+            "subtitle": "CSE 5344",
+            "title": "Computer Networks"
+          },
+          {
+            "subtitle": "CSE 5334",
+            "title": "Data Mining"
+          },
+          {
+            "subtitle": "-",
+            "title": "Data Science with Python"
+          },
+          {
+            "subtitle": "CSE 5330",
+            "title": "Database Systems"
+          },
+          {
+            "subtitle": "CSE 5311",
+            "title": "Design and Analysis of Algorithms"
+          },
+          {
+            "subtitle": "CSE 5306",
+            "title": "Distributed Systems"
+          },
+          {
+            "subtitle": "-",
+            "title": "Full Stack Web Development: HTML, CSS, React & Node"
+          },
+          {
+            "subtitle": "-",
+            "title": "Machine Learning Nanodegree-Udacity"
+          }
+        ],
+        "languages": [
+          {
+            "subtitle": "Professional working proficiency",
+            "title": "English"
+          },
+          {
+            "subtitle": "Native or bilingual proficiency",
+            "title": "Punjabi"
+          },
+          {
+            "subtitle": "Native or bilingual proficiency",
+            "title": "Hindi"
+          }
+        ],
+        "volunteer_experience": [],
+        "followers": 3383,
+        "connections": 500,
+        "current_company_name": "Northwest Bank",
+        "location": "Chicago",
+        "banner_image": "https://media.licdn.com/dms/image/v2/C5616AQHzuN77KXBEEg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1656605556367?e=2147483647&v=beta&t=a0gnCnk6arZu3IEr0V00cSgIAyN1yDjLMGE4OsnSvO4",
+        "honors_and_awards": [
+          {
+            "title": "Silver Medalist",
+            "publication": "ICPC TxState TEXAS-MEXICO",
+            "date": "2023-03-01T00:00:00.000Z",
+            "description": "Silver Medalist - ICPC TxState TEXAS-MEXICO Invitational Programming Contest"
+          },
+          {
+            "title": "Student Member",
+            "publication": "Tau Beta Pi The Engineering Honor Society",
+            "date": "2022-08-01T00:00:00.000Z",
+            "description": null
+          }
+        ],
+        "bio_links": [],
+        "first_name": "Manpreet",
+        "last_name": "Singh",
+        "timestamp": "2026-10-24T21:11:55.957Z",
+        "projects": [],
+        "organizations": [],
+        "certifications": []
+      }
+    ]
+  },
+  "https://www.linkedin.com/in/schezeenfazulbhoy": {
+    "snapshot_id": "sd_mvmw8f86q8hg8asw6",
+    "retrieved_at": "2026-10-24T21:13:34Z",
+    "records": [
+      {
+        "id": "schezeenfazulbhoy",
+        "name": "Schezeen Fazulbhoy",
+        "city": "San Francisco, California, United States",
+        "position": null,
+        "about": "My interests lie in technology, creative design and areas that demand both. I constantly…",
+        "current_company": {
+          "link": "https://www.linkedin.com/company/adobe",
+          "name": "Adobe",
+          "company_id": "adobe"
+        },
+        "experience": null,
+        "url": "https://sa.linkedin.com/in/Schezeenfazulbhoy",
+        "education": [
+          {
+            "title": "Georgia Institute of Technology",
+            "url": "https://www.linkedin.com/school/georgia-institute-of-technology/"
+          },
+          {},
+          {},
+          {}
+        ],
+        "avatar": "https://media.licdn.com/dms/image/v2/D5603AQHc1hZevKWIAQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1685653061973?e=2147483647&v=beta&t=_yLkpQ2aIsi81vnFKarUdDPv2x6h7STlw_NeeNgABAs",
+        "courses": [
+          {
+            "subtitle": "-",
+            "title": "Android Studio Development (Implementation of Technology)"
+          },
+          {
+            "subtitle": "-",
+            "title": "Design Thinking"
+          },
+          {
+            "subtitle": "-",
+            "title": "Digital Logic Design"
+          },
+          {
+            "subtitle": "-",
+            "title": "Research Methodology"
+          },
+          {
+            "subtitle": "-",
+            "title": "Unix Programming"
+          }
+        ],
+        "languages": [
+          {
+            "subtitle": "-",
+            "title": "English"
+          },
+          {
+            "subtitle": "-",
+            "title": "Hindi"
+          }
+        ],
+        "certifications": [
+          {
+            "meta": "Issued Mar 2026 See credential",
+            "subtitle": "Anthropic",
+            "title": "Claude Code in Action",
+            "credential_url": "https://verify.skilljar.com/c/skw8tb2rotrk"
+          },
+          {
+            "meta": "Issued Feb 2026 See credential",
+            "subtitle": "Hugging Face",
+            "title": "AI Agents Fundamentals",
+            "credential_url": "https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/schezfaz/2026-02-23.png"
+          },
+          {
+            "meta": "Issued Oct 2023 See credential",
+            "subtitle": "Microsoft",
+            "title": "Microsoft Certified: Azure Fundamentals",
+            "credential_url": "https://www.credly.com/badges/a71364db-1f1b-4517-b2be-2c322abee081/linked_in_profile"
+          },
+          {
+            "meta": "Issued Jan 2022 See credential",
+            "subtitle": "Sardar Patel University",
+            "title": "S.P.I.T. Hackathon 2022",
+            "credential_url": "https://certificate.givemycertificate.com/c/b98d37f3-fe76-4810-9eb6-aaa84e666c42"
+          },
+          {
+            "meta": "Issued Jun 2021 See credential",
+            "subtitle": "EY",
+            "title": "Winner - EY Hackathon: GDS Hackpions 2.0"
+          },
+          {
+            "meta": "Issued Jan 2021 See credential",
+            "subtitle": "EY",
+            "title": "Winner - EY Hackathon: GDS Hackpions 1.0"
+          },
+          {
+            "meta": "Issued Aug 2018 See credential",
+            "subtitle": "Nomura",
+            "title": "Finalist - Kakushin 2.0 (Hackathon)"
+          },
+          {
+            "meta": "Issued Jun 2017 See credential",
+            "subtitle": "edX",
+            "title": "6.00.1x: Introduction to Computer Science and Programming Using Python",
+            "credential_url": "https://courses.edx.org/certificates/99f59b75263448468a63ad9b49769937"
+          }
+        ],
+        "volunteer_experience": [
+          {
+            "cause": "Science and Technology",
+            "duration": "Jan 2022 · - \nJan 2022 · \n1 month",
+            "info": "Mentored 10-12 participating teams 1:1 - across the following domains: Mobile Development, Web Development, Blockchain, Artificial Intelligence (AI), Machine Learning (ML), Virtual Reality (VR) and Augmented Reality (AR)",
+            "subtitle": "CSI-SPIT",
+            "title": "Mentor - SPIT Hackathon 2022"
+          },
+          {
+            "cause": "Science and Technology",
+            "duration": "Jul 2019 · - \nSep 2021 · \n2 years 3 months",
+            "info": "As a part of the core organising committee for Kakushin 3.0, a hackathon hosted by Nomura, I was responsible for setting up and configuring internal developer environments for the participants, and for enabling proxy servers to monitor their activity in order to highlight any malicious practices. For Kakushin 4.0, we used AWS S3 buckets to set-up contained developer environments for the participants since this edition of the hackathon was a virtual one. Hosted the grand finale and… Show more As a part of the core organising committee for Kakushin 3.0, a hackathon hosted by Nomura, I was responsible for setting up and configuring internal developer environments for the participants, and for enabling proxy servers to monitor their activity in order to highlight any malicious practices. For Kakushin 4.0, we used AWS S3 buckets to set-up contained developer environments for the participants since this edition of the hackathon was a virtual one. Hosted the grand finale and felicitation for Kakushin 5.0, presenting to over a 100 staff and students Show less",
+            "subtitle": "Nomura",
+            "title": "Kakushin 3.0, 4.0 & 5.0 Hackathon - Volunteer"
+          }
+        ],
+        "followers": 5086,
+        "connections": 500,
+        "current_company_name": "Adobe",
+        "publications": [
+          {
+            "title": "Improving Accessibility for Dyslexic Impairments using Augmented Reality",
+            "subtitle": "IEEEXplore | 2019 International Conference on Computer Communication and Informatics (ICCCI -2019)",
+            "date": "December 23, 2018",
+            "description": "Dyslexia is a learning disability that affects a wide demographic, across all age groups and regions. This impairment is highly subjective and varies from person to person, with a number of factors such as line height, font style, spacing and size (among a few) that affect the ease of readibility. There is a need for an easilty accessibility real-time solution that caters to this need of the dyslexic, such that it helps render the ease of legibility at the touch of the palm. Augmenta11y is the outcome of the research conducted for this cause, and is one such solution that leverages AR (Augmented Reality) in order to overcome these hindrances by enabling user-adjustment of background-text contrast ratio and text customization in real life. After testing the application, we received positive results with a 21.03% decrease in their overall reading time for the text passages.We presented this research at the 2018 India HCI Conference held in Bangalore."
+          }
+        ],
+        "projects": [
+          {
+            "title": "Front Office Supervision Portal (FOSPortal)",
+            "start_date": "Apr 2020",
+            "description": "FOSPortal is a web application used by the senior management of Nomura in the 'Front Office', to supervise the regulation of processes, KSCs (Key Supervisory Controls), and monthly attestations. Rogue Trading, a feature within the portal allows supervisors to monitor any rogue trades that violate predefined KRIs (Key Risk Indicators) on a daily basis. Tech Stack: Java Spring, Maven, Oracle MySQL, TOMEE, NPC (Nomura Private Cloud), Jenkins, Ansible, Selenium"
+          },
+          {
+            "title": "SPOT - Chrome Browser Extension",
+            "start_date": "Dec 2020",
+            "description": "SPOT is a browser extension that allows you to add music 'spotted' on the web, to your Spotify playlists on the 'SPOT', eliminating the overhead of switching tabs or manually querying for the song.Features:• Directly fetch the Spotify equivalent of the song playing on an active Youtube tab within the extension• Preview the queried song within the extension panel on the same tab• Add selected song to multiple Spotify playlists simultaneously, in real time• Query plain-text song titles using the right-click triggered context menuDeveloped With: JavaScript, Chrome Browser API, Spotify API, RegexAnalytics: Chrome Developer Dashboard, Spotify Developer DashboardStatus: Open-sourced, maintain on Github"
+          },
+          {
+            "title": "IVI - Intelligent Visual Identification using NLP",
+            "start_date": "May 2021",
+            "description": "IVI or 'Intelligent Visual Identifier' is an automated sytem the highlights violations against the brand guidelines in a presentation deck. IVI also serves as an like icon predictor, image analysis and real-time voice based notes caturing assistant.IVI won the first place at the EY Hackathon: GDS Hackpions 2.0.Tech Stack: React.js, ELK Stack (Elastic Search, LogStash, Kibana), Python Flask, TableauTools: Keras, Python Tensorflow, Pandas, LXML, PDFReader"
+          },
+          {
+            "title": "Intelli-intent: Intent-based search using Machine Learning",
+            "start_date": "Nov 2020",
+            "description": "An intelligent search engine for classifying the intent of a query. It uses the LSTM model trained on the BBC news dataset http://mlg.ucd.ie/datasets/bbc.html. It fetches the data directory from Sharepoint. For example, if the user were to search the sharepoint directory with the query \"research on India\", Intelli-intent would display all those documents whose content is in the relative sphere of the query - regardless of the name of the document, parent folder or sub folder.Intelli-Intent won the first place at the EY Hackathon: GDS Hackpions 1.0.Tech Stack: React, Flask, and ElasticSearch"
+          },
+          {
+            "title": "JADEN (Jenkins Ansible DEployment for Nomura)",
+            "start_date": "Jul 2019",
+            "description": "'JADEN' is a generic continuous deployment framework developed in order to replace the enterprise licensed software - Atomic, which was earlier used in the CI/CD pipelines. JADEN is compatible with various deployment artifacts (wars/jars/ears/Informatica/database), allowing seamless migration of the project across integration, stage, pre-production, and production environments. A multi-stage pipeline managed by Jenkins, customized using Ansible and Python. This project earned the team the quarterly 'STAR' award at Nomura.Tech Stack: Python, Ansible, Ansible-Galaxy, Ansible-Playbooks, YAML, Jenkins, Groovy Script, Nexus Repository Manager, Unix Shell Scripts"
+          }
+        ],
+        "organizations": [
+          {
+            "title": "Major League Hacking",
+            "description": "- Open Source developer @WebXR Layers (Meta | Facebook)- Technical Program Associate (G-Research)"
+          }
+        ],
+        "location": "San Francisco",
+        "banner_image": "https://static.licdn.com/aero-v1/sc/h/5q92mjc5c51bjlwaj3rs9aa82",
+        "honors_and_awards": [
+          {
+            "title": "Winner: Hackpions - EY GDS Hackathon 2.0",
+            "publication": "EY",
+            "date": "2021-06-01T00:00:00.000Z",
+            "description": "My team (Team BaScheD) and I stood first in Hackpions 2.0, a hackathon hosted by EY GDS. We developed a solution named 'IVI' under the 'Intelligent Visual Identification' theme. Our proposed solution was an automated sytem the highlights violations against the brand guidelines in a presentation deck. It also included features like icon predictor, image analysis and real-time voice based notes capturing Tech Stack: React.js, ELK Stack (Elastic Search, LogStash, Kibana), Python… Show more"
+          },
+          {
+            "title": "Winner: Hackpions - EY GDS Hackathon 1.0",
+            "publication": "EY",
+            "date": "2021-01-01T00:00:00.000Z",
+            "description": "My team and I (Team BaScheD) stood first in the hackathon hosted by EY, for ideating and developing the solution 'Intelli-intent', under the theme 'Intent based search and classification'. Our proposed solution is focused on determining the intent of the search query using the LSTM model, along with fetching relevant files, and a smart scheduler for crawling and training data from the Sharepoint repository. Tech Stack: React.js, ELK Stack (Elastic Search, LogStash, Kibana)… Show more"
+          },
+          {
+            "title": "Nomura - Quarterly STAR Team Award (Q3/4)",
+            "publication": "Nomura",
+            "date": "2020-10-01T00:00:00.000Z",
+            "description": "\"For going the extra mile in truly demonstrating how ideation to implementation can happen in an agile, short span of time\" I was fecilitated this award for the project \"Culinary Artists\" developed as part of the Life and Families Network, Nomura. My team and I developed this application following agile development protocols to design, develop and deploy this application for the Nomura-wide event. The application was developed for a firm-wide cooking competition during the… Show more"
+          },
+          {
+            "title": "Nomura - Quarterly STAR Team Award (Q1/2)",
+            "publication": "Nomura",
+            "date": "2020-01-01T00:00:00.000Z",
+            "description": "\"For successful rollout of the generic Ansible implementation framework, JADEN, allowing applications within Operations IT to move away from Automic\" I was fecilitated this award for the project \"JADEN\" (Jenkins Ansible Deployment for Nomura) developed with the aim to automate the CI/CD pipelines, ensuring smooth deployment of applications within Operations IT - to production. JADEN, developed using free open-source technologies has completely replaced Automic, an enterprised deployment… Show more"
+          },
+          {
+            "title": "Kakushin - Nomura Hackathon Finalist",
+            "publication": "Nomura, KakushIN",
+            "date": "2018-08-01T00:00:00.000Z",
+            "description": "• Stood among the top 10 finalist teams for a coding hackathon hosted by Nomura • 1 of the only 3 who received a PPO (Pre-placement offer) among the finalists."
+          }
+        ],
+        "bio_links": [
+          {
+            "title": "Portfolio",
+            "link": "https://schezfaz.dev/"
+          }
+        ],
+        "first_name": "Schezeen",
+        "last_name": "Fazulbhoy",
+        "timestamp": "2026-10-24T21:12:46.267Z"
+      }
+    ]
+  },
+  "https://www.linkedin.com/in/pravi20": {
+    "snapshot_id": "sd_mvmw8f86q8hg8asw6",
+    "retrieved_at": "2026-10-24T21:13:34Z",
+    "records": [
+      {
+        "id": "pravi20",
+        "name": "Pooja Ravi",
+        "city": "San Francisco Bay Area",
+        "position": null,
+        "about": "As a Senior Software Engineer at Oracle, I apply my expertise in AI and data to create…",
+        "current_company": {
+          "link": "https://www.linkedin.com/company/oracle",
+          "name": "Oracle",
+          "company_id": "oracle"
+        },
+        "experience": null,
+        "url": "https://nz.linkedin.com/in/pravi20",
+        "education": null,
+        "avatar": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+        "courses": [
+          {
+            "subtitle": "CSCI 570",
+            "title": "Algorithm Analysis"
+          },
+          {
+            "subtitle": "-",
+            "title": "Artificial Intelligence"
+          },
+          {
+            "subtitle": "-",
+            "title": "Data Structures, Algorithms, and Discrete Mathematics I"
+          },
+          {
+            "subtitle": "CSCI 585",
+            "title": "Database Systems"
+          },
+          {
+            "subtitle": "CSCI 572",
+            "title": "Information Retrieval and Web Search Engines"
+          },
+          {
+            "subtitle": "EE 450",
+            "title": "Introduction to Computer Networks"
+          },
+          {
+            "subtitle": "-",
+            "title": "Introduction to Embedded Systems"
+          },
+          {
+            "subtitle": "CSCI 455x",
+            "title": "Introduction to programming system design"
+          },
+          {
+            "subtitle": "-",
+            "title": "Machine Learning"
+          },
+          {
+            "subtitle": "-",
+            "title": "Microprocessor System Design"
+          },
+          {
+            "subtitle": "-",
+            "title": "Software Engineering"
+          },
+          {
+            "subtitle": "-",
+            "title": "Technical Writing for Computing Professionals"
+          },
+          {
+            "subtitle": "CSCI 571",
+            "title": "Web Technologies"
+          }
+        ],
+        "followers": 845,
+        "connections": 500,
+        "current_company_name": "Oracle",
+        "location": null,
+        "banner_image": "https://media.licdn.com/dms/image/v2/D5616AQGVCtzE85uzGQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1704329415461?e=2147483647&v=beta&t=c92tu7QmJbegL8GCHil5vSDiluM3affDcA8O4V4CTE4",
+        "honors_and_awards": [],
+        "bio_links": [],
+        "first_name": "Pooja",
+        "last_name": "Ravi",
+        "timestamp": "2026-10-24T21:11:27.156Z",
+        "projects": [],
+        "organizations": [],
+        "certifications": [],
+        "volunteer_experience": []
+      }
+    ]
+  },
+  "https://www.linkedin.com/in/Satyamsingh2003": {
+    "snapshot_id": "sd_mvmw8f86q8hg8asw6",
+    "retrieved_at": "2026-10-24T21:13:34Z",
+    "records": [
+      {
+        "id": "satyamsingh2003",
+        "name": "Satyam Singh",
+        "city": "San Francisco Bay Area",
+        "position": null,
+        "about": "Hello, I'm Satyam, Co-Founder &amp; CTO @ Simulithic, building Simulation to help…",
+        "current_company": {
+          "link": "https://www.linkedin.com/company/simulithic",
+          "name": "Simulithic (YC F26)",
+          "company_id": "simulithic"
+        },
+        "experience": null,
+        "url": "https://sa.linkedin.com/in/Satyamsingh2003",
+        "education": null,
+        "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQFq9AvGqDDzPA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696207940930?e=2147483647&v=beta&t=5K3Ey1rZSnNoVQKiyhO75ws1gUv5sfGJRCdLxVzGg-0",
+        "certifications": [
+          {
+            "meta": "Issued Sep 2022 See credential",
+            "subtitle": "LinkedIn",
+            "title": "Docker",
+            "credential_url": "https://www.linkedin.com/learning/certificates/c9b3faceab3326df31402b9ce1652e8afda35c58180f039739339bf24dfd6229"
+          },
+          {
+            "meta": "Issued Sep 2022 See credential",
+            "subtitle": "Certopus",
+            "title": "Ignition Hacks 2022 Certificate",
+            "credential_url": "https://certopus.com/c/88c553b9305141e09fe454457fc9e1ee"
+          },
+          {
+            "meta": "Issued Sep 2022 See credential",
+            "subtitle": "LinkedIn",
+            "title": "React: Creating and Hosting a Full-Stack Site (2019)",
+            "credential_url": "https://www.linkedin.com/learning/certificates/1a32facf190e320879db4d73d6dc515cd2a68d4ae9058e8fe3c6c86c0ef40404"
+          },
+          {
+            "meta": "Issued May 2022 See credential",
+            "subtitle": "Amazon Web Services (AWS)",
+            "title": "AWS attendee certificate",
+            "credential_url": "https://pages.awscloud.com/index.php/email/emailWebview?md_id=747637"
+          },
+          {
+            "meta": "Issued May 2022 See credential",
+            "subtitle": "HackerRank",
+            "title": "Hackerrank basic Java certification",
+            "credential_url": "https://www.hackerrank.com/certificates/a85d8427cb9f"
+          }
+        ],
+        "followers": 14125,
+        "connections": 500,
+        "current_company_name": "Simulithic (YC F26)",
+        "projects": [
+          {
+            "title": "Asteroid Destroyer",
+            "start_date": "Oct 2024",
+            "description": "My team and I built Asteroid Destroyer during the NASA Space Apps Challenge 2024–2025 — the world’s largest hackathon. We proudly represented Canada and emerged as one of the first-ever winners from the country."
+          },
+          {
+            "title": "Global Nest",
+            "start_date": "Mar 2023",
+            "description": "we built Global Nest at the Keys Hackathon at university of regina"
+          },
+          {
+            "title": "Kickin' Cuisine",
+            "start_date": "Jan 2023",
+            "description": "A local multiplayer game like soccer that you can play using food items to decide what to eat"
+          },
+          {
+            "title": "Memify",
+            "start_date": "Sep 2022",
+            "description": "It fetches memes from some famous subreddits and than mints it with the help of deso blockchain api"
+          },
+          {
+            "title": "SyncTube",
+            "start_date": "Aug 2022",
+            "description": "This webApp helps you to watch youtube videos on sync with your friends"
+          },
+          {
+            "title": "VirtualStudyRoom",
+            "start_date": "Jun 2022",
+            "description": "We created this in the OneHacksII hackathonIf it's not working than we are out of firebase credits"
+          },
+          {
+            "title": "ParkinGrid",
+            "start_date": "Apr 2022",
+            "description": "ParkingGrid will help you to find the empty parking slot nearby"
+          },
+          {
+            "title": "Winter Find",
+            "start_date": "Nov 2022",
+            "description": "Winter Find is a 3d game that we made with typescript, threejs, blender and won #1 Overall prize and best dressed category at HackComing2 Hackathon"
+          },
+          {
+            "title": "SpyPooch",
+            "start_date": "Oct 2022",
+            "description": "Made this project for the SpyHacks hackathon organized by MLH"
+          },
+          {
+            "title": "Energy Prediction",
+            "start_date": "Sep 2022",
+            "description": "Machine learning model that predicts the amount of electricity needed"
+          },
+          {
+            "title": "StudyBud",
+            "start_date": "Sep 2022",
+            "description": "StudyBud is a discord bot that we created at Hack To School hackathon and won the best use of Google Cloud sponsored prize for it"
+          },
+          {
+            "title": "Diamond Hacks 2022",
+            "start_date": "Mar 2022",
+            "description": "An app that will help the world to fight with hunger crisisWe won 1 prize in this hackathon"
+          },
+          {
+            "title": "HACKCWRU- 2022",
+            "start_date": "Mar 2022",
+            "description": "A health care website that will help to analyze the mental health of the users with the help of some questions which are taken from World Health OrganisationWe won 2 prizes in this hackathon"
+          },
+          {
+            "title": "SharkTanks - forge the battle with your friends",
+            "start_date": "Jan 2022",
+            "description": "Shark Tanks is a 3D online multiplayer game in a website built using threejs, nodejs, expressjs, socketio"
+          }
+        ],
+        "location": null,
+        "banner_image": "https://media.licdn.com/dms/image/v2/D5616AQEqsdNE_-0MQA/profile-displaybackgroundimage-shrink_200_800/B56aBWhn76JAAQ-/0/1788158050295?e=2147483647&v=beta&t=hEPrOses5H3nW01ih3Y0zWEtb7QwI95sGpgJGne6mR0",
+        "honors_and_awards": [
+          {
+            "title": "NASA Space App Challenge (World's Largest Hackathon)",
+            "publication": "NASA",
+            "date": "2025-01-01T00:00:00.000Z",
+            "description": "We built Asteroid Destroyer at the NASA Space App Challenge, competed against almost 10,000 projects, and won the hackathon, this was the first win for Canada since the NASA Space App Challenge started."
+          },
+          {
+            "title": "ETHGlobal Framework",
+            "publication": "EthGlobal",
+            "date": "2024-03-01T00:00:00.000Z",
+            "description": "Won XMTP bounty at Ethglobal Framework hackathon"
+          },
+          {
+            "title": "MLH Hacks",
+            "publication": "Major League Hacking",
+            "date": "2024-03-01T00:00:00.000Z",
+            "description": "Won best use of mongoDB track at web3apps hackathon which was organized by MLH"
+          },
+          {
+            "title": "#1st prize winner",
+            "publication": "Cultivator",
+            "date": "2024-02-01T00:00:00.000Z",
+            "description": "Won 1st prize at 24hr startup hackathon - worked with my team as the CTO and sole developer. - built a react native app and a backend, successfully created the mvp within 14hrs."
+          },
+          {
+            "title": "CrackedDevs Hackathon Education Track winner",
+            "publication": "CrackedDevs",
+            "date": "2024-01-01T00:00:00.000Z",
+            "description": null
+          },
+          {
+            "title": "Hackathon Winner @CAP sask hackathon",
+            "publication": "CAPSAC",
+            "date": "2024-01-01T00:00:00.000Z",
+            "description": null
+          },
+          {
+            "title": "BattleSnake tournament",
+            "publication": "HackRegina",
+            "date": "2023-12-01T00:00:00.000Z",
+            "description": "Won in the people's favorite category in battlesnake tournament organized by HackRegina Reached finals for the overall category"
+          },
+          {
+            "title": "#3 at Engineering Case Competition by EWB Regina",
+            "publication": "Enginners without borders | university of regina",
+            "date": "2023-10-01T00:00:00.000Z",
+            "description": null
+          },
+          {
+            "title": "Most Engaging Hack",
+            "publication": "Major League Hacking",
+            "date": "2023-10-01T00:00:00.000Z",
+            "description": null
+          },
+          {
+            "title": "Innovation Challenge",
+            "publication": "Hill | Levene school of business",
+            "date": "2023-09-01T00:00:00.000Z",
+            "description": "Won 3rd prize at innovation challenge at university of regina"
+          },
+          {
+            "title": "#2 Community Track",
+            "publication": "Web3ConfIndia",
+            "date": "2023-08-01T00:00:00.000Z",
+            "description": "Won 2nd prize in community track of Web3ConfIndia"
+          },
+          {
+            "title": "Overall #1",
+            "publication": "The Keys",
+            "date": "2023-03-01T00:00:00.000Z",
+            "description": "We won the overall #1 prize at the Keys Hackathon where we built a full stack web application known as Global Nest"
+          },
+          {
+            "title": "Top 5",
+            "publication": "Royal Hackaway",
+            "date": "2023-01-01T00:00:00.000Z",
+            "description": "our team was in the top 5 for Royal Hackaway(university of london's hackathon)"
+          },
+          {
+            "title": "#3 Overall",
+            "publication": "Major league Hacking",
+            "date": "2022-12-01T00:00:00.000Z",
+            "description": null
+          },
+          {
+            "title": "Overall #1 and best dressed hack",
+            "publication": "Major league Hacking",
+            "date": "2022-11-01T00:00:00.000Z",
+            "description": null
+          },
+          {
+            "title": "Most Creative use of GitHub",
+            "publication": "MLH",
+            "date": "2022-10-01T00:00:00.000Z",
+            "description": "We won the most creative use of GitHub in Hack and Snack Hackathon"
+          },
+          {
+            "title": "Most creative use of Twilio and Undercover Hack category",
+            "publication": "Major League Hacking",
+            "date": "2022-10-01T00:00:00.000Z",
+            "description": "Won most creative use of twilio and Undercover Hack at SpyHacks organized by MLH"
+          },
+          {
+            "title": "Top 7 teams",
+            "publication": "HackVSIT",
+            "date": "2022-10-01T00:00:00.000Z",
+            "description": "my team(I was the only member) was one of the top 7 team at HackVSIT North India's biggest Hackathon"
+          },
+          {
+            "title": "Hack To School",
+            "publication": "MLH",
+            "date": "2022-09-01T00:00:00.000Z",
+            "description": "Won the best use of Google Cloud prize"
+          },
+          {
+            "title": "Impractical Hackers 2",
+            "publication": "MLH",
+            "date": "2022-09-01T00:00:00.000Z",
+            "description": "We won 3 prizes i.e. #1 Overall, best use of Deso Blockchain, best use of Wix by Velo"
+          },
+          {
+            "title": "Garuda Hacks 3.0",
+            "publication": "Garuda Hacks",
+            "date": "2022-08-01T00:00:00.000Z",
+            "description": "Got the Honorable mention and most creative use of twilio prize"
+          },
+          {
+            "title": "OneHacksII",
+            "publication": "One Hacks",
+            "date": "2022-06-01T00:00:00.000Z",
+            "description": "Won 3 prizes i.e. overall 2nd, best monitized project and best use of twilio API"
+          },
+          {
+            "title": "YALE HACKATHON (YHACK)",
+            "publication": "-",
+            "date": "2022-05-01T00:00:00.000Z",
+            "description": "Our project was selected among the top few projects to pitch in front of the YCombinator team"
+          },
+          {
+            "title": "Diamond Hacks",
+            "publication": "North Carolina State University",
+            "date": "2022-04-01T00:00:00.000Z",
+            "description": "Won the prize of most impactful project"
+          },
+          {
+            "title": "HACKCWRU",
+            "publication": "Case Western Research University",
+            "date": "2022-03-01T00:00:00.000Z",
+            "description": "Won 2 sponsored prizes i.e. most impactful project and best in AB in Bev"
+          }
+        ],
+        "bio_links": [
+          {
+            "title": "Personal Website",
+            "link": "https://github.com/klausmikhaelson"
+          }
+        ],
+        "first_name": "Satyam",
+        "last_name": "Singh",
+        "timestamp": "2026-10-24T21:13:29.902Z",
+        "courses": [],
+        "organizations": [],
+        "volunteer_experience": []
+      }
+    ]
+  },
+  "https://www.linkedin.com/in/yyash-bhatia": {
+    "snapshot_id": "sd_mvmw8f86q8hg8asw6",
+    "retrieved_at": "2026-10-24T21:13:34Z",
+    "records": [
+      {
+        "id": "yyash-bhatia",
+        "name": "Yash Bhatia",
+        "city": "San Francisco Bay Area",
+        "position": null,
+        "about": "After working for 3 years as a Software Engineer with a Data Warehousing team, I have…",
+        "current_company": {
+          "link": "https://www.linkedin.com/company/meta",
+          "name": "Meta",
+          "company_id": "meta"
+        },
+        "experience": null,
+        "url": "https://uk.linkedin.com/in/Yyash-bhatia",
+        "education": [
+          {
+            "title": "University of California, Los Angeles",
+            "url": "https://www.linkedin.com/school/ucla/"
+          },
+          {}
+        ],
+        "avatar": "https://media.licdn.com/dms/image/v2/C4D03AQHMMDUtBGeWLA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1633118907214?e=2147483647&v=beta&t=XmpTmhAZ5TTSZMRJXrq3kEYRhx5HiwatqpBpAo6bx7g",
+        "certifications": [
+          {
+            "meta": "Issued Nov 2021",
+            "subtitle": "Udemy",
+            "title": "Tableau for Data Science A-Z",
+            "credential_url": null
+          },
+          {
+            "meta": "Issued Apr 2021",
+            "subtitle": "Udemy",
+            "title": "Statistics for Business Analytics and Data Science A-Z",
+            "credential_url": null
+          },
+          {
+            "meta": "Issued Sep 2020",
+            "subtitle": "Udemy",
+            "title": "Power BI A-Z",
+            "credential_url": null
+          },
+          {
+            "meta": "Issued Apr 2020",
+            "subtitle": "Udemy",
+            "title": "Machine Learning A-Z",
+            "credential_url": null
+          },
+          {
+            "meta": "Issued Aug 2019",
+            "subtitle": "DataCamp",
+            "title": "Intermediate Python for Data Science",
+            "credential_url": null
+          },
+          {
+            "meta": "Issued Aug 2019",
+            "subtitle": "DataCamp",
+            "title": "Introduction to Python",
+            "credential_url": null
+          },
+          {
+            "meta": "Issued Aug 2017",
+            "subtitle": "PwC",
+            "title": "Data-driven Decision Making",
+            "credential_url": null
+          }
+        ],
+        "volunteer_experience": [],
+        "followers": 2263,
+        "connections": 500,
+        "current_company_name": "Meta",
+        "location": null,
+        "banner_image": "https://media.licdn.com/dms/image/v2/C4D16AQFBNSTa6-xo5g/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1632248695719?e=2147483647&v=beta&t=gnLLs1uiKJ-DjFX4D3G1Bn8DbpxB3gs7NTBiS45_YpY",
+        "honors_and_awards": [
+          {
+            "title": "UCLA Merit Fellowship",
+            "publication": "UCLA Anderson School of Management",
+            "date": null,
+            "description": null
+          }
+        ],
+        "bio_links": [],
+        "first_name": "Yash",
+        "last_name": "Bhatia",
+        "timestamp": "2026-10-24T21:12:48.857Z",
+        "projects": [],
+        "courses": [],
+        "organizations": []
+      }
+    ]
+  },
+  "https://www.linkedin.com/in/vivekgr": {
+    "snapshot_id": "sd_mvmw8f86q8hg8asw6",
+    "retrieved_at": "2026-10-24T21:13:34Z",
+    "records": [
+      {
+        "id": "vivekgr",
+        "name": "Vivek G.",
+        "city": "San Francisco, California, United States",
+        "position": null,
+        "about": null,
+        "experience": null,
+        "url": "https://fr.linkedin.com/in/vivekgr",
+        "education": [
+          {
+            "title": "Carnegie Mellon University",
+            "url": "https://www.linkedin.com/school/carnegie-mellon-university/"
+          },
+          {}
+        ],
+        "avatar": "https://media.licdn.com/dms/image/v2/D5603AQHx7CROsD_5vw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1697937768549?e=2147483647&v=beta&t=Fo3aiXvOz2RBBKPEl9H0TUdsMQMRzzigXhniFTeoOeI",
+        "followers": 1705,
+        "connections": 500,
+        "location": "San Francisco",
+        "banner_image": "https://media.licdn.com/dms/image/v2/D5616AQFBiY9SqLPa2A/profile-displaybackgroundimage-shrink_200_800/B56aBn9Le0GUAQ-/0/1788450486463?e=2147483647&v=beta&t=Lfzj_Kntnxyg1bpxZ0Gn5c8laRcYMqSV84_0u6rx0VI",
+        "honors_and_awards": [],
+        "bio_links": [],
+        "first_name": "Vivek",
+        "last_name": "G.",
+        "timestamp": "2026-10-24T21:13:21.445Z",
+        "projects": [],
+        "courses": [],
+        "organizations": [],
+        "certifications": [],
+        "volunteer_experience": []
+      }
+    ]
+  },
+  "https://www.linkedin.com/in/kunal-kushwaha": {
+    "snapshot_id": "sd_mvmwwpmr6uhl5gtjj",
+    "retrieved_at": "2026-10-24T21:31:15Z",
+    "records": [
+      {
+        "id": "kunal-kushwaha",
+        "name": "Kunal Kushwaha",
+        "city": "London, England, United Kingdom",
+        "position": null,
+        "about": "Kunal Kushwaha is the founder of WeMakeDevs, a global developer community of over 200,000…",
+        "current_company": {
+          "link": "https://in.linkedin.com/company/wemakedevs",
+          "name": "WeMakeDevs",
+          "company_id": "wemakedevs"
+        },
+        "experience": null,
+        "url": "https://uk.linkedin.com/in/kunal-kushwaha",
+        "education": [
+          {
+            "title": "Maharaja Agrasen Institute Of Technology",
+            "url": "https://in.linkedin.com/school/maharaja-agrasen-institute-of-technology/"
+          }
+        ],
+        "avatar": "https://media.licdn.com/dms/image/v2/D5603AQEkN21kXiTfag/profile-displayphoto-scale_200_200/B56ZtiGLOyGsAY-/0/1766877345622?e=2147483647&v=beta&t=TKjd98Kn1PbVr0so0r1S-jCadhsUSjBGCxFLGGfeR2U",
+        "languages": [
+          {
+            "subtitle": "Native or bilingual proficiency",
+            "title": "English"
+          },
+          {
+            "subtitle": "Native or bilingual proficiency",
+            "title": "Hindi"
+          }
+        ],
+        "certifications": [
+          {
+            "meta": "Issued May 2020 See credential",
+            "subtitle": "Coursera",
+            "title": "Cloud Engineering with Google Cloud Specialization",
+            "credential_url": "https://www.coursera.org/account/accomplishments/specialization/certificate/JMS5EM5FHEAK"
+          },
+          {
+            "meta": "Issued May 2020 See credential",
+            "subtitle": "Coursera",
+            "title": "Elastic Google Cloud Infrastructure: Scaling and Automation",
+            "credential_url": "https://www.coursera.org/account/accomplishments/certificate/BGDGYNBGYWTC"
+          },
+          {
+            "meta": "Issued May 2020 See credential",
+            "subtitle": "Coursera",
+            "title": "Essential Google Cloud Infrastructure: Core Services",
+            "credential_url": "https://www.coursera.org/account/accomplishments/certificate/C9XADAEND752"
+          },
+          {
+            "meta": "Issued May 2020 See credential",
+            "subtitle": "Coursera",
+            "title": "Essential Google Cloud Infrastructure: Foundation",
+            "credential_url": "https://www.coursera.org/account/accomplishments/certificate/GZXT3UH6HFLQ"
+          },
+          {
+            "meta": "Issued May 2020 See credential",
+            "subtitle": "Coursera",
+            "title": "Google Cloud Platform Fundamentals: Core Infrastructure",
+            "credential_url": "https://www.coursera.org/account/accomplishments/certificate/6EUB2CDDN2MQ"
+          },
+          {
+            "meta": "Issued May 2020 See credential",
+            "subtitle": "Coursera",
+            "title": "Preparing for the Google Cloud Associate Cloud Engineer Exam",
+            "credential_url": "https://www.coursera.org/account/accomplishments/certificate/QH9PAXFEHC7H"
+          },
+          {
+            "meta": "Issued Apr 2019 See credential",
+            "subtitle": "Coursera",
+            "title": "Algorithms by Stanford University",
+            "credential_url": "https://www.coursera.org/account/accomplishments/certificate/ZFLLHTX9K3AK"
+          }
+        ],
+        "volunteer_experience": [
+          {
+            "cause": "Science and Technology",
+            "duration": "Dec 2022 · - Present · \n\n3 years 11 months",
+            "subtitle": "KubeHuddle",
+            "title": "Conference Organizer"
+          },
+          {
+            "cause": "Education",
+            "duration": "Apr 2021 · - \nMay 2021 · \n2 months",
+            "info": "Member of the teaching team for Code In Place, April - May 2021. This online course was offered by Stanford University during the COVID-19 pandemic. It brought together 12,000 students and 1100 volunteer teachers participating from around the world. The course is a 6-week introduction to Python programming using materials from the first half of Stanford’s CS106A course. As a volunteer section leader, I prepared and taught a weekly discussion section of students to supplement professors'… Show more Member of the teaching team for Code In Place, April - May 2021. This online course was offered by Stanford University during the COVID-19 pandemic. It brought together 12,000 students and 1100 volunteer teachers participating from around the world. The course is a 6-week introduction to Python programming using materials from the first half of Stanford’s CS106A course. As a volunteer section leader, I prepared and taught a weekly discussion section of students to supplement professors' lectures. Show less",
+            "subtitle": "Stanford University",
+            "title": "Section Leader, Code in Place (CS106A)"
+          },
+          {
+            "cause": "Education",
+            "duration": "Sep 2019 · - \nJun 2022 · \n2 years 10 months",
+            "info": "Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities and develop technical and career skills for the future. Certificate: https://drive.google.com/file/d/1IT2KWcLBSsbCEl3z18b3-UykX_5ZPJb0/view?usp=sharing",
+            "subtitle": "Microsoft",
+            "title": "Gold Microsoft Learn Student Ambassador"
+          },
+          {
+            "cause": "Education",
+            "duration": "Apr 2020 · - \nAug 2020 · \n5 months",
+            "info": "AnitaB.org helps women make significant contributions to technical fields and the programs and awards highlight the accomplishments of women technologists, while events and communities enable women to establish their peer networks. I made my contribution to their learning program by conducting doubt sessions & masterclasses for students.",
+            "subtitle": "AnitaB.org",
+            "title": "Python Mentor"
+          },
+          {
+            "cause": "Education",
+            "duration": "Jul 2020 · - \nJun 2022 · \n2 years",
+            "info": "#IamRemarkable is an initiative empowering women and underrepresented groups to speak openly about their accomplishments in the workplace and beyond, thereby breaking modesty norms and glass ceilings. As a facilitator my role involves hosting workshops and being an ambassador for #IamRemarkable within my personal and professional networks. To learn more and join the initiative visit:​ ​g.co/IamRemarkable",
+            "subtitle": "g.co/IamRemarkable",
+            "title": "#IamRemarkable Facilitator"
+          },
+          {
+            "cause": "Education",
+            "duration": "Jun 2019 · - \nJun 2019 · \n1 month",
+            "info": "• Instructor at workshops conducted by 'CodeChef for Schools' for Competitive Programming. • 'CodeChef for Schools' is an initiative by CodeChef which aims to make it easier for students to start coding at a young age by introducing them to Competitive Programming. Certificate: https://drive.google.com/open?id=1-gbv21BN66dY0K88pd8ir69VQ0C8ovUU",
+            "subtitle": "CodeChef",
+            "title": "Workshop Instructor"
+          },
+          {
+            "cause": "Education",
+            "duration": "Dec 2014 · - \nDec 2016 · \n2 years 1 month",
+            "info": "• Saakshar Bharat is a government of India initiative to create a literate society through a variety of teaching-learning programs for non-literate and neo-literate of 15 years and above. • I made my contribution to this program in 2014-2016 by training individuals in English, Hindi, and Mathematics. • Throughout the program, the students made great progress and they were also provided with educational material. • The students passed the examination conducted and received literacy… Show more • Saakshar Bharat is a government of India initiative to create a literate society through a variety of teaching-learning programs for non-literate and neo-literate of 15 years and above. • I made my contribution to this program in 2014-2016 by training individuals in English, Hindi, and Mathematics. • Throughout the program, the students made great progress and they were also provided with educational material. • The students passed the examination conducted and received literacy certificates from the State Resource Center. Show less",
+            "subtitle": "State Resource Centre - India",
+            "title": "Student Mentor"
+          }
+        ],
+        "followers": 402466,
+        "connections": 500,
+        "current_company_name": "WeMakeDevs",
+        "publications": [
+          {
+            "title": "Opportunity recommendation system using collaborative and content-based filtering and analyzing the vectorization techniques and filtering methods",
+            "subtitle": "International Conference on Machine Learning, Computer Systems, and Security",
+            "date": "May 21, 2022"
+          },
+          {
+            "title": "ASL real time translator",
+            "subtitle": "International Conference on Innovative Computing and Communication",
+            "date": "February 19, 2022",
+            "description": "Real time ASL-Translator would be a video conferencing application which will detect American sign language and will convert it into English text. In today’s scenario after the pandemic, there is a need to understand the gestures while communicating using video conferencing. As most of the existing projects work only on predicting the individual letters and not the complete words it was quite challenging. In this work, real time ASL- Translator has been proposed and implemented that would provide a platform for video conferencing in real time scenario. For the same CNN model has been deployed on server side. The proposed solution results with 95% of accuracy."
+          }
+        ],
+        "projects": [
+          {
+            "title": "Thanos",
+            "start_date": "Oct 2020",
+            "description": "• Worked on Thanos, a set of components that can be composed into a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.• Implemented features, context & actions to increase observability & control for BlockViewer."
+          },
+          {
+            "title": "Jest",
+            "start_date": "Jun 2020",
+            "description": "Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase. It allows you to write tests with an approachable, familiar and feature-rich API that gives you results quickly. Jest is well-documented, requires little configuration and can be extended to match your requirements."
+          },
+          {
+            "title": "Quarkus",
+            "start_date": "Mar 2020",
+            "description": "Google Summer of Code mentor with JBoss (Red Hat Middleware) for the year 2020 for Quarkus: Improving Gradle support."
+          },
+          {
+            "title": "Bundly - All in one Information Management System",
+            "start_date": "Jul 2020",
+            "description": "Let Bundly do its work, so you can focus on yours. Bundly is a single heaven to find all the information regarding the MLH Fellowship at once place! It lets you take your utility tools, a step further. Designed specifically to enhance the Fellowship experience. Kye Features: - Generate Standup Notes in markdown automatically- Internal discussions at your fingertips using Search Tool- Receive personalised notifications for your repositories (GitHub) & Discord- Add notifications from GitHub to your ToDo list directly - Quick access the MLH calendar events at one place"
+          },
+          {
+            "title": "Genetic Algorithm, Evolutionary Algorithms for COVID-19 Vaccines",
+            "start_date": "Jul 2020",
+            "description": "In this research, an optimized deep learning method was proposed to explore the possibility and practicality of neural net-work applications in medical imaging. The method was used to achieve the goal of judging common pneumonia and even COVID-19 more effectively. Where, the genetic algorithm was taken advantage to optimize the Dropout module, which is essential in neural networks so as to improve the performance of typical neural network models. The experiment results demonstrate that the proposed method shows excellent performance and strong practicability in judging pneumonia, and the application of advanced artificial intelligence technology in the field of medical imaging has broad prospects."
+          },
+          {
+            "title": "Quarantime - Social Media Platform",
+            "start_date": "Jun 2020",
+            "description": "During the Orientation Hackathon of the MLH Fellowship, we built this social media platform for people to:- Share their stories during Quarantine time, helping the community by making them aware of the opportunities available (both during and after lockdown) that they might not be aware of.- Open-source the projects that they have worked on, be it at Hackathons, School projects, etc. so that other students can collaborate & learn in addition to helping the project grow. This will increase community engagement among students and promote the open source culture.Tech Used:- GraphQL- MongoDB Atlas (GCP)- Node.js- Express.js- React- react-router-dom- Semantic UI React- Apollo Server- bcryptjs- JWT"
+          },
+          {
+            "title": "Kubernetes Client",
+            "start_date": "May 2019",
+            "description": "• Adding support in Kubernetes Client for several types of resources : ServiceCatalog TemplateInstance VolumeAttachment CertificateSigningRequest SelfSubjectAccessReview SelfSubjectRulesReview TokenReview ControllerRevision UserInfo AdmissionConfiguration• Providing test coverage for the following resources: Endpoints PersistentVolumeClaim PersistentVolumes SubjectAccessReview PodPreset HorizontalPodAutoscaler Namespace ResourceQuota• Upgradation of the test suits from JUnit4 to JUnit5• Adding examples for configuration of various resources in the client"
+          }
+        ],
+        "location": "London",
+        "banner_image": "https://media.licdn.com/dms/image/v2/D5616AQEGityBFGHp-g/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1729466009588?e=2147483647&v=beta&t=EM2ZS_x-sgLa7iRMizUkqldYmyWWUB0tx2tvUK_tnW8",
+        "honors_and_awards": [
+          {
+            "title": "Top 25 Tech Influencers In India",
+            "publication": "Analytics India Magazine",
+            "date": "2024-12-01T00:00:00.000Z",
+            "description": null
+          },
+          {
+            "title": "Young Person: OpenUK Awards 2023",
+            "publication": "OpenUK",
+            "date": "2023-11-01T00:00:00.000Z",
+            "description": "https://openuk.uk/awards/"
+          },
+          {
+            "title": "Humans of cloud native",
+            "publication": "CNCF",
+            "date": "2023-08-01T00:00:00.000Z",
+            "description": "https://www.cncf.io/humans-of-cloud-native/kunal-kushwaha-on-a-mission-to-bring-students-to-cloud-native/"
+          },
+          {
+            "title": "2023 OpenUK Honours List",
+            "publication": "OpenUK",
+            "date": "2023-01-01T00:00:00.000Z",
+            "description": "https://openuk.uk/openuk-honours-lists/"
+          },
+          {
+            "title": "Hackernoon feature",
+            "publication": "Hackernoon",
+            "date": "2022-12-01T00:00:00.000Z",
+            "description": null
+          },
+          {
+            "title": "Featured in Business Insider",
+            "publication": "Twilio",
+            "date": "2022-10-01T00:00:00.000Z",
+            "description": "Link: https://www.businessinsider.com/sc/meet-the-inspirational-leaders-creating-a-better-future-for-developers"
+          },
+          {
+            "title": "KubeSphere Ambassador",
+            "publication": "KubeSphere",
+            "date": "2022-08-01T00:00:00.000Z",
+            "description": "Link: https://kubesphere.io/news/kubesphere-ambassador-certificates-en/"
+          },
+          {
+            "title": "Champion Innovator",
+            "publication": "Google",
+            "date": "2022-05-01T00:00:00.000Z",
+            "description": "Champion Innovators are the few who rise above and inspire us all. Champion Innovators are nominated by Googlers. Profile: https://g.dev/kunalkushwaha"
+          },
+          {
+            "title": "Kubernetes blog feature",
+            "publication": "-",
+            "date": "2022-01-01T00:00:00.000Z",
+            "description": null
+          },
+          {
+            "title": "Credly badges for conference participations",
+            "publication": "The Linux Foundation",
+            "date": "2021-10-01T00:00:00.000Z",
+            "description": "https://www.credly.com/users/kunalkushwaha/badges"
+          },
+          {
+            "title": "Top 50 Hackers of 2021",
+            "publication": "Major League Hacking",
+            "date": "2021-06-01T00:00:00.000Z",
+            "description": "Being a part of the MLH Top 50 means you’ve done something you can truly be proud of: You showed up for yourself and your community in the face of uncertainty. You put yourself out there and learned new skills, even though it may have intimidated you. You brought together a community of strangers and made connections that will have a lasting impact on your career. You paved your own path and your stories inspired us. In fact, it is hackers just like you that are the reason why MLH exists and… Show more"
+          },
+          {
+            "title": "AI Ambassador",
+            "publication": "Microsoft",
+            "date": "2021-04-01T00:00:00.000Z",
+            "description": "Received a very rare AI Ambassador badger from Microsoft for organising, hosting and speaking at the Global AI Student Conference."
+          },
+          {
+            "title": "Azure Community Hero",
+            "publication": "Microsoft",
+            "date": "2020-07-01T00:00:00.000Z",
+            "description": "Received 1 in 550 rare Community Hero badger from Microsoft for organising meetups, conferences, sharing content and being an active member of the community."
+          },
+          {
+            "title": "Greatest Individual Contribution - DevRel Awards",
+            "publication": "https://developerrelations.com",
+            "date": "2020-03-01T00:00:00.000Z",
+            "description": "The DevRel Awards 2022, presented by Orbit, is organized by Hoopy to celebrate the best of DevRel in 2020 and 2021. I am honored to be awarded the \"Greatest Individual Contribution\" award for my work in the community."
+          }
+        ],
+        "bio_links": [
+          {
+            "title": "Portfolio",
+            "link": "https://www.techwithkunal.com/"
+          }
+        ],
+        "first_name": "Kunal",
+        "last_name": "Kushwaha",
+        "timestamp": "2026-10-24T21:31:11.216Z",
+        "courses": [],
+        "organizations": []
+      }
+    ]
+  },
+  "https://www.linkedin.com/in/nitish-mane": {
+    "snapshot_id": "sd_mvmx2sl4s8uuigoaf",
+    "retrieved_at": "2026-10-24T21:34:57Z",
+    "records": [
+      {
+        "id": "nitish-mane",
+        "name": "Nitish Mane",
+        "city": "San Francisco Bay Area",
+        "position": null,
+        "about": "• Over 10 years of experience with architecting and supporting…",
+        "current_company": {
+          "link": "https://www.linkedin.com/company/philo",
+          "name": "Philo",
+          "company_id": "philo"
+        },
+        "experience": null,
+        "url": "https://cn.linkedin.com/in/nitish-mane",
+        "education": [
+          {
+            "title": "California State University - East Bay",
+            "url": "https://www.linkedin.com/school/csueastbay/"
+          },
+          {}
+        ],
+        "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQHtjk6MiZPBnA/profile-displayphoto-scale_200_200/B4EaAspOMtIoAc-/0/1787455402692?e=2147483647&v=beta&t=jKWTcO0pD5c4gKroLkrSAg1-GmlmXmag24iFhalkS2Q",
+        "courses": [
+          {
+            "subtitle": "CS6520",
+            "title": "Cryptography"
+          },
+          {
+            "subtitle": "CS 6660",
+            "title": "Database System"
+          },
+          {
+            "subtitle": "CS6580",
+            "title": "Distributed System"
+          },
+          {
+            "subtitle": "CS 6525",
+            "title": "Network Security"
+          },
+          {
+            "subtitle": "CS 6560",
+            "title": "Operating System Design"
+          }
+        ],
+        "certifications": [
+          {
+            "meta": "Issued Apr 2025 See credential",
+            "subtitle": "Three Dots Labs",
+            "title": "Go In One Evening",
+            "credential_url": "https://threedots.tech/cert/Te2eNwoX"
+          },
+          {
+            "meta": "Issued Sep 2016 See credential",
+            "subtitle": "O'Reilly Media",
+            "title": "Developer Certification for Apache Spark"
+          },
+          {
+            "meta": "Issued Jul 2015 See credential",
+            "subtitle": "Cloudera",
+            "title": "Cloudera Certified Administrator for Apache Hadoop (CCAH)",
+            "credential_url": "http://ccertification.cloudera.com/verify"
+          },
+          {
+            "meta": "Issued Jul 2015 See credential",
+            "subtitle": "Cloudera",
+            "title": "Cloudera Certified Developer for Apache Hadoop (CCDH)",
+            "credential_url": "http://ccertification.cloudera.com/verify"
+          },
+          {
+            "meta": "Issued Jun 2020 Expires Jun 2023 See credential",
+            "subtitle": "Amazon Web Services (AWS)",
+            "title": "Amazon Web Services Big Data Specialty",
+            "credential_url": "https://www.youracclaim.com/badges/4f05313f-1ce3-4810-8fd2-79eb11669300/linked_in_profile"
+          },
+          {
+            "meta": "Issued Feb 2021 Expires Feb 2023 See credential",
+            "subtitle": "Google",
+            "title": "Associate Cloud Engineer",
+            "credential_url": "https://www.credential.net/cf72fb9a-a54a-4b61-a429-82d8920cb234"
+          },
+          {
+            "meta": "Issued Feb 2020 Expires Feb 2023 See credential",
+            "subtitle": "Amazon Web Services (AWS)",
+            "title": "Amazon Web Services Solutions Architect Associate",
+            "credential_url": "https://www.youracclaim.com/badges/57debb28-171f-4cc5-819d-bf4f18c200e0/linked_in_profile"
+          },
+          {
+            "meta": " See credential",
+            "subtitle": "Hortonworks",
+            "title": "HDP Certified Developer (HDPCD",
+            "credential_url": "https://badgecert.com/bc/html/show-badge.html?b=pvbciwy"
+          }
+        ],
+        "followers": 1142,
+        "connections": 500,
+        "current_company_name": "Philo",
+        "location": null,
+        "banner_image": "https://media.licdn.com/dms/image/v2/D5616AQF8jOa_pfYsmg/profile-displaybackgroundimage-shrink_200_800/B56ZYWc2.mGoAU-/0/1744133387934?e=2147483647&v=beta&t=zeykFo72oeJlhNrvnmyv4f53mIBfuxO_4u1kvHWlV0w",
+        "honors_and_awards": [
+          {
+            "title": "1st prize in Hackathon",
+            "publication": "Waterline data",
+            "date": "2017-11-01T00:00:00.000Z",
+            "description": "Awarded 1st prize in an company wide Hackathon contest at Waterline Data for my hack on Automated log aggregation script. Became GA feature at following release."
+          }
+        ],
+        "bio_links": [
+          {
+            "title": "Other",
+            "link": "https://nitishmane.dev/"
+          }
+        ],
+        "first_name": "Nitish",
+        "last_name": "Mane",
+        "timestamp": "2026-10-24T21:34:46.961Z",
+        "projects": [],
+        "organizations": [],
+        "volunteer_experience": []
+      }
+    ]
+  }
+}

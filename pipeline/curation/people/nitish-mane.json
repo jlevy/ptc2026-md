@@ -1,0 +1,659 @@
+{
+  "slug": "nitish-mane",
+  "name": "Nitish Mane",
+  "listed_as": {
+    "name": "Nitish Mane",
+    "title": "Software Engineer, Philo",
+    "url": "https://www.wemakedevs.org/hackathons/ptc/judges"
+  },
+  "job_title": "Software Engineer",
+  "participations": [
+    {
+      "event": "patch-the-conference-2026",
+      "role": "judge",
+      "status": "listed",
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "quote": "Judges",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "organization": "Philo",
+      "title": "Software Engineer",
+      "basis": "event_listing",
+      "evidence": [
+        {
+          "url": "https://www.wemakedevs.org/hackathons/ptc/judges",
+          "quote": "",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "linkedin",
+      "handle": "in/nitish-mane",
+      "url": "https://www.linkedin.com/in/nitish-mane/",
+      "link_basis": [
+        "github_profile_link",
+        "personal_website_sameAs"
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.linkedin.com/in/nitish-mane/",
+          "quote": "",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ]
+    },
+    {
+      "platform": "github",
+      "handle": "Nitishmane",
+      "url": "https://github.com/Nitishmane",
+      "link_basis": [
+        "github_profile_links_linkedin",
+        "personal_website_sameAs"
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://github.com/Nitishmane",
+          "quote": "",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ]
+    }
+  ],
+  "websites": [
+    {
+      "url": "https://nitishmane.dev/",
+      "kind": "personal",
+      "title": "Nitish Mane · Software Engineer",
+      "description": "Portfolio of platform infrastructure, AI operations, talks and technical writing.",
+      "identity_links": [
+        "https://github.com/Nitishmane",
+        "https://www.linkedin.com/in/nitish-mane/"
+      ],
+      "link_basis": [
+        "github_owned_portfolio_repository",
+        "website_sameAs"
+      ],
+      "evidence": [
+        {
+          "url": "https://nitishmane.dev/",
+          "quote": "Software Engineer",
+          "observed_at": "2026-10-24T21:30:51Z"
+        }
+      ]
+    }
+  ],
+  "profile": {
+    "current_roles": [
+      "Software Engineer, Philo"
+    ],
+    "expertise": [
+      {
+        "label": "Platform engineering",
+        "basis": "speaker_bio",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://sreday.com/2026-san-francisco-q2/Nitish_Mane_Philo_AIDriven_Platform_Engineering_with_MCP",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Cloud infrastructure",
+        "basis": "speaker_bio",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://sreday.com/2026-san-francisco-q2/Nitish_Mane_Philo_AIDriven_Platform_Engineering_with_MCP",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Reliability engineering",
+        "basis": "speaker_bio",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://sreday.com/2026-san-francisco-q2/Nitish_Mane_Philo_AIDriven_Platform_Engineering_with_MCP",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Incident response",
+        "basis": "speaker_bio",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://sreday.com/2026-san-francisco-q2/Nitish_Mane_Philo_AIDriven_Platform_Engineering_with_MCP",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "label": "Kubernetes",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Terraform",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "ArgoCD",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Grafana",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "AWS",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "OCI",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Neo4j",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "programming_languages": [
+      {
+        "label": "Python",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Go",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Java",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "Bash",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "SQL",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "label": "HCL",
+        "basis": "self_published_professional",
+        "confidence": "high",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "recognitions": [
+      {
+        "label": "Zero Downtime Hackathon: Grand Prize and Best Full-Stack Integration for Scraper Factory",
+        "basis": "self_published_portfolio",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "interests": [],
+    "open_source": [
+      {
+        "repo": "Nitishmane/sre-oncall",
+        "role": "author",
+        "evidence": [
+          {
+            "url": "https://github.com/Nitishmane/sre-oncall",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "repo": "Nitishmane/scraper-factory",
+        "role": "author",
+        "evidence": [
+          {
+            "url": "https://github.com/Nitishmane/scraper-factory",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "packages": [],
+    "publications": [],
+    "patents": [],
+    "talks": [
+      {
+        "title": "AI-Driven Platform Engineering with MCP",
+        "event": "SREday San Francisco",
+        "date": "2026-04-17",
+        "url": "https://sreday.com/2026-san-francisco-q2/Nitish_Mane_Philo_AIDriven_Platform_Engineering_with_MCP",
+        "evidence": [
+          {
+            "url": "https://sreday.com/2026-san-francisco-q2/Nitish_Mane_Philo_AIDriven_Platform_Engineering_with_MCP",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "recent_writing": [
+      {
+        "title": "Give Every AI Agent Its Own Identity",
+        "date": "2026-10-21",
+        "platform": "Security Boulevard",
+        "url": "https://securityboulevard.com/author/nitish-mane/",
+        "evidence": [
+          {
+            "url": "https://securityboulevard.com/author/nitish-mane/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "title": "Put the Agent in a Box: Running Claude Code in a Container",
+        "date": "2026-10-15",
+        "platform": "Cloud Native Now",
+        "url": "https://cloudnativenow.com/contributed-content/put-the-agent-in-a-box-running-claude-code-in-a-container/",
+        "evidence": [
+          {
+            "url": "https://cloudnativenow.com/author/nitish-mane/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "title": "10 Real Use Cases for MCP in Platform Engineering (and the Guardrails That Make Them Safe)",
+        "date": "2026-10-02",
+        "platform": "Platform Engineering",
+        "url": "https://platformengineering.com/features/10-real-use-cases-for-mcp-in-platform-engineering-and-the-guardrails-that-make-them-safe/",
+        "evidence": [
+          {
+            "url": "https://platformengineering.com/author/nitish-mane/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "credentials": [],
+    "spoken_languages": [],
+    "event_posts": [],
+    "location": "San Francisco Bay Area",
+    "headline": "Infrastructure and platform engineer working on cloud-native operations and AI SRE systems.",
+    "experience": [
+      {
+        "title": "Software Engineer",
+        "organization": "Philo",
+        "start": "2025-03",
+        "end": null,
+        "summary": "Cloud infrastructure and an AI SRE assistant.",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "title": "Staff Infrastructure Engineer, Cloud Platform",
+        "organization": "Lucid Motors",
+        "start": "2022-02",
+        "end": "2025-03",
+        "summary": "Cloud platform provisioning and telemetry infrastructure.",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "title": "Principal Site Reliability Engineer",
+        "organization": "Trifacta",
+        "start": "2019-07",
+        "end": "2022-02",
+        "summary": "Customer cloud environments and infrastructure automation.",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "title": "Senior DevOps Engineer",
+        "organization": "Waterline Data",
+        "start": "2017-08",
+        "end": "2019-07",
+        "summary": "Deployment and support engineering.",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "title": "Hadoop Administrator, DevOps",
+        "organization": "American Express",
+        "start": "2015-10",
+        "end": "2017-09",
+        "summary": "Hadoop operations and release automation.",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "school": "California State University, East Bay",
+        "degree": "M.S.",
+        "field": "Computer Science",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "school": "University of Pune",
+        "degree": "B.E.",
+        "field": "Information Technology",
+        "evidence": [
+          {
+            "url": "https://nitishmane.dev/",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ]
+  },
+  "gaps": [
+    "No X account was confirmed through the linked professional profiles.",
+    "Personal-site claims were recovered from an existing public HTML snapshot; the site was unavailable to this audit when refreshed.",
+    "Different professional author bios use software, infrastructure and staff titles; the event title is preserved without treating the variations as a promotion chronology.",
+    "No statement of attendance at GitHub Universe was found.",
+    "No independent package-maintainer identity was established."
+  ],
+  "sources_consulted": [
+    "https://www.wemakedevs.org/hackathons/ptc/judges",
+    "https://nitishmane.dev/",
+    "https://www.linkedin.com/in/nitish-mane/",
+    "https://github.com/Nitishmane",
+    "https://api.github.com/users/Nitishmane",
+    "https://api.github.com/users/Nitishmane/repos",
+    "https://api.github.com/graphql",
+    "https://sreday.com/2026-san-francisco-q2/Nitish_Mane_Philo_AIDriven_Platform_Engineering_with_MCP",
+    "https://sessionize.com/nitishmane/",
+    "https://devopscon.io/speaker/nitish-mane/",
+    "https://securityboulevard.com/author/nitish-mane/",
+    "https://cloudnativenow.com/author/nitish-mane/",
+    "https://platformengineering.com/author/nitish-mane/",
+    "https://api.github.com/users/Nitishmane/orgs"
+  ],
+  "research_metadata": {
+    "researched_at": "2026-10-24T21:30:51Z",
+    "source_policy": "Public professional sources only; no attendance inferred from a listing. Empty evidence quotes indicate paraphrased factual observations. GitHub metrics were read through the public API. Cached profile observations retain their original observation time."
+  },
+  "github": {
+    "login": "Nitishmane",
+    "resolution": "resolved",
+    "match": "linked",
+    "name": "Nitish Mane",
+    "company": "Philo",
+    "blog": "https://www.linkedin.com/in/nitish-mane/",
+    "followers": 6,
+    "public_repos": 118,
+    "created_at": "2014-06-17T03:31:40Z",
+    "contributions_last_year": 78,
+    "evidence": [
+      {
+        "url": "https://api.github.com/users/Nitishmane",
+        "quote": "",
+        "observed_at": "2026-10-24T21:30:51Z"
+      },
+      {
+        "url": "https://api.github.com/users/Nitishmane/repos",
+        "quote": "",
+        "observed_at": "2026-10-24T21:30:51Z"
+      },
+      {
+        "url": "https://api.github.com/graphql",
+        "quote": "",
+        "observed_at": "2026-10-24T21:30:51Z"
+      },
+      {
+        "url": "https://api.github.com/users/Nitishmane/orgs",
+        "quote": "",
+        "observed_at": "2026-10-24T21:30:51Z"
+      }
+    ],
+    "pinned": [
+      {
+        "full_name": "Nitishmane/nm-gophercises",
+        "primary_language": "Go",
+        "evidence": [
+          {
+            "url": "https://api.github.com/graphql",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "top_repositories": [
+      {
+        "full_name": "Nitishmane/sre-oncall",
+        "description": "TrueForge on-call agent with MCP integrations and approval-gated remediation.",
+        "stars": 2,
+        "forks": 0,
+        "primary_language": "TypeScript",
+        "fork": false,
+        "evidence": [
+          {
+            "url": "https://github.com/Nitishmane/sre-oncall",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ],
+        "pushed_at": "2026-09-18T17:55:29Z"
+      },
+      {
+        "full_name": "Nitishmane/scraper-factory",
+        "description": "Scraping project.",
+        "stars": 1,
+        "forks": 1,
+        "primary_language": "Python",
+        "fork": false,
+        "evidence": [
+          {
+            "url": "https://github.com/Nitishmane/scraper-factory",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ],
+        "pushed_at": "2026-10-12T17:48:30Z"
+      },
+      {
+        "full_name": "Nitishmane/serp-hack",
+        "description": "Amazon listing generator using SerpAPI and an LLM.",
+        "stars": 0,
+        "forks": 0,
+        "primary_language": "Python",
+        "fork": false,
+        "evidence": [
+          {
+            "url": "https://github.com/Nitishmane/serp-hack",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      },
+      {
+        "full_name": "Nitishmane/trending-funny-domains",
+        "description": "Domain idea and availability tool using the name.com API.",
+        "stars": 0,
+        "forks": 0,
+        "primary_language": "TypeScript",
+        "fork": false,
+        "evidence": [
+          {
+            "url": "https://github.com/Nitishmane/trending-funny-domains",
+            "quote": "",
+            "observed_at": "2026-10-24T21:30:51Z"
+          }
+        ]
+      }
+    ],
+    "organizations": [],
+    "profile_summary": "Public GitHub profile identifies Philo and links the LinkedIn account. Owned repositories cover infrastructure automation, MCP, scraping and AI SRE tooling."
+  },
+  "brief_bio": "Nitish Mane is a software engineer at Philo working on infrastructure and AI-assisted production operations. Nitish has spoken about platform engineering with MCP and is listed as a judge at Patch the Conference Hackathon.",
+  "brief_bio_cites": [
+    "https://www.wemakedevs.org/hackathons/ptc/judges",
+    "https://github.com/Nitishmane",
+    "https://sreday.com/2026-san-francisco-q2/Nitish_Mane_Philo_AIDriven_Platform_Engineering_with_MCP",
+    "https://securityboulevard.com/author/nitish-mane/"
+  ]
+}
