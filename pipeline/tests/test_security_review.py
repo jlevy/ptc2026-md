@@ -56,6 +56,26 @@ def test_identifier_keys_and_contact_schemes_do_not_hide_contacts(tmp_path: Path
         assert value not in str(clean_tree({"id": value}))
 
 
+def test_git_named_email_is_not_a_remote(tmp_path: Path) -> None:
+    contact = "@".join(("git", "example.invalid"))
+    path = tmp_path / "raw.json"
+    path.write_text(json.dumps({"id": contact}))
+    assert privacy.scan([path]) == [(str(path), "example", privacy.EMAIL_REDACTED)]
+    assert clean_tree({"id": contact}) == {"id": privacy.EMAIL_REDACTED}
+    prose = f"Clone git@github.com:example/project.git; contact {contact}"
+    path.write_text(json.dumps({"description": prose}))
+    assert privacy.scan([path]) == [(str(path), "example", privacy.EMAIL_REDACTED)]
+    assert clean_tree(prose) == prose.replace(contact, privacy.EMAIL_REDACTED)
+
+
+def test_git_host_email_is_not_a_remote(tmp_path: Path) -> None:
+    contact = "@".join(("fictional-user", "github.com"))
+    path = tmp_path / "raw.json"
+    path.write_text(json.dumps({"id": contact}))
+    assert privacy.findings(path) == [(str(path), "address", privacy.EMAIL_REDACTED)]
+    assert clean_tree({"id": contact}) == {"id": privacy.EMAIL_REDACTED}
+
+
 def test_git_https_userinfo_cannot_hide_credentials(tmp_path: Path) -> None:
     url = "git+https://synthetic-access-token@github.com/owner/repo"
     path = tmp_path / "raw.json"
@@ -73,6 +93,7 @@ def test_public_urls_and_numeric_account_ids_survive(tmp_path: Path) -> None:
         "url": "https://www.linkedin.com/in/123456789012345",
         "link": "https://example.org/paper/2026?author=123456789012345&view=abstract",
         "git_remote": "git@github.com:example/project.git",
+        "description": "Clone git@github.com:example/project.git for the conference.",
         "git_https": "git+https://github.com/example/project.git",
         "cdn": "https://cdn.example.org/image?signature=public-image-signature",
         "mastodon": "acct:mastodon/example@mastodon.social",

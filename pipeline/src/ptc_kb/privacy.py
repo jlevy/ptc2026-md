@@ -27,9 +27,9 @@ from urllib.parse import parse_qsl, unquote, urlsplit
 import yaml
 
 # An address not preceded by "@", so "@user@host" Mastodon mentions do not match, and not
-# a Git remote or an image scale suffix ("logo@2x.png").
+# an image scale suffix ("logo@2x.png"). Git remotes require exact identifier syntax.
 EMAIL = re.compile(
-    r"(?<![@\w.+-])(?!git@)[\w.+-]+@[\w-]+(?:\.[\w-]+)*"
+    r"(?<![@\w.+-])[\w.+-]+@[\w-]+(?:\.[\w-]+)*"
     r"\.(?!(?:png|jpe?g|gif|svg|webp|avif|pdf|ya?ml|md|jsonl?)\b)[A-Za-z]{2,}(?![\w-])"
 )
 # An address written out to dodge scrapers: "ada at example dot com", "ada [at] example
@@ -54,8 +54,9 @@ REF = re.compile(
     r"^(?:event|day|session|person|org|room|venue|term|experience|gh|acct|site|profile|page"
     r"|repo|pkg|software):[a-z0-9][a-z0-9._/@+-]*$"
 )
+# The captured token also preserves precise Git remotes embedded in prose.
 GIT_REMOTE = re.compile(
-    r"^git@[a-z0-9.-]+:[\w.-]+/[\w./-]+$",
+    r"(?<![\w.+-])(git@[a-z0-9.-]+:[\w.-]+/[\w./-]+)",
     re.IGNORECASE,
 )
 MASTODON_ACCOUNT = re.compile(r"^acct:mastodon/[\w.+-]+@[a-z0-9.-]+$", re.IGNORECASE)
@@ -122,10 +123,13 @@ def _phones(text: str) -> list[str]:
 
 
 def redact(text: str) -> str:
-    text = OBFUSCATED_EMAIL.sub(EMAIL_REDACTED, EMAIL.sub(EMAIL_REDACTED, text))
-    for number in _phones(text):
-        text = text.replace(number, PHONE_REDACTED)
-    return text
+    parts = GIT_REMOTE.split(text)
+    for index in range(0, len(parts), 2):
+        part = OBFUSCATED_EMAIL.sub(EMAIL_REDACTED, EMAIL.sub(EMAIL_REDACTED, parts[index]))
+        for number in _phones(part):
+            part = part.replace(number, PHONE_REDACTED)
+        parts[index] = part
+    return "".join(parts)
 
 
 def is_identifier(key: str | None, value: str) -> bool:
@@ -211,21 +215,16 @@ KNOWN_MASTODON = {
     "techhub.social",
     "indieweb.social",
 }
-# A user name before one of these hosts is a Git remote's (`git+https://ada@github.com/…`).
-GIT_HOSTS = {"github.com", "gitlab.com", "bitbucket.org"}
 
 
 def email_kind(address: str, mastodon_hosts: set[str]) -> str:
     """
-    "mastodon" for a handle on a Mastodon server, "git" for a Git remote's user name,
-    "example" for a reserved example domain, and "address" for anything that may reach
-    someone.
+    "mastodon" for a handle on a Mastodon server, "example" for a reserved example
+    domain, and "address" for anything that may reach someone.
     """
     host = address.rsplit("@", 1)[-1].lower()
     if host in mastodon_hosts | KNOWN_MASTODON:
         return "mastodon"
-    if host in GIT_HOSTS:
-        return "git"
     if RESERVED_DOMAIN.search(host):
         return "example"
     return "address"
@@ -289,6 +288,7 @@ def scan(roots: Iterable[Path]) -> list[tuple[str, str, str]]:
     found = []
     for path, text in files.items():
         for string in _file_strings(path, text):
+            string = GIT_REMOTE.sub(" ", string)
             found += [
                 (str(path), kind, match)
                 for url in URL_IN_TEXT.finditer(string)
